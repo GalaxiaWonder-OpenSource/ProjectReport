@@ -43,9 +43,9 @@ The program takes individually written Markdown sections, organizes them in a pr
 
 ## Usage Instructions 📝
 
-1️⃣ **Clone this project** into your GitHub organization for report development.
+1️⃣ **Fork this project** into your GitHub organization for report development. Then, clone it into your local machine using:
 ```bash
-    git clone https://github.com/L1LZ4Z/ProjectReportMDM.git
+    git clone https://github.com/your-org-name/fork-name.git
     cd project-name
 ```
 

@@ -43,9 +43,9 @@ El programa toma secciones individuales escritas en Markdown, las organiza en un
 
 ## Instrucciones de uso 📝
 
-1️⃣ **Clona este proyecto** dentro de tu organización de GitHub para el desarrollo del informe.
+1️⃣ **Forka este proyecto** dentro de tu organización de GitHub para el desarrollo del informe. Luego, clona este proyecto a tu máquina local usando:
 ```bash
-    git clone https://github.com/L1LZ4Z/ProjectReportMDM.git
+    git clone https://github.com/nombre-de-tu-org/nombre-del-fork.git
     cd nombre-del-proyecto
 ```
 
