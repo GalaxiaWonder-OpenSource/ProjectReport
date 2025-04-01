@@ -7,7 +7,7 @@ chapters_source_dir = os.path.join(report_source_dir, "chapter_sections", "chapt
 
 FINAL_REPORT = OutputFile(
     source_dir = report_source_dir, 
-    output_file_name="informe_final.md",
+    output_file_name="README.md",
     order = [
         "Carátula.md",
         "Registro de Versiones del Informe.md",
