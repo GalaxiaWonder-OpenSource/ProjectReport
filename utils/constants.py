@@ -10,15 +10,15 @@ FINAL_REPORT = OutputFile(
     output_file_name="README.md",
     order = [
         "Carátula.md",
-        "Registro de Versiones del Informe.md",
-        "Project Report Collaboration Insights.md",
+        "RegistroVersiones.md",
+        "CollaborationInsights.md",
         "Contenido.md",
-        "Student Outcome.md",
+        "StudentOutcome.md",
         "Introducción.md",
-        "Requirements Elicitation & Analysis.md",
-        "Requirements Specification.md",
-        "Product Design.md",
-        "Product Implementation, Validation & Deployment.md",
+        "RequirementsElicitation.md",
+        "RequirementsSpecification.md",
+        "ProductDesign.md",
+        "ProductImplementation.md",
         "Conclusiones.md",
         "Bibliografía.md",
         "Anexos.md"
@@ -30,68 +30,67 @@ CHAPTER_1 = HeaderOutputFile(
     source_dir= chapters_source_dir + "1",
     output_file_name= os.path.join("report_sections", "Introducción.md"),
     order=[
-        "Startup Profile.md",
-        "Solution Profile.md",
-        "Segmentos Objetivo.md",
+        "StartupProfile.md",
+        "SolutionProfile.md",
+        "SegmentosObjetivo.md",
     ]
 )
 
 CHAPTER_2 = HeaderOutputFile(
     header="# Capítulo II: Requirements Elicitation & Analysis",
     source_dir=chapters_source_dir + "2",
-    output_file_name=os.path.join("report_sections", "Requirements Elicitation & Analysis.md"),
+    output_file_name=os.path.join("report_sections", "RequirementsElicitation.md"),
     order=[
         "Competidores.md",
         "Entrevistas.md",
         "Needfinding.md",
-        "Ubiquitous Language.md",
+        "UbiquitousLanguage.md",
     ]
 )
 
 CHAPTER_3 = HeaderOutputFile(
     header="# Capítulo III: Requirements Specification",
     source_dir=chapters_source_dir + "3",
-    output_file_name=os.path.join("report_sections", "Requirements Specification.md"),
+    output_file_name=os.path.join("report_sections", "RequirementsSpecification.md"),
     order=[
-        "To-Be Scenario Mapping.md",
-        "User Stories.md",
-        "Impact Mapping.md",
-        "Product Backlog.md",
+        "To-Be.md",
+        "UserStories.md",
+        "ImpactMapping.md",
+        "ProductBacklog.md",
     ]
 )
 
 CHAPTER_4 = HeaderOutputFile(
     header="# Capítulo IV: Product Design",
     source_dir=chapters_source_dir + "4",
-    output_file_name=os.path.join("report_sections", "Product Design.md"),
+    output_file_name=os.path.join("report_sections", "ProductDesign.md"),
     order=[
-        "Style Guidelines.md",
-        "Information Architecture.md",
-        "Landing Page UI Design.md",
-        "Web Applications UX_UI Design.md",
-        "Web Applications Prototyping.md",
-        "Domain-Driven Software Architecture.md",
-        "Software Object-Oriented Design.md",
-        "Database Design.md",
+        "StyleGuidelines.md",
+        "InformationArchitecture.md",
+        "LandingPage.md",
+        "WebAppUX.md",
+        "WebAppPrototyping.md",
+        "DDDArchitecture.md",
+        "OOPDesign.md",
+        "DatabaseDesign.md",
     ]
 )
 
 IMPLEMENTATION = HeaderOutputFile(
     header="## 5.2. Landing Page, Services & Applications Implementation",
     source_dir=os.path.join(chapters_source_dir + "5", "implementation_sections"),
-    output_file_name=os.path.join("report_sections", "chapter_sections", "chapter5", "Landing Page, Services & Applications Implementation.md"),
+    output_file_name=os.path.join("report_sections", "chapter_sections", "chapter5", "Implementation.md"),
     order=[
-        #"1.md", "2.md", "3.md", "4.md"
     ]
 )
 
 CHAPTER_5 = HeaderOutputFile(
     header="# Capítulo V: Product Implementation, Validation & Deployment",
     source_dir=chapters_source_dir + "5",
-    output_file_name=os.path.join("report_sections", "Product Implementation, Validation & Deployment.md"),
+    output_file_name=os.path.join("report_sections", "ProductImplementation.md"),
     order=[
-        "Software Configuration Management.md",
-        "Landing Page, Services & Applications Implementation.md"
+        "ConfigurationManagement.md",
+        "Implementation.md"
         #,"Validation Interviews.md", "Video About-the-Product.md"
     ]
 )
