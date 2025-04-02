@@ -47,11 +47,11 @@ def create_report(deliverable):
             deliverable = 4
 
     for i in range(deliverable):
-        IMPLEMENTATION.order.append(f"Sprint {i+1}.md")
+        IMPLEMENTATION.order.append(f"Sprint{i+1}.md")
 
     if deliverable > 2:
-        CHAPTER_5.order.append("Validation Interviews.md")
-        CHAPTER_5.order.append("Video About-the-Product.md")
+        CHAPTER_5.order.append("ValidationInterviews.md")
+        CHAPTER_5.order.append("About-the-Product.md")
 
     combine_markdowns(CHAPTER_1)
     combine_markdowns(CHAPTER_2)

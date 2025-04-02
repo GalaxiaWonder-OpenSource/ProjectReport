@@ -28,7 +28,3 @@
 
 <div style="page-break-before: always;"></div>
 
-## 4.8. Database Design
-
-<div style="page-break-before: always;"></div>
-
