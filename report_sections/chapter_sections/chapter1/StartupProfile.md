@@ -1,56 +1,75 @@
+`
 <style>
-        /* Estilo específico para la tabla de integrantes */
-        .tabla-equipo {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
+    /* Estilo específico para la tabla de integrantes */
+    .tabla-equipo {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
 
-        .tabla-equipo th, .tabla-equipo td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
+    .tabla-equipo th, .tabla-equipo td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
 
-        .tabla-equipo th {
-            background-color: #f2f2f2;
-            color: #333;
-        }
+    .tabla-equipo th {
+        background-color: #f2f2f2;
+        color: #333;
+    }
 
-        .tabla-equipo td img {
-            width: 50px;  /* Ajustar el tamaño de la imagen */
-            height: 50px;
-            border-radius: 50%;
-        }
-
-        .tabla-equipo td {
-            max-width: 200px;
-            white-space: nowrap;
-        }
-
-        .tabla-equipo td.skills {
-            max-width: 300px;
-            white-space: normal;
-        }
-
-        /* Opcional: estilo para filas alternas */
-        .tabla-equipo tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-
-        .tabla-equipo tr:hover {
-            background-color: #e0e0e0;
-        }
-
-        .tabla-equipo td img {
+    .tabla-equipo td img {
         width: 100%;  /* Ajustar el tamaño de la imagen */
         height: 100%;
         border-radius: 25%;
-         }
+    }
+
+    .tabla-equipo td.skills {
+        max-width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+
+    /* Opcional: estilo para filas alternas */
+    .tabla-equipo tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .tabla-equipo tr:hover {
+        background-color: #e0e0e0;
+    }
+
+    .tabla-equipo th:nth-child(1) {
+        width: 25%;  /* Ancho de la columna de foto */
+    }
+
+    .tabla-equipo th:nth-child(2) {
+        width: 15%; /* Ancho de la columna de nombres y apellidos */
+    }
+
+    .tabla-equipo th:nth-child(3) {
+        width: 15%; /* Ancho de la columna de código de alumno */
+    }
+
+    .tabla-equipo th:nth-child(4) {
+        width: 15%; /* Ancho de la columna de carrera */
+    }
+
+    .tabla-equipo th:nth-child(5) {
+        width: 30%; /* Ancho de la columna de habilidades */
+    }
 </style>
 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+Galaxia Wonder está comprometida con la transformación digital en el sector de la ingeniería civil. Nos especializamos en el desarrollo de soluciones tecnológicas que optimizan la planificación, gestión y ejecución de proyectos de construcción, reduciendo errores en los expedientes técnicos y mejorando la colaboración entre equipos multidisciplinarios.
+
+Misión: Nuestra misión es optimizar la gestión y coordinación de los expedientes técnicos en el sector de obras civiles a través de soluciones tecnológicas innovadoras. Buscamos reducir errores en la recopilación y procesamiento de información, mejorando la eficiencia y precisión en la toma de decisiones. Mediante herramientas accesibles y colaborativas, facilitamos el trabajo de contratistas y especialistas, asegurando un flujo de información claro y estructurado.
+
+Visión: Nuestro objetivo es convertirnos en la plataforma de mayor confianza para pequeñas empresas y contratistas independientes que elaboran expedientes técnicos, destacándonos por reducir errores y optimizar la eficiencia operativa. En los próximos tres años, aspiramos a alcanzar el 3% de las empresas consultoras de obra en Lima Metropolitana, impulsando la modernización y digitalización de los procesos constructivos en todo el país.
+
+### 1.1.2. Perfiles de integrantes del equipo
 <table class="tabla-equipo">
         <thead>
             <tr>
