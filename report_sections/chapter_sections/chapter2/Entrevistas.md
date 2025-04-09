@@ -99,3 +99,158 @@ La plantilla de datos generales permite obtener información básica sobre los e
     <tr><td>Marcas e influencers</td><td></td></tr>
   </tbody>
 </table>
+
+### 2.2.2. Registro de entrevistas
+
+<style>
+  .tabla-entrevista {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-bottom: 40px;
+  }
+
+  .tabla-entrevista th {
+    text-align: left;
+    padding: 12px;
+    background-color: #f0f0f0;
+    font-size: 22px;
+  }
+
+  .tabla-entrevista td {
+    padding: 0;
+    vertical-align: top;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+  }
+
+  /* Primera fila: Datos generales */
+  .contenido {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 24px;
+  }
+
+  .datos-texto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .datos-texto p {
+    margin: 0 0 12px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    padding-bottom: 6px;
+  }
+
+  .datos-texto ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc;
+    font-size: 1.05em;
+    line-height: 1.7;
+    color: #333;
+  }
+
+  .contenido img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Segunda fila: Resumen */
+  .resumen-entrevista {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 24px;
+    margin-top: 12px;
+  }
+
+  .resumen-entrevista p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+  }
+
+  .resumen-entrevista ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #333;
+    font-size: 1em;
+    margin: 0;
+  }
+
+  .resumen-entrevista ul ul {
+    list-style-type: circle;
+    padding-left: 20px;
+  }
+</style>
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th><strong>SEGMENTO OBJETIVO: CONTRATISTA</strong></th>
+      <th><strong>#1</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <div class="contenido">
+          <div class="datos-texto">
+            <p>Datos generales</p>
+            <ul>
+              <li><strong>Nombres:</strong> William Martín</li>
+              <li><strong>Apellidos:</strong> Salcedo Vásquez</li>
+              <li><strong>Edad:</strong> 57</li>
+              <li><strong>Distrito:</strong> San Juan de Lurigancho</li>
+              <li><strong>URL Entrevista:</strong> <a href="URL_VIDEO_ENTREVISTA" target="_blank">Ver video</a></li>
+              <li><strong>Duración:</strong> [Minuto:Segundo]</li>
+              <li><strong>Timestamp:</strong> [Minuto:Segundo]</li>
+            </ul>
+          </div>
+          <img src="../../../img/chapter2/william_salcedo.png" alt="Screenshot de la entrevista con William Salcedo">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="resumen-entrevista">
+          <p>Resumen</p>
+          <ul>
+            <li><strong>Personalidad:</strong> Guardian. Demuestra un claro respeto por las normas y el cumplimiento de los acuerdos.</li>
+            <li><strong>Marcas:</strong> Microsoft y Autodesk. Principalmente sigue marcas porque ofrecen herramientas o soluciones valiosas para su trabajo.</li>
+            <li><strong>Uso de tecnología:</strong> Medio, práctico. Posee habilidades de navegación, ofimática y uso de software específico para su trabajo.</li>
+            <li><strong>Browsers:</strong> Google Chrome. Sin una razón específica, posiblemente debido a la popularidad de Google.</li>
+            <li><strong>Dispositivos:</strong> Celular y Laptop. Esto es debido a la portabilidad, lo que le permite seguir trabajando sin estar atado a una oficina.</li>
+            <li><strong>Background:</strong> Su experiencia ha estado tanto en la parte administrativa (como gerente) como en la parte operativa (como residente de obra), actividad que suele extrañar. </li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul>
+                <li>El factor distancia, pues no siempre puede estar en el lugar de la obra para dar su mejor juicio.</li>
+                <li>La poca interconexión entre sistemas, pues muchos procesos dependen de autorizaciones que terminan en lo manual, muchas veces.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul>
+                <li>Comunicación / contacto con el cliente.</li>
+                <li>Seguimiento de normativas y acuerdos (contratos).</li>
+                <li>Conceder y solicitar autorización entre distintas áreas.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
