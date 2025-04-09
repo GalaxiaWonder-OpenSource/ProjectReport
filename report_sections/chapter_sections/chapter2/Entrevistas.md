@@ -214,8 +214,8 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Edad:</strong> 57</li>
               <li><strong>Distrito:</strong> San Juan de Lurigancho</li>
               <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Duración:</strong> 04:51</li>
               <li><strong>Timestamp:</strong> 00:00</li>
+              <li><strong>Duración:</strong> 04:51</li>
             </ul>
           </div>
           <img src="../../../img/chapter2/william_salcedo.png" alt="Screenshot de la entrevista con William Salcedo">
@@ -278,8 +278,8 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Edad:</strong> 64</li>
               <li><strong>Distrito:</strong> La Molina</li>
               <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Duración:</strong> 04:37</li>
               <li><strong>Timestamp:</strong> 04:52</li>
+              <li><strong>Duración:</strong> 04:37</li>
             </ul>
           </div>
           <img src="../../../img/chapter2/mario_lopez.png" alt="Screenshot de la entrevista con Mario López">
@@ -342,8 +342,8 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Edad:</strong> 56</li>
               <li><strong>Distrito:</strong> San Juan de Lurigancho</li>
               <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Duración:</strong> 04:01</li>
               <li><strong>Timestamp:</strong> 09:29</li>
+              <li><strong>Duración:</strong> 04:01</li>
             </ul>
           </div>
           <img src="../../../img/chapter2/raul_reano.png" alt="Screenshot de la entrevista con Raúl Reaño">
@@ -403,8 +403,8 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Edad:</strong> 26</li>
               <li><strong>Distrito:</strong> Surco</li>
               <li><strong>URL Entrevista:</strong> <a href="[URL_ENTREVISTA]" target="_blank">Ver video</a></li>
-              <li><strong>Duración:</strong> 04:00</li>
               <li><strong>Timestamp:</strong> 13:30</li>
+              <li><strong>Duración:</strong> 04:00</li>
             </ul>
           </div>
           <img src="../../../img/chapter2/luis_agreda.png" alt="Screenshot de la entrevista con Raúl Reaño">
