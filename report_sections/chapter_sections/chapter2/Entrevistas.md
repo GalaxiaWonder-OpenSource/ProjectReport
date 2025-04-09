@@ -213,9 +213,9 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Apellidos:</strong> Salcedo Vásquez</li>
               <li><strong>Edad:</strong> 57</li>
               <li><strong>Distrito:</strong> San Juan de Lurigancho</li>
-              <li><strong>URL Entrevista:</strong> <a href="URL_VIDEO_ENTREVISTA" target="_blank">Ver video</a></li>
-              <li><strong>Duración:</strong> [Minuto:Segundo]</li>
-              <li><strong>Timestamp:</strong> [Minuto:Segundo]</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
+              <li><strong>Duración:</strong> 04:51</li>
+              <li><strong>Timestamp:</strong> 00:00</li>
             </ul>
           </div>
           <img src="../../../img/chapter2/william_salcedo.png" alt="Screenshot de la entrevista con William Salcedo">
@@ -277,9 +277,9 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Apellidos:</strong> López Saldaña</li>
               <li><strong>Edad:</strong> 64</li>
               <li><strong>Distrito:</strong> La Molina</li>
-              <li><strong>URL Entrevista:</strong> <a href="[URL_ENTREVISTA]" target="_blank">Ver video</a></li>
-              <li><strong>Duración:</strong> [MINUTO:SEGUNDO]</li>
-              <li><strong>Timestamp:</strong> [MINUTO:SEGUNDO]</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
+              <li><strong>Duración:</strong> 04:37</li>
+              <li><strong>Timestamp:</strong> 04:52</li>
             </ul>
           </div>
           <img src="../../../img/chapter2/mario_lopez.png" alt="Screenshot de la entrevista con Mario López">
@@ -293,7 +293,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
           <ul>
             <li><strong>Personalidad:</strong> Guardián. Lleva la gran responsabilidad de dirigir una empresa con más de 30 años en el mercado que trabaja para el Estado Peruano. El cumplimiento de las normativas, los acuerdos y las expectativas de los clientes son su máxima prioridad.</li>
             <li><strong>Marcas:</strong> Microsoft, Autodesk Inc y S10. Son herramientas que utiliza en su trabajo.</li>
-            <li><strong>Uso de tecnología:</strong> Minimo. Su empresa refleja un nivel de adopción de la tecnología bastante bajo, incluyendo prácticas poco convencionales como almacenar archivos en discos duros físicos o usar WhatsApp para intercambiar documentos.</li>
+            <li><strong>Uso de tecnología:</strong> Minimo. Su empresa refleja un nivel de adopción de la tecnología bastante bajo, incluyendo prácticas poco convencionales como almacenar archivos en discos duros físicos.</li>
             <li><strong>Canales:</strong> WhatsApp. Lo usa como medio de comunicación y transferencia de archivos.</li>
             <li><strong>Browsers:</strong> Google Chrome. Sin razón en particular, posiblemente por la popularidad de Google.</li>
             <li><strong>Dispositivos:</strong> Celular y Laptop. Debido a su portabilidad.</li>
@@ -341,9 +341,9 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Apellidos:</strong> Reaño García</li>
               <li><strong>Edad:</strong> 56</li>
               <li><strong>Distrito:</strong> San Juan de Lurigancho</li>
-              <li><strong>URL Entrevista:</strong> <a href="[URL_ENTREVISTA]" target="_blank">Ver video</a></li>
-              <li><strong>Duración:</strong> [MINUTO:SEGUNDO]</li>
-              <li><strong>Timestamp:</strong> [MINUTO:SEGUNDO]</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
+              <li><strong>Duración:</strong> 04:01</li>
+              <li><strong>Timestamp:</strong> 09:29</li>
             </ul>
           </div>
           <img src="../../../img/chapter2/raul_reano.png" alt="Screenshot de la entrevista con Raúl Reaño">
@@ -365,7 +365,69 @@ La plantilla de datos generales permite obtener información básica sobre los e
             <li>
               <strong>Frustraciones:</strong>
               <ul>
-                <li>Realizar consultas al residente de obra ante incompatibilidad de planos .</li>
+                <li>Realizar consultas al residente de obra ante incompatibilidad de planos.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul>
+                <li>Seguir y cumplir los lineamientos de el expediente técnico.</li>
+                <li>Realizar consultas o solicitar revisiones ante incompatibilidad de planos.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th><strong>SEGMENTO OBJETIVO: ESPECIALISTA</strong></th>
+      <th><strong>#1</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <div class="contenido">
+          <div class="datos-texto">
+            <p>Datos generales</p>
+            <ul>
+              <li><strong>Nombres:</strong> Luis Enrique</li>
+              <li><strong>Apellidos:</strong> Agreda Sobrino</li>
+              <li><strong>Edad:</strong> 26</li>
+              <li><strong>Distrito:</strong> Surco</li>
+              <li><strong>URL Entrevista:</strong> <a href="[URL_ENTREVISTA]" target="_blank">Ver video</a></li>
+              <li><strong>Duración:</strong> 04:00</li>
+              <li><strong>Timestamp:</strong> 13:30</li>
+            </ul>
+          </div>
+          <img src="../../../img/chapter2/luis_agreda.png" alt="Screenshot de la entrevista con Raúl Reaño">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="resumen-entrevista">
+          <p>Resumen</p>
+          <ul>
+            <li><strong>Personalidad:</strong> Racional. Busca trabajar de manera eficiente, en el justo nivel de cumplimiento de estándares.</li>
+            <li><strong>Marcas:</strong> Microsoft, Autodesk Inc, S10 y Apple. Son marcas que proporcionan herramientas útiles para su trabajo, como Microsoft Project.</li>
+            <li><strong>Uso de tecnología:</strong> Bajo. Como asistente de costos y cronograma, se encarga de la digitalización de las operaciones de la empresa para la que trabaja. Para ello, ha tenido que aprender a utilizar todas las herramientas necesarias. Sin embargo, demuestra un bajo nivel de competencia digital, lo que afecta su capacidad de adopción de nuevas herramientas.</li>
+            <li><strong>Canales:</strong> WhatsApp. Su principal medio de comunicación con su equipo.</li>
+            <li><strong>Browsers:</strong> Google Chrome y Safari. Usa un celular iPhone, para el cual utiliza Safari. En su PC utiliza Google Chrome.</li>
+            <li><strong>Dispositivos:</strong> Celular y PC. Son aquellos que soportan las herramientas que necesita para realizar su trabajo.</li>
+            <li><strong>Background:</strong> Es asistente de costos y cronograma. Se encarga de la fase de digitalización de los procesos para la empresa que trabaja.</li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul>
+                <li>Aprender nuevas herramientas de software.</li>
+                <li>Transferencia de archivos.</li>
               </ul>
             </li>
             <li>
