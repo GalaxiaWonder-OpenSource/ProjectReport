@@ -165,7 +165,6 @@ La plantilla de datos generales permite obtener información básica sobre los e
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   }
 
-  /* Segunda fila: Resumen */
   .resumen-entrevista {
     background-color: #f9f9f9;
     border-radius: 10px;
