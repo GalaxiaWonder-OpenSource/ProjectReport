@@ -228,8 +228,9 @@ La plantilla de datos generales permite obtener información básica sobre los e
           <p>Resumen</p>
           <ul>
             <li><strong>Personalidad:</strong> Guardian. Demuestra un claro respeto por las normas y el cumplimiento de los acuerdos.</li>
-            <li><strong>Marcas:</strong> Microsoft y Autodesk. Principalmente sigue marcas porque ofrecen herramientas o soluciones valiosas para su trabajo.</li>
+            <li><strong>Marcas:</strong> Microsoft y Autodesk Inc. Principalmente sigue marcas porque ofrecen herramientas o soluciones valiosas para su trabajo.</li>
             <li><strong>Uso de tecnología:</strong> Medio, práctico. Posee habilidades de navegación, ofimática y uso de software específico para su trabajo.</li>
+            <li><strong>Canales:</strong> Plataformas y herramientas de Microsoft (Microsoft Teams, por ejemplo). Demuestra un grado de integración alto con las herramientas de ofimática de Microsoft.</li>
             <li><strong>Browsers:</strong> Google Chrome. Sin una razón específica, posiblemente debido a la popularidad de Google.</li>
             <li><strong>Dispositivos:</strong> Celular y Laptop. Esto es debido a la portabilidad, lo que le permite seguir trabajando sin estar atado a una oficina.</li>
             <li><strong>Background:</strong> Su experiencia ha estado tanto en la parte administrativa (como gerente) como en la parte operativa (como residente de obra), actividad que suele extrañar. </li>
@@ -246,6 +247,132 @@ La plantilla de datos generales permite obtener información básica sobre los e
                 <li>Comunicación / contacto con el cliente.</li>
                 <li>Seguimiento de normativas y acuerdos (contratos).</li>
                 <li>Conceder y solicitar autorización entre distintas áreas.</li>
+                <li>Seguimiento y cumplimiento de calendarización.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th><strong>SEGMENTO OBJETIVO: CONTRATISTA</strong></th>
+      <th><strong>#2</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <div class="contenido">
+          <div class="datos-texto">
+            <p>Datos generales</p>
+            <ul>
+              <li><strong>Nombres:</strong> Mario Encarnación</li>
+              <li><strong>Apellidos:</strong> López Saldaña</li>
+              <li><strong>Edad:</strong> 64</li>
+              <li><strong>Distrito:</strong> La Molina</li>
+              <li><strong>URL Entrevista:</strong> <a href="[URL_ENTREVISTA]" target="_blank">Ver video</a></li>
+              <li><strong>Duración:</strong> [MINUTO:SEGUNDO]</li>
+              <li><strong>Timestamp:</strong> [MINUTO:SEGUNDO]</li>
+            </ul>
+          </div>
+          <img src="../../../img/chapter2/mario_lopez.png" alt="Screenshot de la entrevista con Mario López">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="resumen-entrevista">
+          <p>Resumen</p>
+          <ul>
+            <li><strong>Personalidad:</strong> Guardián. Lleva la gran responsabilidad de dirigir una empresa con más de 30 años en el mercado que trabaja para el Estado Peruano. El cumplimiento de las normativas, los acuerdos y las expectativas de los clientes son su máxima prioridad.</li>
+            <li><strong>Marcas:</strong> Microsoft, Autodesk Inc y S10. Son herramientas que utiliza en su trabajo.</li>
+            <li><strong>Uso de tecnología:</strong> Minimo. Su empresa refleja un nivel de adopción de la tecnología bastante bajo, incluyendo prácticas poco convencionales como almacenar archivos en discos duros físicos o usar WhatsApp para intercambiar documentos.</li>
+            <li><strong>Canales:</strong> WhatsApp. Lo usa como medio de comunicación y transferencia de archivos.</li>
+            <li><strong>Browsers:</strong> Google Chrome. Sin razón en particular, posiblemente por la popularidad de Google.</li>
+            <li><strong>Dispositivos:</strong> Celular y Laptop. Debido a su portabilidad.</li>
+            <li><strong>Background:</strong> En 1992 fundó su empresa dedicada a la ejecución de obras para empresas privadas, consolidando experiencia como residente de obra. En la actualidad su empresa se dedica a la consultoría y elaboración de expedientes técnicos para el Estado Peruano.</li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul>
+                <li>La adopción de tecnología.</li>
+                <li>Capacitación de personal.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul>
+                <li>Estudios básicos (medidas descriptivas).</li>
+                <li>Elaboración y seguimiento de calendario.</li>
+                <li>Gestión de observaciones y compatibilidad.</li>
+                <li>Seguimiento del contrato.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th><strong>SEGMENTO OBJETIVO: CONTRATISTA</strong></th>
+      <th><strong>#3</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <div class="contenido">
+          <div class="datos-texto">
+            <p>Datos generales</p>
+            <ul>
+              <li><strong>Nombres:</strong> Raúl Fernando</li>
+              <li><strong>Apellidos:</strong> Reaño García</li>
+              <li><strong>Edad:</strong> 56</li>
+              <li><strong>Distrito:</strong> San Juan de Lurigancho</li>
+              <li><strong>URL Entrevista:</strong> <a href="[URL_ENTREVISTA]" target="_blank">Ver video</a></li>
+              <li><strong>Duración:</strong> [MINUTO:SEGUNDO]</li>
+              <li><strong>Timestamp:</strong> [MINUTO:SEGUNDO]</li>
+            </ul>
+          </div>
+          <img src="../../../img/chapter2/raul_reano.png" alt="Screenshot de la entrevista con Raúl Reaño">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="resumen-entrevista">
+          <p>Resumen</p>
+          <ul>
+            <li><strong>Personalidad:</strong> Guardián. Como contratista de ejecución de obra, entiende la importancia de seguir lo establecido en el expediente técnico.</li>
+            <li><strong>Marcas:</strong> Microsoft, Autodesk Inc y S10. Son herramientas que utiliza en su trabajo.</li>
+            <li><strong>Uso de tecnología:</strong> Mínimo. Su empresa refleja un nivel de adopción de la tecnología bastante bajo, sin un grado de integración completa en las operaciones de empresa.</li>
+            <li><strong>Canales:</strong> WhatsApp y Telegram. Los usa como canales de comunicación.</li>
+            <li><strong>Browsers:</strong> Google Chrome. Sin razón en particular, posiblemente por la popularidad de Google.</li>
+            <li><strong>Dispositivos:</strong> Celular y PC. Son aquellos que le resultan más familiares.</li>
+            <li><strong>Background:</strong> Es gerente de su propia empresa dedicada a la ejecución de acabados finos en obras, públicas o privadas.</li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul>
+                <li>Realizar consultas al residente de obra ante incompatibilidad de planos .</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul>
+                <li>Seguir y cumplir los lineamientos de el expediente técnico.</li>
+                <li>Realizar consultas o solicitar revisiones ante incompatibilidad de planos.</li>
               </ul>
             </li>
           </ul>
