@@ -402,12 +402,12 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Apellidos:</strong> Agreda Sobrino</li>
               <li><strong>Edad:</strong> 26</li>
               <li><strong>Distrito:</strong> Surco</li>
-              <li><strong>URL Entrevista:</strong> <a href="[URL_ENTREVISTA]" target="_blank">Ver video</a></li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
               <li><strong>Timestamp:</strong> 13:30</li>
               <li><strong>Duración:</strong> 04:00</li>
             </ul>
           </div>
-          <img src="../../../img/chapter2/luis_agreda.png" alt="Screenshot de la entrevista con Raúl Reaño">
+          <img src="../../../img/chapter2/luis_agreda.png" alt="Screenshot de la entrevista con Luis Agreda">
         </div>
       </td>
     </tr>
@@ -435,6 +435,192 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <ul>
                 <li>Seguir y cumplir los lineamientos de el expediente técnico.</li>
                 <li>Realizar consultas o solicitar revisiones ante incompatibilidad de planos.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th><strong>SEGMENTO OBJETIVO: ESPECIALISTA</strong></th>
+      <th><strong>#2</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <div class="contenido">
+          <div class="datos-texto">
+            <p>Datos generales</p>
+            <ul>
+              <li><strong>Nombres:</strong> Manuel Bejamín</li>
+              <li><strong>Apellidos:</strong> Anyaypoma Ocon</li>
+              <li><strong>Edad:</strong> 45</li>
+              <li><strong>Distrito:</strong> Surco</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 17:31</li>
+              <li><strong>Duración:</strong> 04:47</li>
+            </ul>
+          </div>
+          <img src="../../../img/chapter2/manuel_anaypoma.png" alt="Screenshot de la entrevista con Manuel Anaypoma">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="resumen-entrevista">
+          <p>Resumen</p>
+          <ul>
+            <li><strong>Personalidad:</strong> Guardián. Demuestra un gran compromiso por mantener el cumplimiento de normativas y estándares, aunque eso resulte en complicaciones.</li>
+            <li><strong>Marcas:</strong> Microsoft y Cisco. Marcas de alta envergadura que proporcionan herramientas especializadas, confiables y robustas para su trabajo.</li>
+            <li><strong>Uso de tecnología:</strong> Alto. Como jefe de TIC en el INEN, posee un gran entendimiento y habilidad para el manejo de la tecnología, necesario para la posición que ocupa y formando parte de su quehacer diario.</li>
+            <li><strong>Canales:</strong> WhatsApp y X (Twitter). </li>
+            <li><strong>Browsers:</strong> Google Chrome, Firefox e Internet Explorer. Usa estos browsers según la compatibilidad de ciertos sistemas legacy con los que debe interactuar como parte de su trabajo.</li>
+            <li><strong>Dispositivos:</strong> PC, Laptop y Celular</li>
+            <li><strong>Background:</strong> Trabaja en el INEN desde hace más de 10 años como especialista en Redes y Telecomunicaciones.</li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul>
+                <li>Elaboración de documentación exhaustiva en conformidad con la ley.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul>
+                <li>Reuniones de coordinación de especialistas.</li>
+                <li>Elaboración de documentación para los expedientes técnicos.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th><strong>SEGMENTO OBJETIVO: ESPECIALISTA</strong></th>
+      <th><strong>#3</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <div class="contenido">
+          <div class="datos-texto">
+            <p>Datos generales</p>
+            <ul>
+              <li><strong>Nombres:</strong> Jesús Josecarlos</li>
+              <li><strong>Apellidos:</strong> Merino Fernández</li>
+              <li><strong>Edad:</strong> 35</li>
+              <li><strong>Distrito:</strong> Trujillo</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 22:18</li>
+              <li><strong>Duración:</strong> 04:55</li>
+            </ul>
+          </div>
+          <img src="../../../img/chapter2/jesus_merino.png" alt="Screenshot de la entrevista con Jesús Merino">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="resumen-entrevista">
+          <p>Resumen</p>
+          <ul>
+            <li><strong>Personalidad:</strong> Guardián. Demuestra un profundo entendimiento y aceptación de las normativas que constriñen su trabajo y se alinea siempre a su cumplimiento.</li>
+            <li><strong>Marcas:</strong> Autodesk Inc y Microsoft. Principalmente por software especializado de trabajo.</li>
+            <li><strong>Uso de tecnología:</strong> Medio. Posee dominio suficiente de la tecnología que utiliza y la integra naturalmente en su flujo de trabajo diario.</li>
+            <li><strong>Canales:</strong> Instagram, X (Twitter) y WhatsApp. En su mayoría son redes de uso personal.</li>
+            <li><strong>Browsers:</strong> Brave</li>
+            <li><strong>Dispositivos:</strong> Celular y PC.</li>
+            <li><strong>Background:</strong> Es ingeniero civil de profesión y tiene un profundo entendimiento del funcionamiento del proceso de planificación y ejecución de proyectos.</li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul>
+                <li>Solucionar errores en los expedientes técnicos causados por mala praxis de otros especialistas de área.</li>
+                <li>Coordinar la elaboración del expediente técnico en conjunto a múltiples especialistas de área.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul>
+                <li>Reuniones de coordinación de especialistas.</li>
+                <li>Cumplir con los entregables (avances de los expedientes por etapas).</li>
+                <li>Cálculo de materiales de obra y precios unitarios (presupuesto por área de especialidad).</li>
+                <li>Analizar datos para identificar posibles riesgos.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th><strong>SEGMENTO OBJETIVO: ENTIDAD CONTRATANTE</strong></th>
+      <th><strong>#1</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <div class="contenido">
+          <div class="datos-texto">
+            <p>Datos generales</p>
+            <ul>
+              <li><strong>Nombres:</strong> Aldo Kevin</li>
+              <li><strong>Apellidos:</strong> Apolinario Vivas</li>
+              <li><strong>Edad:</strong> 34</li>
+              <li><strong>Distrito:</strong> El Agustino</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 27:14</li>
+              <li><strong>Duración:</strong> 03:00</li>
+            </ul>
+          </div>
+          <img src="../../../img/chapter2/kevin_apolinario.png" alt="Screenshot de la entrevista con Kevin Apolinario">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="resumen-entrevista">
+          <p>Resumen</p>
+          <ul>
+            <li><strong>Personalidad:</strong> Idealista. Persigue sus objetivos personales sin comprometer su ética.</li>
+            <li><strong>Marcas:</strong> Podcasts de educación en general.</li>
+            <li><strong>Uso de tecnología:</strong> Medio-bajo. Usa frecuentemente la tecnología a nivel personal para consumir contenidos en línea.</li>
+            <li><strong>Canales:</strong> LinkedIn. </li>
+            <li><strong>Browsers:</strong> Google Chrome y Safari. Usa estos browsers según el dispositivo que esté utilizando.</li>
+            <li><strong>Dispositivos:</strong> Laptop y Celular</li>
+            <li><strong>Background:</strong> Trabaja en el INEN desde hace más de 10 años como especialista en Redes y Telecomunicaciones.</li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul>
+                <li>Asegurar que sus expectativas sean cumplidas por el proyectista.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul>
+                <li>Contactar con el proyectista.</li>
+                <li>Presentar el requerimiento del proyecto.</li>
               </ul>
             </li>
           </ul>
