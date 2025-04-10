@@ -628,3 +628,125 @@ La plantilla de datos generales permite obtener información básica sobre los e
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-before: always;"></div>
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th><strong>SEGMENTO OBJETIVO: ENTIDAD CONTRATANTE</strong></th>
+      <th><strong>#2</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <div class="contenido">
+          <div class="datos-texto">
+            <p>Datos generales</p>
+            <ul>
+              <li><strong>Nombres:</strong> Lucero Martina</li>
+              <li><strong>Apellidos:</strong> Villanes Santillán</li>
+              <li><strong>Edad:</strong> 26</li>
+              <li><strong>Distrito:</strong> Villa María del Triunfo</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 30:15</li>
+              <li><strong>Duración:</strong> 01:44</li>
+            </ul>
+          </div>
+          <img src="../../../img/chapter2/lucero_villanes.png" alt="Screenshot de la entrevista con Kevin Apolinario">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="resumen-entrevista">
+          <p>Resumen</p>
+          <ul>
+            <li><strong>Personalidad:</strong> Idealista. Persigue sus objetivos personales sin comprometer su ética.</li>
+            <li><strong>Marcas:</strong> Vlogs en general.</li>
+            <li><strong>Uso de tecnología:</strong> Medio-bajo. Usa frecuentemente la tecnología a nivel personal para consumir contenidos en línea.</li>
+            <li><strong>Canales:</strong> TikTok e Instagram. </li>
+            <li><strong>Browsers:</strong> Google Chrome y Edge.</li>
+            <li><strong>Dispositivos:</strong> Laptop y Celular</li>
+            <li><strong>Background:</strong> Es ingeniera industrial con 5 años de experiencia en el año de logística.</li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul>
+                <li>Asegurar que el proyecto sea finalizado a tiempo.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul>
+                <li>Contactar con el proyectista.</li>
+                <li>Supervisar el avance del proyecto.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th><strong>SEGMENTO OBJETIVO: ENTIDAD CONTRATANTE</strong></th>
+      <th><strong>#3</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <div class="contenido">
+          <div class="datos-texto">
+            <p>Datos generales</p>
+            <ul>
+              <li><strong>Nombres:</strong> Álvaro Martín</li>
+              <li><strong>Apellidos:</strong> Torres Huamaní</li>
+              <li><strong>Edad:</strong> 27</li>
+              <li><strong>Distrito:</strong> San Juan de Lurigancho</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 31:59</li>
+              <li><strong>Duración:</strong> 03:56</li>
+            </ul>
+          </div>
+          <img src="../../../img/chapter2/alvaro_torres.png" alt="Screenshot de la entrevista con Kevin Apolinario">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div class="resumen-entrevista">
+          <p>Resumen</p>
+          <ul>
+            <li><strong>Personalidad:</strong> Idealista. Demuestra ser bastante deliberado en cuanto persigue sus objetivos y metas personales.</li>
+            <li><strong>Marcas:</strong> Álvaro Soler.</li>
+            <li><strong>Uso de tecnología:</strong> Medio-bajo. Usa frecuentemente la tecnología a nivel personal para consumir contenidos en línea.</li>
+            <li><strong>Canales:</strong> TikTok e Instagram. </li>
+            <li><strong>Browsers:</strong> Google Chrome.</li>
+            <li><strong>Dispositivos:</strong> Celular.</li>
+            <li><strong>Background:</strong> Es electricista de profesión y está comenzando a formar una familia.</li>
+            <li>
+              <strong>Frustraciones:</strong>
+              <ul>
+                <li>Asegurar que el proyectista haga un trabajo de calidad.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Flujos principales:</strong>
+              <ul>
+                <li>Contactar con el proyectista.</li>
+                <li>Supervisar el avance del proyecto.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
