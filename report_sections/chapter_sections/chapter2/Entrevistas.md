@@ -292,7 +292,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
           <ul>
             <li><strong>Personalidad:</strong> Guardián. Lleva la gran responsabilidad de dirigir una empresa con más de 30 años en el mercado que trabaja para el Estado Peruano. El cumplimiento de las normativas, los acuerdos y las expectativas de los clientes son su máxima prioridad.</li>
             <li><strong>Marcas:</strong> Microsoft, Autodesk Inc y S10. Son herramientas que utiliza en su trabajo.</li>
-            <li><strong>Uso de tecnología:</strong> Minimo. Su empresa refleja un nivel de adopción de la tecnología bastante bajo, incluyendo prácticas poco convencionales como almacenar archivos en discos duros físicos.</li>
+            <li><strong>Uso de tecnología:</strong> Bajo. Su empresa refleja un nivel de adopción de la tecnología bastante bajo, incluyendo prácticas poco convencionales como almacenar archivos en discos duros físicos.</li>
             <li><strong>Canales:</strong> WhatsApp. Lo usa como medio de comunicación y transferencia de archivos.</li>
             <li><strong>Browsers:</strong> Google Chrome. Sin razón en particular, posiblemente por la popularidad de Google.</li>
             <li><strong>Dispositivos:</strong> Celular y Laptop. Debido a su portabilidad.</li>
@@ -356,7 +356,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
           <ul>
             <li><strong>Personalidad:</strong> Guardián. Como contratista de ejecución de obra, entiende la importancia de seguir lo establecido en el expediente técnico.</li>
             <li><strong>Marcas:</strong> Microsoft, Autodesk Inc y S10. Son herramientas que utiliza en su trabajo.</li>
-            <li><strong>Uso de tecnología:</strong> Mínimo. Su empresa refleja un nivel de adopción de la tecnología bastante bajo, sin un grado de integración completa en las operaciones de empresa.</li>
+            <li><strong>Uso de tecnología:</strong> Bajo. Su empresa refleja un nivel de adopción de la tecnología bastante bajo, sin un grado de integración completa en las operaciones de empresa.</li>
             <li><strong>Canales:</strong> WhatsApp y Telegram. Los usa como canales de comunicación.</li>
             <li><strong>Browsers:</strong> Google Chrome. Sin razón en particular, posiblemente por la popularidad de Google.</li>
             <li><strong>Dispositivos:</strong> Celular y PC. Son aquellos que le resultan más familiares.</li>
@@ -604,7 +604,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
           <ul>
             <li><strong>Personalidad:</strong> Idealista. Persigue sus objetivos personales sin comprometer su ética.</li>
             <li><strong>Marcas:</strong> Podcasts de educación en general.</li>
-            <li><strong>Uso de tecnología:</strong> Medio-bajo. Usa frecuentemente la tecnología a nivel personal para consumir contenidos en línea.</li>
+            <li><strong>Uso de tecnología:</strong> Medio. Usa frecuentemente la tecnología a nivel personal para consumir contenidos en línea.</li>
             <li><strong>Canales:</strong> LinkedIn. </li>
             <li><strong>Browsers:</strong> Google Chrome y Safari. Usa estos browsers según el dispositivo que esté utilizando.</li>
             <li><strong>Dispositivos:</strong> Laptop y Celular</li>
@@ -654,7 +654,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Duración:</strong> 01:44</li>
             </ul>
           </div>
-          <img src="../../../img/chapter2/lucero_villanes.png" alt="Screenshot de la entrevista con Kevin Apolinario">
+          <img src="../../../img/chapter2/lucero_villanes.png" alt="Screenshot de la entrevista con Lucero Villanes">
         </div>
       </td>
     </tr>
@@ -665,7 +665,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
           <ul>
             <li><strong>Personalidad:</strong> Idealista. Persigue sus objetivos personales sin comprometer su ética.</li>
             <li><strong>Marcas:</strong> Vlogs en general.</li>
-            <li><strong>Uso de tecnología:</strong> Medio-bajo. Usa frecuentemente la tecnología a nivel personal para consumir contenidos en línea.</li>
+            <li><strong>Uso de tecnología:</strong> Medio. Usa frecuentemente la tecnología a nivel personal para consumir contenidos en línea.</li>
             <li><strong>Canales:</strong> TikTok e Instagram. </li>
             <li><strong>Browsers:</strong> Google Chrome y Edge.</li>
             <li><strong>Dispositivos:</strong> Laptop y Celular</li>
@@ -715,7 +715,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
               <li><strong>Duración:</strong> 03:56</li>
             </ul>
           </div>
-          <img src="../../../img/chapter2/alvaro_torres.png" alt="Screenshot de la entrevista con Kevin Apolinario">
+          <img src="../../../img/chapter2/alvaro_torres.png" alt="Screenshot de la entrevista con Álvaro Torres">
         </div>
       </td>
     </tr>
@@ -726,7 +726,7 @@ La plantilla de datos generales permite obtener información básica sobre los e
           <ul>
             <li><strong>Personalidad:</strong> Idealista. Demuestra ser bastante deliberado en cuanto persigue sus objetivos y metas personales.</li>
             <li><strong>Marcas:</strong> Álvaro Soler.</li>
-            <li><strong>Uso de tecnología:</strong> Medio-bajo. Usa frecuentemente la tecnología a nivel personal para consumir contenidos en línea.</li>
+            <li><strong>Uso de tecnología:</strong> Medio. Usa frecuentemente la tecnología a nivel personal para consumir contenidos en línea.</li>
             <li><strong>Canales:</strong> TikTok e Instagram. </li>
             <li><strong>Browsers:</strong> Google Chrome.</li>
             <li><strong>Dispositivos:</strong> Celular.</li>
@@ -750,3 +750,77 @@ La plantilla de datos generales permite obtener información básica sobre los e
     </tr>
   </tbody>
 </table>
+
+### 2.2.3. Análisis de entrevistas
+
+**CONTRATISTAS**
+
+**1. Resumen:** Los contratistas son en su mayoría varones adultos con experiencia previa como residentes de obra. Actualmente desempeñan la función de gerentes en oficinas, alejados del área operativa, lo cual les genera cierta nostalgia por “los viejos tiempos” en campo. Son personas sencillas, de trato directo y verbo fluido, con un alto respeto por las normas y los acuerdos establecidos. Presentan ciertas dificultades en el uso de tecnologías digitales, aunque muestran disposición al aprendizaje, motivados principalmente por aumentar la eficiencia de su organización.
+
+**2. Edad:**  Las edades de los entrevistados de este segmento varían desde los 56 hasta los 64 años de edad. Se toma como edad representativa la media aritmética de los datos.
+
+| Entrevistado | Mario López | Raúl Reaño | William Salcedo | Valor representativo |
+|-|-|-|-|-|
+| **Edad** | 64 | 56 | 57 | 59 |
+
+**3. Personalidad:** La totalidad de los entrevistados (100%) se alínean al arquetipo de personalidad *Guardián*, debido a su respeto irrestricto y meticuloso de las normas y acuerdos. Se toma este arquetipo de personalidad como representativo.
+
+| Entrevistado | Mario López | Raúl Reaño | William Salcedo | Valor representativo |
+|-|-|-|-|-|
+| **Personalidad** | Guardián | Guardián | Guardián | Guardián |
+
+**4. Marcas e influencers:** La totalidad de los entrevistados (100%) mencionó las marcas Microsoft y Autodesk. De ellos, la gran mayoría (66.7%) mencionaron la marca S10. Se toma como marcas representativas Microsoft, Autoedsk y S10.
+
+| Marca | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que la siguen (%) |
+|-|-|-|-|
+| Microsoft | 3 | 37.5% | 100% |
+| Autodesk Inc. | 3 | 37.5% | 100% |
+| S10 | 2 | 25% | 66.7% |
+| **Total** | 8 | 100% | - |
+
+**5. Uso de tecnología:** La gran mayoría de los entrevistados (66.7%) demostró un nivel bajo de dominio e integración de la tecnología en su trabajo y vida diaria, mientras que la menor parte (33.3%) mostró un nivel intermedio. Se toma como nivel de uso de tecnología representativo el nivel Bajo.
+
+| Nivel de uso de tecnología | Frecuencia Absoluta | % de entrevistados en este nivel |
+|-|-|-|
+| Bajo | 2 | 66.7% |
+| Medio | 1 | 33.3% |
+| Alto | 0 | 0% |
+| **Total** | 3 | 100% |
+
+**6. Canales:** La gran mayoría de los entrevistados (66.7%) mencionó utilizar WhatsApp como canal de comunicación, especialmente para el trabajo, mientras que la menor parte (33.3%) mencionó utilizar el ecosistema de Microsoft y Telegram.
+
+| Canal de comunicación | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo usan (%) |
+|-|-|-|-|
+| Ecosistema Microsoft | 1 | 16.7% | 33.3% |
+| Autodesk Inc. | 3 | 50% | 100% |
+| S10 | 2 | 33.3% | 66.7% |
+| **Total** | 6 | 100% | - |
+
+**7. Browsers:** La totalidad de los entrevistados (100%) mencionó utilizar exclusivamente Google Chrome como su navegador web. Esta preferencia podría estar relacionada con su bajo nivel de dominio tecnológico, lo que los lleva a mantenerse en entornos digitales conocidos y seguros, sin explorar otras alternativas disponibles. Se toma como representativa la única alternativa mencionada.
+
+| Navegador Web | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo usan (%) |
+|-|-|-|-|
+| Google Chrome | 3 | 100% | 100% |
+| **Total** | 3 | 100% | - |
+
+**8. Dispositivos:** La totalidad de los entrevistados (100%) mencionó utilizar el celular como herramienta principal para acceder a recursos digitales. La gran mayoría (66.7%) reportó el uso de Laptops, mientras que una menor parte reportó el uso de computadoras de escritorio (33.3%). Se toma como representativa la clara tendencia hacia la portabilidad (Celular y Laptop).
+
+| Dispositivo | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo usan (%) |
+|-|-|-|-|
+| Celular | 3 | 50% | 100% |
+| Laptop | 2 | 33.3% | 66.7% |
+| PC | 1 | 16.7% | 33.3% |
+| **Total** | 6 | 100% | - |
+
+**9. Flujos principales:** La totalidad de los entrevistados (100%) señaló la importancia del seguimiento y cumplimiento del calendario. La gran mayoría (66.7%) destacó la importancia del seguimiento del contrato y la gestión de observaciones y compatibilidad de los planos. De manera aislada se mencionaron otros flujos como el contacto con el cliente o la recaudación ded medidas descriptivas, entre otras. Estos últimos flujos tienen cierto grado de solapamiento con los flujos principales mayoritarios, cumpliendo un rol de apoyo o soporte.
+
+| Flujo de trabajo | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo priorizan (%) |
+|-|-|-|-|
+| Comunicación / contacto con el cliente | 1 | 9.1% | 33.3% |
+| Conceder y solicitar autorización entre distintas áreas | 1 | 9.1% | 33.3% |
+| Estudios básicos (medidas descriptivas) | 1 | 9.1% | 33.3% |
+| Elaboración del calendario | 1 | 9.1% | 33.3% |
+| Seguimiento y cumplimiento del calendario | 3 | 27.3% | 100% |
+| Seguimiento del contrato | 2 | 18.2% | 66.7% |
+| Gestión de observaciones y compatibilidad de planos | 2 | 18.2% | 66.7% |
+| **Total** | 11 | 100% | - |
