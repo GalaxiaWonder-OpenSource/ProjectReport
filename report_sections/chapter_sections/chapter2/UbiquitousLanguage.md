@@ -1,6 +1,6 @@
 ## 2.4. Ubiquitous Language
 
-### Core
+### 2.4.1. Core
 
 **Project Management (Gestión de proyectos)**
 
@@ -40,7 +40,7 @@ Este contexto se encarga de gestionar y documentar todas las modificaciones que 
 **9. Contracting entity supervisor (Supervisor):** Profesional que representa a la entidad contratante en obra. Se encarga de supervisar la ejecución, verificar metrados, validar planos, y evaluar cualquier consulta o cambio.
 **10. Site Worker (Operario de obra):** Persona que ejecuta la obra, es decir, instala, construye, excava, vacía o pinta, dependiendo de su especialidad. 
 
-### Support
+### 2.4.2. Support
 
 **Budget (Presupuestos)**
 
@@ -75,7 +75,7 @@ Este contexto gestiona la identidad profesional y técnica de los usuarios dentr
 **9. ID Number (Número de documento):** Identificador legal de la entidad contratante o empresa consultora. En el caso de Entidades Contratantes, este puede ser DNI o RUC, según se trata de una persona natural o jurídica. En el caso de Empresas Consultoras, se tratará siempre de un RUC.
 **10. Contact Information (Información de contacto):** Grupo de datos como correo, número de teléfono y/o redes sociales de un usuario que permiten establecer contacto con este de forma externa a la plataforma.
 
-### Generic
+### 2.4.3. Generic
 
 **Identity and Access Management (Gestión de identidad y acceso)**
 El contexto de Identity and Access Management (IAM) se encarga de la asignación de roles y permisos A través de este contexto se asegura la correcta administración de accesos y roles, permitiendo una gestión eficiente y segura de los proyectos y equipos.
