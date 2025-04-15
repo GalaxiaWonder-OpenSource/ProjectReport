@@ -61,18 +61,21 @@ El análisis competitivo es fundamental para desarrollar una estrategia sólida 
         </tr>
         <tr>
             <th colspan="2">(En la cabecera colocar por cada competidor nombre y logo)</th>
-            <th>Galaxia Wonder</th>
+            <th>
+                Galaxia Wonder
+                <img src="../../../img/chapter2/statupLogo.png">
+            </th>
             <th>
                 Autodesk Construction Cloud
-                <img src="/img/chapter2/competidor1Logo.png" alt="Logo1">
+                <img src="../../../img/chapter2/competidor1Logo.png" alt="Logo1">
             </th>
             <th>
                 Procore
-                <img src="/img/chapter2/competidor2Logo.png" alt="Logo2">
+                <img src="../../../img/chapter2/competidor2Logo.png" alt="Logo2">
             </th>
             <th>
                 Deltek ComputerEase
-                <img src="/img/chapter2/competidor3Logo.png" alt="Logo3">
+                <img src="../../../img/chapter2/competidor3Logo.png" alt="Logo3">
             </th>
         </tr>
     </thead>
