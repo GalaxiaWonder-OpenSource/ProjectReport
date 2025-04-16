@@ -1,67 +1,5 @@
-`
-<style>
-    /* Estilo específico para la tabla de integrantes */
-    .tabla-equipo {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 20px;
-    }
-
-    .tabla-equipo th, .tabla-equipo td {
-        border: 1px solid #ddd;
-        padding: 10px;
-        text-align: left;
-    }
-
-    .tabla-equipo th {
-        background-color: #f2f2f2;
-        color: #333;
-    }
-
-    .tabla-equipo td img {
-        width: 100%;  /* Ajustar el tamaño de la imagen */
-        height: 100%;
-        border-radius: 25%;
-    }
-
-    .tabla-equipo td.skills {
-        max-width: 300px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: normal;
-    }
-
-    /* Opcional: estilo para filas alternas */
-    .tabla-equipo tr:nth-child(even) {
-        background-color: #f9f9f9;
-    }
-
-    .tabla-equipo tr:hover {
-        background-color: #e0e0e0;
-    }
-
-    .tabla-equipo th:nth-child(1) {
-        width: 25%;  /* Ancho de la columna de foto */
-    }
-
-    .tabla-equipo th:nth-child(2) {
-        width: 15%; /* Ancho de la columna de nombres y apellidos */
-    }
-
-    .tabla-equipo th:nth-child(3) {
-        width: 15%; /* Ancho de la columna de código de alumno */
-    }
-
-    .tabla-equipo th:nth-child(4) {
-        width: 15%; /* Ancho de la columna de carrera */
-    }
-
-    .tabla-equipo th:nth-child(5) {
-        width: 30%; /* Ancho de la columna de habilidades */
-    }
-</style>
-
 ## 1.1. Startup Profile
+
 ### 1.1.1. Descripción de la Startup
 Galaxia Wonder está comprometida con la transformación digital en el sector de la ingeniería civil. Nos especializamos en el desarrollo de soluciones tecnológicas que optimizan la planificación, gestión y ejecución de proyectos de construcción, reduciendo errores en los expedientes técnicos y mejorando la colaboración entre equipos multidisciplinarios.
 
@@ -70,23 +8,24 @@ Misión: Nuestra misión es optimizar la gestión y coordinación de los expedie
 Visión: Nuestro objetivo es convertirnos en la plataforma de mayor confianza para pequeñas empresas y contratistas independientes que elaboran expedientes técnicos, destacándonos por reducir errores y optimizar la eficiencia operativa. En los próximos tres años, aspiramos a alcanzar el 3% de las empresas consultoras de obra en Lima Metropolitana, impulsando la modernización y digitalización de los procesos constructivos en todo el país.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-<table class="tabla-equipo">
+
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
         <thead>
             <tr>
-                <th>Foto</th>
-                <th>Nombres y Apellidos</th>
-                <th>Código de Alumno</th>
-                <th>Carrera</th>
-                <th>Habilidades</th>
+                <th styles="border: 1px solid #ddd; padding: 10px; text-align: left; width: 25%;">Foto</th>
+                <th styles="border: 1px solid #ddd; padding: 10px; text-align: left; width: 15%;">Nombres y Apellidos</th>
+                <th styles="border: 1px solid #ddd; padding: 10px; text-align: left; width: 15%;">Código de Alumno</th>
+                <th styles="border: 1px solid #ddd; padding: 10px; text-align: left; width: 15%;">Carrera</th>
+                <th styles="border: 1px solid #ddd; padding: 10px; text-align: left; width: 30%;">Habilidades</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td><img src="../../../img/chapter1/Andrea.png" alt="Foto de Andrea Aponte"></td>
-                <td>Aponte Cruzado, Andrea Marielena</td>
-                <td>202224135</td>
-                <td>Ingeniería de Software</td>
-                <td class="skills">
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;"><img styles="width: 100%; height: 100%; border-radius: 25%;" src="../../../img/chapter1/Andrea.png" alt="Foto de Andrea Aponte"></td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Aponte Cruzado, Andrea Marielena</td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">202224135</td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingeniería de Software</td>
+                <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal;">
                     <ul>
                         <li>Diseño web</li>
                         <li>Gestión y diseño de bases de datos SQL y noSQL</li>
@@ -95,11 +34,11 @@ Visión: Nuestro objetivo es convertirnos en la plataforma de mayor confianza pa
                 </td>
             </tr>
             <tr>
-                <td><img src="../../../img/chapter1/Fabrizio.png" alt="Foto de Fabrizio León"></td>
-                <td>León Vivas, Fabrizio Amir</td>
-                <td>20211b994</td>
-                <td>Ingeniería de Software</td>
-                <td class="skills">
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;"><img styles="width: 100%; height: 100%; border-radius: 25%;" src="../../../img/chapter1/Fabrizio.png" alt="Foto de Fabrizio León"></td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">León Vivas, Fabrizio Amir</td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">20211b994</td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingeniería de Software</td>
+                <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal;">
                     <ul>
                         <li>Desarrollo front-end</li>
                         <li>Conocimiento de TI en sistemas basados en UNIX</li>
@@ -109,11 +48,11 @@ Visión: Nuestro objetivo es convertirnos en la plataforma de mayor confianza pa
                 </td> 
             </tr>
             <tr>
-                <td><img src="../../../img/chapter1/Mario.png" alt="Foto de Mario Lopez"></td>
-                <td>Lopez Acuña, Mario Joaquín</td>
-                <td>202116250</td>
-                <td>Ingenería de Software</td>
-                <td class="skills">
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;"><img styles="width: 100%; height: 100%; border-radius: 25%;" src="../../../img/chapter1/Mario.png" alt="Foto de Mario Lopez"></td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Lopez Acuña, Mario Joaquín</td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">202116250</td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingenería de Software</td>
+                <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal;">
                     <ul>
                         <li>Diseño web</li>
                         <li>Manejo de Azure para la gestión de máquinas virtuales</li>
@@ -123,11 +62,11 @@ Visión: Nuestro objetivo es convertirnos en la plataforma de mayor confianza pa
                 </td>
             </tr>
             <tr>
-                <td><img src="../../../img/chapter1/Alvaro.png" alt="Foto de Álvaro Orozco"></td>
-                <td>Orozco Torres, Álvaro Joaquín</td>
-                <td>202220783</td>
-                <td>Ingenería de Software</td>
-                <td class="skills">
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;"><img styles="width: 100%; height: 100%; border-radius: 25%;" src="../../../img/chapter1/Alvaro.png" alt="Foto de Álvaro Orozco"></td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Orozco Torres, Álvaro Joaquín</td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">202220783</td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingenería de Software</td>
+                <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal;">
                     <ul>
                         <li>Programación con Python y JavaScript</li>
                         <li>Fundamentos de arquitectura de software</li>
@@ -138,11 +77,11 @@ Visión: Nuestro objetivo es convertirnos en la plataforma de mayor confianza pa
                 </td>
             </tr>
             <tr>
-                <td><img src="../../../img/chapter1/Henry.png" alt="Foto de Henry Reaño"></td>
-                <td>Reaño Delgadillo, Henry Paolo</td>
-                <td>20221e247</td>
-                <td>Ingenería de Software</td>
-                <td class="skills">
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;"><img styles="width: 100%; height: 100%; border-radius: 25%;" src="../../../img/chapter1/Henry.png" alt="Foto de Henry Reaño"></td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Reaño Delgadillo, Henry Paolo</td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">20221e247</td>
+                <td styles="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingenería de Software</td>
+                <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal;">
                     <ul>
                         <li>Conocimiento en sistemas operativos tipo Linux</li>
                         <li>Manejo de Azure para la gestión de máquinas virtuales</li>
