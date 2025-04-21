@@ -85,3 +85,51 @@ Para su gestión interna, se aplicará GitFlow. Se explican a continuación las 
   - **Convención de nombres**:  
     `hotfix/story-id`  
     Ejemplo: `hotfix/swr35`
+
+### 5.1.3. Source Code Style Guide & Coding Conventions
+
+En esta sección se establecen las guías de estilo y convenciones de codificación que el equipo adoptará para mantener la consistencia, legibilidad y calidad del código fuente.
+
+**LENGUAJES DE PROGRAMACIÓN**
+
+Para el desarrollo de la solución, se utlizarán los siguientes lenguajes de programación y marcado:
+- HTML  
+- CSS  
+- JavaScript  
+- TypeScript  
+- Java
+
+**CONVENCIONES GENERALES**
+Para todos los lenguajes de programación y marcado mencionados:
+- Se aplicará el uso de nomenclaturas en inglés.
+- Se nombraran variables, constantes, elementos y clases de forma explícita.
+- Se usará saltos de linea vacíos para separar unidades lógicas diferentes del código.
+- Se promoverá la reutilización de código.
+
+**CONVECIONES ESPECÍFICAS**
+
+A continuación, se describen las convenciones principales a aplicar por lenguaje:
+
+**HTML & CSS:** Se aplicaran las recomendaciones del HTML Style Guide and Coding Conventions y el Google HTML/CSS Style Guide, que indican:
+- Escribir etiquetas y atributos en minúsculas.
+- Utilizar indentación de 2 espacios.
+- Utilizar clases con nombres descriptivos y en `kebab-case`.
+- Evitar el uso de estilos en línea.
+- Separar el contenido (HTML) de la presentación (CSS).
+
+**JavaScript & TypeScript:** Se adoptarán las recomendaciones del Google JavaScript Style Guide y el Google TypeScript Style Guide.
+- Usar `camelCase` para variables y funciones.
+- Usar `PascalCase` para clases y componentes.
+- Definir constantes en `UPPER_SNAKE_CASE`.
+- Evitar el uso de `var`, preferir `let` y `const`.
+- Usar funciones flecha (`=>`) siempre que sea posible.
+- Documentar funciones y clases con comentarios JSDoc.
+- Diseñar y codificar orientados al desacoplamiento.
+- Aplicar tipado estricto (para typescript).
+
+**Java:** Seguir el Google Java Style Guide.
+- Usar `camelCase` para métodos y variables.
+- Usar `PascalCase` para clases e interfaces.
+- Agrupar paquetes de forma coherente y ordenada (`com.empresa.proyecto.modulo`).
+- Usar anotaciones correctamente (`@Override`, `@Autowired`, etc.).
+- Seguir prácticas de desarrollo recomendadas por **Spring Boot** como la inyección de dependencias, uso de DTOs, controladores REST, etc.
