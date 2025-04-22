@@ -16,32 +16,67 @@ En Galaxia Wonder hemos adoptado una serie de herramientas tanto familiares como
         <tr>
             <td>UXPressia</td>
             <td><strong>UX/UI Design:</strong> Artefactos de UX</td>
-            <td><a src="https://uxpressia.com/">UXPressia Web Application</a></td>
+            <td><a href="https://uxpressia.com/" target="_blank">UXPressia Web Application</a></td>
         </tr>
         <tr>
             <td>Miro</td>
             <td><strong>UX/UI Design:</strong> As-Is & To-Be Scenario Mapping</td>
-            <td><a src="https://miro.com/es/app/">Descargar Miro</a></td>
+            <td><a href="https://miro.com/es/app/" target="_blank">Descargar Miro</a></td>
         </tr>
         <tr>
             <td>Figma</td>
             <td><strong>UX/UI Design:</strong> Wireframes, Mockups & Prototyping</td>
-            <td><a src="https://www.figma.com/es-la/downloads/">Descargar Figma</a></td>
+            <td><a href="https://www.figma.com/es-la/downloads/" target="_blank">Descargar Figma</a></td>
         </tr>
         <tr>
             <td>LucidChart</td>
             <td><strong>UX/UI Design:</strong> Wireflows & Userflows</td>
-            <td><a src="https://www.lucidchart.com/">LucidChart Web</a></td>
+            <td><a href="https://www.lucidchart.com/" target="_blank">LucidChart Web</a></td>
         </tr>
         <tr>
             <td>Vertabelo</td>
             <td><strong>Software Architecture Design:</strong> Database Diagram</td>
-            <td><a src="https://vertabelo.com/">Vertabelo Web</a></td>
+            <td><a href="https://vertabelo.com/" target="_blank">Vertabelo Web</a></td>
         </tr>
         <tr>
             <td>PlantUML</td>
             <td><strong>Software Architecture Design:</strong> UML y C4 Model</td>
-            <td><a src="https://plantuml.com/es/">PlantUML Web</a></td>
+            <td><a href="https://plantuml.com/es/" target="_blank">PlantUML Web</a></td>
+        </tr>
+        <tr>
+            <td>VSCode</td>
+            <td><strong>IDE:</strong> Editor de código ligero y versátil para múltiples lenguajes</td>
+            <td><a href="https://code.visualstudio.com/" target="_blank">Descargar VSCode</a></td>
+        </tr>
+        <tr>
+            <td>WebStorm</td>
+            <td><strong>IDE:</strong> Desarrollo especializado en JavaScript y frameworks modernos</td>
+            <td><a href="https://www.jetbrains.com/webstorm/" target="_blank">WebStorm Web</a></td>
+        </tr>
+        <tr>
+            <td>IntelliJ IDEA</td>
+            <td><strong>IDE:</strong> Desarrollo en Java y tecnologías enterprise</td>
+            <td><a href="https://www.jetbrains.com/idea/" target="_blank">IntelliJ IDEA Web</a></td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td><strong>Lenguaje de Programación:</strong> Backend robusto y multiplataforma</td>
+            <td><a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank">Descargar Java</a></td>
+        </tr>
+        <tr>
+            <td>Node.js</td>
+            <td><strong>Entorno de Ejecución:</strong> JavaScript del lado del servidor</td>
+            <td><a href="https://nodejs.org/" target="_blank">Descargar Node.js</a></td>
+        </tr>
+        <tr>
+            <td>npm</td>
+            <td><strong>Gestor de Paquetes:</strong> Manejo de dependencias para proyectos JS</td>
+            <td><a href="https://www.npmjs.com/" target="_blank">Sitio de npm</a></td>
+        </tr>
+        <tr>
+            <td>Angular</td>
+            <td><strong>Framework:</strong> Desarrollo de aplicaciones web SPA con TypeScript</td>
+            <td><a href="https://angular.io/" target="_blank">Angular Web</a></td>
         </tr>
     </tbody>
 </table>
