@@ -78,6 +78,11 @@ En Galaxia Wonder hemos adoptado una serie de herramientas tanto familiares como
             <td><strong>Framework:</strong> Desarrollo de aplicaciones web SPA con TypeScript</td>
             <td><a href="https://angular.io/" target="_blank">Angular Web</a></td>
         </tr>
+        <tr>
+            <td>Spring Boot</td>
+            <td><strong>Proyecto del Framework Spring:</strong> Desarrollo de APIs RESTful y aplicaciones backend en Java con configuración mínima</td>
+            <td><a href="https://spring.io/projects/spring-boot" target="_blank">Spring Boot Web</a></td>
+        </tr>
     </tbody>
 </table>
 
