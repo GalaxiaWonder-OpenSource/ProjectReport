@@ -51,6 +51,8 @@ Se mide a través del los sobrecostos del expediente técnico.
 
 A la gran mayoría de contratistas que realizan expedientes técnicos.
 
+<div style="page-break-before: always;"></div>
+
 ### 1.2.2 Lean UX Process.
 
 #### 1.2.2.1. Lean UX Problem Statements.
@@ -108,7 +110,11 @@ Consideraremos que el problema está resuelto cuando estas pequeñas empresas o 
 * Creación de ajustes contractuales
 * Creación de plantillas métricas
 
+<div style="page-break-before: always;"></div>
+
 #### 1.2.2.3. Lean UX Hypothesis Statements.
+
+Hemos formulado como equipo las siguientes hipótesis orientadas a probar las distintas funcionalidades que hemos obtenido como parte del Lean UX Process:
 
 * Creemos que lograremos llegar al 3% de las empresas consultoras de obra de Lima Metropolitana en 3 años si Víctor alcanza sentir control y dominio del sistema con documentación de funcionalidades
 * Creemos que lograremos  llegar al 3% de las empresas consultoras de obra de Lima Metropolitana en 3 años si Ana Ramos alcanza mejorar la comunicación y coordinación con distintas áreas con ficheros para documentos compartidos 
@@ -124,6 +130,8 @@ Consideraremos que el problema está resuelto cuando estas pequeñas empresas o 
 * Creemos que lograremos reducir en 50% el tiempo que toma replanificar ante errores de planificación si Carlos Mendoza alcanza solicitar ajustes contractuales de forma oportuna con solicitud de ajustes contractuales.
 * Creemos que lograremos llegar al 3% de las empresas consultoras de obra de Lima Metropolitana en 3 añossi Carlos Mendoza alcanza control de seguimiento para verificar la planificación de la obra con resumen de detalles clave.
 * Creemos que lograremos llegar al 3% de las empresas consultoras de obra de Lima Metropolitana en 3 años si Carlos Mendoza alcanza control de seguimiento para verificar la planificación de la obra con permisos de acceso al cliente.
+
+<div style="page-break-before: always;"></div>
 
 #### 1.2.2.4. Lean UX Canvas.
 
