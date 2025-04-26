@@ -36,7 +36,15 @@
         <tr>
             <td>1.0</td>
             <td>25/04/2025</td>
-            <td>Arturo Jiménez</td>
+            <td>
+                <ul>
+                    <li>Aponte Cruzado, Andrea Marielena</li>
+                    <li>León Vivas, Fabrizio Amir</li>
+                    <li>López Acuña, Mario Joaquín</li>
+                    <li>Orozco Torres, Álvaro Joaquín</li>
+                    <li>Reaño Delgadillo, Henry Paolo</li>
+                </ul>
+            </td>
             <td>
                 <strong>Adición de secciones:</strong><br>
                 <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">Registro de Versiones del Informe</p>
@@ -122,6 +130,43 @@
 <div style="page-break-before: always;"></div>
 
 # Project Report Collaboration Insights
+
+El desarrollo del informe se realizó en un repositorio dedicado en la organización de GitHub. Enlace: [https://github.com/GalaxiaWonder-OpenSource/ProjectReport](https://github.com/GalaxiaWonder-OpenSource/ProjectReport)
+
+Se presenta una tabla que especifica qué miembro del equipo se corresponde con qué usuario de GitHub.
+
+<table cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th>Team Member <br>(Last Name, First Name)</th>
+    <th>GitHub Username</th>
+  </tr>
+  <tr>
+    <td>Aponte Cruzado, Andrea Marielena</td>
+    <td>iconicmiau</td>
+  </tr>
+  <tr>
+    <td>León Vivas, Fabrizio Amir</td>
+    <td>CodyLionVivo</td>
+  </tr>
+  <tr>
+    <td>López Acuña, Mario Joaquín</td>
+    <td>tertegen</td>
+  </tr>
+  <tr>
+    <td>Orozco Torres, Álvaro Joaquín</td>
+    <td>L1LZ4Z</td>
+  </tr>
+  <tr>
+    <td>Reaño Delgadillo, Henry Paolo</td>
+    <td>PaoloHRRR</td>
+  </tr>
+</table>
+
+**TB1**
+
+Para este entregable que ha elaborado el informe desde el capitulo I hasta el capítulo V en base al proceso de investigación realizado en equipo y diseño del sistema (integralmente).
+
+<img src="./img/insight_tb1.png">
 
 <div style="page-break-before: always;"></div>
 
@@ -7320,7 +7365,7 @@ Debido a la presión por completar el Sprint 1 a tiempo, no se manejó a gran de
 
 #### 5.2.1.3. Sprint Backlog 1
 
-<img src="./../img/chapter5/Sprint1/sprintbacklog.png">
+<img src="./img/chapter5/Sprint1/sprintbacklog.png">
 
 <a href="https://galaxiawonder.youtrack.cloud/dashboard?id=213-2" target="_blank">Ver tablero en YouTrack</a>
 
@@ -7743,7 +7788,7 @@ Se presenta a modo de evidencia un video y capturas de las principales vistas im
 
 Contiene el formulario de contacto con una frase llamativa
 
-<img src="./../img/chapter5/Sprint1/execution1.png">
+<img src="./img/chapter5/Sprint1/execution1.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -7751,7 +7796,7 @@ Contiene el formulario de contacto con una frase llamativa
 
 Contiene información sobre nuestra startup
 
-<img src="./../img/chapter5/Sprint1/execution2.png">
+<img src="./img/chapter5/Sprint1/execution2.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -7759,7 +7804,7 @@ Contiene información sobre nuestra startup
 
 Detalla, para grupo por segmento, cuales son las principales funcionalidades del producto
 
-<img src="./../img/chapter5/Sprint1/execution3.png">
+<img src="./img/chapter5/Sprint1/execution3.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -7767,7 +7812,7 @@ Detalla, para grupo por segmento, cuales son las principales funcionalidades del
 
 Se presentan los planes de suscripción (los diseñados provisionalmente)
 
-<img src="./../img/chapter5/Sprint1/execution4.png">
+<img src="./img/chapter5/Sprint1/execution4.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -7775,7 +7820,7 @@ Se presentan los planes de suscripción (los diseñados provisionalmente)
 
 Junto al footer con información de contacto, se presentan testimonios de usuarios
 
-<img src="./../img/chapter5/Sprint1/execution5.png">
+<img src="./img/chapter5/Sprint1/execution5.png">
 
 <div style="page-break-after: always;"></div>
 
