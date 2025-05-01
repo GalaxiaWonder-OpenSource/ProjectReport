@@ -57,6 +57,53 @@
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
+Para el Sprint 2, se proyectan actividades como la segunda versión del Landing Page y la implementación de las vistas del Web Application.
+
+<table cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th>Team Member <br>(Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Landing Page<br>Leader (L) / Collaborator (C)</th>
+    <th>Web Application UX/UI<br>Leader (L) / Collaborator (C)</th>
+    <th>Web Application DDD Architecture<br>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Aponte Cruzado, Andrea Marielena</td>
+    <td>iconicmiau</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>León Vivas, Fabrizio Amir</td>
+    <td>CodyLionVivo</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>López Acuña, Mario Joaquín</td>
+    <td>tertegen</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Orozco Torres, Álvaro Joaquín</td>
+    <td>L1LZ4Z</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Reaño Delgadillo, Henry Paolo</td>
+    <td>PaoloHRRR</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
 #### 5.2.2.3. Sprint Backlog 2
 
 #### 5.2.2.4. Development Evidence for Sprint Review
