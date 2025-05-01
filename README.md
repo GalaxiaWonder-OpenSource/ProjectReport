@@ -175,76 +175,82 @@ Para este entregable que ha elaborado el informe desde el capitulo I hasta el ca
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Student Outcome](#student-outcome)
-- [1.1. Startup Profile](#11-startup-profile)
-  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-- [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2 Lean UX Process](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
 - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-  - [2.3.1. User Personas](#231-user-personas)
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
-- [4.1. Style Guidelines](#41-style-guidelines)
-  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-- [4.2. Information Architecture](#42-information-architecture)
-  - [4.2.1. Organization Systems](#421-organization-systems)
-  - [4.2.2. Labeling Systems](#422-labeling-systems)
-  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-  - [4.2.4. Searching Systems](#424-searching-systems)
-  - [4.2.5. Navigation Systems](#425-navigation-systems)
-- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-- [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-  - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-  - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-  - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-  - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
-- [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-- [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-  - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-  - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-  - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-- [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-  - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.7.2. Class Dictionary](#472-class-dictionary)
-- [4.8. Database Design](#48-database-design)
-  - [4.8.1. Database Diagram](#481-database-diagram)
-- [5.1. Software Configuration Management](#51-software-configuration-management)
-  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-  - [5.1.2. Source Code Management](#512-source-code-management)
-  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-  - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-- [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-  - [5.2.1. Sprint Planning 1](#521-sprint-planning-1)
-  - [5.2.2. Aspect Leaders and Collaborators](#522-aspect-leaders-and-collaborators)
-  - [5.2.3. Sprint Backlog 1](#523-sprint-backlog-1)
-  - [5.2.4. Development Evidence for Sprint Review](#524-development-evidence-for-sprint-review)
-  - [5.2.5. Execution Evidence for Sprint Review](#525-execution-evidence-for-sprint-review)
-  - [5.2.6. Services Documentation Evidence for Sprint Review](#526-services-documentation-evidence-for-sprint-review)
-  - [5.2.7. Software Deployment Evidence for Sprint Review](#527-software-deployment-evidence-for-sprint-review)
-  - [5.2.8. Team Collaboration Insights during Sprint](#528-team-collaboration-insights-during-sprint)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+    - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.7.2. Class Dictionary](#472-class-dictionary)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagram](#481-database-diagram)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide and Coding Conventions](#513-source-code-style-guide-and-coding-conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders & Collaborators](#5212-aspect-leaders--collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 
 
@@ -357,7 +363,7 @@ Visión: Nuestro objetivo es convertirnos en la plataforma de mayor confianza pa
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;"><img style="width: 240px; height: auto; border-radius: 25%;" src="./img/chapter1/Mario.png" alt="Foto de Mario Lopez"></td>
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Lopez Acuña, Mario Joaquín</td>
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">202116250</td>
-                <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingenería de Software</td>
+                <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingeniería de Software</td>
                 <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal;">
                     <ul>
                         <li>Diseño web</li>
@@ -371,7 +377,7 @@ Visión: Nuestro objetivo es convertirnos en la plataforma de mayor confianza pa
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;"><img style="width: 240px; height: auto; border-radius: 25%;" src="./img/chapter1/Alvaro.png" alt="Foto de Álvaro Orozco"></td>
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Orozco Torres, Álvaro Joaquín</td>
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">202220783</td>
-                <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingenería de Software</td>
+                <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingeniería de Software</td>
                 <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal;">
                     <ul>
                         <li>Programación con Python y JavaScript</li>
@@ -386,7 +392,7 @@ Visión: Nuestro objetivo es convertirnos en la plataforma de mayor confianza pa
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;"><img style="width: 240px; height: auto; border-radius: 25%;" src="./img/chapter1/Henry.png" alt="Foto de Henry Reaño"></td>
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Reaño Delgadillo, Henry Paolo</td>
                 <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">20221e247</td>
-                <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingenería de Software</td>
+                <td style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2; color: #333;">Ingeniería de Software</td>
                 <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal;">
                     <ul>
                         <li>Conocimiento en sistemas operativos tipo Linux</li>
@@ -2438,7 +2444,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
         <td>US015</td>
         <td>Seleccionar especialidad del miembro del equipo</td>
         <td>Como contratista quiero asignar la especialidad técnica del miembro del equipo si su rol es especialista para organizar correctamente al equipo por áreas de conocimiento y asignación de tareas</td>
-        <td><strong>Scenario: Visualizar campo de especialidad al seleccionar rol 'especialista'</strong><br>Given el contratista está en el formulario de añadir miembro<br>When selecciona el rol 'especialista'<br>Then el sistema debe mostrar un campo para seleccionar una especialidad técnica<br><br><strong>Scenario: Ocultar campo de especialidad al seleccionar rol 'COORDINATOR'</strong><br>Given el contratista está en el formulario de añadir miembro<br>When selecciona el rol 'COORDINATOR'<br>Then el sistema no debe mostrar el campo de especialidad<br><br><strong>Scenario: Intento de confirmar sin seleccionar especialidad</strong><br>Given el contratista ha seleccionado el rol 'especialista'<br>Given no ha seleccionado una especialidad<br>When confirma la incorporación del miembro<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando que la especialidad es obligatoria para eespecialistaas<br><br></td>
+        <td><strong>Scenario: Visualizar campo de especialidad al seleccionar rol 'especialista'</strong><br>Given el contratista está en el formulario de añadir miembro<br>When selecciona el rol 'especialista'<br>Then el sistema debe mostrar un campo para seleccionar una especialidad técnica<br><br><strong>Scenario: Ocultar campo de especialidad al seleccionar rol 'COORDINATOR'</strong><br>Given el contratista está en el formulario de añadir miembro<br>When selecciona el rol 'COORDINATOR'<br>Then el sistema no debe mostrar el campo de especialidad<br><br><strong>Scenario: Intento de confirmar sin seleccionar especialidad</strong><br>Given el contratista ha seleccionado el rol 'especialista'<br>Given no ha seleccionado una especialidad<br>When confirma la incorporación del miembro<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando que la especialidad es obligatoria para especialistas<br><br></td>
         <td>EP02</td>
     </tr>
     <tr>
@@ -2557,7 +2563,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
         <td>US032</td>
         <td>Visualizar lista de tareas del cronograma por hito</td>
         <td>Como miembro del proyecto quiero consultar las tareas planificadas dentro de los hitos del cronograma del proyecto para entender el trabajo técnico pendiente o en curso según la planificación del proyecto</td>
-        <td><strong>Scenario: Visualizar tareas si es contratista o coordinador</strong><br>Given el usuario es el contratista o un coordinador del proyecto<br>When expande un hito del cronograma<br>Then el sistema debe mostrar todas las tareas asociadas a ese hito con detalles básicos como nombre, fecha límite y estado actual<br><br><strong>Scenario: Visualizar solo tareas asignadas si es eespecialistaa</strong><br>Given el usuario es un eespecialistaa<br>When expande un hito del cronograma<br>Then el sistema debe mostrar solo las tareas asignadas a ese eespecialistaa con detalles básicos como nombre, fecha límite y estado actual<br><br><strong>Scenario: Mostrar opción de añadir tarea solo si es contratista</strong><br>Given el usuario es el contratista<br>When expande un hito del cronograma<br>Then el sistema debe mostrar una opción para añadir una nueva tarea<br><br><strong>Scenario: Visualizar opción para editar tarea solo si es contratista</strong><br>Given el usuario es el contratista del proyecto<br>When visualiza la lista de tareas<br>Then el sistema debe mostrar una opción para editar el nombre junto a cada tarea<br><br><strong>Scenario: Visualizar opción de eliminar si es contratista</strong><br>Given el usuario es el contratista del proyecto<br>When visualiza la lista de tareas<br>Then el sistema debe mostrar la opción para eliminar junto a cada tarea<br><br></td>
+        <td><strong>Scenario: Visualizar tareas si es contratista o coordinador</strong><br>Given el usuario es el contratista o un coordinador del proyecto<br>When expande un hito del cronograma<br>Then el sistema debe mostrar todas las tareas asociadas a ese hito con detalles básicos como nombre, fecha límite y estado actual<br><br><strong>Scenario: Visualizar solo tareas asignadas si es especialista</strong><br>Given el usuario es un especialista<br>When expande un hito del cronograma<br>Then el sistema debe mostrar solo las tareas asignadas a ese especialista con detalles básicos como nombre, fecha límite y estado actual<br><br><strong>Scenario: Mostrar opción de añadir tarea solo si es contratista</strong><br>Given el usuario es el contratista<br>When expande un hito del cronograma<br>Then el sistema debe mostrar una opción para añadir una nueva tarea<br><br><strong>Scenario: Visualizar opción para editar tarea solo si es contratista</strong><br>Given el usuario es el contratista del proyecto<br>When visualiza la lista de tareas<br>Then el sistema debe mostrar una opción para editar el nombre junto a cada tarea<br><br><strong>Scenario: Visualizar opción de eliminar si es contratista</strong><br>Given el usuario es el contratista del proyecto<br>When visualiza la lista de tareas<br>Then el sistema debe mostrar la opción para eliminar junto a cada tarea<br><br></td>
         <td>EP04</td>
     </tr>
     <tr>
@@ -2605,7 +2611,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
     <tr>
         <td>US039</td>
         <td>Filtrar responsables por especialidad afín a la tarea</td>
-        <td>Como contratista quiero activar un filtro para facilitar la asignación de tareas a eespecialistaas compatibles para agilizar la asignación técnica de tareas evitando errores por desalineación de especialidades</td>
+        <td>Como contratista quiero activar un filtro para facilitar la asignación de tareas a especialistas compatibles para agilizar la asignación técnica de tareas evitando errores por desalineación de especialidades</td>
         <td><strong>Scenario: Visualizar opción para activar filtro por especialidad</strong><br>Given el contratista accede al formulario de asignación de responsable<br>When se carga la interfaz de selección<br>Then el sistema debe mostrar un checkbox o switch etiquetado como 'Filtrar por especialidad afín'<br><br><strong>Scenario: Alternar estado del filtro</strong><br>Given el checkbox o switch está visible en la interfaz<br>When el contratista activa o desactiva el filtro<br>Then el sistema debe registrar el cambio de estado del filtro y actualizar la lista mostrada<br><br><strong>Scenario: Filtrar lista al activar el filtro</strong><br>Given el filtro está activado<br>When se muestra la lista de miembros del equipo<br>Then el sistema debe mostrar solo a los miembros cuya especialidad coincida con la de la tarea<br><br></td>
         <td>EP04</td>
     </tr>
@@ -2647,29 +2653,29 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
     <tr>
         <td>US045</td>
         <td>Visualizar opción de entregar una tarea</td>
-        <td>Como eespecialistaa quiero saber si tiene permitido enviar la entrega de una tarea que le fue asignada para acceder fácilmente al formulario de entrega solo cuando corresponde</td>
+        <td>Como especialista quiero saber si tiene permitido enviar la entrega de una tarea que le fue asignada para acceder fácilmente al formulario de entrega solo cuando corresponde</td>
         <td><strong>Scenario: Mostrar opción de entrega si es responsable</strong><br>Given el usuario es el responsable asignado de la tarea<br>Given el estado de la tarea es PENDING<br>When visualiza los detalles de la tarea<br>Then el sistema debe mostrar un botón o enlace para iniciar la entrega de la tarea<br><br><strong>Scenario: Ocultar opción si no es responsable</strong><br>Given el usuario no es el responsable de la tarea<br>When visualiza los detalles de la tarea<br>Then el sistema no debe mostrar la opción para enviar entrega<br><br></td>
         <td>EP04</td>
     </tr>
     <tr>
         <td>US046</td>
         <td>Adjuntar archivos en la entrega de tarea</td>
-        <td>Como eespecialistaa quiero subir documentos técnicos o evidencias como parte de la entrega de una tarea para centralizar la documentación técnica en el workspace de la organización y asegurar trazabilidad</td>
+        <td>Como especialista quiero subir documentos técnicos o evidencias como parte de la entrega de una tarea para centralizar la documentación técnica en el workspace de la organización y asegurar trazabilidad</td>
         <td><strong>Scenario: Visualizar input para adjuntar archivos</strong><br>Given el responsable accede al formulario de entrega de tarea<br>When se carga la interfaz<br>Then el sistema debe mostrar un campo para subir archivos desde el dispositivo<br><br><strong>Scenario: Subir archivos al workspace y generar referencia en la entrega</strong><br>Given el responsable ha seleccionado uno o más archivos válidos<br>When confirma la selección<br>Then el sistema debe subir automáticamente los archivos al workspace de la organización<br>Then crear referencias de tipo TASK_SUBMISSION para cada archivo<br>Then guardar en el entregable solo las referencias generadas<br>Then mostrar un mensaje de éxito<br><br><strong>Scenario: Rechazar archivos no válidos</strong><br>Given el responsable ha seleccionado archivos con formato no permitido<br>When intenta subirlos<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando los formatos válidos (por ejemplo: PDF, DOCX, JPG, PNG)<br><br></td>
         <td>EP04</td>
     </tr>
     <tr>
         <td>US047</td>
         <td>Escribir notas en la entrega de tarea</td>
-        <td>Como eespecialistaa quiero incluir observaciones, comentarios técnicos o explicaciones junto a los archivos entregados para facilitar la comprensión y revisión de la entrega por parte del coordinador o contratista</td>
+        <td>Como especialista quiero incluir observaciones, comentarios técnicos o explicaciones junto a los archivos entregados para facilitar la comprensión y revisión de la entrega por parte del coordinador o contratista</td>
         <td><strong>Scenario: Visualizar campo de notas</strong><br>Given el responsable accede al formulario de entrega de tarea<br>When se carga la interfaz<br>Then el sistema debe mostrar un campo de texto para ingresar notas o comentarios adicionales<br><br><strong>Scenario: Permitir entrega con o sin notas</strong><br>Given el responsable está completando la entrega<br>When envía la entrega sin ingresar notas<br>Then el sistema debe permitir continuar la acción sin mostrar advertencias<br><br><strong>Scenario: Guardar notas junto al entregable</strong><br>Given el responsable ha escrito comentarios técnicos en el campo de notas<br>When confirma la entrega<br>Then el sistema debe almacenar las notas como parte del entregable de la tarea<br><br></td>
         <td>EP04</td>
     </tr>
     <tr>
         <td>US048</td>
         <td>Enviar entrega de tarea</td>
-        <td>Como eespecialistaa quiero finalizar el proceso de entrega de una tarea con los elementos completados para marcar la tarea como enviada para su revisión, asegurando trazabilidad y control de avances</td>
-        <td><strong>Scenario: Confirmar entrega con archivos válidos</strong><br>Given el eespecialistaa ha adjuntado al menos una referencia a un archivo<br>When confirma la entrega<br>Then el sistema debe registrar un nuevo TaskSubmission<br>Then cambiar el estado de la tarea a SUBMITTED<br>Then mostrar un mensaje de confirmación<br><br><strong>Scenario: Evitar envío si no hay archivos adjuntos</strong><br>Given el eespecialistaa no ha adjuntado ninguna referencia a archivo<br>When intenta confirmar la entrega<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando que se requiere al menos un archivo<br><br></td>
+        <td>Como especialista quiero finalizar el proceso de entrega de una tarea con los elementos completados para marcar la tarea como enviada para su revisión, asegurando trazabilidad y control de avances</td>
+        <td><strong>Scenario: Confirmar entrega con archivos válidos</strong><br>Given el especialista ha adjuntado al menos una referencia a un archivo<br>When confirma la entrega<br>Then el sistema debe registrar un nuevo TaskSubmission<br>Then cambiar el estado de la tarea a SUBMITTED<br>Then mostrar un mensaje de confirmación<br><br><strong>Scenario: Evitar envío si no hay archivos adjuntos</strong><br>Given el especialista no ha adjuntado ninguna referencia a archivo<br>When intenta confirmar la entrega<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando que se requiere al menos un archivo<br><br></td>
         <td>EP04</td>
     </tr>
     <tr>
@@ -2689,15 +2695,15 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
     <tr>
         <td>US051</td>
         <td>Rechazar entrega de tarea con retroalimentación</td>
-        <td>Como coordinador o contratista quiero marcar una entrega como no aceptada y proporcionar retroalimentación clara al eespecialistaa para garantizar la calidad del trabajo entregado y orientar mejoras en una nueva entrega</td>
+        <td>Como coordinador o contratista quiero marcar una entrega como no aceptada y proporcionar retroalimentación clara al especialista para garantizar la calidad del trabajo entregado y orientar mejoras en una nueva entrega</td>
         <td><strong>Scenario: Mostrar campo de retroalimentación al rechazar</strong><br>Given el usuario accede a una tarea en estado SUBMITTED<br>When selecciona la opción para rechazar la entrega<br>Then el sistema debe mostrar un campo obligatorio para escribir retroalimentación<br><br><strong>Scenario: Confirmar rechazo con retroalimentación</strong><br>Given el usuario ha escrito retroalimentación<br>When confirma el rechazo<br>Then el sistema debe cambiar el estado de la tarea a REJECTED<br>Then guardar la nota y el usuario que realizó la revisión<br>Then mostrar un mensaje de confirmación<br><br><strong>Scenario: Impedir rechazo sin retroalimentación</strong><br>Given el usuario ha seleccionado rechazar una entrega<br>When intenta confirmar sin escribir retroalimentación<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando que el campo de retroalimentación es obligatorio<br><br></td>
         <td>EP04</td>
     </tr>
     <tr>
         <td>US052</td>
         <td>Volver a enviar una tarea rechazada</td>
-        <td>Como eespecialistaa quiero realizar una nueva entrega luego de recibir retroalimentación en una revisión anterior para permitir el perfeccionamiento del trabajo técnico y el avance del proyecto tras correcciones</td>
-        <td><strong>Scenario: Visualizar opción de reenviar tarea solo si fue rechazada</strong><br>Given el usuario es el responsable de la tarea<br>Given la tarea está en estado REJECTED<br>When accede a los detalles de la tarea<br>Then el sistema debe mostrar la opción para enviar una nueva entrega<br><br><strong>Scenario: Adjuntar archivos nuevos desde el dispositivo</strong><br>Given el responsable accede al formulario de nueva entrega<br>When se carga la interfaz<br>Then el sistema debe mostrar un input para subir archivos desde el dispositivo<br><br><strong>Scenario: Subir archivos al workspace y referenciarlos en la nueva entrega</strong><br>Given el eespecialistaa ha seleccionado archivos válidos<br>When confirma la subida<br>Then el sistema debe subir automáticamente los archivos al workspace de la organización<br>Then crear referencias de tipo TASK_SUBMISSION para cada archivo<br>Then incluir las referencias en la nueva entrega de tarea<br><br><strong>Scenario: Realizar nueva entrega y actualizar estado</strong><br>Given el eespecialistaa ha completado la nueva entrega con archivos adjuntos<br>When confirma el envío<br>Then el sistema debe guardar la entrega con sus comentarios y referencias<br>Then actualizar el estado de la tarea a SUBMITTED<br>Then mostrar un mensaje de confirmación<br><br><strong>Scenario: Impedir reenvío si no hay nuevos archivos</strong><br>Given el eespecialistaa intenta reenviar la tarea<br>When no ha adjuntado ningún archivo<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando que debe adjuntar al menos un archivo nuevo<br><br></td>
+        <td>Como especialista quiero realizar una nueva entrega luego de recibir retroalimentación en una revisión anterior para permitir el perfeccionamiento del trabajo técnico y el avance del proyecto tras correcciones</td>
+        <td><strong>Scenario: Visualizar opción de reenviar tarea solo si fue rechazada</strong><br>Given el usuario es el responsable de la tarea<br>Given la tarea está en estado REJECTED<br>When accede a los detalles de la tarea<br>Then el sistema debe mostrar la opción para enviar una nueva entrega<br><br><strong>Scenario: Adjuntar archivos nuevos desde el dispositivo</strong><br>Given el responsable accede al formulario de nueva entrega<br>When se carga la interfaz<br>Then el sistema debe mostrar un input para subir archivos desde el dispositivo<br><br><strong>Scenario: Subir archivos al workspace y referenciarlos en la nueva entrega</strong><br>Given el especialista ha seleccionado archivos válidos<br>When confirma la subida<br>Then el sistema debe subir automáticamente los archivos al workspace de la organización<br>Then crear referencias de tipo TASK_SUBMISSION para cada archivo<br>Then incluir las referencias en la nueva entrega de tarea<br><br><strong>Scenario: Realizar nueva entrega y actualizar estado</strong><br>Given el especialista ha completado la nueva entrega con archivos adjuntos<br>When confirma el envío<br>Then el sistema debe guardar la entrega con sus comentarios y referencias<br>Then actualizar el estado de la tarea a SUBMITTED<br>Then mostrar un mensaje de confirmación<br><br><strong>Scenario: Impedir reenvío si no hay nuevos archivos</strong><br>Given el especialista intenta reenviar la tarea<br>When no ha adjuntado ningún archivo<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando que debe adjuntar al menos un archivo nuevo<br><br></td>
         <td>EP04</td>
     </tr>
     <tr>
@@ -2711,7 +2717,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
         <td>US054</td>
         <td>Visualizar lista de reuniones del cronograma por hito</td>
         <td>Como miembro del proyecto quiero consultar las reuniones planificadas dentro de los hitos del cronograma del proyecto para entender la agenda de coordinación del equipo según el avance por etapas del proyecto</td>
-        <td><strong>Scenario: Visualizar reuniones si es contratista o coordinador</strong><br>Given el usuario es el contratista o un coordinador del proyecto<br>When expande un hito del cronograma<br>Then el sistema debe mostrar todas las reuniones asociadas a ese hito con detalles como tema, fecha, hora y convocante<br><br><strong>Scenario: Visualizar solo reuniones en las que participa si es eespecialistaa</strong><br>Given el usuario es un eespecialistaa<br>When expande un hito del cronograma<br>Then el sistema debe mostrar solo las reuniones en las que el eespecialistaa está incluido como participante<br>Then cada reunión debe mostrar tema, fecha y hora<br><br><strong>Scenario: Mostrar opción de añadir reunión solo si es contratista o coordinador</strong><br>Given el usuario es el contratista o un coordinador<br>When expande un hito del cronograma<br>Then el sistema debe mostrar una opción para añadir una nueva reunión<br><br><strong>Scenario: Visualizar opción para editar reunión solo si es contratista o convocante</strong><br>Given el usuario es el contratista o es quien convocó la reunión<br>When visualiza la lista de reuniones<br>Then el sistema debe mostrar una opción para editar junto a cada reunión editable por el usuario<br><br><strong>Scenario: Visualizar opción de eliminar reunión solo si es contratista</strong><br>Given el usuario es el contratista del proyecto<br>When visualiza la lista de reuniones<br>Then el sistema debe mostrar una opción para eliminar junto a cada reunión<br><br></td>
+        <td><strong>Scenario: Visualizar reuniones si es contratista o coordinador</strong><br>Given el usuario es el contratista o un coordinador del proyecto<br>When expande un hito del cronograma<br>Then el sistema debe mostrar todas las reuniones asociadas a ese hito con detalles como tema, fecha, hora y convocante<br><br><strong>Scenario: Visualizar solo reuniones en las que participa si es especialista</strong><br>Given el usuario es un especialista<br>When expande un hito del cronograma<br>Then el sistema debe mostrar solo las reuniones en las que el especialista está incluido como participante<br>Then cada reunión debe mostrar tema, fecha y hora<br><br><strong>Scenario: Mostrar opción de añadir reunión solo si es contratista o coordinador</strong><br>Given el usuario es el contratista o un coordinador<br>When expande un hito del cronograma<br>Then el sistema debe mostrar una opción para añadir una nueva reunión<br><br><strong>Scenario: Visualizar opción para editar reunión solo si es contratista o convocante</strong><br>Given el usuario es el contratista o es quien convocó la reunión<br>When visualiza la lista de reuniones<br>Then el sistema debe mostrar una opción para editar junto a cada reunión editable por el usuario<br><br><strong>Scenario: Visualizar opción de eliminar reunión solo si es contratista</strong><br>Given el usuario es el contratista del proyecto<br>When visualiza la lista de reuniones<br>Then el sistema debe mostrar una opción para eliminar junto a cada reunión<br><br></td>
         <td>EP05</td>
     </tr>
     <tr>
@@ -3088,7 +3094,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
     <tr>
         <td>US108</td>
         <td>Notificar al responsable cuando se acerca la fecha límite de una tarea</td>
-        <td>Como eespecialistaa del proyecto quiero recibir un recordatorio oportuno antes de la fecha límite de una tarea para evitar retrasos y facilitar la entrega puntual del trabajo técnico</td>
+        <td>Como especialista del proyecto quiero recibir un recordatorio oportuno antes de la fecha límite de una tarea para evitar retrasos y facilitar la entrega puntual del trabajo técnico</td>
         <td><strong>Scenario: Enviar notificación como recordatorio de vencimiento</strong><br>Given una tarea tiene un responsable y una fecha límite registrada<br>Given y faltan 48 horas o menos para la fecha de vencimiento<br>When se cumple la condición temporal<br>Then el sistema debe generar una notificación al responsable de la tarea<br>Then la categoría debe ser REMINDER<br>Then el mensaje debe indicar que la tarea está próxima a vencer, con su nombre y fecha límite<br>Then el target de la notificación debe ser la entidad TASK correspondiente<br><br></td>
         <td>EP13</td>
     </tr>
@@ -3433,7 +3439,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
     <tr><td>TS59</td><td>Eliminar reunión</td><td>Como Developer, quiero implementar un endpoint que permita eliminar una reunión registrada en un proyecto, para que los contratistas puedan gestionar las reuniones que ya no son necesarias.</td><td><br><br><strong>Scenario: Eliminar reunión exitosamente</strong><br>Given un contratista autorizado envía una solicitud DELETE al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/meetings/{meetingId}<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And la reunión debe ser eliminada del cronograma del proyecto<br>And el cuerpo de la respuesta debe incluir un mensaje "Reunión eliminada exitosamente"<br><br><strong>Scenario: Intentar eliminar una reunión inexistente</strong><br>Given el meetingId proporcionado no corresponde a ninguna reunión registrada en el proyecto<br>When se envía la solicitud DELETE<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Reunión no encontrada"<br><br><strong>Scenario: Intentar eliminar reunión de un proyecto inexistente</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto registrado<br>When se envía la solicitud DELETE<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP05</td></tr>
     <tr><td>TS60</td><td>Subir entregable de tarea</td><td>Como Developer, quiero implementar un endpoint que permita subir un entregable asociado a una tarea dentro de un proyecto, para que los contratistas puedan registrar avances y documentación de trabajo.</td><td><br><br><strong>Scenario: Subir entregable exitosamente</strong><br>Given un contratista autorizado envía una solicitud POST al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/tasks/{taskId}/deliverables<br>And el cuerpo de la solicitud contiene un archivo válido (formato permitido: PDF, DOCX, PPTX, etc.) y una descripción opcional del entregable<br>When el servidor procesa la solicitud<br>Then debe responder con un código 201 Created<br>And el cuerpo de la respuesta debe incluir los detalles del entregable subido, incluyendo su id, nombre, archivo y descripción (si proporcionada)<br><br><strong>Scenario: Enviar archivo inválido o no permitido</strong><br>Given el contratista intenta subir un archivo que no tiene el formato permitido o excede el límite de tamaño<br>When el servidor procesa la solicitud<br>Then debe responder con un código 400 Bad Request<br>And el cuerpo de la respuesta debe incluir un mensaje "Debe subir un archivo válido"<br><br><strong>Scenario: Subir entregable sin archivo</strong><br>Given el contratista intenta enviar la solicitud sin incluir un archivo en el cuerpo de la solicitud<br>When el servidor procesa la solicitud<br>Then debe responder con un código 400 Bad Request<br>And el cuerpo de la respuesta debe incluir un mensaje "Debe adjuntar un archivo de entregable"<br><br><strong>Scenario: Tarea no encontrada</strong><br>Given el taskId proporcionado no corresponde a ninguna tarea registrada en el proyecto<br>When se envía la solicitud POST<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Tarea no encontrada"<br><br><strong>Scenario: Proyecto no encontrado</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto existente<br>When se envía la solicitud POST<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP04</td></tr>
     <tr><td>TS61</td><td>Eliminar tarea</td><td>Como Developer, quiero implementar un endpoint que permita eliminar una tarea asociada a un proyecto, para que los contratistas puedan gestionar las actividades del proyecto eliminando tareas innecesarias o incorrectas.</td><td><br><br><strong>Scenario: Eliminar tarea exitosamente</strong><br>Given un contratista autorizado envía una solicitud DELETE al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/tasks/{taskId}<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And la tarea debe ser eliminada del proyecto<br>And el cuerpo de la respuesta debe incluir un mensaje "Tarea eliminada exitosamente"<br><br><strong>Scenario: Intentar eliminar tarea inexistente</strong><br>Given el taskId proporcionado no corresponde a ninguna tarea registrada en el proyecto<br>When se envía la solicitud DELETE<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Tarea no encontrada"<br><br><strong>Scenario: Intentar eliminar tarea de proyecto inexistente</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto registrado<br>When se envía la solicitud DELETE<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br><strong>Scenario: Eliminar tarea asociada a un entregable</strong><br>Given la tarea seleccionada tiene entregables asociados<br>When se elimina la tarea<br>Then el servidor debe responder con un mensaje adicional "Esta tarea tiene entregables asociados, ¿deseas eliminarlos también?"<br><br></td><td>EP04</td></tr>
-    <tr><td>SWR01</td><td>Cambiar segmento objetivo</td><td>Como visitante quiero contar con la opción de especificar qué tipo de visitante soy para obtener información relevante a mis propios intereses en el Landing Page</td><td><br><br><strong>Acceptance Criteria</strong><br><br>* Debe encontrarse en la parte superior del landing page, a simple vista<br><br>* Debe mostrar las opciones correspondientes a los segmentos entidad contratante y proyectista y eespecialistaa mediante nombres más comprensibles como "Miembro de organización consultora" y "Cliente"<br><br>* Al seleccionar una de las opciones, el contenido de la página debe ajustarse automáticamente a la opción correspondiente<br><br></td><td>EP12</td></tr>
+    <tr><td>SWR01</td><td>Cambiar segmento objetivo</td><td>Como visitante quiero contar con la opción de especificar qué tipo de visitante soy para obtener información relevante a mis propios intereses en el Landing Page</td><td><br><br><strong>Acceptance Criteria</strong><br><br>* Debe encontrarse en la parte superior del landing page, a simple vista<br><br>* Debe mostrar las opciones correspondientes a los segmentos entidad contratante y proyectista y especialista mediante nombres más comprensibles como "Miembro de organización consultora" y "Cliente"<br><br>* Al seleccionar una de las opciones, el contenido de la página debe ajustarse automáticamente a la opción correspondiente<br><br></td><td>EP12</td></tr>
     <tr><td>SWR02</td><td>Internacionalización</td><td>Como visitante quiero contar con internacionalización para adaptar el contenido de la Landing Page al idioma que entiendo mejor</td><td><br><br><strong>Acceptance Criteria</strong><br><br>* Al seleccionarlo, deben aparecer opciones todas las opciones de idioma<br><br>* Deben visualizarse los idiomas español e inglés<br><br>* Al seleccionar uno de los idiomas, el contenido de la página debe cambiar inmediatamente al idioma seleccionado<br><br></td><td>EP12</td></tr>
     <tr><td>SWR03</td><td>About Us</td><td>Como visitante quiero conocer más acerca del equipo detrás del producto para evaluar qué tan confiable es su origen</td><td><br><br><strong>Acceptance Criteria</strong><br><br>* Debe visualizarse el logo de la organización Galaxia Wonder<br><br>* Debe explicarse la misión de la organización<br><br>* Debe explicarse la visión de la organización<br><br>* Deben mencionarse los valores de la organización<br><br></td><td>EP12</td></tr>
     <tr><td>SWR04</td><td>Hero Section cliente</td><td>Como visitante del segmento cliente quiero visualizar un hero section para conocer rápidamente el valor principal del producto</td><td><br><br><strong>Acceptance Criteria</strong><br><br>* Debe visualizarse una imagen relativa y cercana al segmento de cliente según el user persona Alfonso Villarán mostrando una interacción y experiencia positiva con el producto<br><br>* Debe visualizarse un eslogan que venda la idea principal del producto<br><br></td><td>EP12</td></tr>
@@ -3474,7 +3480,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
     <tr>
         <td>EP04</td>
         <td>Gestión de Tareas</td>
-        <td>Como contratista, coordinador o eespecialistaa quiero crear, asignar, entregar y revisar tareas técnicas dentro del cronograma para garantizar el cumplimiento de los objetivos de cada hito mediante trabajo colaborativo y trazable</td>
+        <td>Como contratista, coordinador o especialista quiero crear, asignar, entregar y revisar tareas técnicas dentro del cronograma para garantizar el cumplimiento de los objetivos de cada hito mediante trabajo colaborativo y trazable</td>
         <td></td>
         <td>US032, US033, US034, US035, US036, US037, US038, US039, US040, US041, US042, US043, US044, US045, US046, US047, US048, US049, US050, US051, US052, US053, TS27, TS28, TS29, TS30, TS60, TS61</td>
     </tr>
@@ -7066,6 +7072,111 @@ Este diccionario describe las clases involucradas en la gestión de pagos dentro
 
 <div style="page-break-before: always;"></div>
 
+## 4.8. Database Design
+
+Para el proyecto ProP GMS se ha seleccionado el motor de base de datos MariaDB debido a su escalabilidad. Esta elección se basa en la experiencia del equipo con motores de bases de datos similares.
+
+### 4.8.1. Database Diagram
+
+El modelo general de base de datos de PropGMS refleja una arquitectura modular basada en contextos delimitados (bounded contexts), alineados con los principios de Domain-Driven Design. Cada contexto modela una parte funcional del sistema, tales como gestión de proyectos, usuarios, archivos, pagos, suscripciones, notificaciones y organizaciones.
+
+Se identifican entidades clave como projects, tasks, invoices, payments, user_accounts, organizations, entre muchas otras, conectadas mediante claves foráneas que garantizan la integridad referencial entre dominios. Las relaciones entre contextos están cuidadosamente controladas para evitar acoplamientos innecesarios y fomentar una evolución independiente de cada módulo.
+
+El diseño promueve escalabilidad, trazabilidad y una clara separación de responsabilidades, facilitando tanto el mantenimiento como la extensión futura del sistema.
+
+<img src="./img/chapter4/db/general.svg" alt="Diagrama de base de datos general de ProP GMS">
+
+#### 4.7.1.1. Project Management Database Diagram
+
+El diseño de base de datos del contexto de gestión de proyectos representa la estructura encargada de organizar y supervisar los proyectos técnicos dentro del sistema PropGMS. La tabla principal projects se conecta con otras tablas relacionadas como schedules, milestones, tasks, meetings y project_team_members, lo que permite modelar de forma estructurada el ciclo de vida completo de un proyecto.
+
+Cada proyecto se clasifica mediante la tabla project_status y se vincula con un equipo técnico registrado en la tabla project_team_members, el cual especifica roles y especialidades mediante las tablas role y specialty. Las tareas que componen un proyecto se organizan por hitos y pueden incluir entregas evaluables a través de task_submissions, que a su vez están enlazadas a archivos mediante la tabla task_submission_files.
+
+Las reuniones de coordinación también están modeladas, permitiendo registrar su temática, fechas y participantes. Este diseño facilita la planificación, el control de avance y la trazabilidad técnica del proyecto, asegurando una gestión estructurada y alineada con los procesos reales de consultoras y contratistas técnicos.
+
+<img src="./img/chapter4/db/projects.png" alt="Diagrama de base de datos del bounded context Project Management de ProP GMS">
+
+#### 4.7.1.2. Change Management Database Diagram
+
+El diseño del contexto de gestión de cambios permite registrar y controlar las modificaciones solicitadas durante el desarrollo de un proyecto técnico en PropGMS. La tabla principal change_processes centraliza toda la información relacionada a los procesos de cambio, incluyendo su origen, estado, justificación y vínculos con órdenes y respuestas.
+
+Las solicitudes de cambio pueden tener origen técnico o contractual, diferenciadas mediante la tabla origin_types. El estado del proceso se gestiona con la tabla change_status. Cada proceso puede generar una orden de cambio formal a través de la tabla change_orders, o recibir una respuesta por medio de la tabla change_responses, que contiene notas y fechas relevantes de la retroalimentación.
+
+Esta estructura permite mantener un historial claro de las decisiones, fechas y responsables asociados a cada modificación, facilitando la trazabilidad y gobernanza del proyecto.
+
+<img src="./img/chapter4/db/changes.png" alt="Diagrama de base de datos del bounded context de Changes Management de ProP GMS">
+
+#### 4.7.1.3. Organization Database Diagram
+
+El diseño del contexto de organización permite modelar las entidades jurídicas y su estructura de miembros dentro del sistema PropGMS. La tabla principal organizations almacena la información esencial como razón social, nombre comercial, RUC y su estado, referenciado desde la tabla organization_status.
+
+El proceso de incorporación de personas a una organización se gestiona mediante la tabla organization_invitations, que permite registrar a quién se invitó, quién realizó la invitación y el estado de la misma, con ayuda de la tabla invitation_status. Una vez aceptada, la persona se convierte en miembro mediante la tabla organization_members, que vincula personas con organizaciones de forma formal y estructurada.
+
+Este diseño permite tener un control completo sobre el ciclo de vida de una organización en la plataforma, desde su creación hasta la gestión de sus miembros, manteniendo trazabilidad y control de acceso claro.
+
+<img src="./img/chapter4/db/organizations.png" alt="Diagrama de base de datos del bounded context Organization de ProP GMS">
+
+#### 4.7.1.4. Notification Database Diagram
+
+El diseño del contexto de notificaciones permite gestionar la comunicación interna del sistema PropGMS dirigida a usuarios. La tabla notifications almacena los mensajes que se envían a cada persona, registrando su título, contenido, destinatario, fecha de creación y la categoría de la notificación.
+
+Las categorías disponibles están definidas en la tabla notification_categories, que permite clasificar los mensajes como informativos, alertas, recordatorios, entre otros. Esta estructura facilita una experiencia más clara y ordenada para los usuarios, permitiendo diferenciar el tipo y propósito de cada notificación dentro de la plataforma.
+
+<img src="./img/chapter4/db/notifications.png" alt="Diagrama de base de datos del bounded context Notifications de ProP GMS">
+
+#### 4.7.1.5. File Database Diagram
+
+El contexto de gestión de archivos permite organizar y clasificar los documentos digitales que se generan o se utilizan dentro del sistema PropGMS. La tabla principal files almacena información clave de cada archivo, como su tamaño, ubicación, fecha de carga, autor y su tipo.
+
+Los archivos pueden agruparse opcionalmente dentro de carpetas, modeladas en la tabla folders, que además se encuentran asociadas a un espacio de trabajo específico. Cada archivo también está clasificado por tipo mediante la tabla file_type, lo que permite diferenciar su propósito o categoría, como contratos, entregas o documentos técnicos.
+
+Este diseño facilita una organización clara y estructurada de los recursos digitales, asegurando su trazabilidad y una experiencia eficiente de gestión documental.
+
+<img src="./img/chapter4/db/files.png" alt="Diagrama de base de datos del bounded context Files Management de ProP GMS">
+
+#### 4.7.1.6. IAM Database Diagram
+
+El contexto de gestión de identidad y acceso permite administrar las credenciales y el estado de los usuarios del sistema PropGMS. La tabla user_accounts almacena los datos de inicio de sesión, incluyendo tipo de usuario, estado de la cuenta, fechas relevantes y vínculo opcional con la tabla persons, donde se detalla información personal como nombre completo, correo y teléfono.
+
+Cada cuenta está categorizada según su tipo mediante la tabla user_types y su estado actual se define por la tabla account_statuses, lo que permite distinguir usuarios activos, inactivos o bloqueados.
+
+Este diseño proporciona una base robusta para la autenticación, autorización y trazabilidad de los usuarios dentro de la plataforma, garantizando seguridad y control en el acceso al sistema.
+
+<img src="./img/chapter4/db/iam.png" alt="Diagrama de base de datos del bounded context IAM de ProP GMS">
+
+#### 4.7.1.7. Subscription Database Diagram
+
+El contexto de suscripciones permite administrar los planes comerciales que habilitan el acceso a las funcionalidades del sistema PropGMS. La tabla subscriptions registra cada suscripción adquirida, incluyendo su plan, duración, costo, estado y la persona asociada.
+
+Los planes disponibles están definidos en la tabla subscription_plans, donde se especifican características como duración en días, capacidad máxima de miembros, almacenamiento y número de proyectos. El estado actual de cada suscripción se controla mediante la tabla subscription_statuses.
+
+<img src="./img/chapter4/db/subscriptions.png" alt="Diagrama de base de datos del bounded context Subscription de ProP GMS">
+
+#### 4.7.1.8. Billing Database Diagram
+
+El contexto de facturación permite registrar y estructurar las transacciones comerciales dentro del sistema PropGMS. La tabla principal invoices representa las facturas emitidas a los usuarios o entidades, incluyendo montos, fechas clave, moneda utilizada y estado de pago, gestionado a través de la tabla payment_statuses.
+
+Cada factura puede incluir múltiples ítems, detallados en la tabla billing_items, donde se especifican los conceptos facturados, sus precios unitarios y subtotales. Esta organización permite una descomposición clara de los servicios cobrados, facilitando tanto el seguimiento contable como la generación de reportes.
+
+Este modelo de datos asegura que los procesos de cobro sean transparentes, auditables y fácilmente integrables con otros componentes financieros del sistema.
+
+<img src="./img/chapter4/db/billings.png" alt="Diagrama de base de datos del bounded context Billing de ProP GMS">
+
+#### 4.7.1.9. Payment Database Diagram
+
+El contexto de pagos se encarga de registrar las operaciones financieras asociadas al cobro de facturas dentro del sistema PropGMS. La tabla payments almacena cada pago realizado, incluyendo su monto, moneda, método utilizado, estado, fecha de realización y la factura a la que corresponde.
+
+El diseño contempla acuerdos de pago recurrente, representados en la tabla recurring_payment_agreements, que permiten automatizar la facturación periódica según el método de pago asociado, especificado en la tabla payment_method_types.
+
+Cada pago puede tener múltiples intentos de transacción registrados en la tabla transactions, la cual guarda la respuesta del gateway de pagos junto con su estado, definido por la tabla transaction_statuses. El estado general del pago se controla mediante la tabla payment_statuses.
+
+Esta estructura robusta permite gestionar pagos únicos y recurrentes con trazabilidad completa de los intentos y resultados, facilitando la integración con plataformas de pago externas.
+
+<img src="./img/chapter4/db/payments.png" alt="Diagrama de base de datos del bounded context Payments de ProP GMS">
+
+
+<div style="page-break-before: always;"></div>
+
 
 
 <div style="page-break-before: always;"></div>
@@ -7365,7 +7476,7 @@ Debido a la presión por completar el Sprint 1 a tiempo, no se manejó a gran de
 
 #### 5.2.1.3. Sprint Backlog 1
 
-<img src="./img/chapter5/Sprint1/sprintbacklog.png">
+<img src="./../img/chapter5/Sprint1/sprintbacklog.png">
 
 <a href="https://galaxiawonder.youtrack.cloud/dashboard?id=213-2" target="_blank">Ver tablero en YouTrack</a>
 
@@ -7788,7 +7899,7 @@ Se presenta a modo de evidencia un video y capturas de las principales vistas im
 
 Contiene el formulario de contacto con una frase llamativa
 
-<img src="./img/chapter5/Sprint1/execution1.png">
+<img src="./../img/chapter5/Sprint1/execution1.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -7796,7 +7907,7 @@ Contiene el formulario de contacto con una frase llamativa
 
 Contiene información sobre nuestra startup
 
-<img src="./img/chapter5/Sprint1/execution2.png">
+<img src="./../img/chapter5/Sprint1/execution2.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -7804,7 +7915,7 @@ Contiene información sobre nuestra startup
 
 Detalla, para grupo por segmento, cuales son las principales funcionalidades del producto
 
-<img src="./img/chapter5/Sprint1/execution3.png">
+<img src="./../img/chapter5/Sprint1/execution3.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -7812,7 +7923,7 @@ Detalla, para grupo por segmento, cuales son las principales funcionalidades del
 
 Se presentan los planes de suscripción (los diseñados provisionalmente)
 
-<img src="./img/chapter5/Sprint1/execution4.png">
+<img src="./../img/chapter5/Sprint1/execution4.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -7820,7 +7931,7 @@ Se presentan los planes de suscripción (los diseñados provisionalmente)
 
 Junto al footer con información de contacto, se presentan testimonios de usuarios
 
-<img src="./img/chapter5/Sprint1/execution5.png">
+<img src="./../img/chapter5/Sprint1/execution5.png">
 
 <div style="page-break-after: always;"></div>
 
