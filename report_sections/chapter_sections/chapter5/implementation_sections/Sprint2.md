@@ -534,7 +534,7 @@ En el Sprint 1, se realizó una primera implementación de la Landing Page utili
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-Se presenta a modo de evidencia un video y capturas de las principales vistas implementadas. Enlace al video: []()
+Se presenta a modo de evidencia un video y capturas de las principales vistas implementadas. Enlace al video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EY4gYne6c6REmJSiGsgr6WwB1sEA5qk86OjLUa7SkZR5gg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nGuHjJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EY4gYne6c6REmJSiGsgr6WwB1sEA5qk86OjLUa7SkZR5gg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nGuHjJ)
 
 **HERO SECTION CONTRATISTA**
 
