@@ -108,8 +108,8 @@ Para su gestión interna, se aplicará GitFlow. Se explican a continuación las 
 
 - **feature/**: Ramas para el desarrollo de nuevas funcionalidades. Se crean a partir de `develop` y, una vez completadas, se integran de nuevo en `develop`.
   - **Convención de nombres**:  
-    `feature/story-id`  
-    Ejemplo: `feature/us77`
+    `feature/epic-id`  
+    Ejemplo: `feature/ep10`
 
 - **bugfix/**: Ramas para la correción de errores detectados en fase de desarrollo. Se crean a partir de `develop` y, una vez completadas, se integran de nuevo en `develop`.
   - **Convención de nombres**:  
