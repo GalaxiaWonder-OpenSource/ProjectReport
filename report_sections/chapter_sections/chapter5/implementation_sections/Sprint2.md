@@ -3447,6 +3447,47 @@ Muestra reviews de usuarios de cada segmento y, debajo, el footer con informaci�
 
 Se presenta a modo de evidencia un video y capturas de las principales vistas implementadas para la primera versión. Enlace al video: []()
 
+**LOGIN Y REGISTER CONTRATISTA/CLIENT**
+
+Muestra credenciales de acceso, username y contraseña del usuario. Contiene opción de registro de usuario en caso no lo esté. Proporciona un botón para ingresar a aplicación.
+
+<img src="../../../../img/chapter5/Sprint2/webapplication/execution1.png">
+
+<div style="page-break-after: always;"></div>
+
+**ORGANIZATION CONTRATISTA**
+
+Muestra vista principal de la organización, donde se encuentra la lista de organizaciones de las que es miembro el usuario.
+
+<img src="../../../../img/chapter5/Sprint2/webapplication/execution2.png">
+
+<div style="page-break-after: always;"></div>
+
+**ORGANIZATION INFORMATION CONTRATISTA**
+
+Muestra la pestaña información, la cual es también la vista por default al ingresar a organización.
+
+<img src="../../../../img/chapter5/Sprint2/webapplication/execution4.png">
+
+<div style="page-break-after: always;"></div>
+
+**ORGANIZATION CONFIGURATION CONTRATISTA**
+
+Muestra la pestaña configuración, donde se pueden editar datos de la organización, pero solo para la entidad contratista.
+
+<img src="../../../../img/chapter5/Sprint2/webapplication/execution3.png">
+
+<div style="page-break-after: always;"></div>
+
+**PROJECT CLIENT**
+
+
+Muestra vista principal de los clientes, donde se encuentra la lista de proyectos de los que es miembro el usuario.
+
+<img src="../../../../img/chapter5/Sprint2/webapplication/execution5.png">
+
+<div style="page-break-after: always;"></div>
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 No hubo desarrollo del API en este Sprint 2.
