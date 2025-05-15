@@ -57,7 +57,7 @@
 
 <div style="page-break-before: always;"></div>
 
-#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.2. Aspect Leaders & Collaborators
 
 Debido a la presión por completar el Sprint 1 a tiempo, no se manejó a gran detalle una coordinación de aspectos. Se acordó establecer como aspecto general el desarrollo de la Landing Page, del cual el lider fue Fabrizio León.
 
@@ -130,7 +130,7 @@ Debido a la presión por completar el Sprint 1 a tiempo, no se manejó a gran de
     <th>Description</th>
     <th>Estimation (Hours)</th>
     <th>Assigned To</th>
-    <th>Status<br>(Done / In-Process / To-Review / Done)</th>
+    <th>Status<br>(To-Do / In-Process / To-Review / Done)</th>
   </tr>
         <tr>
             <td>SWR01</td>
