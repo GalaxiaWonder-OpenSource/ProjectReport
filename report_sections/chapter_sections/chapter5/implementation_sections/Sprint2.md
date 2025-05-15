@@ -55,7 +55,7 @@
   </tr>
 </table>
 
-#### 5.2.2.2. Aspect Leaders and Collaborators
+#### 5.2.2.2. Aspect Leaders & Collaborators
 
 Para el Sprint 2, se proyectan actividades como la segunda versi처n del Landing Page y la implementaci처n de las vistas del Web Application.
 
@@ -3307,10 +3307,85 @@ En el Sprint 1, se realiz처 una primera implementaci처n de la Landing Page utili
 | LandingPage | release/tp | 418ecbdaf8acd65dc159fbe3b14a81a01cedaec9 | chore(tp): add prop gms title and logo in index |   | 4/05/2025 |
 | LandingPage | release/tp | 15fcc54b83a65c0af2bce5bf17b69af25730d775 | bugfix(tp): remove duplicate product logo in folder images |   | 4/05/2025 |
 | LandingPage | release/tp | 91a3c02b17332f822022e6bc2de779d09cf42b4f | chore(tp): add startup name in toolbar component |   | 4/05/2025 |
+| FrontEnd | develop | 79d8c5f74704aec3976f109628db6f2a8da83a0d | chore: add angular material dependencies |   | 10/05/2025 |
+| FrontEnd | develop | e2d09bf44016b4e0e00b11984a505c51538c44e4 | chore: add ngx translate dependencies |   | 10/05/2025 |
+| FrontEnd | feature/ep15 | 08123d967dcc8018c392368697f7de1e2b944b11 | chore: add json server and set up fake api |   | 10/05/2025 |
+| FrontEnd | feature/ep15 | 75990e18728f01314844250a3d985eeff6dff3b5 | feat(environments): add environments authentication endpoint path |   | 10/05/2025 |
+| FrontEnd | feature/ep15 | 5902eafca05bb233eab4280d3998e3d90be51f7d | feat(i18n): add i18n support |   | 10/05/2025 |
+| FrontEnd | feature/ep15 | c2cb80c3fb47b25af36b628a8e92910e7738cc8e | feat(i18n): add language switcher component |   | 10/05/2025 |
+| FrontEnd | feature/ep15 | 3fb87737d0ec48c73cba4dc4c2067aefacb32ba4 | feat: add create dynamic service factory |   | 10/05/2025 |
+| FrontEnd | feature/ep15 | 73c070d82c2143082f1752b0af6955e2de38fbf2 | feat(ep15): add iam model |   | 10/05/2025 |
+| FrontEnd | feature/ep15 | fd83886d9034d6d84ccb26e67db8916b3fb31195 | bugfix: fix get endpoint not processing query params |   | 10/05/2025 |
+| FrontEnd | feature/ep15 | a595956e4e5f145a6e7b21305c6f4b4f0f785662 | feat(ep15): add iam context model |   | 11/05/2025 |
+| FrontEnd | feature/ep15 | b1538b6c75a1d7b9a681bb0a113090129fbce018 | chore: add dynamic service generation interfaces and utility functions |   | 11/05/2025 |
+| FrontEnd | feature/ep15 | 2c8604bf508350914b54213b972c273a7a50dd5c | feat(ep15): add user account service |   | 11/05/2025 |
+| FrontEnd | feature/ep15 | f48716017824c8d2bab1b2959c32e583798ec151 | feat(ep15): add person service |   | 11/05/2025 |
+| FrontEnd | feature/ep15 | 348bb480358500e0c99fda46e65d4fcc47af3c79 | feat(ep15): add registration request service |   | 11/05/2025 |
+| FrontEnd | feature/ep15 | f5a34bc4b4248973994d00fec33625f556b581c6 | feat(ep15): add registration form component |   | 11/05/2025 |
+| FrontEnd | feature/ep15 | bd1c44fbd29377d790084f0340d78fdfda646cda | feat(ep15): add registration page |   | 11/05/2025 |
+| FrontEnd | bugfix/ep15 | 9cd35e9cd5a4909f6b424ce4521866717afe9a2d | bugfix(ep15): fix merging errors into develop for correct navigation |   | 11/05/2025 |
+| FrontEnd | feature/ep16 | 670c96080679c9ffa7f05be3948d36b52542bb4d | feat(ep15): add login form component |   | 11/05/2025 |
+| FrontEnd | feature/ep16 | 04e6236a051a78823380b07031b91c3638036060 | feat(ep15): add login page |   | 11/05/2025 |
+| FrontEnd | feature/ep16 | e6aa505b21d38293bebb1804a53b6b7f2bb3a5db | chore: add testing user data for testing |   | 11/05/2025 |
+| FrontEnd | feature/ep16 | 41f35bd5e32c7e65cd3f802211d5587826022ea0 | chore: create organization context ids |   | 11/05/2025 |
+| FrontEnd | feature/ep09 | 38d34d6a7bcb138c981440d8c7d1e41be57d1176 | bugfix(ep09): fix typo on contractor value |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | b7428c8657ed0ad8d86bf989dccd030a43988fc7 | feat(ep09): add organization model |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | 1a725062481aceaf5352b7af5e35a142294e8bdb | feat(ep09): add get by id method to person service |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | f2bcc7ee449d9789d47c7688e5920f533ff1eeeb | feat(ep09): add person id field to session service |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | 97021c0fb7fb082a57a0bb84923bab4d86b0557f | feat(ep09): add organization service |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | ff77c107d30332eacbcf99f9d9f8b2c675513c66 | feat(ep09): add organization member service |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | b250d03b936c100937c85d96f683e35e3aa0090d | feat(ep09): add organization invitation service |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | 8bfdc303e01cfbf8201bf088c3d94acb95cf52f8 | feat(ep09): add organization card component |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | f24c04e0f7694777e975300d65c675d70e8002be | feat(ep09): add organization button component |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | 36b7fe8fda25e27d880e2c4a750fd89554ece44c | feat(ep09): add create organization modal component |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | 628b484c97315b8a547311393a48cf5468bf61a7 | feat(ep09): add organization list component |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | 127e86a7fa0f5e2a74050d900aa335c6bd9201a7 | feat(ep09): add session storage of person id on login page |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | 17f1dc4dcc6c9e2f2b0e5561f39bc5d7b851b772 | feat(ep09); add organization tab component |   | 12/05/2025 |
+| FrontEnd | feature/ep09 | b99c59b3a84a7952b5ad0f3a38bbaeefaf883e82 | feat(ep09): add on click function for cards |   | 14/05/2025 |
+| FrontEnd | feature/ep11 | 7dbb2b8d15843b178c31c0c660b8dc2cd8bde671 | bugfix(ep09): fix organization creation form not registering commercial name |   | 14/05/2025 |
+| FrontEnd | feature/ep11 | 4a73e46952e1dda06fe1338a8d2964aa541cfa9c | feat(ep11): add organization information tab |   | 14/05/2025 |
+| FrontEnd | feature/ep09 | 6fd9a1fb8e69698e3162e28c14bac198e3bc307d | feat(footer): add footer content component |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 580c809395a30f8fee6f7ca2637e4e7cea6953d3 | feat(ep16): add session service |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 5083c0cf6ac95398ec4b8a33d3d9bcea532ad95b | refactor(ep16): change session service to iam folder |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | af821ec79868aaf7aea0a29215f5a8df29cc1225 | feat(ep16): add user type class in iam context |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 5f1d4a14af20f8fc17374214c7f2d1842564de7d | feat(ep16): add organization role in organizations context |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | a8b09170eaa982568861490b7f15f4e5eefdbcb8 | feat(ep16): add project role class in project context |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | fd6c2302ff691a98437f857aeb7aab6d2208caa9 | chore(ep16): change session service to save data in local storage |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | dd6297893bbd11e5156f5cae02d7891d6af17694 | chore: add worker page routing |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 56f916c2c78329db499e5926b785d4f843e4df9d | chore: add client page routing |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 91bb9d18a9f587f87b9e869ace6f1abc63cb807c | chore(i18n): add navigation translations |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 533da42002d0774fae1b983ae5394530f8eac079 | chore(ep16): add milestone id in session service |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | ca67c8144e958fb7d7d378deed2e175294d8165a | feat(ep16): add component layout in organization context |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 368ba2f934916a6c710d6c94fbe8ec1dc9cb692b | feat(ep16): add component layout in iam context |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | f1cf6206a2b7b215b2c7869ffd1b7649ab11bd88 | chore: add organization page routing |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 40950d432ab46dca0a62b2ea21e14743a9115d9b | bugfix: fix logic and visual bugs in worker and client toolbar |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 108e2a68ae3013c19af9c992e5aaa7d0b5c45d84 | feat(ep16): add component layout in project context |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 3883d0a83511e8b4e42053ad4e79745bbd04c3fb | chore: add project page routing |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | ec9d126c3981e569f391eb93c9606efadd6744e0 | chore: add milestone page routing |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | d9f54280a1c3efa2cf2bace8e8b4072aa7445ecf | chore: add unauthorized page routing |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 115cc066fb9561c31c992116d71a39255dc4b6bd | feat(ep16): add organization member guard in organization context to verify security of routes |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 9507426ad0f55cffe470f3f55e1c35a83f650fd5 | feat(ep16): add project access guard in project context to verify security of routes |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 9b4a6f85a6dd575247c33c431c4d031d6d1425c5 | feat(ep16): add milestone access guard in project context to verify security of routes |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 2f0eefc4df99d01522b756f7b1b75785efac83b1 | chore: add application route architecture |   | 10/05/2025 |
+| FrontEnd | feature/ep16 | 9007283b256a6e517c23422f6fda52291530573c | bugfix(ep16): change user type validations to match with user role enum |   | 11/05/2025 |
+| FrontEnd | feature/ep16 | eb5066b975668311d0424379b8ab18e11a40abc7 | bugfix(ep16): fix register page not using form data role |   | 11/05/2025 |
+| FrontEnd | feature/ep07 | 034904fb63468f232bc959c7c4d6f6807d0dda61 | feat(ep07): add change order value object in changes context |   | 12/05/2025 |
+| FrontEnd | feature/ep07 | 966ae7580384623cc3e644e91559c582392ffd89 | feat(ep07): add change response value object in changes context |   | 12/05/2025 |
+| FrontEnd | feature/ep07 | 28c6d82e48d86ed6ad1ae2f331bd89958194b9a0 | feat(ep07): add change process entity in changes context |   | 12/05/2025 |
+| FrontEnd | feature/ep07 | e78a03703ba15f9c1a94654b4aac5ebed8fd8343 | feat(ep07): add change process service in change context |   | 12/05/2025 |
+| FrontEnd | feature/ep10 | c1e48d5400de8b3ef0e3665592aa1e4a156fc549 | bugfix(ep10): : fix session service not using person id |   | 14/05/2025 |
+| FrontEnd | feature/ep10 | 790cf81804dbf15a5077461a200a9b1300b20006 | bugfix(ep10): fix session service not using organization member type |   | 14/05/2025 |
+| FrontEnd | feature/ep10 | 1334977456f602ce0350178d70435624de6bc0cc | feat(ep10): add configuration organization form |   | 14/05/2025 |
+| FrontEnd | bugfix/ep10 | aaf8ed374be5130168c51bbcbc52f41b8ee3d84c | bugfix(ep10): fix i18n in configuration organization form |   | 15/05/2025 |
+| FrontEnd | bugfix/ep10 | ad8114e131c4576b259efbc981a2573d5d2d9475 | bufgix(ep10): fix error and confirmation messages in configuration organization form |   | 15/05/2025 |
+| FrontEnd | feature/ep07 | c971a25498c3a7fc769076f4552294c72bd1184f | feat(ep07): update of the entities, services an components of project |   | 14/05/2025 |
+| FrontEnd | feature/ep07 | ffd0ada02177071c2df1546a6c64f4d8e16192d6 | feat(ep07): update project bounded context |   | 14/05/2025 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-Se presenta a modo de evidencia un video y capturas de las principales vistas implementadas. Enlace al video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EfQqRKJ2zyxGoWI-cu8L_iMBzPDe6ArypdwxPU3wHi_IUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=rxu9W1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EfQqRKJ2zyxGoWI-cu8L_iMBzPDe6ArypdwxPU3wHi_IUg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=rxu9W1)
+<p align="center"><strong>LANDING PAGE</strong></p>
+
+Se presenta a modo de evidencia un video y capturas de las principales vistas implementadas para la segunda versi처n del landing page. Enlace al video: []()
 
 **HERO SECTION CONTRATISTA**
 
@@ -3367,6 +3442,10 @@ Muestra reviews de usuarios de cada segmento y, debajo, el footer con informaci�
 <img src="../../../../img/chapter5/Sprint2/landing/reviews_and_footer.png">
 
 <div style="page-break-after: always;"></div>
+
+<p align="center"><strong>WEB APPLICATION</strong></p>
+
+Se presenta a modo de evidencia un video y capturas de las principales vistas implementadas para la primera versi처n. Enlace al video: []()
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
