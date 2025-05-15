@@ -4085,7 +4085,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-En el Sprint 1, se realizó una primera implementación de la Landing Page utilizando HTML, CSS y JavaScript estándar.
+En el Sprint 2, se realizó una primera implementación de la Landing Page utilizando HTML, CSS y JavaScript estándar.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on |
 | - | - | - | - | - | - |
@@ -4208,7 +4208,7 @@ En el Sprint 1, se realizó una primera implementación de la Landing Page utili
 
 <p align="center"><strong>LANDING PAGE</strong></p>
 
-Se presenta a modo de evidencia un video y capturas de las principales vistas implementadas para la segunda versión del landing page. Enlace al video: []()
+Se presenta a modo de evidencia un video y capturas de las principales vistas implementadas para la segunda versión del landing page. Enlace al video: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ER3JHnjqbxtMrj57QBcSqcMBO5uDwPEgnHdhBC_ofBmQYw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=T7hOz6)
 
 **HERO SECTION CONTRATISTA**
 
@@ -4268,7 +4268,7 @@ Muestra reviews de usuarios de cada segmento y, debajo, el footer con informaci�
 
 <p align="center"><strong>WEB APPLICATION</strong></p>
 
-Se presenta a modo de evidencia un video y capturas de las principales vistas implementadas para la primera versión. Enlace al video: []()
+Se presenta a modo de evidencia un video y capturas de las principales vistas implementadas para la primera versión. Enlace al video: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Ee0BRLkm8UtIqEEy78tjwxgBmSbX22hY4dGRdd8HwxeDCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ev0jw0)
 
 **LOGIN Y REGISTER CONTRATISTA/CLIENT**
 
