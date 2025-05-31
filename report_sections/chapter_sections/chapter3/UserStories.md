@@ -619,7 +619,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
         <td>US087</td>
         <td>Crear una organización</td>
         <td>Como persona registrada en el sistema quiero iniciar el registro de una nueva organización consultora para poder organizar su estructura interna y comenzar a gestionar proyectos con su equipo</td>
-        <td><strong>Scenario: Mostrar opción de creación siempre</strong><br>Given el usuario ha iniciado sesión<br>When accede a la sección de organizaciones<br>Then el sistema debe mostrar una opción para crear una nueva organización<br><br><strong>Scenario: Redirigir si no tiene workspace disponible</strong><br>Given el usuario no tiene un workspace disponible a su nombre<br>When selecciona la opción para crear una organización<br>Then el sistema debe redirigirlo a la sección de suscripciones<br>Then mostrar un mensaje indicando que necesita adquirir un workspace para continuar<br><br><strong>Scenario: Mostrar formulario si tiene workspace disponible</strong><br>Given el usuario tiene un workspace activo disponible<br>When selecciona la opción para crear una organización<br>Then el sistema debe mostrar el formulario de creación de organización<br><br></td>
+        <td><strong>Scenario: Mostrar opción de creación siempre</strong><br>Given el usuario ha iniciado sesión<br>When accede a la sección de organizaciones<br>Then el sistema debe mostrar una opción para crear una nueva organización<br><br><strong>Scenario: Mostrar formulario si tiene workspace disponible</strong><br>Given el usuario tiene un workspace activo disponible<br>When selecciona la opción para crear una organización<br>Then el sistema debe mostrar el formulario de creación de organización<br><br></td>
         <td>EP09</td>
     </tr>
     <tr>
@@ -946,9 +946,9 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
     </tr>
     <tr>
         <td>US134</td>
-        <td>Visualizar los planes de suscripción disponibles</td>
-        <td>Como persona interesada en suscribirse quiero conocer los distintos planes disponibles y sus características para elegir el plan más adecuado según sus necesidades y capacidades</td>
-        <td><strong>Scenario: Acceder al catálogo de planes</strong><br>Given el usuario ha iniciado sesión<br>When navega a la sección de suscripciones<br>Then el sistema debe mostrar una lista de planes disponibles con nombre, precio, duración y beneficios (límite de proyectos, almacenamiento, miembros, etc.)<br><br></td>
+        <td>Restringir creación de organización a usuarios no suscritos</td>
+        <td>Como persona interesada en suscribirse quiero poder crear una organización en caso de contar con una suscripción para poder iniciar legítimamente con las operaciones de mi organización</td>
+        <td><strong>Scenario: Redirigir si no tiene workspace disponible</strong><br>Given el usuario no tiene un workspace disponible a su nombre<br>When selecciona la opción para crear una organización<br>Then el sistema debe redirigirlo a la sección de suscripciones<br>Then mostrar un mensaje indicando que necesita adquirir un workspace para continuar<br><br><strong>Permitir crear una organización con un workspace disponible</strong><br>Given el usuario cuenta con una suscripción activa<br>And su workspace aún no alcanza el límite de organizaciones creadas<br>When el usuario intente crear una organización<br>Then la funcionalidad no debe ser restringida</td>
         <td>EP19</td>
     </tr>
     <tr>
