@@ -918,56 +918,56 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
         <td>US054, US055, US056, US057, US058, US059, US060, US061, US062, US063, US064, US065, US066, US067, US068, TS21, TS22, TS23, TS24, TS25, TS26, TS59</td>
     </tr>
     <tr>
-        <td>EP06</td>
+        <td>EP07</td>
         <td>Registro de Solicitudes de Cambio</td>
         <td>Como residente de obra o entidad contratante quiero iniciar procesos formales de cambio en un proyecto cuando se identifican nuevas necesidades o problemas para asegurar que toda solicitud de modificación esté documentada, justificada y gestionada bajo un flujo formal</td>
         <td></td>
         <td>US076, US077, US078, US079, US080, US081, TS31, TS32, TS33, TS34</td>
     </tr>
     <tr>
-        <td>EP07</td>
+        <td>EP08</td>
         <td>Evaluación y Decisión del Proceso de Cambio</td>
         <td>Como contratista quiero aprobar o rechazar formalmente las solicitudes de cambio recibidas para controlar la ejecución de modificaciones mediante decisiones responsables y documentadas</td>
         <td></td>
         <td>US082, US083, US084, US085, US086</td>
     </tr>
     <tr>
-        <td>EP08</td>
+        <td>EP09</td>
         <td>Registro y Activación de Organización</td>
         <td>Como persona con suscripción activa quiero crear una nueva organización consultora asociada a su workspace para poder estructurar y administrar proyectos, equipos y documentos dentro de un entorno corporativo propio</td>
         <td></td>
         <td>US087, US088, US089, US090, US091, US092, US093, US094, TS01, TS02, TS03</td>
     </tr>
     <tr>
-        <td>EP09</td>
+        <td>EP10</td>
         <td>Gestión de Invitaciones y Miembros de la Organización</td>
         <td>Como contratista quiero modificar los datos registrados de la organización o eliminarla cuando ya no sea necesaria para mantener la información actualizada y asegurar la gestión responsable del ciclo de vida de la organización</td>
         <td></td>
         <td>US095, US096, US097, US098, US099, TS04, TS05</td>
     </tr>
     <tr>
-        <td>EP10</td>
+        <td>EP11</td>
         <td>Gestión de Invitaciones a la Organización</td>
         <td>Como contratista quiero invitar a personas externas para que se unan como miembros a su organización para formar y ampliar el equipo de trabajo manteniendo control sobre quién puede ingresar</td>
         <td></td>
         <td>US100, US101, US102, US103, US104, US105, US106, TS06, TS07</td>
     </tr>
     <tr>
-        <td>EP11</td>
+        <td>EP12</td>
         <td>Landing Page</td>
         <td>Como usuario, quiero conocer los beneficios y el funcionamiento del producto para evaluar si se ajusta a mis necesidades antes de utilizarlo.</td>
         <td></td>
         <td>SWR01, SWR02, SWR03, SWR04, SWR05, SWR06, SWR07, SWR08, SWR09, SWR10, SWR11, SWR12, SWR13, SWR14, SWR15, SWR16, SWR17, SWR18</td>
     </tr>
     <tr>
-        <td>EP12</td>
+        <td>EP15</td>
         <td>Registro y creación de cuenta</td>
         <td>Como visitante del sistema, quiero registrarme proporcionando mis datos personales, para poder acceder a las funcionalidades de la plataforma y participar en proyectos de consultoría.</td>
         <td></td>
         <td>US117, US118, US119, US120, US121, TS44</td>
     </tr>
     <tr>
-        <td>EP13</td>
+        <td>EP16</td>
         <td>Autentificación y gestión de sesiones</td>
         <td>Como usuario registrado, quiero iniciar sesión y mantener una sesión activa, para acceder de forma segura y continua a mi entorno de trabajo.</td>
         <td></td>
@@ -975,7 +975,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
     </tr>
     </tr>
     <tr>
-        <td>EP14</td>
+        <td>EP18</td>
         <td>Gestión del perfil personal</td>
         <td>Como usuario autenticado, quiero editar mi información personal como nombre, correo o idioma, para mantener mi perfil actualizado y disfrutar una experiencia adaptada a mis preferencias.</td>
         <td></td>
