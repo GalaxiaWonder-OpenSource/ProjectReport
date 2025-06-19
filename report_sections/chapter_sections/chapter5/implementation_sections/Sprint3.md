@@ -42,11 +42,11 @@
     <th colspan="4" style="background-color: #d9d9d9;"><strong>Sprint Goal & User Stories</strong></th>
   </tr>
   <tr>
-    <th>Sprint 2 Goal</th>
-    <td colspan="3">Nuestro foco está realizar un primer despliegue del producto funcional y obtener retroalimentación por parte de los usuarios. Creemos que expande nos permite validar el aporte de la solución para el caso de negocio y recabar requisitos que no hayan sido elicitados correctamente en la primera sesión de entrevistas. Esto será confirmado cuando se realicen las entrevistas de validación.</td>
+    <th>Sprint 3 Goal</th>
+    <td colspan="3">Nuestro foco es cubrir la deuda técnica acumulada del sprint 2, redefinir y desarrollar las funcionalidades esenciales que permitan realizar un primer despliegue funcional del producto, con el fin de validar su aporte al caso de negocio. Buscamos obtener retroalimentación directa de usuarios reales mediante entrevistas de validación, lo cual nos permitirá confirmar hipótesis, ajustar requisitos no correctamente elicitados y asegurar que la solución responde a necesidades reales.</td>
   </tr>
   <tr>
-    <th>Sprint 2 Velocity</th>
+    <th>Sprint 3 Velocity</th>
     <td colspan="3">XX Story Points</td>
   </tr>
   <tr>
@@ -57,27 +57,24 @@
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
-Para el Sprint 2, se proyectan actividades como la segunda versión del Landing Page y la implementación de las vistas del Web Application.
+Para el Sprint 3, se proyectan actividades como y la implementación de las vistas del Web Application.
 
 <table cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <tr>
     <th>Team Member <br>(Last Name, First Name)</th>
     <th>GitHub Username</th>
-    <th>Landing Page<br>Leader (L) / Collaborator (C)</th>
-    <th>Web Application UX/UI<br>Leader (L) / Collaborator (C)</th>
-    <th>Web Application DDD Architecture<br>Leader (L) / Collaborator (C)</th>
+    <th>Web Application Front-End<br>Leader (L) / Collaborator (C)</th>
+    <th>Web Application Back-End<br>Leader (L) / Collaborator (C)</th>
   </tr>
   <tr>
     <td>Aponte Cruzado, Andrea Marielena</td>
     <td>iconicmiau</td>
     <td>C</td>
-    <td>L</td>
     <td>C</td>
   </tr>
   <tr>
     <td>Orozco Torres, Álvaro Joaquín</td>
     <td>CodyLionVivo</td>
-    <td>C</td>
     <td>C</td>
     <td>C</td>
   </tr>
@@ -86,19 +83,16 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
     <td>tertegen</td>
     <td>C</td>
     <td>C</td>
-    <td>C</td>
   </tr>
   <tr>
     <td>Orozco Torres, Álvaro Joaquín</td>
     <td>L1LZ4Z</td>
-    <td>C</td>
-    <td>C</td>
+    <td>L</td>
     <td>L</td>
   </tr>
   <tr>
     <td>Reaño Delgadillo, Henry Paolo</td>
     <td>PaoloHRRR</td>
-    <td>L</td>
     <td>C</td>
     <td>C</td>
   </tr>
@@ -147,7 +141,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Ocultar botón de editar/eliminar para el usuario actual</td>
   <td>1</td>
   <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US018</td>
@@ -157,7 +151,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Permitir al contratista cambiar el rol del miembro seleccionado</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -166,7 +160,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Impedir guardar si no se seleccionó un nuevo rol</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US019</td>
@@ -176,7 +170,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar campo de especialidad y permitir su edición si el rol es 'especialista'</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -185,7 +179,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Ocultar el campo de especialidad si el rol no es 'especialista'</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US020</td>
@@ -195,7 +189,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Requerir que el usuario escriba 'eliminar + nombre' antes de confirmar</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -204,7 +198,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Eliminar del equipo y notificar éxito si se confirma correctamente</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US021</td>
@@ -214,7 +208,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Informar que sus tareas pasarán a estado DRAFT y saldrá de las reuniones</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -223,7 +217,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Eliminar miembro, cambiar tareas a DRAFT y sacarlo de todas las reuniones</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US022</td>
@@ -233,7 +227,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar opción visible solo si el usuario es contratista</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -242,7 +236,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar formulario emergente al hacer clic en "Añadir hito"</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US023</td>
@@ -252,7 +246,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Campo obligatorio dentro del formulario de creación de hito</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -261,7 +255,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar error si se intenta confirmar sin nombre</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US024</td>
@@ -271,7 +265,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar campos de fecha de inicio y fin al cargar el formulario</td>
   <td>2</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -280,7 +274,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Actualizar automáticamente la otra fecha si hay inconsistencia</td>
   <td>2</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US025</td>
@@ -290,7 +284,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Verificar que nombre y fechas estén completos y válidos antes de guardar</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -299,7 +293,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Guardar nuevo hito y mostrar mensaje de éxito</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US026</td>
@@ -309,7 +303,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar nombre, fecha de inicio y fin de cada hito</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -318,7 +312,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Si el usuario es contratista, mostrar botones de editar y eliminar</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US027</td>
@@ -328,7 +322,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar el nombre actual del hito en el formulario de edición</td>
   <td>1</td>
   <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -337,83 +331,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Evitar guardar si el campo de nombre está vacío</td>
   <td>1</td>
   <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US028</td>
-  <td>Editar fechas de inicio y fin de un hito</td>
-  <td>US028-1</td>
-  <td>Mostrar fechas actuales al editar</td>
-  <td>Prellenar fechas actuales en formulario de edición de hito</td>
-  <td>1</td>
-  <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US028-2</td>
-  <td>Sincronizar fechas inconsistentes</td>
-  <td>Ajustar automáticamente la fecha de fin/inicio si hay inconsistencia</td>
-  <td>2</td>
-  <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US029</td>
-  <td>Eliminar un hito del cronograma</td>
-  <td>US029-1</td>
-  <td>Confirmar con input de texto</td>
-  <td>Solicitar que el usuario escriba "eliminar + nombre del hito" para confirmar</td>
-  <td>1</td>
-  <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US029-2</td>
-  <td>Cancelar eliminación correctamente</td>
-  <td>No realizar cambios si el usuario cancela la acción desde el diálogo</td>
-  <td>1</td>
-  <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US030</td>
-  <td>Confirmar eliminación de un hito con contenido asociado</td>
-  <td>US030-1</td>
-  <td>Mostrar advertencia por contenido</td>
-  <td>Advertir que se eliminarán tareas y reuniones asociadas al hito</td>
-  <td>1</td>
-  <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US030-2</td>
-  <td>Eliminar hito y contenido</td>
-  <td>Eliminar el hito junto con todas sus tareas y reuniones si se confirma</td>
-  <td>2</td>
-  <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US031</td>
-  <td>Configurar orden de visualización de hitos del cronograma</td>
-  <td>US031-1</td>
-  <td>Mostrar menú de orden</td>
-  <td>Mostrar opciones 'Más próximos primero', 'Último al inicio', 'Primero al inicio'</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US031-2</td>
-  <td>Aplicar orden seleccionado</td>
-  <td>Reordenar lista de hitos según la opción seleccionada por el usuario</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US032</td>
@@ -423,7 +341,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar todas las tareas si el usuario es contratista o coordinador, o solo las asignadas si es especialista</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -432,7 +350,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Permitir editar o eliminar tareas solo si el usuario es contratista</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US033</td>
@@ -442,7 +360,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar campos obligatorios para nombre de tarea y selección de especialidad</td>
   <td>2</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -451,7 +369,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Evitar avanzar si no se ingresó nombre o especialidad</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US034</td>
@@ -461,7 +379,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Diseñar campo obligatorio visible al crear una tarea</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -470,7 +388,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar error si se deja vacío al confirmar</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US035</td>
@@ -480,7 +398,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Incluir lista desplegable con especialidades disponibles al crear tarea</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -489,7 +407,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Bloquear confirmación si no se seleccionó especialidad</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US036</td>
@@ -499,7 +417,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar campos separados para ingreso de fecha de inicio y vencimiento</td>
   <td>1</td>
   <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -508,7 +426,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Bloquear si faltan fechas, ajustar si están fuera de orden o del rango del hito</td>
   <td>2</td>
   <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US037</td>
@@ -518,7 +436,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Verificar que se ingresaron nombre, especialidad, fecha de inicio y vencimiento antes de guardar</td>
   <td>2</td>
   <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -527,7 +445,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Guardar la tarea en el sistema con estado inicial DRAFT y mostrar mensaje de confirmación</td>
   <td>1</td>
   <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US038</td>
@@ -537,7 +455,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar todos los miembros del equipo en un selector</td>
   <td>1</td>
   <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -546,7 +464,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Asignar responsable y actualizar estado de la tarea a PENDING</td>
   <td>1</td>
   <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US039</td>
@@ -556,7 +474,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar switch o checkbox para activar el filtro por especialidad</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -565,7 +483,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar solo miembros cuya especialidad coincida con la de la tarea al activar el filtro</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US040</td>
@@ -575,7 +493,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar nombre actual de la tarea en el formulario de edición</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -584,7 +502,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Actualizar nombre de la tarea y mostrar mensaje de éxito</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US041</td>
@@ -594,7 +512,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Impedir guardar si el nombre está vacío y mostrar mensaje de error</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -603,7 +521,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Actualizar el nombre y notificar éxito si el campo fue completado correctamente</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US042</td>
@@ -613,7 +531,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Prellenar el campo de especialidad en formulario de edición con el valor actual</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -622,7 +540,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Evitar guardar si no se selecciona ninguna especialidad</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US043</td>
@@ -632,7 +550,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Prellenar campos con las fechas actuales de la tarea</td>
   <td>1</td>
   <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -641,7 +559,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Asegurar que las fechas estén dentro del rango del hito y sean cronológicamente coherentes</td>
   <td>2</td>
   <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US044</td>
@@ -651,7 +569,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar checkbox o switch para activar el filtro por especialidad técnica</td>
   <td>1</td>
   <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -660,83 +578,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar solo miembros cuya especialidad coincide con la de la tarea cuando el filtro está activo</td>
   <td>1</td>
   <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US045</td>
-  <td>Visualizar opción de entregar una tarea</td>
-  <td>US045-1</td>
-  <td>Validar visibilidad del botón</td>
-  <td>Mostrar botón de entrega solo si el usuario es responsable y la tarea está en estado PENDING</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US045-2</td>
-  <td>Ocultar botón para otros roles</td>
-  <td>Ocultar la opción de entrega si el usuario no es responsable de la tarea</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US046</td>
-  <td>Adjuntar archivos en la entrega de tarea</td>
-  <td>US046-1</td>
-  <td>Mostrar input de archivo</td>
-  <td>Mostrar campo para subir documentos desde el dispositivo (PDF, DOCX, JPG, PNG)</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US046-2</td>
-  <td>Subir y referenciar archivos</td>
-  <td>Subir los archivos al workspace y crear referencias de tipo TASK_SUBMISSION en la entrega</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US047</td>
-  <td>Escribir notas en la entrega de tarea</td>
-  <td>US047-1</td>
-  <td>Mostrar campo de notas</td>
-  <td>Incluir input de texto para comentarios adicionales en la entrega</td>
-  <td>1</td>
-  <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US047-2</td>
-  <td>Guardar notas en el entregable</td>
-  <td>Guardar comentarios escritos junto a los archivos entregados</td>
-  <td>1</td>
-  <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US048</td>
-  <td>Enviar entrega de tarea</td>
-  <td>US048-1</td>
-  <td>Validar archivos adjuntos</td>
-  <td>Verificar que haya al menos un archivo válido adjunto antes de permitir la entrega</td>
-  <td>1</td>
-  <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US048-2</td>
-  <td>Marcar tarea como entregada</td>
-  <td>Registrar entrega, cambiar estado a SUBMITTED y mostrar mensaje de éxito</td>
-  <td>1</td>
-  <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US049</td>
@@ -822,7 +664,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Requerir que se escriba 'eliminar + nombre de la tarea' para confirmar la acción</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -831,7 +673,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Eliminar la tarea si la confirmación es correcta y mostrar mensaje de éxito</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US054</td>
@@ -1078,7 +920,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Ajustar automáticamente fechas inconsistentes y bloquear si están fuera del rango del hito</td>
   <td>2</td>
   <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>To do</td>
 </tr>
 <tr>
   <td>US067</td>
@@ -1119,148 +961,6 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>To Do</td>
 </tr>
 <tr>
-  <td>US069</td>
-  <td>Visualizar estructura del expediente técnico del proyecto</td>
-  <td>US069-1</td>
-  <td>Renderizar árbol de carpetas</td>
-  <td>Mostrar carpetas y subcarpetas jerárquicamente tipo árbol</td>
-  <td>2</td>
-  <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US069-2</td>
-  <td>Listar archivos referenciados</td>
-  <td>Mostrar nombre, tipo y fecha de archivos al expandir carpeta</td>
-  <td>1</td>
-  <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US070</td>
-  <td>Ver detalles de un archivo referenciado</td>
-  <td>US070-1</td>
-  <td>Mostrar metadata del archivo</td>
-  <td>Ver nombre, tipo, autor, fecha y ubicación original</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US070-2</td>
-  <td>Descargar o previsualizar</td>
-  <td>Permitir descarga o vista previa si es PDF o imagen</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US071</td>
-  <td>Crear carpeta dentro del expediente técnico</td>
-  <td>US071-1</td>
-  <td>Mostrar opción para contratista</td>
-  <td>Solo mostrar opción de creación de carpeta si es contratista</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US071-2</td>
-  <td>Validar nombre y crear</td>
-  <td>Crear carpeta con nombre válido dentro del directorio seleccionado</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US072</td>
-  <td>Renombrar carpeta del expediente</td>
-  <td>US072-1</td>
-  <td>Prellenar nombre actual</td>
-  <td>Mostrar campo editable con el nombre actual de la carpeta</td>
-  <td>1</td>
-  <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US072-2</td>
-  <td>Validar nuevo nombre</td>
-  <td>Bloquear si está vacío y confirmar si es válido</td>
-  <td>1</td>
-  <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US073</td>
-  <td>Eliminar carpeta del expediente</td>
-  <td>US073-1</td>
-  <td>Solicitar confirmación manual</td>
-  <td>Requerir que el usuario escriba 'eliminar + nombre de carpeta'</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US073-2</td>
-  <td>Ejecutar o cancelar eliminación</td>
-  <td>Eliminar carpeta si la confirmación es válida, bloquear si no</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US074</td>
-  <td>Añadir referencia a archivo al expediente</td>
-  <td>US074-1</td>
-  <td>Mostrar opción para añadir referencia</td>
-  <td>Mostrar botón u opción solo si el usuario es contratista</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US074-2</td>
-  <td>Seleccionar archivo del workspace</td>
-  <td>Mostrar listado de archivos existentes en el workspace y permitir su selección como referencia</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US074-3</td>
-  <td>Confirmar inclusión y asociar</td>
-  <td>Crear una referencia de tipo TECHNICAL_FILE_FOLDER hacia el archivo y asociarlo a la carpeta actual</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US075</td>
-  <td>Eliminar referencia a archivo del expediente técnico</td>
-  <td>US075-1</td>
-  <td>Mostrar opción para eliminar referencia</td>
-  <td>Mostrar ícono o botón de eliminación solo si el usuario es contratista</td>
-  <td>1</td>
-  <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US075-2</td>
-  <td>Confirmar y ejecutar eliminación</td>
-  <td>Eliminar únicamente la referencia (sin afectar el archivo original) y mostrar mensaje de éxito</td>
-  <td>1</td>
-  <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
   <td>US076</td>
   <td>Iniciar solicitud de cambio desde una solicitud de cambio</td>
   <td>US076-1</td>
@@ -1268,7 +968,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar campos para descripción del cambio al iniciar una nueva solicitud</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1277,7 +977,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Evitar continuar si la descripción está vacía</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US077</td>
@@ -1287,7 +987,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Permitir ingresar la descripción del problema técnico observado</td>
   <td>1</td>
   <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1296,7 +996,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Vincular consulta técnica a proceso PENDING si no existe otro en curso</td>
   <td>2</td>
   <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US078</td>
@@ -1306,7 +1006,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar descripción del origen y motivo del proceso al contratista</td>
   <td>1</td>
   <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1315,7 +1015,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar si el cambio se originó por solicitud o consulta técnica con ID</td>
   <td>1</td>
   <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US079</td>
@@ -1325,7 +1025,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar lista de procesos con origen, fecha, estado y resumen</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1334,45 +1034,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Permitir filtrar por estado: PENDING, APPROVED, REJECTED</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US080</td>
-  <td>Ver proceso de cambio iniciados (Entidad contratante)</td>
-  <td>US080-1</td>
-  <td>Listar procesos iniciados por la entidad</td>
-  <td>Filtrar la lista para mostrar solo los procesos iniciados por su organización</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US080-2</td>
-  <td>Visualizar estado y respuesta</td>
-  <td>Mostrar el estado actualizado del proceso y la respuesta del contratista</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US081</td>
-  <td>Restringir acceso a procesos iniciados fuera de la organización</td>
-  <td>US081-1</td>
-  <td>Validar pertenencia a organización</td>
-  <td>Impedir acceso a procesos de cambio iniciados por otra organización</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US081-2</td>
-  <td>Mostrar mensaje de restricción</td>
-  <td>Mostrar mensaje indicando que el proceso no está disponible si no se tiene acceso</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US082</td>
@@ -1382,7 +1044,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Solicitar campo obligatorio con justificación de la aprobación</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1391,7 +1053,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Cambiar estado a APPROVED y crear adicional de obra asociado</td>
   <td>2</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US083</td>
@@ -1401,7 +1063,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Solicitar campo obligatorio para explicar el rechazo</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1410,7 +1072,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Cambiar estado del proceso de cambio a REJECTED y mostrar mensaje</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US084</td>
@@ -1448,7 +1110,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Verificar que las fechas estén dentro del rango del proyecto y corregir inconsistencias automáticamente</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>To do</td>
 </tr>
 <tr>
   <td>US086</td>
@@ -1458,7 +1120,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Guardar respuesta con fecha, autor y motivo cuando el proceso se aprueba</td>
   <td>1</td>
   <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1467,7 +1129,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Guardar respuesta con fecha, autor y motivo cuando el proceso se rechaza</td>
   <td>1</td>
   <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US087</td>
@@ -1477,7 +1139,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar opción de creación si el usuario tiene sesión iniciada</td>
   <td>1</td>
   <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1486,7 +1148,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Redirigir a la sección de suscripciones si no se tiene workspace disponible</td>
   <td>1</td>
   <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US088</td>
@@ -1496,7 +1158,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Desplegar formulario para ingresar datos de la organización</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1505,7 +1167,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Verificar campos requeridos antes de confirmar creación</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US089</td>
@@ -1515,7 +1177,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Incluir campo obligatorio en el formulario para razón social</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1524,7 +1186,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar mensaje de error si no se ingresó razón social</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US090</td>
@@ -1534,7 +1196,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Incluir campo opcional en el formulario para nombre comercial</td>
   <td>1</td>
   <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1543,7 +1205,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Registrar nombre comercial solo si se completó el campo</td>
   <td>1</td>
   <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US091</td>
@@ -1553,7 +1215,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Incluir campo obligatorio de RUC en el formulario de creación de organización</td>
   <td>1</td>
   <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1562,7 +1224,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Verificar que tenga 11 dígitos y que sean numéricos antes de continuar</td>
   <td>2</td>
   <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US092</td>
@@ -1572,7 +1234,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Evitar crear la organización si falta algún campo obligatorio o contiene errores</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1581,7 +1243,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Registrar la organización con estado ACTIVO y mostrar mensaje de éxito</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US093</td>
@@ -1591,7 +1253,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar todas las organizaciones en las que el usuario participa con su estado y rol</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1600,7 +1262,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar aviso si el usuario no pertenece a ninguna organización registrada</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US094</td>
@@ -1610,7 +1272,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Permitir navegar al dashboard al hacer clic sobre una organización válida</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1619,7 +1281,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar error si intenta acceder a una organización no registrada en su lista</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US095</td>
@@ -1629,7 +1291,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Permitir edición del campo solo si el usuario es contratista de la organización</td>
   <td>1</td>
   <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1638,7 +1300,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Actualizar valor si es válido, de lo contrario mostrar error</td>
   <td>1</td>
   <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US096</td>
@@ -1648,7 +1310,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Habilitar edición del nombre comercial solo si el usuario es contratista</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1657,7 +1319,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Guardar nuevo nombre comercial y marcarlo como campo opcional</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US097</td>
@@ -1667,7 +1329,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar botón de edición únicamente al contratista de la organización</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1676,45 +1338,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>No permitir mostrar el campo si el usuario no es contratista</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US098</td>
-  <td>Eliminar organización (estado INACTIVE)</td>
-  <td>US098-1</td>
-  <td>Mostrar opción de eliminar</td>
-  <td>Permitir eliminar la organización solo si el usuario es contratista</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US098-2</td>
-  <td>Marcar como INACTIVE</td>
-  <td>Actualizar estado de la organización a INACTIVE sin eliminar datos aún</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US099</td>
-  <td>Eliminar definitivamente la organización (vía confirmación por correo)</td>
-  <td>US099-1</td>
-  <td>Mostrar opción solo si es contratista</td>
-  <td>Mostrar la opción de eliminación forzada solo al contratista</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US099-2</td>
-  <td>Solicitar confirmación vía correo</td>
-  <td>Enviar enlace/código de confirmación y proceder con la eliminación definitiva</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US100</td>
@@ -1724,7 +1348,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar botón de invitar a nuevos miembros en configuración si el usuario es contratista</td>
   <td>1</td>
   <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1733,7 +1357,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Enviar correo con invitación y registrar estado como PENDING al confirmar</td>
   <td>1</td>
   <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US101</td>
@@ -1743,7 +1367,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Evitar duplicidad revisando si ya hay una invitación en estado PENDING</td>
   <td>1</td>
   <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1752,7 +1376,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Alertar que ya existe una invitación activa y bloquear reenvío</td>
   <td>1</td>
   <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US102</td>
@@ -1762,7 +1386,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Comprobar si la persona ya pertenece a la organización antes de enviar invitación</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1771,7 +1395,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar mensaje de advertencia cuando ya pertenece a la organización</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US103</td>
@@ -1781,7 +1405,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar historial de invitaciones enviadas con su estado</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1790,7 +1414,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar mensaje claro si no hay ninguna invitación enviada</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US104</td>
@@ -1800,7 +1424,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Listar todas las invitaciones en estado PENDING dirigidas al usuario</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1809,7 +1433,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Actualizar a ACCEPTED o REJECTED según acción tomada por el usuario</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US105</td>
@@ -1819,7 +1443,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar si la invitación está PENDING, ACCEPTED o REJECTED</td>
   <td>1</td>
   <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1828,7 +1452,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Actualizar estado visualmente en la lista cuando cambie el estado de la invitación</td>
   <td>1</td>
   <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US106</td>
@@ -1838,7 +1462,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar advertencia si el miembro tiene tareas activas. Si no tiene, eliminar directamente</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -1847,197 +1471,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Si tiene tareas, cambiar su estado a DRAFT y luego eliminar al miembro</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US107</td>
-  <td>Notificar a los participantes cuando se crea una reunión</td>
-  <td>US107-1</td>
-  <td>Generar notificación para cada participante</td>
-  <td>Al confirmar una reunión, generar notificación con tema, fecha y hora</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US107-2</td>
-  <td>Clasificar notificación como REMINDER</td>
-  <td>Asignar categoría REMINDER y target como entidad MEETING</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US108</td>
-  <td>Notificar al responsable cuando se acerca la fecha límite de una tarea</td>
-  <td>US108-1</td>
-  <td>Evaluar condición temporal</td>
-  <td>Detectar si faltan 48 horas o menos para la fecha límite</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US108-2</td>
-  <td>Enviar recordatorio al responsable</td>
-  <td>Enviar mensaje con nombre y fecha límite de la tarea</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US109</td>
-  <td>Notificar cuando se emite una respuesta a una solicitud de cambio</td>
-  <td>US109-1</td>
-  <td>Detectar respuesta formal</td>
-  <td>Al aprobar o rechazar un proceso de cambio, generar notificación</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US109-2</td>
-  <td>Notificar al originador</td>
-  <td>Incluir título con el resultado y resumen de la nota en la notificación</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US110</td>
-  <td>Notificar cuando se crea un nuevo hito como parte de un cambio aprobado</td>
-  <td>US110-1</td>
-  <td>Detectar creación de hito</td>
-  <td>Tras aprobar un cambio, detectar si se ha creado un nuevo hito</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US110-2</td>
-  <td>Notificar al equipo del proyecto</td>
-  <td>Generar mensaje a todos los miembros del proyecto con detalles del hito</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US111</td>
-  <td>Notificar a un usuario cuando es invitado a una organización</td>
-  <td>US111-1</td>
-  <td>Generar notificación al registrar invitación</td>
-  <td>Crear notificación automática al registrar invitación en el sistema</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US111-2</td>
-  <td>Mostrar nombre de la organización</td>
-  <td>Incluir nombre de la organización como parte del mensaje de la notificación</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US112</td>
-  <td>Notificar recordatorio de vencimiento de factura</td>
-  <td>US112-1</td>
-  <td>Detectar facturas próximas a vencer</td>
-  <td>Ejecutar revisión automática para detectar facturas a 3 días del vencimiento</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US112-2</td>
-  <td>Enviar alerta al responsable</td>
-  <td>Enviar notificación con categoría ALERT y mensaje personalizado al responsable</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US113</td>
-  <td>Visualizar lista de notificaciones recibidas</td>
-  <td>US113-1</td>
-  <td>Mostrar listado ordenado</td>
-  <td>Listar notificaciones del usuario ordenadas por fecha (más recientes primero)</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US113-2</td>
-  <td>Mostrar mensaje si no hay notificaciones</td>
-  <td>Mostrar mensaje claro si no existen notificaciones registradas</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US114</td>
-  <td>Ver detalles de una notificación específica</td>
-  <td>US114-1</td>
-  <td>Mostrar contenido completo</td>
-  <td>Mostrar título, mensaje completo, fecha, categoría y target relacionado</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US114-2</td>
-  <td>Permitir navegación al target</td>
-  <td>Habilitar enlace al recurso relacionado (tarea, reunión, factura, etc.)</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US115</td>
-  <td>Eliminar notificación manualmente</td>
-  <td>US115-1</td>
-  <td>Mostrar opción de eliminar</td>
-  <td>Agregar botón de eliminar junto a cada notificación en la lista</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US115-2</td>
-  <td>Eliminar y mostrar confirmación</td>
-  <td>Eliminar notificación seleccionada y mostrar mensaje de éxito</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US116</td>
-  <td>Eliminar automáticamente notificaciones antiguas</td>
-  <td>US116-1</td>
-  <td>Detectar notificaciones antiguas</td>
-  <td>Buscar notificaciones con más de 90 días desde su fecha de creación</td>
-  <td>1</td>
-  <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US116-2</td>
-  <td>Eliminar notificaciones detectadas</td>
-  <td>Ejecutar limpieza automática eliminando esas notificaciones del sistema</td>
-  <td>1</td>
-  <td>Aponte Cruzado, Andrea Marielena</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US117</td>
@@ -2047,7 +1481,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar las opciones CLIENT_USER y ORGANIZATION_USER al iniciar el registro</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -2056,7 +1490,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>No permitir continuar con el registro si no se selecciona un tipo de cuenta</td>
   <td>1</td>
   <td>Lopez Acuña, Mario Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US118</td>
@@ -2066,7 +1500,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar nombre completo, correo electrónico y contraseña si se selecciona CLIENT_USER</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -2075,7 +1509,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar además profesión y número de colegiatura si se selecciona ORGANIZATION_USER</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US119</td>
@@ -2085,7 +1519,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Bloquear registro si falta nombre, correo o contraseña para CLIENT_USER</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -2094,7 +1528,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Bloquear registro si falta profesión o número de colegiatura en ORGANIZATION_USER</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US120</td>
@@ -2104,7 +1538,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar advertencia si el correo ya está vinculado a un UserAccount</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -2113,26 +1547,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar mensaje e instrucción de confirmación si el correo ya está en uso por una solicitud activa</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US121</td>
-  <td>Confirmar el registro mediante enlace recibido por correo</td>
-  <td>US121-1</td>
-  <td>Validar token de confirmación</td>
-  <td>Verificar que el enlace recibido sea válido y dentro del periodo de vigencia</td>
-  <td>1</td>
-  <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US121-2</td>
-  <td>Mostrar resultado de la confirmación</td>
-  <td>Mostrar mensaje si el registro fue exitoso o si el enlace expiró</td>
-  <td>1</td>
-  <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US122</td>
@@ -2142,7 +1557,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Desplegar campos de correo electrónico y contraseña para iniciar sesión</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -2151,7 +1566,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Validar credenciales e iniciar sesión con redirección al dashboard</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US123</td>
@@ -2161,7 +1576,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar mensaje claro si el correo o contraseña no coinciden</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -2170,7 +1585,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>No permitir avanzar al sistema si las credenciales no son válidas</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US124</td>
@@ -2180,7 +1595,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Extender duración de la sesión si hay acciones recientes (clics, navegación, etc.)</td>
   <td>2</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -2189,7 +1604,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>No cerrar sesión automáticamente si el usuario sigue trabajando</td>
   <td>1</td>
   <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US125</td>
@@ -2199,7 +1614,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Mostrar botón 'Cerrar sesión' en el menú principal para cualquier usuario autenticado</td>
   <td>1</td>
   <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td></td><td></td>
@@ -2208,74 +1623,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Eliminar token y redirigir a la pantalla de login al cerrar sesión</td>
   <td>1</td>
   <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US126</td>
-  <td>Solicitar restablecimiento de contraseña desde el login</td>
-  <td>US126-1</td>
-  <td>Mostrar opción '¿Olvidaste tu contraseña?'</td>
-  <td>Agregar enlace en login que permita acceder al formulario de recuperación</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US126-2</td>
-  <td>Enviar token por correo</td>
-  <td>Generar token de restablecimiento y enviarlo al correo si es válido</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US127</td>
-  <td>Ver mensaje de confirmación tras solicitar restablecimiento</td>
-  <td>US127-1</td>
-  <td>Mostrar mensaje al enviar solicitud</td>
-  <td>Mostrar confirmación genérica tras enviar el formulario de recuperación</td>
-  <td>1</td>
-  <td>Leon Vivas, Fabrizio Amir</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US128</td>
-  <td>Acceder al formulario de nueva contraseña desde el enlace recibido</td>
-  <td>US128-1</td>
-  <td>Validar token al acceder</td>
-  <td>Verificar el enlace y mostrar formulario solo si el token es válido</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US128-2</td>
-  <td>Mostrar campos de nueva contraseña</td>
-  <td>Incluir campos para nueva contraseña y confirmación de contraseña</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US129</td>
-  <td>Ver mensaje de éxito al completar el restablecimiento</td>
-  <td>US129-1</td>
-  <td>Confirmar restablecimiento exitoso</td>
-  <td>Mostrar mensaje de éxito al guardar nueva contraseña</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US129-2</td>
-  <td>Ofrecer enlace para volver al login</td>
-  <td>Incluir enlace directo para volver a iniciar sesión después de restablecer</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
+  <td>Done</td>
 </tr>
 <tr>
   <td>US130</td>
@@ -2344,249 +1692,63 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
   <td>Orozco Torres, Álvaro Joaquín</td>
   <td>To Do</td>
 </tr>
-<tr>
-  <td></td><td></td>
-  <td>US133-2</td>
-  <td>Guardar nuevo número</td>
-  <td>Actualizar el número de teléfono y mostrar mensaje de éxito</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US134</td>
-  <td>Visualizar los planes de suscripción disponibles</td>
-  <td>US134-1</td>
-  <td>Mostrar sección de suscripciones</td>
-  <td>Mostrar lista de planes con nombre, precio, duración y beneficios</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US135</td>
-  <td>Visualizar los planes de suscripción disponibles</td>
-  <td>US135-1</td>
-  <td>Mostrar catálogo completo</td>
-  <td>Mostrar planes disponibles a usuarios autenticados desde sección de suscripción</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US136</td>
-  <td>Contratar un nuevo plan de suscripción</td>
-  <td>US136-1</td>
-  <td>Seleccionar plan desde el catálogo</td>
-  <td>Mostrar resumen del plan seleccionado y solicitar confirmación</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US136-2</td>
-  <td>Crear suscripción y asociar workspace</td>
-  <td>Al completar el pago, registrar suscripción activa y asociar un nuevo workspace con sus restricciones</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US137</td>
-  <td>Ver detalles de la suscripción activa</td>
-  <td>US137-1</td>
-  <td>Mostrar datos del plan actual</td>
-  <td>Mostrar nombre, fecha de inicio, vencimiento, estado, límites de proyectos, miembros y almacenamiento</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US138</td>
-  <td>Cancelar una suscripción activa y mostrar restricciones asociadas</td>
-  <td>US138-1</td>
-  <td>Mostrar advertencia al cancelar</td>
-  <td>Mostrar consecuencias como pérdida de acceso a funciones al finalizar la vigencia</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US138-2</td>
-  <td>Completar cancelación y actualizar estado</td>
-  <td>Cambiar estado de suscripción a CANCELLED y mostrar confirmación</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US139</td>
-  <td>Visualizar facturas generadas por suscripciones</td>
-  <td>US139-1</td>
-  <td>Mostrar lista de facturas</td>
-  <td>Listar facturas con monto total, fecha de emisión, vencimiento y estado de pago</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US140</td>
-  <td>Visualizar el detalle de una factura</td>
-  <td>US140-1</td>
-  <td>Mostrar desglose de factura</td>
-  <td>Incluir descripción, precio unitario, subtotal, total, fechas y estado de pago</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US141</td>
-  <td>Iniciar pago manual de una factura pendiente</td>
-  <td>US141-1</td>
-  <td>Mostrar botón de pago en factura</td>
-  <td>Permitir acceder al flujo de pago desde la vista detallada de una factura con estado PENDING</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US141-2</td>
-  <td>Actualizar estado tras pago exitoso</td>
-  <td>Actualizar estado a PAID al confirmar el pago con la pasarela y mostrar mensaje de éxito</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US142</td>
-  <td>Activar o desactivar pago automático</td>
-  <td>US142-1</td>
-  <td>Mostrar opción de pago automático</td>
-  <td>Permitir activar o desactivar desde la configuración de la suscripción</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US142-2</td>
-  <td>Actualizar estado del acuerdo</td>
-  <td>Crear o cancelar acuerdo de pago automático según la acción del usuario y mostrar mensaje</td>
-  <td>2</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US143</td>
-  <td>Ver intentos de pago realizados (transacciones)</td>
-  <td>US143-1</td>
-  <td>Listar historial de intentos</td>
-  <td>Mostrar fecha, estado (éxito/fallo) y tipo de intento (manual o automático) por cada transacción</td>
-  <td>2</td>
-  <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US144</td>
-  <td>Ver detalles del workspace asociado a su suscripción</td>
-  <td>US144-1</td>
-  <td>Mostrar capacidad del workspace</td>
-  <td>Mostrar cantidad máxima de proyectos, miembros y almacenamiento disponible</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US144-2</td>
-  <td>Mostrar organización asociada</td>
-  <td>Indicar a qué organización está vinculado el workspace actual</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US145</td>
-  <td>Mostrar advertencia si la organización está inactiva por falta de workspace</td>
-  <td>US145-1</td>
-  <td>Detectar estado inactivo por falta de workspace</td>
-  <td>Verificar si la organización está marcada como INACTIVE y mostrar mensaje contextual</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US145-2</td>
-  <td>Sugerir activación o renovación</td>
-  <td>Mostrar botón o enlace para contratar un plan y reactivar la organización</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US146</td>
-  <td>Mostrar advertencia al intentar exceder el número máximo de miembros permitidos</td>
-  <td>US146-1</td>
-  <td>Verificar límite de miembros</td>
-  <td>Validar si el número actual de miembros ha alcanzado el máximo permitido por el plan</td>
-  <td>1</td>
-  <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US146-2</td>
-  <td>Mostrar mensaje de advertencia</td>
-  <td>Mostrar mensaje informando que se alcanzó el límite y sugerir actualizar el plan</td>
-  <td>1</td>
-  <td>Reaño Delgadillo, Henry Paolo</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US147</td>
-  <td>Mostrar advertencia al intentar subir archivos que superan la capacidad del workspace</td>
-  <td>US147-1</td>
-  <td>Detectar espacio insuficiente</td>
-  <td>Validar que los archivos seleccionados no excedan la capacidad del plan contratado</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US147-2</td>
-  <td>Mostrar mensaje y opciones</td>
-  <td>Informar sobre el límite alcanzado y sugerir eliminar archivos o actualizar plan</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td>US148</td>
-  <td>Cambiar el idioma preferido desde la configuración de cuenta</td>
-  <td>US148-1</td>
-  <td>Mostrar selector de idioma</td>
-  <td>Permitir seleccionar idioma entre las opciones disponibles desde configuración</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
-<tr>
-  <td></td><td></td>
-  <td>US148-2</td>
-  <td>Guardar preferencia y aplicar cambio</td>
-  <td>Actualizar la preferencia y aplicar el nuevo idioma al recargar la interfaz</td>
-  <td>1</td>
-  <td>Orozco Torres, Álvaro Joaquín</td>
-  <td>To Do</td>
-</tr>
 </table>
 
 #### 5.2.3.4. Development Evidence for Sprint Review
+
+Para el sprint 3
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on |
+| - | - | - | - | - | - |
+| FrontEnd | feature/ep07 | c971a25498c3a7fc769076f4552294c72bd1184f | feat(ep07): update of the entities, services an components of project |   | 14/05/2025 |
+| FrontEnd | feature/ep07 | ffd0ada02177071c2df1546a6c64f4d8e16192d6 | feat(ep07): update project bounded context |   | 14/05/2025 |
+| FrontEnd | feature/ep07 | d4995079735cac019ffd5ba77f1874a0f85d395b | feat(ep07): create a project feature updated. |   | 31/05/2025 |
+| FrontEnd | feature/ep07 | 041255c4c5eafdf73a007d66f75924dc2626afff | bugfix(ep07): update project-tab.component.html |   | 1/06/2025 |
+| FrontEnd | feature/ep07 | 8c0a3a8ef0d998754b36cad5e4018b8cd96bc2cd | bugfix(ep07): merging ep07 with ep02 |   | 1/06/2025 |
+| FrontEnd | feature/ep01 | 247e6468a024e7830550f7a4af7ea7f40807df1c | feat(ep01): manage project information |   | 6/06/2025 |
+| FrontEnd | feature/ep01 | 3b3855b617828190de82fc80e31ea1f5493080d4 | feat(ep01): update routes and setting in project management |   | 7/06/2025 |
+| FrontEnd | feature/ep01 | f1f664a69338081a88f68630004c3d40117ef6a4 | feat(ep01): update project settings. |   | 7/06/2025 |
+| FrontEnd | feature/ep01 | e5b625762780e9348eb5e9db0db7b0d7910098ca | bugfix(ep01): update members management of organizations |   | 8/06/2025 |
+| FrontEnd | feature/ep01 | 40d30ec9685d7982b62f4262b6a526cb456af79f | feat(ep01): show the project tab in the projects view |   | 28/05/2025 |
+| FrontEnd | feature/ep07 | 0642af58e3bb1ecb6aa9eb3314e6f5f641bd7383 | feat(ep07): show the project tab in the project view. |   | 28/05/2025 |
+| FrontEnd | develop | 4964e15bd3c9d325fcf5fe5b223883aba561a639 | bugfix(develop): fix the error console |   | 28/05/2025 |
+| FrontEnd | feature/ep02 | e764b369e97c121ad7b528c91689f6ee48d16512 | feat(ep09): signup page replace fake api with original backend api |   | 12/06/2025 |
+| FrontEnd | feature/ep02 | 2948d0c36070d716bd8fca3b2ca346d243ae556f | chore: add token to session service |   | 12/06/2025 |
+| FrontEnd | feature/ep07 | 12526f089636746193378e5b070e6727a1f97ae5 | feat: add project components |   | 27/05/2025 |
+| FrontEnd | feature/ep07 | 811956cb099f8e61695ccfe392d4ed71fd76db21 | feat: add projects tab components |   | 28/05/2025 |
+| FrontEnd | feature/ep07 | 811956cb099f8e61695ccfe392d4ed71fd76db21 | feat: add projects tab components |   | 28/05/2025 |
+| FrontEnd | feature/ep02 | 98688740e6b37567ef18c77fb0c83942a17bd42b | feat: add security guard for members |   | 1/06/2025 |
+| FrontEnd | feature/ep02 | 272f84302cb1474776569bc4795dc19b1b43e8a5 | feat: add members load component |   | 2/06/2025 |
+| FrontEnd | feature/ep02 | 0ef84f7b8c6606a1ecb69b4f0be05702e1382750 | fix: project for organization members |   | 3/06/2025 |
+| FrontEnd | feature/ep02 | 511986431cae04d215fea8fcde7140ceebc781b6 | fix: add organization member name |   | 3/06/2025 |
+| FrontEnd | feature/ep02 | 04aa7c29809526b76cd9f399df37fa606e6b938a | feat: add css for organization members |   | 3/06/2025 |
+| FrontEnd | feature/ep02 | ff368123e40b953e02d765eeea7e8ab021334726 | feat: add validation for organization members |   | 3/06/2025 |
+| FrontEnd | feature/ep02 | 06ae0dda3628783f160d99512e6d50279d5c2dde | feat: add new validation for organization members |   | 3/06/2025 |
+| FrontEnd | feature/ep02 | ed60f89d89f57cce3895fcd46611fe223b9e8405 | feat: new logic to load members |   | 3/06/2025 |
+| FrontEnd | feature/ep02 | 8a2d81e189e0b90d2fb513f0df9df9c92fcb49ef | fix: validation filter |   | 3/06/2025 |
+| FrontEnd | feature/ep02 | 823fe48ce00e662f0406df39d15a03b50c723783 | feat: add load member, add and delete icon |   | 4/06/2025 |
+| FrontEnd | feature/ep02 | 2027607a1e803062909e1e5ffdc41f6076e7fc16 | feat: add css for members |   | 4/06/2025 |
+| FrontEnd | feature/ep02 | dabeede833c4e933f3ba494e72f24e27a5af2561 | feat: add logic to invite members |   | 4/06/2025 |
+| FrontEnd | feature/ep02 | b7868ec649cb2999161e1ca94636544448217111 | feat: add css for invitation modal |   | 4/06/2025 |
+| FrontEnd | feature/ep02 | bf10896d3973f0f550e0ebd06ef28e40eace7102 | fix: eliminate delete component |   | 7/06/2025 |
+| FrontEnd | feature/ep02 | 2151681d2d9a659e835d890d7b117e4f82cdf309 | feat: add final logic for members component |   | 7/06/2025 |
+| FrontEnd | feature/ep02 | 90a125878084a19155fb113034b0721ff05cdfdb | fix: eliminate v.o |   | 9/06/2025 |
+| FrontEnd | feature/ep02 | 2ac97eb0996d7ae37483e041131067e5910edd1b | fix: include new replacements for v.o  |   | 10/06/2025 |
+| FrontEnd | feature/ep02 | c4d8c4f3d6c8c409dcca13c11428d9e3e7fb7ce2 | fix: member component v.o |   | 11/06/2025 |
+| FrontEnd | feature/ep02 | 32d2d57659477cc7a0fded7e7394ca3ea34ce3a9 | feat: add members and invitations logic |   | 12/06/2025 |
+| FrontEnd | feature/ep08 | 9b8d7401d9dae25f4b4858ad4b7dab38f73ca9cb | fix: v.o from change process |   | 13/06/2025 |
+| FrontEnd | feature/ep02 | 4f0185f7f925d5aa128fdb0eac0ad235eef7e357 | feat: change fake api for endpoint config at organization |   | 15/06/2025 |
+| FrontEnd | develop | 6f6d5eac207461b9216ddcbf39244678f2acb744 | fix: project toolbar |   | 15/06/2025 |
+ FrontEnd | feature/ep08 | 4bf878a98cc75ae58c78df3143c5e854ed13f3f7 | feat: add change management bounded context |   | 16/06/2025 |
+ | FrontEnd | feature/ep08 | 5644f36d78d01b1c59571a49e70674debee72c11 | feat: add validation features for change management |   | 16/06/2025 |
+ | FrontEnd | feature/ep08 | 5fc394e210d754371c17d5e80aa69c534132d12e | fix: change management bounded context |   | 16/06/2025 |
+ | FrontEnd | feature/ep08 | 2ada993c1a2e73a890623272e8ad2fd1f69ad9cd | fix: delete console logs |   | 16/06/2025 |
+ | FrontEnd | develop | 0bc583781d00e157b4380a8d5ce5e22788d4ff56 | fix: milestones and tasks components |   | 17/06/2025 |
+ | FrontEnd | develop | 14de127167334eb1a2ae30268d085374039a0047 | fix: organization member invitation status |   | 18/06/2025 |
+ | FrontEnd | develop | e1c43adc3c735ccc52478ef493d4daaf9330cd21 | -m |   | 18/06/2025 |
+ | FrontEnd | develop | ffe3ea9dfe6e616d46810ca401d007d3234d3d29 | feix: add change management componenets, i18n, and project info component |   | 19/06/2025 |
+ | FrontEnd | develop | 5349a4009e7ff8f2c531dde59d49e5db3b901b7b | feat: add validationa for project information |   | 19/06/2025 |
+
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
