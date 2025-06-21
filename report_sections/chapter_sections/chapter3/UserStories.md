@@ -570,7 +570,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
         <td>US087</td>
         <td>Crear una organización</td>
         <td>Como persona registrada en el sistema quiero iniciar el registro de una nueva organización consultora para poder organizar su estructura interna y comenzar a gestionar proyectos con su equipo</td>
-        <td><strong>Scenario: Mostrar opción de creación siempre</strong><br>Given el usuario ha iniciado sesión<br>When accede a la sección de organizaciones<br>Then el sistema debe mostrar una opción para crear una nueva organización<br><br><strong>Scenario: Redirigir si no tiene workspace disponible</strong><br>Given el usuario no tiene un workspace disponible a su nombre<br>When selecciona la opción para crear una organización<br>Then el sistema debe redirigirlo a la sección de suscripciones<br>Then mostrar un mensaje indicando que necesita adquirir un workspace para continuar<br><br><strong>Scenario: Mostrar formulario si tiene workspace disponible</strong><br>Given el usuario tiene un workspace activo disponible<br>When selecciona la opción para crear una organización<br>Then el sistema debe mostrar el formulario de creación de organización<br><br></td>
+        <td><strong>Scenario: Mostrar opción de creación siempre</strong><br>Given el usuario ha iniciado sesión<br>When accede a la sección de organizaciones<br>Then el sistema debe mostrar una opción para crear una nueva organización<br><br><strong>Scenario: Mostrar formulario si tiene workspace disponible</strong><br>Given el usuario tiene un workspace activo disponible<br>When selecciona la opción para crear una organización<br>Then el sistema debe mostrar el formulario de creación de organización<br><br></td>
         <td>EP09</td>
     </tr>
     <tr>
@@ -798,7 +798,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
         <td>EP18</td>
     </tr>
     <tr>
-        <td>US148</td>
+        <td>US134</td>
         <td>Cambiar el idioma preferido desde la configuración de cuenta</td>
         <td>Como usuario autenticado quiero ajustar el idioma en el que desea navegar la plataforma para tener una experiencia más cómoda y comprensible al utilizar el sistema</td>
         <td><strong>Scenario: Seleccionar idioma desde la configuración</strong><br>Given el usuario ha iniciado sesión<br>Given accede a la configuración de cuenta<br>When modifica su idioma preferido entre las opciones disponibles<br>Then el sistema debe actualizar su preferencia<br>Then reflejar el nuevo idioma en la interfaz en la siguiente carga<br><br></td>
