@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+## 5.3. Validation Interviews
+=======
+>>>>>>> Stashed changes
 ## 5.3. Validation Interviews
 
 Dentro de la sección "Validation Interviews" de nuestro proyecto, dirigimos nuestros esfuerzos a perfeccionar la plataforma web diseñada para la planificación y gestión de proyectos en el ámbito de la ingeniería civil. Esta etapa resulta esencial para comprender mejor las dinámicas del trabajo en obra, por lo que establece un canal de comunicación cercano con los usuarios clave: contratistas, especialistas y clientes. Mediante entrevistas de validación, buscamos recoger sus opiniones, necesidades y recomendaciones, de modo que la herramienta digital vaya sintonía con su realidad. Lo mencionado ayudará a que la solución no solo cumpla con los estándares técnicos, sino que también reuna las condiciones reales del trabajo y las expectativas de los usuarios involucrados.
@@ -516,7 +522,11 @@ En este apartado se exponen las metas de usuarios en concordancia con nuestras e
 
 <div style="page-break-after: always;"></div>
 
+<<<<<<< Updated upstream
 ### 5.3.3. Análisis de entrevistas
+=======
+### Análisis de entrevistas
+>>>>>>> Stashed changes
 
 **CONTRATISTAS**
 
@@ -569,3 +579,128 @@ En este apartado se exponen las metas de usuarios en concordancia con nuestras e
 | Entrevistado | Leonardo Caballa | Álvaro Torres | Aaron Ravines | Valor representativo |
 |-|-|-|-|-|
 | **Edad** | 28 | 27 | 27 | 27 |
+<<<<<<< Updated upstream
+=======
+
+
+## 5.3.3 UX Heuristics & Principles Evaluation  
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA**  : Ingeniería de Software  
+**CURSO**    : Desarollo de aplicaciones Open Source 
+**SECCIÓN**  : 4307
+**PROFESORES**: Todos  
+**AUDITOR**  : Entrevistados  
+**CLIENTE(S)**: Andrea Aponte, Fabrizio León, Mario Lopez, Álvaro Orozco y Henry Reaño
+
+##### SITE o APP A EVALUAR:  
+PropGMS
+
+##### TAREAS A EVALUAR:  
+1. Registro de un usuario nuevo
+2. Creación de una organización
+3. Configuración de una organización
+4. Invitación de una organización
+5. Aceptar invitación de una organización
+6. Rechazar invitación de una organización
+
+No estan incluidas en esta versión de la evaluación las siguientes tareas:
+1. Creación de un proyecto
+2. Configuración de un proyecto
+3. Gestionar equipo de un proyecto
+4. Crear tarea
+5. Crear reunión
+6. Asignar responsables a tareas
+
+##### ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+###### TABLA RESUMEN:
+| # | Problema | Escala de severidad | Heurística/Principio violado(a) |
+|---|---------|---------------------|---------------------------------|
+| 1 | Falta un componente que indique automáticamente el prefijo telefónico (+51) en el campo de número de teléfono. | 2 | Usabilidad: Prevención de errores |
+| 2 | No existe un botón visible para cambiar el idioma desde el inicio, obligando al usuario a buscarlo manualmente. | 2 | Usabilidad: Flexibilidad y control del usuario |
+| 3 | El color gris del texto y los íconos es muy similar al fondo blanco, dificultando la lectura y generando problemas de accesibilidad. | 3 | Accesibilidad: Contraste visual |
+| 4 | Falta consistencia visual entre distintas secciones del sitio (botones, fuentes y estilos varían entre páginas). | 2 | Usabilidad: Consistencia y estándares |
+
+---
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1:**  
+**En la creación de cuenta no se especifica que se debe utilizar el formato E.164 para el número de teléfono**  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad - Ayuda y documentación  
+**Problema:**  
+Los usuarios no saben qué formato es válido para su número telefónico y esto genera errores en el registro.
+
+**PROBLEMA #2:**  
+**Falta un componente que indique automáticamente el prefijo telefónico (+51)**  
+**Severidad:** 2  
+**Heurísti**
+
+
+###### DESCRIPCIÓN DE PROBLEMAS:
+
+**PROBLEMA #1:** Falta un componente que indique automáticamente el prefijo telefónico (+51) en el campo de número de teléfono
+
+Severidad: 3
+Heurística violada: Usabilidad - Prevención de errores
+
+Problema:
+Al crear una cuenta, el usuario debe colocar su número telefónico sin saber qué formato es válido, generando errores. Una mejora es incluir un componente visible que muestre automáticamente el prefijo (+51) o que permita elegirlo de una lista desplegable. 
+
+<img src="../../../img/chapter5/Sprint3/Heuristics/problema1.png">
+
+Recomendación:
+Se recomienda que el campo del número telefónico tenga el prefijo +51 preestablecido o que incluya un selector desplegable con los prefijos de los países de la región.
+
+**PROBLEMA #2:** No existe un botón visible para cambiar el idioma desde el inicio, obligando al usuario a buscarlo manualmente
+
+Severidad: 1
+Heurística violada: Usabilidad - Flexibilidad y control del usuario 
+
+Problema:
+La pantalla inicial carece de un botón visible para la internacionalización (cambio de idioma). Esto hace que usuarios que no sean de habla castellana deban navegar sin comprender el contenido hasta que logren encontrar dónde cambiarlo, afectando negativamente la experiencia.
+
+<img src="../../../img/chapter5/Sprint3/Heuristics/problema2.png">
+
+Recomendación:
+Se recomienda colocar un botón o ícono visible y accesible (por ejemplo, en la esquina superior derecha de la pantalla) que permita cambiar el idioma de inmediato. Puede mostrarse como un ícono de globo terráqueo o una bandera, junto a una etiqueta breve EN/ES, de modo que sea reconocible y facilite que los usuarios internacionales cambien la configuración sin esfuerzo.
+
+**PROBLEMA #3:**  El color gris del texto y los íconos es muy similar al fondo blanco
+Severidad: 3  
+Heurística violada: Accesibilidad – Contraste visual  
+
+Problema: 
+El texto y los íconos en color gris tienen muy poco contraste contra el fondo blanco, lo que dificulta su lectura, especialmente para usuarios con daltonismo o visión reducida. Esto genera una experiencia de uso incómoda e inaccesible.
+
+<img src="../../../img/chapter5/Sprint3/Heuristics/problema4.png">
+
+Recomendación: 
+Aumentar el contraste entre texto/íconos y el fondo ajustando la paleta de colores para que cumpla con los estándares de accesibilidad. Por ejemplo, utilizar un gris más oscuro o añadir un leve fondo que facilite la distinción de los elementos.
+
+
+**PROBLEMA #4:**  Falta consistencia visual entre distintas secciones del sitio
+Severidad: 2  
+Heurística violada: Usabilidad – Consistencia y estándares  
+
+Problema:  
+Los estilos, tipografías, tamaños y disposición de los componentes varían entre páginas, causando confusión y transmitiendo una sensación poco profesional y desorganizada. Esto puede hacer que el usuario no sepa qué esperar en cada pantalla.
+
+<img src="../../../img/chapter5/Sprint3/Heuristics/problema2.png">
+
+Recomendación: 
+Definir una guía de estilos unificada que incluya paleta de colores, tipografías, tamaños y componentes estandarizados para que sean reutilizados en todo el sitio. Así se logrará mayor consistencia, mejor experiencia y una imagen más sólida del producto.
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
