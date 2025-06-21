@@ -1795,6 +1795,13 @@ Para el sprint 3 se proyectan actividades como implementacion del FrontEnd y Bac
 | FrontEnd | develop | 4fee93167c09f1de019f81b419c8ee755a5cffb1 | bugfix: fix project not having contracting entity info |   | 18/06/2025 |
 | Platform | feature/ep09 | 910d9c123e2e15cfb2923609dccc5c836febb38f | refactor: embedded profile details inside organization member entity and resource model |   | 19/06/2025 |
 | Platform | feature/ep01 | e646e422742533c505aaa4c57f058d5f0b3ec6e0 | Merge 'develop' branch into 'feature/ep01' |   | 19/06/2025 |
+| Platform | feature/ep01 | e61808f9a95f8beac7daf45f16ab5eb2dbe5975e | feat(ep01): finish domain model |   | 19/06/2025 |
+| Platform | feature/ep01 | 1184f6f846027e622d89274b0c861ea04fa52952 | feat(ep01): add create organization feature |   | 20/06/2025 |
+| Platform | feature/ep01 | b3ba15e115330444c4b7fc03de29c38ac9ec2bf9 | feat: allow organization update resource to have nullable fields and add support for 'legalName' update |   | 20/06/2025 |
+| Platform | feature/ep01 | 6b05aa9e7e70255dc717c0efdf47e9e666cb5b7c | chore: add 'NON_APPLICABLE' specialty enum value |   | 20/06/2025 |
+| Platform | feature/ep01 | efe6307aa9fd8064f4ffd2a83331f81adb1c9b9d | feat: add retrieve all PENDING invitations by person ID |   | 20/06/2025 |
+| Platform | feature/ep01 | 8bb850de339e74b87f7167e2c21eccabaee63a65 | bugfix: fix get all invitations by person ID not showing inviter's data |   | 21/06/2025 |
+
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
