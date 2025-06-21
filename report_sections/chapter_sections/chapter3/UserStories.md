@@ -798,7 +798,7 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
         <td>EP18</td>
     </tr>
     <tr>
-        <td>US134</td>
+        <td>US148</td>
         <td>Cambiar el idioma preferido desde la configuración de cuenta</td>
         <td>Como usuario autenticado quiero ajustar el idioma en el que desea navegar la plataforma para tener una experiencia más cómoda y comprensible al utilizar el sistema</td>
         <td><strong>Scenario: Seleccionar idioma desde la configuración</strong><br>Given el usuario ha iniciado sesión<br>Given accede a la configuración de cuenta<br>When modifica su idioma preferido entre las opciones disponibles<br>Then el sistema debe actualizar su preferencia<br>Then reflejar el nuevo idioma en la interfaz en la siguiente carga<br><br></td>
