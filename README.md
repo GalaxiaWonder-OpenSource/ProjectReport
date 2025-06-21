@@ -255,7 +255,7 @@ Para este entregable que ha elaborado la documentación del sprint 2 del informe
 
 Para este entregable que ha elaborado la documentación del sprint 3 del informe en base al proceso de desarrollo del equipo.
 
-
+<img src="./img/insight_tb2.png">
 
 <div style="page-break-before: always;"></div>
 
@@ -7614,7 +7614,7 @@ Debido a la presión por completar el Sprint 1 a tiempo, no se manejó a gran de
 
 #### 5.2.1.3. Sprint Backlog 1
 
-<img src="./../img/chapter5/Sprint1/sprintbacklog.png">
+<img src="./img/chapter5/Sprint1/sprintbacklog.png">
 
 <a href="https://galaxiawonder.youtrack.cloud/dashboard?id=213-2" target="_blank">Ver tablero en YouTrack</a>
 
@@ -8037,7 +8037,7 @@ Se presenta a modo de evidencia un video y capturas de las principales vistas im
 
 Contiene el formulario de contacto con una frase llamativa
 
-<img src="./../img/chapter5/Sprint1/execution1.png">
+<img src="./img/chapter5/Sprint1/execution1.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -8045,7 +8045,7 @@ Contiene el formulario de contacto con una frase llamativa
 
 Contiene información sobre nuestra startup
 
-<img src="./../img/chapter5/Sprint1/execution2.png">
+<img src="./img/chapter5/Sprint1/execution2.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -8053,7 +8053,7 @@ Contiene información sobre nuestra startup
 
 Detalla, para grupo por segmento, cuales son las principales funcionalidades del producto
 
-<img src="./../img/chapter5/Sprint1/execution3.png">
+<img src="./img/chapter5/Sprint1/execution3.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -8061,7 +8061,7 @@ Detalla, para grupo por segmento, cuales son las principales funcionalidades del
 
 Se presentan los planes de suscripción (los diseñados provisionalmente)
 
-<img src="./../img/chapter5/Sprint1/execution4.png">
+<img src="./img/chapter5/Sprint1/execution4.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -8069,7 +8069,7 @@ Se presentan los planes de suscripción (los diseñados provisionalmente)
 
 Junto al footer con información de contacto, se presentan testimonios de usuarios
 
-<img src="./../img/chapter5/Sprint1/execution5.png">
+<img src="./img/chapter5/Sprint1/execution5.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -8199,7 +8199,7 @@ Para el Sprint 2, se proyectan actividades como la segunda versión del Landing 
 
 #### 5.2.2.3. Sprint Backlog 2
 
-<img src="./../img/chapter5/Sprint1/sprintbacklog.png">
+<img src="./img/chapter5/Sprint1/sprintbacklog.png">
 
 <a href="https://galaxiawonder.youtrack.cloud/dashboard?id=213-2" target="_blank">Ver tablero en YouTrack</a>
 
@@ -11484,7 +11484,7 @@ Se presenta a modo de evidencia un video y capturas de las principales vistas im
 
 Contiene una frase e imagen alusiva a las necesidades de este segmento. Proporciona un botón que redirige a la página de registro.
 
-<img src="./../img/chapter5/Sprint2/landing/hero_contractor.png">
+<img src="./img/chapter5/Sprint2/landing/hero_contractor.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -11492,7 +11492,7 @@ Contiene una frase e imagen alusiva a las necesidades de este segmento. Proporci
 
 Contiene una frase e imagen alusiva a las necesidades de este segmento. Proporciona un botón que redirige a la página de registro.
 
-<img src="./../img/chapter5/Sprint2/landing/hero_client.png">
+<img src="./img/chapter5/Sprint2/landing/hero_client.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -11500,7 +11500,7 @@ Contiene una frase e imagen alusiva a las necesidades de este segmento. Proporci
 
 Contiene una la misión, visión y valores de la startup.
 
-<img src="./../img/chapter5/Sprint2/landing/about_us.png">
+<img src="./img/chapter5/Sprint2/landing/about_us.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -11508,7 +11508,7 @@ Contiene una la misión, visión y valores de la startup.
 
 Contiene un resumen de los principales features de la aplicación web.
 
-<img src="./../img/chapter5/Sprint2/landing/overview_contractor.png">
+<img src="./img/chapter5/Sprint2/landing/overview_contractor.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -11516,7 +11516,7 @@ Contiene un resumen de los principales features de la aplicación web.
 
 Contiene un resumen de los principales features de la aplicación web.
 
-<img src="./../img/chapter5/Sprint2/landing/overview_client.png">
+<img src="./img/chapter5/Sprint2/landing/overview_client.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -11524,7 +11524,7 @@ Contiene un resumen de los principales features de la aplicación web.
 
 Muestra los principales planes de suscripción con sus beneficios.
 
-<img src="./../img/chapter5/Sprint2/landing/plans.png">
+<img src="./img/chapter5/Sprint2/landing/plans.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -11532,7 +11532,7 @@ Muestra los principales planes de suscripción con sus beneficios.
 
 Muestra reviews de usuarios de cada segmento y, debajo, el footer con información de relevante como los términos de uso y datos de contacto.
 
-<img src="./../img/chapter5/Sprint2/landing/reviews_and_footer.png">
+<img src="./img/chapter5/Sprint2/landing/reviews_and_footer.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -11544,7 +11544,7 @@ Se presenta a modo de evidencia un video y capturas de las principales vistas im
 
 Muestra credenciales de acceso, username y contraseña del usuario. Contiene opción de registro de usuario en caso no lo esté. Proporciona un botón para ingresar a aplicación.
 
-<img src="./../img/chapter5/Sprint2/webapplication/execution1.png">
+<img src="./img/chapter5/Sprint2/webapplication/execution1.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -11552,7 +11552,7 @@ Muestra credenciales de acceso, username y contraseña del usuario. Contiene opc
 
 Muestra vista principal de la organización, donde se encuentra la lista de organizaciones de las que es miembro el usuario.
 
-<img src="./../img/chapter5/Sprint2/webapplication/execution2.png">
+<img src="./img/chapter5/Sprint2/webapplication/execution2.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -11560,7 +11560,7 @@ Muestra vista principal de la organización, donde se encuentra la lista de orga
 
 Muestra la pestaña información, la cual es también la vista por default al ingresar a organización.
 
-<img src="./../img/chapter5/Sprint2/webapplication/execution4.png">
+<img src="./img/chapter5/Sprint2/webapplication/execution4.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -11568,7 +11568,7 @@ Muestra la pestaña información, la cual es también la vista por default al in
 
 Muestra la pestaña configuración, donde se pueden editar datos de la organización, pero solo para la entidad contratista.
 
-<img src="./../img/chapter5/Sprint2/webapplication/execution3.png">
+<img src="./img/chapter5/Sprint2/webapplication/execution3.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -11577,7 +11577,7 @@ Muestra la pestaña configuración, donde se pueden editar datos de la organizac
 
 Muestra vista principal de los clientes, donde se encuentra la lista de proyectos de los que es miembro el usuario.
 
-<img src="./../img/chapter5/Sprint2/webapplication/execution5.png">
+<img src="./img/chapter5/Sprint2/webapplication/execution5.png">
 
 <div style="page-break-after: always;"></div>
 
@@ -11710,7 +11710,7 @@ Para el Sprint 3, se proyectan actividades como y la implementación del FrontEn
 #### 5.2.3.3. Sprint Backlog 3
 
 
-<img src="./../img/chapter5/Sprint1/sprintbacklog.png">
+<img src="./img/chapter5/Sprint1/sprintbacklog.png">
 
 <a href="https://galaxiawonder.youtrack.cloud/dashboard?id=213-2" target="_blank">Ver tablero en YouTrack</a>
 
@@ -14646,9 +14646,11 @@ Enlace del video subido a Stream: <a href="https://upcedupe-my.sharepoint.com/:v
 
 # Conclusiones
 
-- En el ámbito de desarrollo, se ha completado exitosamente la segunda implementación y despliegue de la landing page de nuestro producto, pero se ha fallado en cumplir con la implementación del front-end del web application, quedando incompleto.
-- En el ámbito financiero, se mantiene la validez de la existencia de un mercado activo que presenta una necesidad real de soluciones tecnológicas como la que ofrecemos, más ahora se toman en consideración preocupaciones como el precio del hosting, que serán necesarios tomar en cuenta para ajustar los precios de las suscripciones y/o modelo de negocio del producto.
-- En el ámbito de trabajo en equipo, se ha identificado como principal falencia la falta de dominio técnico de los miembros del equipo, desafío que deberá abordarse a lo largo de los próximos sprints.
+- En el ámbito de desarrollo, se ha completado exitosamente con la mayoría de la implementación de features Core tanto a nivel de front-end y back-end, permitiendo realizar test real del producto.
+
+- En el ámbito financiero, se ha conseguido validar el interés de los usuarios por la solución mediante las entrevistas de validación, obteniendo feedback positivo tanto como críticas que serán oportunidades de mejora para el próximo sprint.
+
+- En el ámbito de trabajo en equipo, se ha identificado como principal falencia la acumulación de deuda técnica, que deberá solventarse para el próximo sprint.
 
 <div style="page-break-before: always;"></div>
 
@@ -14691,7 +14693,7 @@ Enlace del video subido a Stream: <a href="https://upcedupe-my.sharepoint.com/:v
 - Video exposición TB1: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ERtHWpdBfrdHrm7U2tOCxzwBDHdOpDxJ_wwfz-ZTDKtxcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=9LvT0v)
 - Video de exposición TP: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EQVmmaojg6dKm5NqQ59nOQoBSQPLUyVj9itURqJ8ROLoPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZCY5eY)
 - Video de exposición TB2: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ERVDsnGawk9Pkr6LR0UJgzIBARgp859S96HzfuIqwuke4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xOOVKQ)
-- Video de About the Team: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Ed7YZvJlDvZDmWxJHsF63x4BIRk_njMXY30O64FMjXpxNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VRFxP9)
+- Video de About the Team: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EeXxWfvqGOdNqjMod71ZRcABIOunTrwBwpFxHYwDNZHbzQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=i549SF)
 - Video de About the Product: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116250_upc_edu_pe/EfILUBsHAdNMtYc_hrVJseUBelcaZWcOEo0QSgxADO-dBg?e=L5rC8o&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Navegación del despliegue: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EX7fF-Wkp89OoButtBvvKNoB0B0tAjsM246o8QZFovK-ow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bzvehs)
 
