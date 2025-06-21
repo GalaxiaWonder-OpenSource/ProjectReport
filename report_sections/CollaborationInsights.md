@@ -42,3 +42,8 @@ Para este entregable que ha elaborado el informe desde el capitulo I hasta el ca
 Para este entregable que ha elaborado la documentación del sprint 2 del informe en base al proceso de desarrollo del equipo.
 
 <img src="../img/insight_tp.png">
+
+**TB2**
+
+Para este entregable que ha elaborado la documentación del sprint 3 del informe en base al proceso de desarrollo del equipo.
+
