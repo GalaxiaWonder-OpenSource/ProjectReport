@@ -1800,7 +1800,462 @@ Para el sprint 3 se proyectan actividades como implementacion del FrontEnd y Bac
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+A lo largo del sprint, se ha logrado cubrir gran parte de los servicios web que pertenecían a lo proyectado a desarrollar en este sprint. Se presenta a continuación una tabla informativa:
 
+<table style="font-size: 90%; width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th>🧭 Endpoint</th>
+      <th>⚙️ Acción</th>
+      <th>🔁 HTTP</th>
+      <th>📥 Ejemplo de solicitud</th>
+      <th>📤 Ejemplo de respuesta</th>
+      <th>🌐 URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>/api/v1/organizations</code></td>
+      <td>Crear una organización</td>
+      <td><code>POST</code></td>
+      <td>
+        <pre>{
+  "legalName": "Constructora Soluciones Integrales S.A.C.",
+  "commercialName": "Solintec",
+  "ruc": "20547896541",
+  "createdBy": 12
+}</pre>
+      </td>
+      <td>
+        <strong>201 Created</strong>
+        <pre>{
+  "id": 7,
+  "legalName": "Constructora Soluciones Integrales S.A.C.",
+  "commercialName": "Solintec",
+  "ruc": "20547896541",
+  "createdBy": 12,
+  "status": "ACTIVE",
+  "createdAt": "2025-06-21T07:31:49.826Z"
+}</pre>
+        <strong>400 Bad Request</strong>
+        <pre>{
+  "message": "Missing required fields or invalid RUC format"
+}</pre>
+      </td>
+      <td><strong>http://localhost:8080/</strong></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/organizations/invitations</code></td>
+      <td>Invitar a una persona a una organización por correo</td>
+      <td><code>POST</code></td>
+      <td>
+        <pre>{
+  "organizationId": 7,
+  "email": "sofia.ramirez@solintec.com"
+}</pre>
+      </td>
+      <td>
+        <strong>201 Created</strong>
+        <pre>{
+  "id": 15,
+  "organizationName": "Solintec",
+  "invitedBy": "Luis Torres",
+  "status": "PENDING",
+  "invitedAt": "2025-06-21T08:04:38.498Z",
+  "invitedPerson": null
+}</pre>
+        <strong>400 Bad Request</strong>
+        <pre>{
+  "message": "Email already invited or user is already a member"
+}</pre>
+        <strong>404 Not Found</strong>
+        <pre>{
+  "message": "Organization not found or user profile unavailable"
+}</pre>
+      </td>
+      <td><strong>http://localhost:8080/</strong></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/organizations/{id}</code></td>
+      <td>Obtener organización por ID</td>
+      <td><code>GET</code></td>
+      <td>
+        <code>/api/v1/organizations/7</code><br>
+        <em>Path Param:</em> <code>id: number</code>
+      </td>
+      <td>
+        <strong>200 OK</strong>
+        <pre>{
+  "id": 7,
+  "legalName": "Constructora Soluciones Integrales S.A.C.",
+  "commercialName": "Solintec",
+  "ruc": "20547896541",
+  "createdBy": 12,
+  "status": "ACTIVE",
+  "createdAt": "2025-06-21T08:27:56.218Z"
+}</pre>
+        <strong>404 Not Found</strong>
+        <pre>{
+  "message": "Organization with ID 7 not found"
+}</pre>
+      </td>
+      <td><strong>http://localhost:8080/</strong></td>
+    </tr>
+    <tr>
+  <td><code>/api/v1/organizations/{id}</code></td>
+  <td>Actualizar información de una organización</td>
+  <td><code>PATCH</code></td>
+  <td>
+    <code>/api/v1/organizations/2</code><br>
+    <em>Path Param:</em> <code>id: number</code>
+    <br>
+    <br>
+    <strong>Body:</strong>
+    <pre>{
+  "commercialName": "Realio Consultores S.A.C.",
+  "legalName": "Realio Consultores"
+}</pre>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "message": "Organization with ID 2 successfully updated"
+}</pre>
+    <strong>400 Bad Request</strong>
+    <pre>{
+  "message": "Invalid JSON format or missing fields"
+}</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Organization with ID 2 not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/invitations/{id}/reject</code></td>
+  <td>Rechazar una invitación pendiente</td>
+  <td><code>PATCH</code></td>
+  <td>
+    <code>/api/v1/organizations/invitations/5/reject</code><br>
+    <em>Path Param:</em> <code>id: number</code>
+  </td>
+  <td>
+    <strong>201 Created</strong>
+    <pre>{
+  "id": 5,
+  "organizationName": "Realio Consultores S.A.C.",
+  "invitedBy": "Henry Reaño",
+  "status": "REJECTED",
+  "invitedAt": "2025-06-21T07:43:19.464+00:00",
+  "invitedPerson": null
+}</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Invitation with ID 5 not found"
+}</pre>
+    <strong>409 Conflict</strong>
+    <pre>{
+  "message": "Invitation is no longer pending and cannot be rejected"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/invitations/{id}/accept</code></td>
+  <td>Aceptar una invitación pendiente</td>
+  <td><code>PATCH</code></td>
+  <td>
+    <code>/api/v1/organizations/invitations/6/accept</code><br>
+    <em>Path Param:</em> <code>id: number</code>
+  </td>
+  <td>
+    <strong>201 Created</strong>
+    <pre>{
+  "id": 6,
+  "organizationName": "Realio Consultores S.A.C.",
+  "invitedBy": "Henry Reaño",
+  "status": "ACCEPTED",
+  "invitedAt": "2025-06-21T07:45:54.066+00:00",
+  "invitedPerson": null
+}</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Invitation with ID 6 not found"
+}</pre>
+    <strong>409 Conflict</strong>
+    <pre>{
+  "message": "Invitation is no longer pending and cannot be accepted"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/{organizationId}/members</code></td>
+  <td>Listar miembros activos de una organización</td>
+  <td><code>GET</code></td>
+  <td>
+    <code>/api/v1/organizations/2/members</code><br>
+    <em>Path Param:</em> <code>organizationId: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>[
+  {
+    "id": 2,
+    "fullName": "Henry Reaño",
+    "memberType": "CONTRACTOR",
+    "joinedAt": "2025-06-21T04:40:53.914+00:00"
+  },
+  {
+    "id": 3,
+    "fullName": "Carlos Ochoa",
+    "memberType": "WORKER",
+    "joinedAt": "2025-06-21T04:42:02.115+00:00"
+  }
+]</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Organization with ID 2 not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/{organizationId}/invitations</code></td>
+  <td>Listar invitaciones asociadas a una organización</td>
+  <td><code>GET</code></td>
+  <td>
+    <code>/api/v1/organizations/2/invitations</code><br>
+    <em>Path Param:</em> <code>organizationId: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>[
+  {
+    "id": 10,
+    "organizationName": "Realio Consultores S.A.C.",
+    "invitedBy": "Henry Reaño",
+    "status": "PENDING",
+    "invitedAt": "2025-06-21T07:50:50.941Z",
+    "invitedPerson": null
+  }
+]</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Organization with ID 2 not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/invitations/by-person-id/{personId}</code></td>
+  <td>Listar invitaciones pendientes por persona</td>
+  <td><code>GET</code></td>
+  <td>
+    <code>/api/v1/organizations/invitations/by-person-id/8</code><br>
+    <em>Path Param:</em> <code>personId: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>[
+  {
+    "id": 14,
+    "organizationName": "Realio Consultores S.A.C.",
+    "invitedBy": "Henry Reaño",
+    "status": "PENDING",
+    "invitedAt": "2025-06-21T07:51:45.018Z",
+    "invitedPerson": null
+  }
+]</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "No invitations found for person ID 8"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/by-person-id/{id}</code></td>
+  <td>Listar organizaciones donde una persona es miembro</td>
+  <td><code>GET</code></td>
+  <td>
+    <code>/api/v1/organizations/by-person-id/8</code><br>
+    <em>Path Param:</em> <code>id: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>[
+  {
+    "id": 2,
+    "legalName": "Realio Consultores S.A.C.",
+    "commercialName": "Realio",
+    "ruc": "20103254678",
+    "createdBy": 12,
+    "status": "ACTIVE",
+    "createdAt": "2025-06-21T07:53:16.111Z"
+  }
+]</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "No organizations found for person ID 8"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/{ruc}</code></td>
+  <td>Eliminar una organización por RUC</td>
+  <td><code>DELETE</code></td>
+  <td>
+    <code>/api/v1/organizations/20101720201</code><br>
+    <em>Path Param:</em> <code>ruc: string</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "message": "Organization with RUC 20101720201 was successfully deleted"
+}</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Organization with RUC 20101720201 not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/members/{memberId}</code></td>
+  <td>Eliminar un miembro de la organización</td>
+  <td><code>DELETE</code></td>
+  <td>
+    <code>/api/v1/organizations/members/12</code><br>
+    <em>Path Param:</em> <code>memberId: number</code>
+  </td>
+  <td>
+    <strong>204 No Content</strong>
+    <pre>
+Miembro con ID 12 eliminado exitosamente.
+    </pre>
+    <strong>400 Bad Request</strong>
+    <pre>{
+  "message": "Cannot delete a CONTRACTOR member"
+}</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Member with ID 12 not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+  </tbody>
+  <tr>
+  <td><code>/api/v1/projects</code></td>
+  <td>Crear un nuevo proyecto</td>
+  <td><code>POST</code></td>
+  <td>
+    <pre>{
+  "projectName": "Ampliación Planta San Juan",
+  "description": "Proyecto de ampliación de infraestructura industrial en Cajamarca.",
+  "startDate": "2025-06-21T08:02:10.727Z",
+  "endDate": "2025-12-15T08:02:10.727Z",
+  "organizationId": 2,
+  "contractingEntityEmail": "luis.mendez@realio.com"
+}</pre>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "id": 17,
+  "projectName": "Ampliación Planta San Juan",
+  "description": "Proyecto de ampliación de infraestructura industrial en Cajamarca.",
+  "status": "PLANNED",
+  "startDate": "2025-06-21T08:02:10.727Z",
+  "endDate": "2025-12-15T08:02:10.727Z",
+  "organizationId": 2,
+  "contractingEntityId": 9
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/projects/by-person-id/{id}</code></td>
+  <td>Listar proyectos donde participa una persona</td>
+  <td><code>GET</code></td>
+  <td>
+    <code>/api/v1/projects/by-person-id/8</code><br>
+    <em>Path Param:</em> <code>id: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>[
+  {
+    "id": 21,
+    "projectName": "Instalación de planta solar",
+    "description": "Proyecto de instalación fotovoltaica en Arequipa.",
+    "status": "IN_PROGRESS",
+    "startDate": "2025-06-21T08:02:24.232Z",
+    "endDate": "2025-12-01T08:02:24.232Z",
+    "organizationId": 6,
+    "contractingEntityId": 9
+  }
+]</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "No projects found for person ID 8"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/auth/signup</code></td>
+  <td>Registro de un nuevo usuario</td>
+  <td><code>POST</code></td>
+  <td>
+    <pre>{
+  "userName": "chkioson",
+  "password": "C$D#Gf01",
+  "userType": "TYPE_WORKER",
+  "firstName": "Jesús",
+  "lastName": "Uribe",
+  "email": "jesus@example.com",
+  "phone": "+51321987789"
+}</pre>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "userName": "chkioson",
+  "userType": "TYPE_WORKER",
+  "personId": 14
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/auth/signin</code></td>
+  <td>Inicio de sesión</td>
+  <td><code>POST</code></td>
+  <td>
+    <pre>{
+  "userName": "chkiosor",
+  "password": "ASDFGH!#"
+}</pre>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "user": {
+    "userName": "chkiosor",
+    "userType": "TYPE_WORKER",
+    "personId": 14
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6..."
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+</table>
+>>>>>>> Stashed changes
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
