@@ -1,10 +1,48 @@
 ## 5.3. Validation Interviews
 
+Dentro de la sección "Validation Interviews" de nuestro proyecto, dirigimos nuestros esfuerzos a perfeccionar la plataforma web diseñada para la planificación y gestión de proyectos en el ámbito de la ingeniería civil. Esta etapa resulta esencial para comprender mejor las dinámicas del trabajo en obra, por lo que establece un canal de comunicación cercano con los usuarios clave: contratistas, especialistas y clientes. Mediante entrevistas de validación, buscamos recoger sus opiniones, necesidades y recomendaciones, de modo que la herramienta digital vaya sintonía con su realidad. Lo mencionado ayudará a que la solución no solo cumpla con los estándares técnicos, sino que también reuna las condiciones reales del trabajo y las expectativas de los usuarios involucrados.
+
 ### 5.3.1. Diseño de entrevistas
 
- 
-**User Goal**
+En este apartado se exponen las metas de usuarios en concordancia con nuestras entrevistas. Estos user goals nos permiten comprender mejor las prioridades y expectativas de los usuarios, asegurando que la plataforma refleje fielmente su forma de trabajar en proyectos de la vida real.
 
+**User Goals**
+
+**User Goal: Iniciar sesión**  
+**User persona:** Contratistas, especialistas y clientes.  
+**Flujo:** El usuario accede a la aplicación desplegada y visualiza un formulario que le solicita su nombre de usuario y contraseña. Una vez que el sistema valida correctamente las credenciales, le concede acceso y lo redirige a su dashboard principal, donde se muestran las funcionalidades correspondientes a su rol. En caso contrario, permanece en la pantalla de inicio de sesión y se le indica que vuelva a ingresar sus datos.
+
+**User Goal: Navegar por el dashboard principal**  
+**User persona:** Contratistas y especialistas.  
+**Flujo:** Tras iniciar sesión, el usuario es dirigido automáticamente al dashboard principal de la organización. Esta pantalla incluye distintas secciones que le facilitan el trabajo: la sección “Información” proporciona detalles generales sobre la organización a la que pertenece; la sección “Proyectos” le permite visualizar el listado completo de proyectos activos; la sección “Miembros” le muestra la lista de integrantes, junto con la posibilidad de invitar nuevos miembros en caso de que tenga perfil de contratista; y la sección “Configuración” le brinda acceso a las opciones para modificar los datos legales y comerciales de la organización.
+
+**User Goal: Crear una organización**  
+**User persona:** Contratistas.  
+**Flujo:** El usuario accede a la sección “Organizaciones”, donde puede registrar una nueva entidad. La plataforma le ofrece un formulario que solicita el nombre legal, el nombre comercial y el número de RUC. Una vez que se validan estos datos, la nueva organización queda automáticamente registrada y visible en el listado para su consulta y gestión posterior.
+
+**User Goal: Crear un proyecto**  
+**User persona:** Contratistas.  
+**Flujo:** Al ingresar a una organización, el usuario accede a la sección “Proyectos”, donde dispone de una opción para registrar un nuevo proyecto. La plataforma le presenta un formulario para completar el nombre del proyecto, la descripción del mismo, el cliente al que está asociado y las fechas de inicio y fin. Una vez que los datos son validados y la creación queda confirmada, el proyecto se incluye automáticamente en la lista y queda disponible para su consulta y gestión.
+
+**User Goal: Crear cambios**  
+**User persona:** Clientes.  
+**Flujo:** Desde la vista del cliente, el usuario ingresa a la sección “Proyecto”, donde dispone de una opción para registrar un cambio. La plataforma presenta un formulario en el que es necesario describir el nombre del cambio y su motivo en el campo de descripción. Una vez que la información es completada, el cambio queda listo para ser enviado al contratista responsable del proyecto para su revisión y posterior solución.
+
+**User Goal: Registrar miembros**  
+**User persona:** Contratistas.  
+**Flujo:** Desde una organización o proyecto, el usuario accede a la sección “Miembros”, donde dispone de una opción para incorporar nuevos integrantes. La plataforma le presenta un formulario que requiere el correo electrónico y el rol asignado. Una vez que la información es validada y la invitación queda confirmada, el nuevo miembro se incluye automáticamente en la lista de participantes.
+
+**User Goal: Ver organizaciones**  
+**User persona:** Contratistas, especialistas.  
+**Flujo:** Una vez en el dashboard, el usuario ingresa a la sección “Organizaciones”, donde dispone del listado completo de las organizaciones asociadas a su cuenta. La plataforma le permite seleccionar cualquiera de ellas para consultar la vista detallada.
+
+**User Goal: Ver proyectos**  
+**User persona:** Contratistas, especialistas y clientes.  
+**Flujo:** Desde el dashboard o dentro de una organización específica, el usuario accede a la sección “Proyectos”, donde dispone del listado completo de proyectos activos. La plataforma le permite seleccionar cualquiera de ellos para consultar su vista detallada, que incluye las secciones “Información”, “Cronograma”, “Equipo de trabajo”, “Gestión de cambios” y “Configuración”, disponibles según el rol que tenga el usuario.
+
+**User Goal: Crear hitos y tareas**  
+**User persona:** Contratistas y especialistas.  
+**Flujo:** Al ingresar a un proyecto, el usuario accede a la sección “Cronograma”, donde dispone de las opciones para registrar un nuevo hito y una nueva tarea. La plataforma le presenta un formulario que incluye campos para asignar un responsable (y, si corresponde, su especialidad), definir el nombre y la descripción, establecer las fechas de inicio y fin, y seleccionar el estado actual. Una vez que la información es validada y confirmada, el hito o tarea queda registrado, visible para todo el equipo y listo para que la persona asignada pueda resolver la tarea cuando corresponda.
 <div style="page-break-before: always;"></div>
 
 ### 5.3.2. Registro de entrevistas
@@ -39,12 +77,12 @@
               <li><strong>Apellidos:</strong> Salcedo Vásquez</li>
               <li><strong>Edad:</strong> 57</li>
               <li><strong>Distrito:</strong> San Juan de Lurigancho</li>
-              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EcevWNDfG6dBnrGYQPSWrzEB4IRn6nz58E08LabLr1X9UA?e=ntuur9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
               <li><strong>Timestamp:</strong> 00:00</li>
-              <li><strong>Duración:</strong> 04:51</li>
+              <li><strong>Duración:</strong> 05:40</li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/william_salcedo.png" alt="Screenshot de la entrevista con William Salcedo">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter5/william_salcedo.png" alt="Screenshot de la entrevista con William Salcedo">
         </div>
       </td>
     </tr>
@@ -53,8 +91,13 @@
         <div style="background-color: #f9f9f9; border-radius: 10px; padding: 24px; margin-top: 12px;">
           <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Resumen</p>
           <ul style="padding-left: 20px; list-style-type: disc; color: #333; font-size: 1em; margin: 0;">
-            <li><strong>Personalidad:</strong> Guardian. Demuestra un claro respeto por las normas
+            <li><strong>Personalidad:</strong> Guardian.
               </ul>
+            </li>
+              </ul>
+            <ul style="margin: 0; padding: 24px; list-style-type: disc; color: #333; font-size: 1em; line-height: 1.7;">
+              <li><strong>Análisis:</strong> Durante la entrevista de validación, William Salcedo, autenticado como la entidad contratante, evaluó la plataforma y destacó que la interfaz le resultó amigable y sencilla de comprender. Asimismo, valoró que el flujo de trabajo estuviera bien organizado y fuera fácil de seguir, en línea con el User Goal: Iniciar sesión y el User Goal: Navegar por el dashboard principal, que le brindan una experiencia ordenada y coherente. Sin embargo, sugirió dos mejoras clave para optimizar su experiencia: la incorporación de un sistema de notificaciones que le permita enterarse en tiempo real (vía correo electrónico registrado) sobre nuevos cambios o actualizaciones que involucren su rol, y la posibilidad de visualizar y gestionar los diferentes estados del proyecto que actualmente no se muestran en la plataforma.</li>
+            </ul>
             </li>
           </ul>
         </div>
@@ -74,54 +117,6 @@
             background-color: #f0f0f0;
             font-size: 22px;"><strong>SEGMENTO OBJETIVO: CONTRATISTA</strong></th>
       <th><strong>#2</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
-        <div style="display: flex; gap: 24px; align-items: flex-start; background-color: #fafafa; border-radius: 10px; padding: 24px;">
-          <div style="flex: 1; display: flex; flex-direction: column;">
-            <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
-            <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
-              <li><strong>Nombres:</strong> Mario Encarnación</li>
-              <li><strong>Apellidos:</strong> López Saldaña</li>
-              <li><strong>Edad:</strong> 64</li>
-              <li><strong>Distrito:</strong> La Molina</li>
-              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 04:52</li>
-              <li><strong>Duración:</strong> 04:37</li>
-            </ul>
-          </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/mario_lopez.png" alt="Screenshot de la entrevista con Mario López">
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
-        <div style="background-color: #f9f9f9; border-radius: 10px; padding: 24px; margin-top: 12px;">
-          <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Resumen</p>
-          <ul style="padding-left: 20px; list-style-type: disc; color: #333; font-size: 1em; margin: 0;">
-            <li><strong>Personalidad:</strong> Guardián. Lleva 
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<div style="page-break-before: always;"></div>
-
-<table class="tabla-entrevista">
-  <thead>
-    <tr>
-      <th style="
-            text-align: left;
-            padding: 12px;
-            background-color: #f0f0f0;
-            font-size: 22px;"><strong>SEGMENTO OBJETIVO: CONTRATISTA</strong></th>
-      <th><strong>#3</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -135,12 +130,12 @@
               <li><strong>Apellidos:</strong> Reaño García</li>
               <li><strong>Edad:</strong> 56</li>
               <li><strong>Distrito:</strong> San Juan de Lurigancho</li>
-              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 09:29</li>
-              <li><strong>Duración:</strong> 04:01</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EcevWNDfG6dBnrGYQPSWrzEB4IRn6nz58E08LabLr1X9UA?e=ntuur9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 05:51</li>
+              <li><strong>Duración:</strong> 11:06</li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/raul_reano.png" alt="Screenshot de la entrevista con Raúl Reaño">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter5/raul_reaño.png" alt="Screenshot de la entrevista con Raul Reaño">
         </div>
       </td>
     </tr>
@@ -149,7 +144,61 @@
         <div style="background-color: #f9f9f9; border-radius: 10px; padding: 24px; margin-top: 12px;">
           <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Resumen</p>
           <ul style="padding-left: 20px; list-style-type: disc; color: #333; font-size: 1em; margin: 0;">
-            <li><strong>Personalidad:</strong> Guardián. Como
+            <li><strong>Personalidad:</strong> Guardián. 
+              </ul>
+            </li>
+          </ul>
+          <ul style="margin: 0; padding: 24px; list-style-type: disc; color: #333; font-size: 1em; line-height: 1.7;">
+            <li><strong>Análisis:</strong> Durante la entrevista de validación, Raúl Reaño, en su rol de contratista, se sintió bastante conforme con la plataforma y destacó que la estructura le resultaba clara y funcional. Asimismo, valoró positivamente la internacionalización y consideró que el cronograma debería dividirse en dos partes: cronograma de trabajo y avance de proyecto. En la vista de avance, sugirió que se pudieran incluir precios, valorizaciones y estimaciones económicas relacionadas con los hitos, para que el progreso del proyecto sea más completo y transparente. Finalmente, comentó que la paleta de colores es sencilla y práctica, facilitando su uso e interpretación.</li>
+          </ul>  
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-before: always;"></div>
+
+<table class="tabla-entrevista">
+  <thead>
+    <tr>
+      <th style="
+            text-align: left;
+            padding: 12px;
+            background-color: #f0f0f0;
+            font-size: 22px;"><strong>SEGMENTO OBJETIVO: CONTRATISTA</strong></th>
+      <th><strong>#3</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
+        <div style="display: flex; gap: 24px; align-items: flex-start; background-color: #fafafa; border-radius: 10px; padding: 24px;">
+          <div style="flex: 1; display: flex; flex-direction: column;">
+            <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
+            <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
+              <li><strong>Nombres:</strong> Victor Manuel</li>
+              <li><strong>Apellidos:</strong> León Reyes</li>
+              <li><strong>Edad:</strong> 52</li>
+              <li><strong>Distrito:</strong> San Borja</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EcevWNDfG6dBnrGYQPSWrzEB4IRn6nz58E08LabLr1X9UA?e=ntuur9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 11:07</li>
+              <li><strong>Duración:</strong> 16:54</li>
+            </ul>
+          </div>
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter5/victo_leon.png" alt="Screenshot de la entrevista con Victor Leon">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="padding: 0; vertical-align: top; background-color: #fff border-top: 1px solid #ddd;">
+        <div style="background-color: #f9f9f9; border-radius: 10px; padding: 24px; margin-top: 12px;">
+          <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Resumen</p>
+          <ul style="padding-left: 20px; list-style-type: disc; color: #333; font-size: 1em; margin: 0;">
+            <li><strong>Personalidad:</strong> Guardián.
+              </ul>
+            <ul style="margin: 0; padding: 24px; list-style-type: disc; color: #333; font-size: 1em; line-height: 1.7;">
+                <li><strong>Análisis:</strong> Durante la entrevista de validación, Victor León, en su rol de contratista, comentó que la plataforma le resultó muy intuitiva y sencilla de comprender, sin necesidad de conocimientos expertos para su uso. Destacó que las etapas y fases del proyecto se muestran claramente en el dashboard, facilitando mantener el orden en todo momento. Asimismo, alineado con el User Goal: Registrar cambios y el User Goal: Navegar por el dashboard principal, sugirió implementar más validaciones o respaldos cuando se realiza una solicitud de cambio. Consideró que debería existir algún mecanismo contractual que le otorgue mayor formalidad y legalidad a la modificación, evitando problemas futuros entre las partes.</li>
               </ul>
             </li>
           </ul>
@@ -179,16 +228,16 @@
           <div style="flex: 1; display: flex; flex-direction: column;">
             <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
             <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
-              <li><strong>Nombres:</strong> Luis Enrique</li>
-              <li><strong>Apellidos:</strong> Agreda Sobrino</li>
+              <li><strong>Nombres:</strong> Victor Otto</li>
+              <li><strong>Apellidos:</strong> Reinoso Diaz</li>
               <li><strong>Edad:</strong> 26</li>
-              <li><strong>Distrito:</strong> Surco</li>
-              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 13:30</li>
-              <li><strong>Duración:</strong> 04:00</li>
+              <li><strong>Distrito:</strong> La Molina</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EcevWNDfG6dBnrGYQPSWrzEB4IRn6nz58E08LabLr1X9UA?e=ntuur9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 16:55</li>
+              <li><strong>Duración:</strong> 21:59</li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/luis_agreda.png" alt="Screenshot de la entrevista con Luis Agreda">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter5/victor_reinoso.png" alt="Screenshot de la entrevista con Victor Reinoso">
         </div>
       </td>
     </tr>
@@ -201,6 +250,9 @@
               </ul>
             </li>
           </ul>
+            <ul style="margin: 0; padding: 24px; list-style-type: disc; color: #333; font-size: 1em; line-height: 1.7;">
+                <li><strong>Análisis:</strong> Durante la entrevista de validación, Victor Reinoso, en su rol de especialista, comentó que la plataforma es funcional, pero que los colores actuales son demasiado intensos y las letras en gris tienden a opacar la visión del contenido. Asimismo, sugirió que sería recomendable eliminar algunas vistas que podrían resultar confusas o redundantes para el usuario, alineándose con el User Goal: Navegar por el dashboard principal y el User Goal: Ver proyectos, con el fin de que la experiencia sea más clara y sencilla. Por último, mencionó que, desde la perspectiva del modelo de negocio, la herramienta es adecuada y cumple con su propósito principal.</li>
+              </ul>
         </div>
       </td>
     </tr>
@@ -227,16 +279,16 @@
           <div style="flex: 1; display: flex; flex-direction: column;">
             <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
             <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
-              <li><strong>Nombres:</strong> Manuel Bejamín</li>
-              <li><strong>Apellidos:</strong> Anyaypoma Ocon</li>
-              <li><strong>Edad:</strong> 45</li>
-              <li><strong>Distrito:</strong> Surco</li>
-              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 17:31</li>
-              <li><strong>Duración:</strong> 04:47</li>
+              <li><strong>Nombres:</strong> Jorge Raúl</li>
+              <li><strong>Apellidos:</strong> García Torres</li>
+              <li><strong>Edad:</strong> 27</li>
+              <li><strong>Distrito:</strong> San Miguel</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EcevWNDfG6dBnrGYQPSWrzEB4IRn6nz58E08LabLr1X9UA?e=ntuur9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 22:00</li>
+              <li><strong>Duración:</strong> 27:22</li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/manuel_anaypoma.png" alt="Screenshot de la entrevista con Manuel Anaypoma">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter5/jorge_garcia.png" alt="Screenshot de la entrevista con Jorge Garcia">
         </div>
       </td>
     </tr>
@@ -249,6 +301,9 @@
               </ul>
             </li>
           </ul>
+            <ul style="margin: 0; padding: 24px; list-style-type: disc; color: #333; font-size: 1em; line-height: 1.7;">
+                <li><strong>Análisis:</strong> Durante la entrevista de validación, Jorge, en su rol de especialista, mencionó que la plataforma es bastante clara y que la presentación visual lo invita a seguir explorando. Asimismo, destacó que la información que se le muestra está bien adaptada a su rol como ingeniero, facilitando el acceso a su equipo de trabajo y a los proyectos que le corresponden, en línea con el User Goal: Navegar por el dashboard principal y el User Goal: Ver proyectos. Por último, comentó que la paleta de colores es adecuada y contribuye a que la experiencia sea sencilla y atractiva.</li>
+              </ul>
         </div>
       </td>
     </tr>
@@ -275,16 +330,16 @@
           <div style="flex: 1; display: flex; flex-direction: column;">
             <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
             <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
-              <li><strong>Nombres:</strong> Jesús Josecarlos</li>
-              <li><strong>Apellidos:</strong> Merino Fernández</li>
-              <li><strong>Edad:</strong> 35</li>
-              <li><strong>Distrito:</strong> Trujillo</li>
-              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 22:18</li>
-              <li><strong>Duración:</strong> 04:55</li>
+              <li><strong>Nombres:</strong> Raúl Eduardo</li>
+              <li><strong>Apellidos:</strong> Medina Fernandez</li>
+              <li><strong>Edad:</strong> 30</li>
+              <li><strong>Distrito:</strong> Surquillo</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EcevWNDfG6dBnrGYQPSWrzEB4IRn6nz58E08LabLr1X9UA?e=ntuur9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 27:23</li>
+              <li><strong>Duración:</strong> 32:53</li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/jesus_merino.png" alt="Screenshot de la entrevista con Jesús Merino">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter5/raul_medina.png" alt="Screenshot de la entrevista con Raul Medina">
         </div>
       </td>
     </tr>
@@ -297,6 +352,9 @@
               </ul>
             </li>
           </ul>
+            <ul style="margin: 0; padding: 24px; list-style-type: disc; color: #333; font-size: 1em; line-height: 1.7;">
+                <li><strong>Análisis:</strong> Durante la entrevista de validación, Raúl, en su rol de especialista, destacó que la plataforma le pareció muy clara y sencilla, con una ruta de navegación bien definida y fácil de comprender. También mencionó que los colores elegidos resultan agradables y transmiten una sensación profesional, logrando una experiencia visualmente armoniosa desde el primer ingreso sin necesidad de asistencia externa. Este feedback se alinea con el User Goal: Iniciar sesión y el User Goal: Navegar por el dashboard principal, que buscan ofrecer a los usuarios una interacción intuitiva, ordenada y que inspire confianza.</li>
+              </ul>
         </div>
       </td>
     </tr>
@@ -323,16 +381,16 @@
           <div style="flex: 1; display: flex; flex-direction: column;">
             <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
             <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
-              <li><strong>Nombres:</strong> Aldo Kevin</li>
-              <li><strong>Apellidos:</strong> Apolinario Vivas</li>
-              <li><strong>Edad:</strong> 34</li>
-              <li><strong>Distrito:</strong> El Agustino</li>
-              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 27:14</li>
-              <li><strong>Duración:</strong> 03:00</li>
+              <li><strong>Nombres:</strong> Leonardo Jesús </li>
+              <li><strong>Apellidos:</strong> Caballa Huamán </li>
+              <li><strong>Edad:</strong> 28</li>
+              <li><strong>Distrito:</strong> Jesús María</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EcevWNDfG6dBnrGYQPSWrzEB4IRn6nz58E08LabLr1X9UA?e=ntuur9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 32:54</li>
+              <li><strong>Duración:</strong> 37:59</li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/kevin_apolinario.png" alt="Screenshot de la entrevista con Kevin Apolinario">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter5/leonardo_caballa.png" alt="Screenshot de la entrevista con Leonardo Caballa">
         </div>
       </td>
     </tr>
@@ -345,6 +403,9 @@
               </ul>
             </li>
           </ul>
+             <ul style="margin: 0; padding: 24px; list-style-type: disc; color: #333; font-size: 1em; line-height: 1.7;">
+                <li><strong>Análisis:</strong> Durante la entrevista de validación, Leonardo, en su rol de cliente, mencionó que es consciente de que las personas pueden cambiar de idea y que el User Goal: Registrar cambios le parece muy adecuado para cómo funciona un proyecto. Asimismo, comentó que el esquema de colores es neutral y que sería interesante diferenciar visualmente cada sección con tonalidades propias, manteniendo un ruteo de vistas bien organizado y fácil de comprender. Por último, sugirió integrar una comunicación directa con el contratista que le permita pedir fotos o adjuntar documentos cuando solicite cambios, lo que se asocia a los User Goals: Registrar cambios y Ver proyectos, ya que mejora la transparencia y la colaboración entre las partes involucradas.</li>
+              </ul>
         </div>
       </td>
     </tr>
@@ -371,16 +432,16 @@
           <div style="flex: 1; display: flex; flex-direction: column;">
             <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
             <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
-              <li><strong>Nombres:</strong> Lucero Martina</li>
-              <li><strong>Apellidos:</strong> Villanes Santillán</li>
-              <li><strong>Edad:</strong> 26</li>
-              <li><strong>Distrito:</strong> Villa María del Triunfo</li>
-              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 30:15</li>
-              <li><strong>Duración:</strong> 01:44</li>
+              <li><strong>Nombres:</strong> Alvaro Martin</li>
+              <li><strong>Apellidos:</strong> Torres Huamaní </li>
+              <li><strong>Edad:</strong> 27</li>
+              <li><strong>Distrito:</strong> San Juan de Lurigancho</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EcevWNDfG6dBnrGYQPSWrzEB4IRn6nz58E08LabLr1X9UA?e=ntuur9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 38:00</li>
+              <li><strong>Duración:</strong> 42:49</li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/lucero_villanes.png" alt="Screenshot de la entrevista con Kevin Apolinario">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter5/alvaro_torres.png" alt="Screenshot de la entrevista con Alvaro Torres">
         </div>
       </td>
     </tr>
@@ -393,6 +454,9 @@
               </ul>
             </li>
           </ul>
+            <ul style="margin: 0; padding: 24px; list-style-type: disc; color: #333; font-size: 1em; line-height: 1.7;">
+            <li><strong>Análisis:</strong> Durante la entrevista de validación, Álvaro, en su rol de cliente, destacó que la opción de internacionalización le pareció muy útil y bien lograda para usuarios de diferentes idiomas. También mencionó que el campo para registrar el número telefónico debería estar mejor implementado en el registro, ya que no queda claro qué tipo de número se espera, mejorando así el User Goal: Iniciar sesión y el User Goal: Ver proyecto. Por último, sugirió que una notificación visual en la campanita que confirme si un cambio solicitado ha sido aprobado o desaprobado sería muy útil, lo cual está alineado con el User Goal: Registrar cambios y aporta mayor transparencia y control al proceso.</li>
+              </ul>
         </div>
       </td>
     </tr>
@@ -419,16 +483,16 @@
           <div style="flex: 1; display: flex; flex-direction: column;">
             <p style="font-size: 18px; font-weight: bold; color: #2c3e50; margin-bottom: 12px; padding-bottom: 6px;">Datos generales</p>
             <ul style="margin: 0; padding-left: 20px; list-style-type: disc; font-size: 1.05em; line-height: 1.7; color: #333;">
-              <li><strong>Nombres:</strong> Álvaro Martín</li>
-              <li><strong>Apellidos:</strong> Torres Huamaní</li>
+              <li><strong>Nombres:</strong> Aaron Patrick</li>
+              <li><strong>Apellidos:</strong> Ravines Diaz</li>
               <li><strong>Edad:</strong> 27</li>
-              <li><strong>Distrito:</strong> San Juan de Lurigancho</li>
-              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EREC9iNRgJhIinK3osJI6IYBrl5jviZ00gGwKmbTa1DFvA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LTJHiH" target="_blank">Ver video</a></li>
-              <li><strong>Timestamp:</strong> 31:59</li>
-              <li><strong>Duración:</strong> 03:56</li>
+              <li><strong>Distrito:</strong> San Borja</li>
+              <li><strong>URL Entrevista:</strong> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224135_upc_edu_pe/EcevWNDfG6dBnrGYQPSWrzEB4IRn6nz58E08LabLr1X9UA?e=ntuur9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Ver video</a></li>
+              <li><strong>Timestamp:</strong> 42:50</li>
+              <li><strong>Duración:</strong> 48:16</li>
             </ul>
           </div>
-          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter2/alvaro_torres.png" alt="Screenshot de la entrevista con Kevin Apolinario">
+          <img style="max-width: 40%; height: auto; border-radius: 10px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);" src="../../../img/chapter5/aaron_ravines.png" alt="Screenshot de la entrevista con Aaron Ravines">
         </div>
       </td>
     </tr>
@@ -441,6 +505,9 @@
               </ul>
             </li>
           </ul>
+            <ul style="margin: 0; padding: 24px; list-style-type: disc; color: #333; font-size: 1em; line-height: 1.7;">
+                <li><strong>Análisis:</strong> Durante la entrevista de validación, Aaron, en su rol de cliente, mencionó que el proceso le pareció correcto y que no ha sido difícil interactuar con la interfaz, destacando que los colores elegidos transmiten tranquilidad y que todo está bien organizado. Esta facilidad de uso y comodidad al navegar por la plataforma está alineada con el User Goal: Ver Proyecto, ya que le ha permitido comprender y moverse por las distintas secciones sin complicaciones.</li>
+              </ul>
         </div>
       </td>
     </tr>
@@ -453,286 +520,52 @@
 
 **CONTRATISTAS**
 
-**1. Resumen:** 
+**1. Resumen:** Este segmento agrupa a clientes entre 52 y 57 años que han acumulado experiencia y estabilidad profesional a lo largo de su carrera. Por lo general, buscan materializar proyectos grandes en el ámbito privado como público. Valoran la transparencia, el seguimiento detallado del avance de obra y el cumplimiento estricto de tiempos y presupuestos, asegurándose de que el resultado final sea funcional, duradero y alineado con su visión.
 
-**2. Edad:**  Las edades de los entrevistados de este segmento varían desde los 56 hasta los 64 años de edad. Se toma como edad representativa la media aritmética de los datos.
+**2. Edad:** Las edades de los entrevistados de este segmento varían desde los 52 hasta los 57 años de edad. Se toma como edad representativa la media aritmética de los datos.
 
-| Entrevistado | Mario López | Raúl Reaño | William Salcedo | Valor representativo |
+| Entrevistado | Victor León | Raúl Reaño | William Salcedo | Valor representativo |
 |-|-|-|-|-|
-| **Edad** | 64 | 56 | 57 | 59 |
+| **Edad** | 52 | 56 | 57 | 55 |
 
 **3. Personalidad:** La totalidad de los entrevistados (100%) se alínean al arquetipo de personalidad *Guardián*, debido a su respeto irrestricto y meticuloso de las normas y acuerdos. Se toma este arquetipo de personalidad como representativo.
 
-| Entrevistado | Mario López | Raúl Reaño | William Salcedo | Valor representativo |
+| Entrevistado | Victor León | Raúl Reaño | William Salcedo | Valor representativo |
 |-|-|-|-|-|
 | **Personalidad** | Guardián | Guardián | Guardián | Guardián |
-
-**4. Marcas e influencers:** La totalidad de los entrevistados (100%) mencionó las marcas Microsoft y Autodesk. De ellos, la gran mayoría (66.7%) mencionaron la marca S10. Se toma como marcas representativas Microsoft, Autodesk y S10.
-
-| Marca | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que la siguen (%) |
-|-|-|-|-|
-| Microsoft | 3 | 37.5% | 100% |
-| Autodesk Inc. | 3 | 37.5% | 100% |
-| S10 | 2 | 25% | 66.7% |
-| **Total** | 8 | 100% | - |
-
-**5. Uso de tecnología:** La gran mayoría de los entrevistados (66.7%) demostró un nivel bajo de dominio e integración de la tecnología en su trabajo y vida diaria, mientras que la menor parte (33.3%) mostró un nivel intermedio. Se toma como nivel de uso de tecnología representativo el nivel Bajo.
-
-| Nivel de uso de tecnología | Frecuencia Absoluta | % de entrevistados en este nivel |
-|-|-|-|
-| Bajo | 2 | 66.7% |
-| Medio | 1 | 33.3% |
-| Alto | 0 | 0% |
-| **Total** | 3 | 100% |
-
-**6. Canales:** La gran mayoría de los entrevistados (66.7%) mencionó utilizar WhatsApp como canal de comunicación, especialmente para el trabajo, mientras que la menor parte (33.3%) mencionó utilizar el ecosistema de Microsoft y Telegram.
-
-| Canal de comunicación | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo usan (%) |
-|-|-|-|-|
-| WhatsApp | 2 | 50% | 66.7% |
-| Ecosistema Microsoft | 1 | 25% | 33.3% |
-| Telegram | 1 | 25% | 33.3% |
-| **Total** | 4 | 100% | - |
-
-**7. Browsers:** La totalidad de los entrevistados (100%) mencionó utilizar exclusivamente Google Chrome como su navegador web. Esta preferencia podría estar relacionada con su bajo nivel de dominio tecnológico, lo que los lleva a mantenerse en entornos digitales conocidos y seguros, sin explorar otras alternativas disponibles. Se toma como representativa la única alternativa mencionada.
-
-| Navegador Web | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo usan (%) |
-|-|-|-|-|
-| Google Chrome | 3 | 100% | 100% |
-| **Total** | 3 | 100% | - |
-
-<div style="page-break-after: always;"></div>
-
-**8. Dispositivos:** La totalidad de los entrevistados (100%) mencionó utilizar el celular como herramienta principal para acceder a recursos digitales. La gran mayoría (66.7%) reportó el uso de Laptops, mientras que una menor parte reportó el uso de computadoras de escritorio (33.3%). Se toma como representativa la clara tendencia hacia la portabilidad (Celular y Laptop).
-
-| Dispositivo | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo usan (%) |
-|-|-|-|-|
-| Celular | 3 | 50% | 100% |
-| Laptop | 2 | 33.3% | 66.7% |
-| PC | 1 | 16.7% | 33.3% |
-| **Total** | 6 | 100% | - |
-
-**9. Flujos principales:** La totalidad de los entrevistados (100%) señaló la importancia del seguimiento y cumplimiento del calendario. La gran mayoría (66.7%) destacó la importancia del seguimiento del contrato y la gestión de observaciones y compatibilidad de los planos. De manera aislada se mencionaron otros flujos como el contacto con el cliente o la recaudación ded medidas descriptivas, entre otras. Estos últimos flujos tienen cierto grado de solapamiento con los flujos principales mayoritarios, cumpliendo un rol de apoyo o soporte.
-
-| Flujo de trabajo | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo priorizan (%) |
-|-|-|-|-|
-| Comunicación / contacto con el cliente | 1 | 9.1% | 33.3% |
-| Conceder y solicitar autorización entre distintas áreas | 1 | 9.1% | 33.3% |
-| Estudios básicos (medidas descriptivas) | 1 | 9.1% | 33.3% |
-| Elaboración del calendario | 1 | 9.1% | 33.3% |
-| Seguimiento y cumplimiento del calendario | 3 | 27.3% | 100% |
-| Seguimiento del contrato | 2 | 18.2% | 66.7% |
-| Gestión de observaciones y compatibilidad de planos | 2 | 18.2% | 66.7% |
-| **Total** | 11 | 100% | - |
 
 <div style="page-break-after: always;"></div>
 
 **ESPECIALISTA DE ÁREA**
 
-**1. Resumen:** Los especialistas de área son en su mayoría varones adultos entre los 26 y 45 años, con formación en Ingeniería Civil y experiencia desarrollada dentro de una especialidad técnica. Muchos de ellos llegaron a su posición actual a través de la práctica profesional en empresas del rubro, aunque algunas áreas, como TI, requieren formación específica. Son personas estructuradas, con un fuerte apego a las normas y procesos establecidos, lo que les permite mantener el orden en sus funciones. Sin embargo, enfrentan ciertas dificultades en la comunicación con otras especialidades, influenciadas por la rigidez de las estructuras organizacionales en las que trabajan.
+**1. Resumen:** Los especialistas de área son en su mayoría varones adultos entre los 26 y 30 años, con formación en Ingeniería Civil y experiencia desarrollada dentro de una especialidad técnica. Muchos de ellos llegaron a su posición actual a través de la práctica profesional en empresas del rubro, aunque algunas áreas, como TI, requieren formación específica. Son personas estructuradas, con un fuerte apego a las normas y procesos establecidos, lo que les permite mantener el orden en sus funciones. Sin embargo, enfrentan ciertas dificultades en la comunicación con otras especialidades, influenciadas por la rigidez de las estructuras organizacionales en las que trabajan.
 
-**2. Edad:**  Las edades de los entrevistados de este segmento varían desde los 26 hasta los 45 años de edad. Se toma como edad representativa la media aritmética de los datos.
+**2. Edad:** Las edades de los entrevistados de este segmento varían desde los 26 hasta los 30 años de edad. Se toma como edad representativa la media aritmética de los datos.
 
-| Entrevistado | Luis Agreda | Manuel Anaypoma | Jesús Merino | Valor representativo |
+| Entrevistado | Victor Reinoso | Jorge Garcia | Raul Medina | Valor representativo |
 |-|-|-|-|-|
-| **Edad** | 26 | 45 | 35 | 35 |
+| **Edad** | 26 | 27 | 30 | 28 |
 
 **3. Personalidad:** La gran mayoría de los entrevistados (100%) se alínean al arquetipo de personalidad *Guardián*, mientras que la menor parte (33.3%) refleja una personalidad de tipo *Racional*. Se toma el arquetipo *Guardián* como representativo.
 
-| Entrevistado | Luis Agreda | Manuel Anaypoma | Jesús Merino | Valor representativo |
+| Entrevistado | Victor Reinoso | Jorge Garcia | Raul Medina | Valor representativo |
 |-|-|-|-|-|
 | **Personalidad** | Racional | Guardián | Guardián | Guardián |
-
-**4. Marcas e influencers:** La totalidad de los entrevistados (100%) mencionó seguir la marca Microsoft. De ellos, la gran mayoría (66.7%) mencionaron la marca Autodesk, mientras que se encontraron casos aislados (33.3%) de S10, Cisco y Apple. Se toma como marcas representativas Microsoft y Autodesk.
-
-| Marca | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que la siguen (%) |
-|-|-|-|-|
-| Microsoft | 3 | 37.5% | 100% |
-| Autodesk Inc. | 2 | 25% | 66.7% |
-| S10 | 1 | 12.5% | 33.3% |
-| Cisco | 1 | 12.5% | 33.3% |
-| Apple | 1 | 12.5% | 33.3% |
-| **Total** | 8 | 100% | - |
-
-**5. Uso de tecnología:** Los entrevistados mostraron niveles de dominio de la tecnología variados, que se correlacionan tanto con su edad como con sus respectivas especialidades. Se asigna un peso numérico a los niveles de habilidad y se toma como representativo el nivel que tenga como nivel el más próximo al promedio ponderado (Medio).
-
-| Nivel de uso de tecnología | Frecuencia Absoluta | % de entrevistados en este nivel | Peso | Promedio Ponderado |
-|-|-|-|-|-|
-| Bajo | 1 | 33.3% | 1 | 0.3 |
-| Medio | 1 | 33.3% | 2 | 0.7 |
-| Alto | 1 | 33.3% | 3 | 1 |
-| **Total** | 3 | 100% | - | 2 |
-
-**6. Canales:** La totalidad de los entrevistados mencionó utilizar WhatsApp como canal de comunicación, especialmente para el trabajo. Por otro lado, la gran mayoría (66.7%) mencionó utilizar X (Twitter), mientras que la menor parte (33.3%) mencionó utilizar Instagram.
-
-| Canal de comunicación | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo usan (%) |
-|-|-|-|-|
-| WhatsApp | 3 | 50% | 100% |
-| X (Twitter) | 2 | 33.3% | 66.7% |
-| Instagram | 1 | 16.7% | 33.3% |
-| **Total** | 6 | 100% | - |
-
-<div style="page-break-after: always;"></div>
-
-**7. Browsers:** La gran mayoría de los entrevistados (66.7%) reportó utilizar Google Chrome como su navegador por defecto. Sin embargo, se presentaron casos particulares de utilizar otros navegadores de forma complementaria (correspondientes a 33.3%). Por ejemplo, usar Safari cuando se usa el teléfono iPhone o Internet Explorer debido a la necesidad de interactuar con sistemas Legacy. Se toma como representativo el uso de Google Chrome, pero se tiene presente los posibles casos adicionales de uso de otros navegadores debido a necesidades del momento.
-
-| Navegador Web | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo usan (%) |
-|-|-|-|-|
-| Google Chrome | 2 | 40% | 66.7% |
-| Safari | 1 | 20% | 33.3% |
-| Firefox | 1 | 20% | 33.3% |
-| Internet Explorer | 1 | 20% | 33.% |
-| **Total** | 5 | 100% | - |
-
-**8. Dispositivos:** La totalidad de los entrevistados (100%) mencionó utilizar el celular como herramienta principal para acceder a recursos digitales. La gran mayoría (66.7%) reportó el uso de Laptops, mientras que una menor parte reportó el uso de computadoras de escritorio (33.3%). Se toma como representativa la clara tendencia hacia la portabilidad (Celular y Laptop).
-
-| Dispositivo | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo usan (%) |
-|-|-|-|-|
-| Celular | 3 | 50% | 100% |
-| PC | 3 | 33.3% | 66.7% |
-| Laptop | 1 | 16.7% | 33.3% |
-| **Total** | 6 | 100% | - |
-
-**9. Flujos principales:** La gran mayoría de los entrevistados destacaron la importancia de las reuniones de coordinación con otros especialistas. El resto de actividades destacadas fueron aquellas relacionadas con su propia área de especialidad dentro de la empresa que trabajan. Se toma como presentativo conjuntos de actividades relacionadas a un único fin conjunto:
-- Análisis de información y elaboración de documentación
-- Comunicación e intercambio de información
-- Seguimiento y cumplimiento de planificación 
-
-<table class="tabla-flujos">
-  <thead>
-    <tr>
-      <th>Categoría</th>
-      <th>Flujo de trabajo</th>
-      <th>Frecuencia Absoluta</th>
-      <th>Frecuencia Relativa</th>
-      <th>Entrevistados que lo priorizan (%)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="2"><strong>Comunicación e intercambio de información</strong></td>
-      <td style="border: 1px solid #000;">Reuniones de coordinación de especialistas</td>
-      <td style="border: 1px solid #000;">2</td>
-      <td style="border: 1px solid #000;">25%</td>
-      <td style="border: 1px solid #000;">2</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #000;">Realizar consultas o solicitar revisiones ante incompatibilidad de planos</td>
-      <td style="border: 1px solid #000;">1</td>
-      <td style="border: 1px solid #000;">12.5%</td>
-      <td style="border: 1px solid #000;">1</td>
-    </tr>
-    <tr>
-      <td rowspan="2"><strong>Seguimiento y cumplimiento de planificación</strong></td>
-      <td style="border: 1px solid #000;">Seguir y cumplir los lineamientos de el expediente técnico</td>
-      <td style="border: 1px solid #000;">1</td>
-      <td style="border: 1px solid #000;">12.5%</td>
-      <td style="border: 1px solid #000;">1</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #000;">Cumplir con los entregables</td>
-      <td style="border: 1px solid #000;">1</td>
-      <td style="border: 1px solid #000;">12.5%</td>
-      <td style="border: 1px solid #000;">1</td>
-    </tr>
-    <tr>
-      <td rowspan="3"><strong>Análisis de información y elaboración de documentación</strong></td>
-      <td style="border: 1px solid #000;">Analizar datos para identificar posibles riesgos</td>
-      <td style="border: 1px solid #000;">1</td>
-      <td style="border: 1px solid #000;">12.5%</td>
-      <td style="border: 1px solid #000;">1</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #000;">Cálculo de materiales de obra y precios unitarios</td>
-      <td style="border: 1px solid #000;">1</td>
-      <td style="border: 1px solid #000;">12.5%</td>
-      <td style="border: 1px solid #000;">1</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #000;">Elaboración de documentación para los expedientes técnicos</td>
-      <td style="border: 1px solid #000;">1</td>
-      <td style="border: 1px solid #000;">12.5%</td>
-      <td style="border: 1px solid #000;">1</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #000;"><strong>Total</strong></td>
-      <td style="border: 1px solid #000;">8</td>
-      <td style="border: 1px solid #000;">100%</td>
-      <td style="border: 1px solid #000;">-</td>
-      <td style="border: 1px solid #000;"></td>
-    </tr>
-  </tbody>
-</table>
 
 <div style="page-break-after: always;"></div>
 
 **ENTIDAD CONTRATANTE**
 
-**1. Resumen:** Los clientes (formalmente llamados "La Entidad Contrante") son predominante varones adultos jóvenes entre los 26 y 34 años de edad con entre 5 a 10 años de experiencia laboral. Se destacan por ser ambiciosos y estratégicos, pensar bien las cosas y tener mucho cuidado de que "las cosas marchen de acuerdo al plan". Buscan los servicios de consultoría principalmente para la planificación de su vivienda a futuro, pero también existen intereses de realizar negocios (alquiler, por ejemplo). Sus principales preocupaciones son el cumplimiento de plazos y sus expectativas.
+**1. Resumen:** Los clientes (formalmente llamados "La Entidad Contratante") son predominantemente varones adultos jóvenes entre los 27 y 28 años de edad, con entre 1 y 3 años de experiencia laboral. Se destacan por ser ambiciosos y estratégicos, pensar bien las cosas y tener mucho cuidado de que “todo marche de acuerdo al plan”. Buscan los servicios de consultoría principalmente para la planificación de su primera vivienda a futuro. Sus principales preocupaciones son el cumplimiento de plazos y la satisfacción de sus expectativas.
 
-**2. Edad:**  Las edades de los entrevistados de este segmento varían desde los 26 hasta los 34 años de edad. Se toma como edad representativa la media aritmética de los datos.
+**2. Edad:** Las edades de los entrevistados de este segmento varían desde los 27 hasta los 28 años de edad. Se toma como edad representativa la media aritmética de los datos.
 
-| Entrevistado | Aldo Apolinario | Lucero Villanes | Álvaro Torres | Valor representativo |
+| Entrevistado | Leonardo Caballa | Álvaro Torres | Aaron Ravines | Valor representativo |
 |-|-|-|-|-|
-| **Edad** | 34 | 26 | 27 | 29 |
+| **Edad** | 28 | 27 | 27 | 27 |
 
 **3. Personalidad:** La totalidad de los entrevistados (100%) se alínean al arquetipo de personalidad *Idealista*, debido a que reflejan un alto grado de meticulosidad, cuidado y respeto a la ley de por medio a lograr sus objetivos personales.
 
-| Entrevistado | Aldo Apolinario | Lucero Villanes | Álvaro Torres | Valor representativo |
+| Entrevistado | Leonardo Caballa | Álvaro Torres | Aaron Ravines | Valor representativo |
 |-|-|-|-|-|
-| **Personalidad** | Idealista | Idealista | Idealista | Idealista |
-
-**4. Marcas e influencers:** Los entrevistados no proporcionaron muchos detalles sobre las marcas e influencers que siguen (salvo a una única expeción) sin mostrar un concenso o tendencia clara. Se obtiene del análisis el entendimiento de que el perfil del entrevistado es el seguimiento de marcas e influencers en general y se toma dicha noción como representativa.
-
-| Marca | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que la siguen (%) |
-|-|-|-|-|
-| Álvaro Soler | 1 | 33.3% | 33.3% |
-| Vlogs en general | 1 | 33.3% | 33.3% |
-| Podcasts en general | 1 | 33.3% | 33.3% |
-| **Total** | 8 | 100% | - |
-
-**5. Uso de tecnología:** La totalidad de los entrevistados (100%) demostraron un nivel de uso de la tecnología Medio. Se toma este nivel como representativo.
-
-| Nivel de uso de tecnología | Frecuencia Absoluta | % de entrevistados en este nivel |
-|-|-|-|
-| Bajo | 0 | 0% |
-| Medio | 3 | 100% |
-| Alto | 0 | 0% |
-| **Total** | 3 | 100% |
-
-**6. Canales:** La gran mayoría de los entrevistados (66.7%) mencionó utilizar TikTok e Instagram como canal de comunicación, especialmente para el trabajo, mientras que la menor parte (33.3%) mencionó utilizar LinkedIn. Se toma como representativo el uso de las dos primeras redes sociales.
-
-| Canal de comunicación | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo usan (%) |
-|-|-|-|-|
-| TikTok | 2 | 40% | 66.7% |
-| Instagram | 2 | 40% | 66.7% |
-| LinkedIn | 1 | 20% | 33.3% |
-| **Total** | 5 | 100% | - |
-
-**7. Browsers:** La totalidad de los entrevistados (100%) mencionó utilizar Google Chrome como su navegador web. Se mencionaron casos aislados (33.3%) de uso de Safari y Edge. Se toma como representativo el uso de Chrome, y se considera a Safari por la posibilidad de tener un dispositivo de Apple.
-
-| Navegador Web | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo usan (%) |
-|-|-|-|-|
-| Google Chrome | 3 | 60% | 100% |
-| Safari | 1 | 20% | 33.3% |
-| Edge | 1 | 20% | 33.3% |
-| **Total** | 5 | 100% | - |
-
-<div style="page-break-after: always;"></div>
-
-**8. Dispositivos:** La totalidad de los entrevistados (100%) mencionó utilizar el celular como herramienta principal para acceder a recursos digitales. De ellos, la gran mayoría (66.7%) reportó el uso de Laptops. Se toma como representativa la clara tendencia hacia la portabilidad (Celular y Laptop).
-
-| Dispositivo | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo usan (%) |
-|-|-|-|-|
-| Celular | 3 | 60% | 100% |
-| Laptop | 2 | 40% | 66.7% |
-| **Total** | 5 | 100% | - |
-
-**9. Flujos principales:** La totalidad de los entrevistados (100%) señaló la importancia del seguimiento y cumplimiento del calendario. La gran mayoría (66.7%) destacó la importancia del seguimiento del contrato y la gestión de observaciones y compatibilidad de los planos. De manera aislada se mencionaron otros flujos como el contacto con el cliente o la recaudación ded medidas descriptivas, entre otras. Estos últimos flujos tienen cierto grado de solapamiento con los flujos principales mayoritarios, cumpliendo un rol de apoyo o soporte.
-
-| Flujo de trabajo | Frecuencia Absoluta | Frecuencia Relativa | Entrevistados que lo priorizan (%) |
-|-|-|-|-|
-| Contactar con el proyectista | 3 | 50% | 100% |
-| Supervisar el avance del proyecto | 2 | 33.3% | 66.7% |
-| Presentar el requerimiento del proyecto | 1 | 16.7% | 33.3% |
-| **Total** | 6 | 100% | - |
+| **Edad** | 28 | 27 | 27 | 27 |
