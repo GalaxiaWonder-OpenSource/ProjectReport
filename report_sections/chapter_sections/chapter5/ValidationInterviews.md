@@ -522,11 +522,9 @@ En este apartado se exponen las metas de usuarios en concordancia con nuestras e
 
 <div style="page-break-after: always;"></div>
 
-<<<<<<< Updated upstream
 ### 5.3.3. Análisis de entrevistas
-=======
+
 ### Análisis de entrevistas
->>>>>>> Stashed changes
 
 **CONTRATISTAS**
 
@@ -579,8 +577,6 @@ En este apartado se exponen las metas de usuarios en concordancia con nuestras e
 | Entrevistado | Leonardo Caballa | Álvaro Torres | Aaron Ravines | Valor representativo |
 |-|-|-|-|-|
 | **Edad** | 28 | 27 | 27 | 27 |
-<<<<<<< Updated upstream
-=======
 
 
 ## 5.3.3 UX Heuristics & Principles Evaluation  
