@@ -165,6 +165,40 @@
                 <p style="display: block; margin: 2px 0; text-indent: 10px;">4.8.1. Database Diagram</p>
             </td>
         </tr>
+        <tr>
+            <td>3.0</td>
+            <td>21/06/2025</td>
+            <td>
+                <ul>
+                    <li>Aponte Cruzado, Andrea Marielena</li>
+                    <li>León Vivas, Fabrizio Amir</li>
+                    <li>López Acuña, Mario Joaquín</li>
+                    <li>Orozco Torres, Álvaro Joaquín</li>
+                    <li>Reaño Delgadillo, Henry Paolo</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Adición de secciones:</strong><br>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">5.3.1. Sprint Planning 3</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">5.3.3. Aspect Leaders and Collaborators</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">5.3.3. Sprint Backlog 3</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">5.3.4. Development Evidence for Sprint Review</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">5.3.5. Execution Evidence for Sprint Review</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">5.3.6. Services Documentation Evidence for Sprint Review</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">5.3.7. Software Deployment Evidence for Sprint Review</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">5.3.8. Team Collaboration Insights during Sprint</p>
+                <strong>Actualización de secciones:</strong><br>
+                <p style="display: block; margin: 3px 0; text-indent: 0px; font-weight: bold;">4.6. Domain-Driven Software Architecture</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">4.6.1. Software Architecture Context Diagram</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">4.6.3. Software Architecture Container Diagrams</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">4.6.3. Software Architecture Components Diagrams</p>
+                <p style="display: block; margin: 3px 0; text-indent: 0px; font-weight: bold;">4.7. Software Object-Oriented Design</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">4.7.1. Class Diagrams</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">4.7.3. Class Dictionary</p>
+                <p style="display: block; margin: 3px 0; text-indent: 0px; font-weight: bold;">4.8. Database Design</p>
+                <p style="display: block; margin: 3px 0; text-indent: 10px;">4.8.1. Database Diagram</p>
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -361,10 +395,19 @@ Para este entregable que ha elaborado la documentación del sprint 3 del informe
                     <li><strong>Álvaro:</strong> Asumí un rol de coordinación técnica dentro del equipo, distribuyendo tareas estratégicamente según las fortalezas individuales. Además, facilité sesiones para alinear el diseño de componentes con los objetivos del proyecto, promoviendo prácticas colaborativas sólidas enfocadas en el core del sistema.</li>
                     <li><strong>Henry:</strong> Lideré y formé parte activa de todas las reuniones del equipo, manteniendo siempre una actitud colaborativa. También facilité la integración de las vistas y secciones principales de la Web Application.</li>
                 </ul>
+                <strong>TB2:</strong><br>
+                <ul>
+                <li><strong>Andrea:</strong> Participé activamente en la exposición final del entregable, comunicando con claridad el aporte del equipo en el módulo de gestión de miembros. También intervine en reuniones técnicas para clarificar decisiones de diseño ante el equipo completo.</li>
+                <li><strong>Fabrizio:</strong> Expliqué con soltura y claridad el funcionamiento del módulo de autenticación durante la revisión grupal. Fui un puente efectivo entre los compañeros más técnicos y los que necesitaban apoyo adicional.</li>
+                <li><strong>Mario:</strong> Contribuí a la presentación oral del entregable, resumiendo de forma precisa las decisiones funcionales y la evolución del trabajo. Mi comunicación fue clave para alinear ideas en las sesiones de equipo.</li>
+                <li><strong>Álvaro:</strong> Dirigí reuniones clave para validar la arquitectura del sistema y expuse decisiones estratégicas durante la demo final del equipo. Siempre busqué adaptar mi comunicación al nivel de conocimiento de cada interlocutor.</li>
+                <li><strong>Henry:</strong> Tomé la iniciativa para presentar los avances técnicos más complejos ante el equipo docente y los compañeros, facilitando la comprensión de aspectos como la arquitectura, la integración y el despliegue del sistema.</li>
+                </ul>
             </td>
             <td>
                 <strong>TB1:</strong> Durante el primer entregable el equipo mantuvo una buena comunicación mediante constantes reuniones para delegar trabajos, coordinar el diseño la Landing Page, Web Application y diseño basado en el dominio. La toma de requisitos mediante entrevistas fue un punto vital para el exito de este entregable. Si bien el equipo trabaja bien y organizado, aún hay margen de mejora con respecto a los siguientes entregables.<br>
                 <strong>TP:</strong> Durante el segundo entregable, el equipo mantuvo una comunicación constante a través de reuniones, lo que permitió delegar tareas y coordinar tanto la implementación de la Web Application como su diseño basado en el dominio. Si bien se logró una distribución lógica del trabajo, aún existe margen de mejora en la organización y asignación de responsabilidades para los siguientes entregables.<br>
+                <strong>TB2:</strong> En este entregable, la comunicación oral del equipo se fortaleció notablemente, destacando la participación activa en presentaciones, reuniones técnicas y sesiones de coordinación. Los miembros del equipo lograron expresar con claridad sus ideas, decisiones y avances ante diferentes audiencias, tanto internas como externas. A medida que se avanza, será importante seguir perfeccionando la capacidad de adaptar el discurso según el contexto, promoviendo siempre una comunicación efectiva, empática y orientada a objetivos comunes.
             </td>
         </tr>
         <tr>
@@ -388,10 +431,19 @@ Para este entregable que ha elaborado la documentación del sprint 3 del informe
                     <li><strong>Álvaro:</strong> Organicé tareas y canalicé acuerdos mediante mensajes escritos y en reuniones de equipo, asegurando una buena trazabilidad de decisiones. Realicé implementaciones clave en la pestaña de organizaciones.</li>
                     <li><strong>Henry:</strong> Coordiné con el equipo por medios escritos para aclarar dudas y compartir avances. Realicé implementación de secciones en el Web Application y me encargué de enrutar el proyecto.</li>
                 </ul>
+                <strong>TB2:</strong><br>
+                <ul>
+                <li><strong>Andrea:</strong> Coordiné tareas y entregas a través de canales escritos como Discord, fomentando la claridad en el diseño colaborativo. También participé en la redacción de instrucciones funcionales en el README del entregable.</li>
+                <li><strong>Fabrizio:</strong> Documenté decisiones técnicas en canales escritos y colaboré en la elaboración del capítulo relacionado con la interfaz del sistema. Aseguré que los comentarios en el código fueran comprensibles para todo el equipo.</li>
+                <li><strong>Mario:</strong> Registré y comuniqué avances del equipo por medios escritos como GitHub y WhatsApp. También propuse mejoras estructurales en los documentos del proyecto de forma clara y asertiva.</li>
+                <li><strong>Álvaro:</strong> Fui responsable de consolidar la documentación técnica del entregable, dejando evidencia clara de las decisiones tomadas. Utilicé medios escritos para organizar tareas, coordinar módulos y generar acuerdos efectivos.</li>
+                <li><strong>Henry:</strong> Redacté documentación clave sobre los componentes de la Web Application e integré reportes escritos que respaldaban las decisiones arquitectónicas del equipo. Coordiné la integración final del sistema usando mensajes escritos en canales técnicos.</li>
+                </ul>
             </td>
             <td>
                 <strong>TB1:</strong> Durante el primer entregable hubo altibajos en la elaboración del reporte, sobretodo en la última semana. A pesar de ello, el equipo trabajo de manera constante durante todo el proyecto. Todos los capítulos del reporte tienen detrás horas de investigación con la misión de que sea entendible para cualquier persona que lo lea.<br>
                 <strong>TP:</strong> En el segundo entregable, surgieron problemas durante la implementación de la Web Application. A pesar de ello, el equipo se esforzó por mantener un trabajo constante a lo largo del proceso, procurando seguir las convenciones establecidas y aplicar buenas prácticas de desarrollo.<br>
+                <strong>TB2:</strong> En este entregable, el equipo demostró una mejora continua en su capacidad de comunicación escrita, empleando distintos canales para coordinar avances, resolver dudas y dejar constancia de decisiones técnicas. La documentación se volvió más estructurada y el uso de medios escritos fue clave para mantener la trazabilidad del proyecto. Aunque aún hay oportunidades para estandarizar ciertos formatos y optimizar la claridad de algunos mensajes, se evidenció un compromiso colectivo con la comunicación efectiva y la colaboración remota.
             </td>
         </tr>
     </tobdy>
@@ -13877,12 +13929,8 @@ Se ha logrado en mayor medida cumplir el objetivo de desarrollar las funcionalid
 
 <div style="page-break-before: always;"></div>
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
 ## 5.3. Validation Interviews
-=======
->>>>>>> Stashed changes
+
 ## 5.3. Validation Interviews
 
 Dentro de la sección "Validation Interviews" de nuestro proyecto, dirigimos nuestros esfuerzos a perfeccionar la plataforma web diseñada para la planificación y gestión de proyectos en el ámbito de la ingeniería civil. Esta etapa resulta esencial para comprender mejor las dinámicas del trabajo en obra, por lo que establece un canal de comunicación cercano con los usuarios clave: contratistas, especialistas y clientes. Mediante entrevistas de validación, buscamos recoger sus opiniones, necesidades y recomendaciones, de modo que la herramienta digital vaya sintonía con su realidad. Lo mencionado ayudará a que la solución no solo cumpla con los estándares técnicos, sino que también reuna las condiciones reales del trabajo y las expectativas de los usuarios involucrados.
@@ -14401,11 +14449,9 @@ En este apartado se exponen las metas de usuarios en concordancia con nuestras e
 
 <div style="page-break-after: always;"></div>
 
-<<<<<<< Updated upstream
 ### 5.3.3. Análisis de entrevistas
-=======
+
 ### Análisis de entrevistas
->>>>>>> Stashed changes
 
 **CONTRATISTAS**
 
@@ -14458,8 +14504,6 @@ En este apartado se exponen las metas de usuarios en concordancia con nuestras e
 | Entrevistado | Leonardo Caballa | Álvaro Torres | Aaron Ravines | Valor representativo |
 |-|-|-|-|-|
 | **Edad** | 28 | 27 | 27 | 27 |
-<<<<<<< Updated upstream
-=======
 
 
 ## 5.3.3 UX Heuristics & Principles Evaluation  
@@ -14581,9 +14625,6 @@ Los estilos, tipografías, tamaños y disposición de los componentes varían en
 
 Recomendación: 
 Definir una guía de estilos unificada que incluya paleta de colores, tipografías, tamaños y componentes estandarizados para que sean reutilizados en todo el sitio. Así se logrará mayor consistencia, mejor experiencia y una imagen más sólida del producto.
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-
 
 <div style="page-break-before: always;"></div>
 
@@ -14646,12 +14687,13 @@ Enlace del video subido a Stream: <a href="https://upcedupe-my.sharepoint.com/:v
 
 - Organización de GitHub: [Enlace](https://github.com/GalaxiaWonder-OpenSource)
 - Organización YouTrack: [Enlace](https://galaxiawonder.youtrack.cloud/projects/0-6)
-- Despliegue Landing Page: [Enlace](https://propgms-open-source.netlify.app/)
+- Despliegue Landing Page: [Enlace](https://propgms.netlify.app/)
 - Video exposición TB1: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ERtHWpdBfrdHrm7U2tOCxzwBDHdOpDxJ_wwfz-ZTDKtxcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=9LvT0v)
 - Video de exposición TP: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EQVmmaojg6dKm5NqQ59nOQoBSQPLUyVj9itURqJ8ROLoPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZCY5eY)
+- Video de exposición TB2: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ERVDsnGawk9Pkr6LR0UJgzIBARgp859S96HzfuIqwuke4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xOOVKQ)
 - Video de About the Team: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/Ed7YZvJlDvZDmWxJHsF63x4BIRk_njMXY30O64FMjXpxNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VRFxP9)
 - Video de About the Product: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116250_upc_edu_pe/EfILUBsHAdNMtYc_hrVJseUBelcaZWcOEo0QSgxADO-dBg?e=L5rC8o&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
+- Navegación del despliegue: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EX7fF-Wkp89OoButtBvvKNoB0B0tAjsM246o8QZFovK-ow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bzvehs)
 
 <div style="page-break-before: always;"></div>
 

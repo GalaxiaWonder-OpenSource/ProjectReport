@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
 ## 5.3. Validation Interviews
-=======
->>>>>>> Stashed changes
+
 ## 5.3. Validation Interviews
 
 Dentro de la sección "Validation Interviews" de nuestro proyecto, dirigimos nuestros esfuerzos a perfeccionar la plataforma web diseñada para la planificación y gestión de proyectos en el ámbito de la ingeniería civil. Esta etapa resulta esencial para comprender mejor las dinámicas del trabajo en obra, por lo que establece un canal de comunicación cercano con los usuarios clave: contratistas, especialistas y clientes. Mediante entrevistas de validación, buscamos recoger sus opiniones, necesidades y recomendaciones, de modo que la herramienta digital vaya sintonía con su realidad. Lo mencionado ayudará a que la solución no solo cumpla con los estándares técnicos, sino que también reuna las condiciones reales del trabajo y las expectativas de los usuarios involucrados.
@@ -698,5 +694,3 @@ Los estilos, tipografías, tamaños y disposición de los componentes varían en
 
 Recomendación: 
 Definir una guía de estilos unificada que incluya paleta de colores, tipografías, tamaños y componentes estandarizados para que sean reutilizados en todo el sitio. Así se logrará mayor consistencia, mejor experiencia y una imagen más sólida del producto.
->>>>>>> Stashed changes
->>>>>>> Stashed changes
