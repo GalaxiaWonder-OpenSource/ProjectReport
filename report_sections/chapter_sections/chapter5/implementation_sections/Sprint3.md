@@ -1739,15 +1739,15 @@ Para el sprint 3 se proyectan actividades como implementacion del FrontEnd y Bac
 | FrontEnd | feature/ep08 | 9b8d7401d9dae25f4b4858ad4b7dab38f73ca9cb | fix: v.o from change process |   | 13/06/2025 |
 | FrontEnd | feature/ep02 | 4f0185f7f925d5aa128fdb0eac0ad235eef7e357 | feat: change fake api for endpoint config at organization |   | 15/06/2025 |
 | FrontEnd | develop | 6f6d5eac207461b9216ddcbf39244678f2acb744 | fix: project toolbar |   | 15/06/2025 |
- FrontEnd | feature/ep08 | 4bf878a98cc75ae58c78df3143c5e854ed13f3f7 | feat: add change management bounded context |   | 16/06/2025 |
- | FrontEnd | feature/ep08 | 5644f36d78d01b1c59571a49e70674debee72c11 | feat: add validation features for change management |   | 16/06/2025 |
- | FrontEnd | feature/ep08 | 5fc394e210d754371c17d5e80aa69c534132d12e | fix: change management bounded context |   | 16/06/2025 |
- | FrontEnd | feature/ep08 | 2ada993c1a2e73a890623272e8ad2fd1f69ad9cd | fix: delete console logs |   | 16/06/2025 |
- | FrontEnd | develop | 0bc583781d00e157b4380a8d5ce5e22788d4ff56 | fix: milestones and tasks components |   | 17/06/2025 |
- | FrontEnd | develop | 14de127167334eb1a2ae30268d085374039a0047 | fix: organization member invitation status |   | 18/06/2025 |
- | FrontEnd | develop | e1c43adc3c735ccc52478ef493d4daaf9330cd21 | -m |   | 18/06/2025 |
- | FrontEnd | develop | ffe3ea9dfe6e616d46810ca401d007d3234d3d29 | feix: add change management componenets, i18n, and project info component |   | 19/06/2025 |
- | FrontEnd | develop | 5349a4009e7ff8f2c531dde59d49e5db3b901b7b | feat: add validationa for project information |   | 19/06/2025 |
+| FrontEnd | feature/ep08 | 4bf878a98cc75ae58c78df3143c5e854ed13f3f7 | feat: add change management bounded context |   | 16/06/2025 |
+| FrontEnd | feature/ep08 | 5644f36d78d01b1c59571a49e70674debee72c11 | feat: add validation features for change management |   | 16/06/2025 |
+| FrontEnd | feature/ep08 | 5fc394e210d754371c17d5e80aa69c534132d12e | fix: change management bounded context |   | 16/06/2025 |
+| FrontEnd | feature/ep08 | 2ada993c1a2e73a890623272e8ad2fd1f69ad9cd | fix: delete console logs |   | 16/06/2025 |
+| FrontEnd | develop | 0bc583781d00e157b4380a8d5ce5e22788d4ff56 | fix: milestones and tasks components |   | 17/06/2025 |
+| FrontEnd | develop | 14de127167334eb1a2ae30268d085374039a0047 | fix: organization member invitation status |   | 18/06/2025 |
+| FrontEnd | develop | e1c43adc3c735ccc52478ef493d4daaf9330cd21 | -m |   | 18/06/2025 |
+| FrontEnd | develop | ffe3ea9dfe6e616d46810ca401d007d3234d3d29 | feix: add change management componenets, i18n, and project info component |   | 19/06/2025 |
+| FrontEnd | develop | 5349a4009e7ff8f2c531dde59d49e5db3b901b7b | feat: add validationa for project information |   | 19/06/2025 |
 | Platform | feature/ep15 | 909fd669bb9f609e4ec4dd2f453ca9fee90503b1 | feat(ep15): add user type entity controller endpoints and 'user_types' table enum autoinitialization |   | 31/05/2025 |
 | Platform | feature/ep15 | 4050478bc93c96cbbec8513914e427c3694915cf | feat(ep15): add person entity controller endpoints and 'persons' table autoinitialization |   | 1/06/2025 |
 | Platform | feature/ep15 | 4e2c81f6a34e7c4def7715bb74f7fefd9939274a | feat(ep15): add sign up feature |   | 11/06/2025 |
@@ -1801,7 +1801,44 @@ Para el sprint 3 se proyectan actividades como implementacion del FrontEnd y Bac
 | Platform | feature/ep01 | 6b05aa9e7e70255dc717c0efdf47e9e666cb5b7c | chore: add 'NON_APPLICABLE' specialty enum value |   | 20/06/2025 |
 | Platform | feature/ep01 | efe6307aa9fd8064f4ffd2a83331f81adb1c9b9d | feat: add retrieve all PENDING invitations by person ID |   | 20/06/2025 |
 | Platform | feature/ep01 | 8bb850de339e74b87f7167e2c21eccabaee63a65 | bugfix: fix get all invitations by person ID not showing inviter's data |   | 21/06/2025 |
-
+| FrontEnd | release/tb2 | 624c569c313c655b4c7d85c2e298f907024f600a | release(tb2): replace login and register fake api endpoint for real api endpoint |   | 20/06/2025 |
+| FrontEnd | release/tb2 | 36c4420adb98b64bfeeba80d099e8c5be1dbf3c0 | release(tb2): replace create organization endpoint for real api endpoint |   | 20/06/2025 |
+| FrontEnd | release/tb2 | 0d3e38219318d6a91d164b549505315f8e9e6b51 | release(tb2): replace list organizacion by person id endpoint for real api endpoint |   | 20/06/2025 |
+| FrontEnd | release/tb2 | a55c811540e6d53209bf75adf11f29c356ce8169 | release(tb2): replace get all members of organization fake api endpoint for real api endpoint |   | 20/06/2025 |
+| FrontEnd | release/tb2 | 7286fe226b8dfc4d4cd6fed8f3da1168bf2b5b5c | release(tb2): replace invite organization member fake api endpoint for real api endpoint |   | 20/06/2025 |
+| FrontEnd | release/tb2 | 0342aeb2a518a7fd68a8082a1651a02605e6957f | release(tb2): replace delete organizacion fake api endpoint for real api endpoint |   | 20/06/2025 |
+| Platform | feature/ep09 | 7a988fa328c4445c4a01af2d5dcbdb7bc5d6fc9d | feat(ep09): add OrganizationSource aggregate in organizations bounded context |   | 31/05/2025 |
+| Platform | feature/ep09 | db907c984ba8b713110643230ad82dfc4a707cc6 | feat(ep09): add OrganizationSource queries |   | 31/05/2025 |
+| Platform | feature/ep09 | c0b90dde13c79cf9e8b967c4d3dc6506be851a15 | feat(ep09): add organization service contracts |   | 31/05/2025 |
+| Platform | feature/ep09 | fac1b6fbe874513575c43f6c119b494f65acb6a5 | feat(ep09): add organization repository |   | 31/05/2025 |
+| Platform | feature/ep09 | ce55c47635d8024fc6b0bc4f7374eb687efc5c66 | refactor(ep09): move infrastucture to organization context |   | 31/05/2025 |
+| Platform | feature/ep09 | 9463f758189c01466604682d2cff35329a14de17 | feat(ep09): add command and query service implementation for organization |   | 31/05/2025 |
+| Platform | feature/ep09 | 234b9ce62412235ba2255b0af711d87277de8815 | feat(ep09): add resource and assemblers for rest interface layer in organization context |   | 31/05/2025 |
+| Platform | feature/ep09 | 8a88d9a415a3df514a3d9a83545e0d6ff7564c4d | feat(ep09): add organization inbound service |   | 31/05/2025 |
+| Platform | feature/ep09 | 5aef0aa56a5f5b8b6672355ea9cc7308731c80da | bugfix(ep09): fix create a organization is not using post mapping |   | 31/05/2025 |
+| Platform | feature/ep09 | b45febd7574dd726bda09dbe9b5339461078ee29 | bugfix(ep09): change create organization needs status as a parameter |   | 31/05/2025 |
+| Platform | feature/ep09 | 7afd73304cb3af870261bdeeef57c9a443e18cc1 | refactor(ep09): change folder order in organization infrastructure |   | 31/05/2025 |
+| Platform | feature/ep09 | 2cf959f70e7cc25cfe1e48560b7918519224839d | feat(ep09): add commercial name, legal name and person id value objects |   | 7/06/2025 |
+| Platform | feature/ep09 | f322303e33ea59c18d38f434ec211f780b130ff9 | refactor(ep09): organization is not using legal name, commercial name, person id value objects |   | 7/06/2025 |
+| Platform | feature/ep09 | e1b4be5d28300cdf59d6b9bafd22f550e7c2d404 | refactor(ep09): create organization command is not using native data as parameters |   | 7/06/2025 |
+| Platform | feature/ep09 | 836777aeed482a68ff43a0bb097f525e630dad88 | refactor(ep09): layer interfaces of organization is not using value objects |   | 7/06/2025 |
+| Platform | feature/ep09 | 0fee842fadc40ba0d63db8148f5020ec2e1ac723 | feat(ep09): add organization delete command interface |   | 8/06/2025 |
+| Platform | feature/ep09 | 17363276e124107d4637fc29680586c2224b7a25 | feat(ep09): add organization delete command implementation |   | 8/06/2025 |
+| Platform | feature/ep09 | 17363276e124107d4637fc29680586c2224b7a25 | feat(ep09): add delete organization endpoint |   | 8/06/2025 |
+| Platform | feature/ep10 | a3e6049e578873220a48d897ad30d65ffb778eb1 | feat(ep10): add update organization command service |   | 9/06/2025 |
+| Platform | feature/ep10 | f182c394b76e4be40fbee5c355e5f9bcb940e8fe | feat(ep10): add update organization implementation |   | 9/06/2025 |
+| Platform | feature/ep10 | 5d931aa858ad515906f2e4861b4f4b00db951624 | feat(ep10): add update organization endpoint |   | 9/06/2025 |
+| Platform | feature/ep10 | 6ed3731842f0396932b4393ef6e302829977c2ef | fix(ep10): fix invalid validation in update organization command |   | 9/06/2025 |
+| Platform | feature/ep11 | e90cfdedcb5017b4f9288ce04a7aaf3ba07f481c | feat(ep11): add organization member id in shared context |   | 9/06/2025 |
+| Platform | feature/ep11 | 751d01b3844b300ff75e1f6c5f5f020a6291d276 | feat(ep11): add organization member entity and command to create an organization member |   | 10/06/2025 |
+| Platform | feature/ep07 | 2a6b7fab6b541827519bdca3f8826d02531f647a | feat(ep07): add aggregates and entities in domain model change context |   | 20/06/2025 |
+| Platform | feature/ep07 | 4408f804fec8148f1633b0b908e5f6e4494ae487 | refactor(ep07): refactor change order to aggregate |   | 20/06/2025 |
+| Platform | feature/ep07 | c49139f3784f00abbd499858322c740dbe2c9379 | refactor(ep07): refactor change response to value object |   | 20/06/2025 |
+| Platform | feature/ep07 | 380d51620ef4b9c40232fd11b9cd0f5d3548d366 | bugfix(ep07): fix change process is not using correct response format |   | 20/06/2025 |
+| Platform | feature/ep07 | 2148ba25c4245a00ee3cfb29e076011fc64d6850 | feat(ep07): add change origin, change process, change process statuses repositories in change context |   | 20/06/2025 |
+| Platform | feature/ep07 | 1c5bc9e328db41c08636816ad115bff4531c326a | feat(ep07): add change process command service in change context |   | 20/06/2025 |
+| Platform | feature/ep07 | 9da90fc22cf41f5e705d838dbadbc53306e74dfb | feat(persistency): add configuration to persist change process statuses and change origins |   | 20/06/2025 |
+| Platform | feature/ep07 | c5ff21a1e71592617884cc8c293331311f2e8036 | feat(ep07): add change process endpoint |   | 20/06/2025 |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
