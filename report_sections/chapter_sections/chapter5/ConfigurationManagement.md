@@ -237,3 +237,4 @@ Para la primera implementación de la web application se decidió utilizar Azure
 5. Agregar variables de entorno
 
 <img src="../../../img/chapter5/Deploy/web_application/step5.png">
+

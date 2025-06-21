@@ -51,13 +51,13 @@
   </tr>
   <tr>
     <th>Sum of Story Points</th>
-    <td colspan="3">XXX Story Points</td>
+    <td colspan="3">133 Story Points</td>
   </tr>
 </table>
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
-Para el Sprint 3, se proyectan actividades como y la implementación de las vistas del Web Application.
+Para el Sprint 3, se proyectan actividades como y la implementación del FrontEnd y BackEnd de la Web Application.
 
 <table cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -1696,7 +1696,7 @@ Para el Sprint 3, se proyectan actividades como y la implementación de las vist
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
-Para el sprint 3
+Para el sprint 3 se proyectan actividades como implementacion del FrontEnd y BackEnd de la Web Application.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on |
 | - | - | - | - | - | - |
@@ -1748,12 +1748,68 @@ Para el sprint 3
  | FrontEnd | develop | e1c43adc3c735ccc52478ef493d4daaf9330cd21 | -m |   | 18/06/2025 |
  | FrontEnd | develop | ffe3ea9dfe6e616d46810ca401d007d3234d3d29 | feix: add change management componenets, i18n, and project info component |   | 19/06/2025 |
  | FrontEnd | develop | 5349a4009e7ff8f2c531dde59d49e5db3b901b7b | feat: add validationa for project information |   | 19/06/2025 |
-
+| Platform | feature/ep15 | 909fd669bb9f609e4ec4dd2f453ca9fee90503b1 | feat(ep15): add user type entity controller endpoints and 'user_types' table enum autoinitialization |   | 31/05/2025 |
+| Platform | feature/ep15 | 4050478bc93c96cbbec8513914e427c3694915cf | feat(ep15): add person entity controller endpoints and 'persons' table autoinitialization |   | 1/06/2025 |
+| Platform | feature/ep15 | 4e2c81f6a34e7c4def7715bb74f7fefd9939274a | feat(ep15): add sign up feature |   | 11/06/2025 |
+| Platform | feature/ep15 | 2fd3f1448de4e77b4cfb4f12f6f23bb456a2c13d | feat(ep15): add sign in feature |   | 11/06/2025 |
+| Platform | feature/ep10 | 69905df4512b24eb6d3a226840b4e11e20cb3177 | feat(ep10): add organization statuses auto seeding by application ready event listener |   | 12/06/2025 |
+| Platform | support/ep15 | 1cd652b3a407688718564b8894389ad7fc865b50 | refactor(ep15): change seeding upon start to be done by application ready event handler |   | 12/06/2025 |
+| Platform | support/ep15 | 78d3c5b00b4c8c43ba365d9e99d931244b82f1dc | refactor(ep15): change person id behavior and moved its value object into shared folder |   | 12/06/2025 |
+| Platform | feature/ep11 | 26bcf21701ccfc9a1bb20d5029bef50171f71521 | refactor(ep11): separate enum and entity responsiblity for OrganizationStatuses |   | 12/06/2025 |
+| Platform | feature/ep11 | 475186c9772c4850d6b500ec0207a4e23cc28fc0 | refactor(ep11): change organization id into a record type and move it into the shared domain model folder |   | 12/06/2025 |
+| Platform | feature/ep11 | 10a8047a836c4501c5e64a34e40d4b54a2004755 | docs(ep11): change jsdocs for organizations domain model |   | 12/06/2025 |
+| Platform | feature/ep11 | 0d06c9716214e05223841000407980760390b5c0 | feat(ep11): add organization member types auto seeding by application ready event listener |   | 12/06/2025 |
+| Platform | feature/ep11 | ae1e5460bb0807f6409065f90e1a3a9354540ec2 | feat(ep11): add organization invitation status auto seeding by application ready event listener |   | 12/06/2025 |
+| Platform | feature/ep11 | e94bedb7a8c9786fc4a046af39049b03e6a16c26 | feat(ep11): add IAMContextFacade and get profiledetails methods |   | 12/06/2025 |
+| Platform | feature/ep11 | 51b6ec43c5f92eb81c3475ab57939ef883427098 | feat(ep11): add get person id function to iam context facade |   | 12/06/2025 |
+| Platform | feature/ep11 | 29edac61e7e9db190dac92f050af657ce7a2ba69 | feat(ep11): add invite person to organization feature |   | 13/06/2025 |
+| Platform | feature/ep11 | 16c1bb5ece70b94dcd93537a461a553f94e7f242 | docs(ep11): add API documentation for create organization invitation endpoint |   | 13/06/2025 |
+| Platform | feature/ep11 | f9818f50484dba4208ad8f5a1f90b3388f338867 | feat(ep11): add accept organization invitation feature |   | 13/06/2025 |
+| Platform | feature/ep11 | 45a5afb2fa818d145c22bb92b356eadd1fd8dad9 | feat(ep11): add reject invitation feature |   | 14/06/2025 |
+| Platform | feature/ep11 | 901dbb63514ab7ea42a076e3e226b6364e68a1f9 | bugfix(ep11): fix creating an organization not automatically inserting creator as a member |   | 14/06/2025 |
+| Platform | feature/ep11 | f5a5325aa0cb4aa141c572b2ecdc18336a62a8f1 | bugfix(ep11): fix organization resource returning whole value object on certain fields |   | 14/06/2025 |
+| Platform | feature/ep11 | c52de7c3b38107b8b803a03e3bb466f4d5896dc9 | docs: refactor and upgrade documentation for application internal and outbound services |   | 14/06/2025 |
+| Platform | feature/ep11 | 458f65593665fa1e12ab0be146e051dc3fb1e23f | feat(ep11): add get organization invitations feature |   | 14/06/2025 |
+| Platform | feature/ep11 | b5bf4a623e227e329dd3a6b68f584cc5bad2b42c | feat(ep11): add get organization members feature |   | 14/06/2025 |
+| Platform | feature/ep11 | 6b337ff61ee4efcfa48b8570b35fc11911153879 | feat(ep11): add delete organization member feature |   | 14/06/2025 |
+| Platform | feature/ep09 | 645fdcbacfaf72622b1ceebad03b272fe9e05300 | feat(ep09): add fetch organizations by organization member person id |   | 14/06/2025 |
+| Platform | develop | 199ca570b859b3cbfd780c77355255d8f2c24d79 | chore: add security configuration to use bearer token auth and allow swagger to add auth header |   | 15/06/2025 |
+| Platform | develop | b865005f683381a2fad33198a1e6b8e8f064d8f9 | chore: update flyway SQL foreign keys for iam and organization context |   | 15/06/2025 |
+| Platform | feature/ep01 | d7af32f2e3a7598f3cf31c7ae57988ac9eb21a16 | feat(ep01): add organization status auto seeding command |   | 15/06/2025 |
+| Platform | feature/ep01 | e7252abd3cab04309f3f656d16dccf11010a7560 | feat(ep01): add specialty auto seeding |   | 15/06/2025 |
+| Platform | feature/ep01 | 9b4e513a1fce04dccb37b9846f56ff5ab890090f | feat(ep01): add task status auto seeding |   | 15/06/2025 |
+| Platform | feature/ep01 | 1f0906341de4952f274be2593340f02a3e9fc6e4 | feat(ep01): partial implementation of bounded context |   | 16/06/2025 |
+| FrontEnd | develop | 70af94eaa0513c0c03520c33d7ea6846086b346d | refactor: cleanse model by removing unnecesary value object classes with no validation rules |   | 18/06/2025 |
+| FrontEnd | develop | 04068e23afd0ce3e8d7c3478525571c9ced0a53d | refactor: change phone vo validation to ensure E.164 format |   | 18/06/2025 |
+| FrontEnd | develop | 818d33375b3c4fa8d6e76c3b09b22b6ca7260ae5 | bugfix: fix enum values on i18n file to properly display translation on both languages |   | 18/06/2025 |
+| FrontEnd | develop | 799e721cc464a0501c08b39c8df75c775434bd3e | bugfix: fix register feature not storing data on dbjson |   | 18/06/2025 |
+| FrontEnd | develop | b4aee29fee65aef368b924798dd4115f9ab60d5a | bugfix: fix login feature not logging |   | 18/06/2025 |
+| FrontEnd | develop | 6ac42fbe76492d6f72b079038d9f2c6ce2891f80 | refactor: fix naming conventions and value references for many classes on front end for readbility and error prevention |   | 18/06/2025 |
+| FrontEnd | develop | 89c29236112ab68a03003dc5ee30c6920ee6b96f | bugfix: fix my invitations tab behavior and add i18n |   | 18/06/2025 |
+| FrontEnd | develop | 2e2e81f5c7575cc81aa80caba8dd25d3b800ca5a | bugfix: fix i18n display for organization members tab |   | 18/06/2025 |
+| FrontEnd | develop | 3487e9324ce4ec00e78b5acbf3c40eb175bd2f8f | bugfix: fix invitation creation and rendering (but not the feature) |   | 18/06/2025 |
+| FrontEnd | develop | 28983a3090468f63f5f6b2dd35f2284a37c43894 | bugfix: fix invitation list display table (but not accepting or rejecting the invitation) |   | 18/06/2025 |
+| FrontEnd | develop | 194e2efcf6c35ead85551a421e402dfbb729d9fb | bugfix: minor bugfix on db.json organization members data schema |   | 18/06/2025 |
+| FrontEnd | develop | 22470071c7ad7874812924a92fdde0e362ee6e28 | bugfix: remove unused input fields from components that were conflicting with project functionality |   | 18/06/2025 |
+| FrontEnd | develop | 18cafdfbe67e87067808a5d5b1425ec8f96702fe | bugfix: fix project creation |   | 18/06/2025 |
+| FrontEnd | develop | 4fee93167c09f1de019f81b419c8ee755a5cffb1 | bugfix: fix project not having contracting entity info |   | 18/06/2025 |
+| Platform | feature/ep09 | 910d9c123e2e15cfb2923609dccc5c836febb38f | refactor: embedded profile details inside organization member entity and resource model |   | 19/06/2025 |
+| Platform | feature/ep01 | e646e422742533c505aaa4c57f058d5f0b3ec6e0 | Merge 'develop' branch into 'feature/ep01' |   | 19/06/2025 |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Para este tercer sprint, se llevó a cabo el desarrollo de la aplicación web, cuyo despliegue incluyó:
+
+1. Creación del primer release a partir de lo avanzado en develop.
+2. Integración del código en la branch de producción (main).
+3. Configuración en Azure para el despliegue.
+4. Un hotfix debido a un error de producción con las variables de entorno.
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
