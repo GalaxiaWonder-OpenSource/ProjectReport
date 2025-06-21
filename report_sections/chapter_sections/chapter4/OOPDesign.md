@@ -40,7 +40,7 @@ El proceso de incorporación de nuevos miembros se gestiona a través de la enti
 
 <img src="../../../img/chapter4/oop/organizations.png" alt="Diagrama de clases del bounded context Organization de ProP GMS">
 
-#### 4.7.1.6. IAM Class Diagram
+#### 4.7.1.4. IAM Class Diagram
 Este diagrama representa el IAM Bounded Context del sistema PropGMS, encargado de gestionar el acceso y la identidad de los usuarios. La clase principal es UserAccount, la cual actúa como Aggregate Root y almacena datos como nombre de usuario, hash de contraseña, tipo de usuario (UserType), estado de la cuenta (AccountStatus) y referencias al objeto Person.
 
 El proceso de registro se inicia a través de RegistrationRequest, que almacena la solicitud de creación de cuenta, incluyendo el correo electrónico, nombre completo, y el estado de la confirmación (RegistrationRequestStatus). La clase UserAccountFactory se encarga de transformar esta solicitud en una cuenta activa mediante un método de creación controlada.
@@ -261,7 +261,7 @@ Este diccionario describe las clases involucradas en la gestión de organizacion
 | status        | InvitationStatus         | Estado de la invitación (PENDING, ACCEPTED, REJECTED)|
 | createdAt     | DateTime                 | Fecha de creación de la invitación                  |
 
-#### 4.7.2.6. Identity and Access Management Class Dictionary
+#### 4.7.2.4. Identity and Access Management Class Dictionary
 
 Este diccionario describe las clases involucradas en la gestión de identidad y acceso dentro del sistema PropGMS.
 
@@ -335,7 +335,7 @@ Este diccionario describe las clases involucradas en la gestión de identidad y 
 
 | Attribute     | Type      | Description                            |
 |---------------|-----------|----------------------------------------|
-| id            | UUID      | Identificador de la sesión             |
+| id            | BIGINT      | Identificador de la sesión             |
 | userId        | UserId    | Usuario asociado a la sesión           |
 | createdAt     | DateTime  | Fecha de inicio de la sesión           |
 | expiredAt     | DateTime  | Fecha de expiración de la sesión       |
