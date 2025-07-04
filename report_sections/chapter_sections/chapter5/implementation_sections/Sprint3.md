@@ -2301,6 +2301,7 @@ Miembro con ID 12 eliminado exitosamente.
   <td><strong>http://localhost:8080/</strong></td>
 </tr>
 </table>
+>>>>>>> Stashed changes
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -2313,4 +2314,4 @@ Para este tercer sprint, se llevó a cabo el desarrollo de la aplicación web, c
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
-En este tercer sprint se ha fallado en lograr el objetivo de implementar a totalidad toda la interfaz funcional de la aplicación web, pero se ha conseguido un avance total del desarrollo del modelo y los servicios.
+Se ha logrado en mayor medida cumplir el objetivo de desarrollar las funcionalidades core del producto con fin de obtener feedback por parte de los usuarios. Sin embargo, se identifican aspectos de mejora como calidad de código que deberán ser resueltos en el próximo y último sprint.

@@ -47,3 +47,10 @@ Para este entregable que ha elaborado la documentación del sprint 2 del informe
 
 Para este entregable que ha elaborado la documentación del sprint 3 del informe en base al proceso de desarrollo del equipo.
 
+<img src="../img/insight_tb2.png">
+
+**TF**
+
+Para este entregable que ha elaborado la documentación del sprint 4 del informe en base al proceso de desarrollo del equipo.
+
+<img src="">
