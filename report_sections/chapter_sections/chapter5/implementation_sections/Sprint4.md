@@ -47,7 +47,7 @@
   </tr>
   <tr>
     <th>Sprint 4 Velocity</th>
-    <td colspan="3">42 Story Points</td>
+    <td colspan="3">50 Story Points</td>
   </tr>
   <tr>
     <th>Sum of Story Points</th>
