@@ -7321,29 +7321,57 @@ probamos algun endpoint para validar el acceso a la base de datos (sign up en es
 
 <img src="../../img/chapter5/Sprint4/execution/evidence1.png">
 
+iniciamos sesion 
+
+<img src="../../img/chapter5/Sprint4/execution/evidence8.png">
+
 probamos el endpoint de organization 
 
 <img src="../../img/chapter5/Sprint4/execution/evidence2.png">
+
+verificamos mediante un endpoint get (traer todas las organizaciones)
+
+<img src="../../img/chapter5/Sprint4/execution/evidence9.png">
 
 probamos el endpoint project
 
 <img src="../../img/chapter5/Sprint4/execution/evidence3.png">
 
+verificamos mediante un endpoint get (traer todas los proyectos)
+
+<img src="../../img/chapter5/Sprint4/execution/evidence10.png">
+
 probamos algun endpoint Project Team Members
 
 <img src="../../img/chapter5/Sprint4/execution/evidence4.png">
+
+verificamos mediante un endpoint get (traer todas los tema members)
+
+<img src="../../img/chapter5/Sprint4/execution/evidence14.png">
 
 probamos algun endpoint milestones
 
 <img src="../../img/chapter5/Sprint4/execution/evidence5.png">
 
+verificamos mediante un endpoint get (traer todas las milestones)
+
+<img src="../../img/chapter5/Sprint4/execution/evidence12.png">
+
 probamos algun endpoint tasks
 
 <img src="../../img/chapter5/Sprint4/execution/evidence6.png">
 
+verificamos mediante un endpoint get (traer todas las tasks)
+
+<img src="../../img/chapter5/Sprint4/execution/evidence12.png">
+
 probamos algun endpoint change process
 
 <img src="../../img/chapter5/Sprint4/execution/evidence7.png">
+
+verificamos mediante un endpoint get (traer todas los change process)
+
+<img src="../../img/chapter5/Sprint4/execution/evidence13.png">
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
@@ -7721,6 +7749,10 @@ Miembro con ID 12 eliminado exitosamente.
   "organizationId": 2,
   "contractingEntityId": 9
 }</pre>
+   <strong>400 	Invalid request</strong>
+    <pre>{
+  "message": "No projects found for person ID 8"
+}</pre>
   </td>
   <td><strong>http://localhost:8080/</strong></td>
 </tr>
@@ -7729,7 +7761,7 @@ Miembro con ID 12 eliminado exitosamente.
   <td>Eliminar proyecto</td>
   <td><code>DELETE</code></td>
   <td>
- <code>/api/v1/project/6</code><br>
+ <code>/api/v1/project/1</code><br>
     <em>Path Param:</em> <code>projectId: number</code>
   </td>
   <td>
@@ -7738,6 +7770,10 @@ Miembro con ID 12 eliminado exitosamente.
   "message": 	Project deleted successfully
 }</pre>
 <strong>400 Bad request</strong>
+    <pre>{
+  "message": "Invalid request"
+}</pre>
+<strong>404 Project not foundt</strong>
     <pre>{
   "message": "Project not found"
 }</pre>
@@ -7817,6 +7853,288 @@ Miembro con ID 12 eliminado exitosamente.
     "personId": 14
   },
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6..."
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/milestone</code></td>
+  <td>Crear una milestone</td>
+  <td><code>POST</code></td>
+  <td>
+    <pre>{
+  "name": "Construccion de pista",
+  "description": "construccion",
+  "projectId": 2,
+  "startDate": "2025-07-10T05:04:54.535Z",
+  "endDate": "2026-07-02T05:04:54.535Z"
+}</pre>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "id": 3,
+  "name": "Construccion de pista",
+  "description": "construccion",
+  "projectId": 2,
+  "startDate": "2025-07-10T05:04:54.535+00:00",
+  "endDate": "2026-07-02T05:04:54.535+00:00"
+}</pre>
+    <strong>400 Invalid request</strong>
+    <pre>{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "projectId": 0,
+  "startDate": "2025-07-06T05:07:10.448Z",
+  "endDate": "2025-07-06T05:07:10.448Z"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/milestone/{milestoneId}</code></td>
+  <td>Actualizar una milestone</td>
+  <td><code>PATCH</code></td>
+  <td>
+    <pre>{
+  "name": "Supervision",
+  "description": "Supervision de pista",
+  "startDate": "2025-07-07T05:07:00.336Z",
+  "endDate": "2027-07-06T05:07:00.336Z"
+}</pre>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "id": 3,
+  "name": "Supervision",
+  "description": "Supervision de pista",
+  "projectId": 2,
+  "startDate": "2025-07-07T05:07:00.336Z",
+  "endDate": "2027-07-06T05:07:00.336Z"
+}</pre>
+    <strong>400 Invalid request</strong>
+    <pre>{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "projectId": 0,
+  "startDate": "2025-07-06T05:07:10.448Z",
+  "endDate": "2025-07-06T05:07:10.448Z"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/milestone/by-project-id/{projectId}</code></td>
+  <td>Obtener las milestones</td>
+  <td><code>GET</code></td>
+  <td>
+ <code>/api/v1/milestone/by-project-id/1</code><br>
+    <em>Path Param:</em> <code>projectId: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "id": 3,
+  "name": "Supervision",
+  "description": "Supervision de pista",
+  "projectId": 2,
+  "startDate": "2025-07-07T05:07:00.336Z",
+  "endDate": "2027-07-06T05:07:00.336Z"
+}</pre>
+    <strong>400 Invalid request</strong>
+    <pre>{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "projectId": 0,
+  "startDate": "2025-07-06T05:07:10.448Z",
+  "endDate": "2025-07-06T05:07:10.448Z"
+}</pre>
+    <strong>404 No milestones found for the project</strong>
+    <pre>{
+    "id": 0,
+    "name": "string",
+    "description": "string",
+    "projectId": 0,
+    "startDate": "2025-07-06T05:18:10.446Z",
+    "endDate": "2025-07-06T05:18:10.446Z"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/milestone/{Id}</code></td>
+  <td>Eliminar las milestones</td>
+  <td><code>DELETE</code></td>
+  <td>
+ <code>/api/v1/milestone/3</code><br>
+    <em>Path Param:</em> <code>milestoneId: number</code>
+  </td>
+  <td>
+    <strong>204 Milestone deleted successfully</strong>
+    <pre>{
+  "id": 3,
+  "name": "Supervision",
+  "description": "Supervision de pista",
+  "projectId": 2,
+  "startDate": "2025-07-07T05:07:00.336Z",
+  "endDate": "2027-07-06T05:07:00.336Z"
+}</pre>
+    <strong>404 Milestone not found</strong>
+    <pre>{
+    "id": 0,
+    "name": "string",
+    "description": "string",
+    "projectId": 0,
+    "startDate": "2025-07-06T05:18:10.446Z",
+    "endDate": "2025-07-06T05:18:10.446Z"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/tasks</code></td>
+  <td>Crear una tarea</td>
+  <td><code>POST</code></td>
+  <td>
+ <pre>{
+  "name": "Rellenar baches",
+  "description": "Rellenar",
+  "startDate": "2025-07-20T05:25:06.968Z",
+  "endDate": "2025-10-06T05:25:06.968Z",
+  "milestoneId": 1,
+  "specialty": "ARQUITECTURE",
+  "status": "DRAFT",
+  "personId": 1
+}</pre>
+  </td>
+  <td>
+    <strong>201 Task created successfully</strong>
+    <pre>{
+  "id": 3,
+  "name": "Rellenar baches",
+  "description": "Rellenar",
+  "startDate": "2025-07-20T05:25:06.968Z",
+  "endDate": "2025-10-06T05:25:06.968Z",
+  "milestoneId": 1,
+  "specialty": "ARQUITECTURE",
+  "status": "DRAFT",
+  "personId": 1
+}</pre>
+    <strong>400 Invalid request</strong>
+    <pre>{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "startDate": "2025-07-06T05:30:01.992Z",
+  "endDate": "2025-07-06T05:30:01.992Z",
+  "milestoneId": 0,
+  "specialty": "string",
+  "status": "string",
+  "personId": 0
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/tasks/{Id}</code></td>
+  <td>Eliminar las tasks</td>
+  <td><code>DELETE</code></td>
+  <td>
+ <code>/api/v1/tasks/3</code><br>
+    <em>Path Param:</em> <code>taskId: number</code>
+  </td>
+  <td>
+    <strong>204 Task deleted successfully</strong>
+    <pre>{
+ "message": "Task deleted successfully"
+}</pre>
+    <strong>404 Task not found</strong>
+    <pre>{
+ "message": "Task not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/tasks{taskId}</code></td>
+  <td>Actualizar una tarea</td>
+  <td><code>PATCH</code></td>
+  <td>
+ <pre>{
+  "name": "Arreglar baches",
+  "description": "Rellenar",
+  "startDate": "2025-07-20T05:25:06.968Z",
+  "endDate": "2025-10-06T05:25:06.968Z",
+  "milestoneId": 1,
+  "specialty": "ARQUITECTURE",
+  "status": "DRAFT",
+  "personId": 1
+}</pre>
+  </td>
+  <td>
+    <strong>200 Task updated successfully</strong>
+    <pre>{
+  "id": 3,
+  "name": "Arreglar baches",
+  "description": "Rellenar",
+  "startDate": "2025-07-20T05:25:06.968Z",
+  "endDate": "2025-10-06T05:25:06.968Z",
+  "milestoneId": 1,
+  "specialty": "ARQUITECTURE",
+  "status": "DRAFT",
+  "personId": 1
+}</pre>
+    <strong>400 Invalid request</strong>
+    <pre>{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "startDate": "2025-07-06T05:45:06.519Z",
+  "endDate": "2025-07-06T05:45:06.519Z",
+  "milestoneId": 0,
+  "specialty": "string",
+  "status": "string",
+  "personId": 0
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/tasks/by-milestone-id{milestoneId}</code></td>
+  <td>Obtener una task por milestone</td>
+  <td><code>GET</code></td>
+  <td>
+<code>/api/v1/tasks/by-milestone-id/1</code><br>
+    <em>Path Param:</em> <code>taskId: number</code>
+  </td>
+  <td>
+    <strong>200 Tasks retrieved successfully</strong>
+    <pre>{
+  "id": 3,
+  "name": "Arreglar baches",
+  "description": "Rellenar",
+  "startDate": "2025-07-20T05:25:06.968Z",
+  "endDate": "2025-10-06T05:25:06.968Z",
+  "milestoneId": 1,
+  "specialty": "ARQUITECTURE",
+  "status": "DRAFT",
+  "personId": 1
+}</pre>
+    <strong>404 No tasks found for the milestone</strong>
+    <pre>{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "startDate": "2025-07-06T05:45:06.519Z",
+  "endDate": "2025-07-06T05:45:06.519Z",
+  "milestoneId": 0,
+  "specialty": "string",
+  "status": "string",
+  "personId": 0
 }</pre>
   </td>
   <td><strong>http://localhost:8080/</strong></td>

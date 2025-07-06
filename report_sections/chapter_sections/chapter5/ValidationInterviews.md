@@ -1,7 +1,5 @@
 ## 5.3. Validation Interviews
 
-## 5.3. Validation Interviews
-
 Dentro de la sección "Validation Interviews" de nuestro proyecto, dirigimos nuestros esfuerzos a perfeccionar la plataforma web diseñada para la planificación y gestión de proyectos en el ámbito de la ingeniería civil. Esta etapa resulta esencial para comprender mejor las dinámicas del trabajo en obra, por lo que establece un canal de comunicación cercano con los usuarios clave: contratistas, especialistas y clientes. Mediante entrevistas de validación, buscamos recoger sus opiniones, necesidades y recomendaciones, de modo que la herramienta digital vaya sintonía con su realidad. Lo mencionado ayudará a que la solución no solo cumpla con los estándares técnicos, sino que también reuna las condiciones reales del trabajo y las expectativas de los usuarios involucrados.
 
 ### 5.3.1. Diseño de entrevistas
@@ -575,7 +573,7 @@ En este apartado se exponen las metas de usuarios en concordancia con nuestras e
 | **Edad** | 28 | 27 | 27 | 27 |
 
 
-## 5.3.3 UX Heuristics & Principles Evaluation  
+## 5.3.3 UX Heuristics and Principles Evaluation  
 **Usability – Inclusive Design – Information Architecture**
 
 **CARRERA**  : Ingeniería de Software  

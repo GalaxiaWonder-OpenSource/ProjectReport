@@ -903,7 +903,7 @@ Para el sprint 4 se proyectan actividades como implementacion de los endpoints e
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-probamos algun endpoint para validar el acceso a la base de datos (sign up en este caso)
+probamos algun endpoint para validar el acceso a la base de datos (sign in en este caso)
 
 <img src="../../../../img/chapter5/Sprint4/execution/evidence1.png">
 
