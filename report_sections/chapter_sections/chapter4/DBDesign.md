@@ -10,7 +10,7 @@ Se identifican entidades clave como projects, tasks, invoices, payments, user_ac
 
 El diseño promueve escalabilidad, trazabilidad y una clara separación de responsabilidades, facilitando tanto el mantenimiento como la extensión futura del sistema.
 
-<img src="../../../img/chapter4/db/General.svg" alt="Diagrama de base de datos general de ProP GMS">
+<img src="../../../img/chapter4/db/general.png" alt="Diagrama de base de datos general de ProP GMS">
 
 #### 4.8.1.1. Project Management Database Diagram
 
