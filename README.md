@@ -7289,7 +7289,7 @@ En Galaxia Wonder, la gestión del código fuente de las soluciones se realiza a
 
 Se adjunta a continuación los enlaces de los repositorios de GitHub:
 - Landing Page: [https://github.com/GalaxiaWonder-OpenSource/LandingPage](https://github.com/GalaxiaWonder-OpenSource/LandingPage)
-- FrontEnd Web Application: [https://github.com/GalaxiaWonder-OpenSource/FrontEnd](https://github.com/GalaxiaWonder-OpenSource/FrontEnd)
+- FrontEnd Web Application: [https://github.com/GalaxiaWonder-OpenSource/propgms](https://github.com/GalaxiaWonder-OpenSource/FrontEnd)
 - RESTful API: [https://github.com/GalaxiaWonder-OpenSource/API](https://github.com/GalaxiaWonder-OpenSource/API)
 - ProP GMS Web Service: [https://github.com/GalaxiaWonder-OpenSource/Platform](https://github.com/GalaxiaWonder-OpenSource/Platform)
 
