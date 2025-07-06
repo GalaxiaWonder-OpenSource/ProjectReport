@@ -4388,7 +4388,7 @@ En este segundo sprint se ha fallado en lograr el objetivo de implementar a tota
   </tr>
   <tr>
     <th>Sprint 3 Velocity</th>
-    <td colspan="3">XX Story Points</td>
+    <td colspan="3">45 Story Points</td>
   </tr>
   <tr>
     <th>Sum of Story Points</th>
@@ -6183,6 +6183,8 @@ Para el sprint 3 se proyectan actividades como implementacion del FrontEnd y Bac
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 A lo largo del sprint, se ha logrado cubrir gran parte de los servicios web que pertenecían a lo proyectado a desarrollar en este sprint. Se presenta a continuación una tabla informativa:
@@ -6640,7 +6642,6 @@ Miembro con ID 12 eliminado exitosamente.
   <td><strong>http://localhost:8080/</strong></td>
 </tr>
 </table>
->>>>>>> Stashed changes
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -6654,6 +6655,26 @@ Para este tercer sprint, se llevó a cabo el desarrollo de la aplicación web, c
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 Se ha logrado en mayor medida cumplir el objetivo de desarrollar las funcionalidades core del producto con fin de obtener feedback por parte de los usuarios. Sin embargo, se identifican aspectos de mejora como calidad de código que deberán ser resueltos en el próximo y último sprint.
+
+<div style="page-break-before: always;"></div>
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+#### 5.2.4.3. Sprint Backlog 4
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
 
 <div style="page-break-before: always;"></div>
 
@@ -7366,9 +7387,9 @@ Definir una guía de estilos unificada que incluya paleta de colores, tipografí
 
 Enlace para visualizar el video:
 
-Enlace del video subido a YouTube: <a href="https://youtu.be/f5uTd_Pkm54">About the Product</a>
+Enlace del video subido a YouTube: <a href="https://youtu.be/A0TU4xBPwRY">About the Product</a>
 
-Enlace del video subido a Stream: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116250_upc_edu_pe/EWgGpLYRIXhEsXuHk-JNmjMB1ZVB9kF2D78DR2FLj_S9yA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1PVXoL">About the Product</a>
+Enlace del video subido a Stream: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116250_upc_edu_pe/EZ4hYG6Ze8VImqHRxqi9ALgBgPvJsl-hZr71wUYpAFVgzw?e=0fJImJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">About the Product</a>
 
 <div style="page-break-before: always;"></div>
 

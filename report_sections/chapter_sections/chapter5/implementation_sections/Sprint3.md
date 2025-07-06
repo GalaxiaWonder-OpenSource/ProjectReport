@@ -2301,7 +2301,6 @@ Miembro con ID 12 eliminado exitosamente.
   <td><strong>http://localhost:8080/</strong></td>
 </tr>
 </table>
->>>>>>> Stashed changes
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
