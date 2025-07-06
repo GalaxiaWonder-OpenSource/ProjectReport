@@ -176,6 +176,37 @@
                 <p style="display: block; margin: 3px 0; text-indent: 10px;">4.8.1. Database Diagram</p>
             </td>
         </tr>
+         <tr>
+            <td>4.0</td>
+            <td>05/07/2025</td>
+            <td>
+                <ul>
+                    <li>Aponte Cruzado, Andrea Marielena</li>
+                    <li>León Vivas, Fabrizio Amir</li>
+                    <li>López Acuña, Mario Joaquín</li>
+                    <li>Orozco Torres, Álvaro Joaquín</li>
+                    <li>Reaño Delgadillo, Henry Paolo</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Adición de secciones:</strong><br>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.1. Sprint Planning 4</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.2. Aspect Leaders and Collaborators</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.3. Sprint Backlog 4</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.4. Development Evidence for Sprint Review</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.5. Execution Evidence for Sprint Review</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.6. Services Documentation Evidence for Sprint Review</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.7. Software Deployment Evidence for Sprint Review</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.8. Team Collaboration Insights during Sprint</p>
+                <strong>Actualización de secciones:</strong><br>
+               <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">4.6. Domain-Driven Software Architecture</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">4.6.1. Software Architecture Context Diagram</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">4.6.2. Software Architecture Container Diagrams</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">4.6.3. Software Architecture Components Diagrams</p>
+                <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">4.7. Software Object-Oriented Design</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">4.7.1. Class Diagrams</p>
+            </td>
+        </tr>
     </tbody>
 </table>
 
