@@ -1742,7 +1742,7 @@ Además, la API integra servicios externos estratégicos: NotificationService se
 
 Esta organización en capas —controladores, servicios y repositorios— promueve un diseño altamente modular, testeable y escalable, permitiendo a PropGMS evolucionar de forma robusta ante futuras necesidades de crecimiento y adaptación tecnológica.
 
-<img src="../img/chapter4/c4/componente/api.png" alt="Diagrama de componentes de Web Application de ProP GMS">
+<img src="../img/chapter4/c4/componente/api.svg" alt="Diagrama de componentes de Web Application de ProP GMS">
 
 <div style="page-break-before: always;"></div>
 
@@ -1778,7 +1778,7 @@ La entidad raíz del agregado es ChangeProcess, que encapsula tanto el origen de
 
 El modelo contempla value objects que acotan claramente los posibles estados (PENDING, APPROVED, REJECTED) y tipos de origen (CHANGE_REQUEST). Además, se provee una fábrica (ChangeProcessFactory) que permite construir el agregado de manera controlada según el tipo de solicitud original.
 
-<img src="../img/chapter4/oop/change.png" alt="Diagrama de clases del bounded context de Changes Management de ProP GMS">
+<img src="../img/chapter4/oop/change.svg" alt="Diagrama de clases del bounded context de Changes Management de ProP GMS">
 
 #### 4.7.1.3. Organization Class Diagram
 
@@ -1797,7 +1797,7 @@ Para la autenticación y manejo de sesiones, se utilizan objetos como AuthToken,
 
 Finalmente, la entidad Person representa a los individuos registrados, incluyendo datos personales como nombre, correo, teléfono, profesión y estado. Esto permite mantener separada la lógica de autenticación de la información del usuario como persona física o jurídica.
 
-<img src="../img/chapter4/oop/iam.png" alt="Diagrama de clases del bounded context IAM de ProP GMS">
+<img src="../img/chapter4/oop/iam.svg" alt="Diagrama de clases del bounded context IAM de ProP GMS">
 
 <div style="page-break-after: always;"></div>
 

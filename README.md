@@ -15,7 +15,7 @@
         <li style="padding: 5px 0;">Orozco Torres, Álvaro Joaquín (202220783)</li>
         <li style="padding: 5px 0;">Reaño Delgadillo, Henry Paolo (20221e247)</li>
     </ul>
-    <h4 style="margin: 10px 0; border-bottom: none;">Junio de 2025</h4>
+    <h4 style="margin: 10px 0; border-bottom: none;">Julio de 2025</h4>
 </div>
 
 
@@ -199,6 +199,37 @@
                 <p style="display: block; margin: 3px 0; text-indent: 10px;">4.8.1. Database Diagram</p>
             </td>
         </tr>
+         <tr>
+            <td>4.0</td>
+            <td>05/07/2025</td>
+            <td>
+                <ul>
+                    <li>Aponte Cruzado, Andrea Marielena</li>
+                    <li>León Vivas, Fabrizio Amir</li>
+                    <li>López Acuña, Mario Joaquín</li>
+                    <li>Orozco Torres, Álvaro Joaquín</li>
+                    <li>Reaño Delgadillo, Henry Paolo</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Adición de secciones:</strong><br>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.1. Sprint Planning 4</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.2. Aspect Leaders and Collaborators</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.3. Sprint Backlog 4</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.4. Development Evidence for Sprint Review</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.5. Execution Evidence for Sprint Review</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.6. Services Documentation Evidence for Sprint Review</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.7. Software Deployment Evidence for Sprint Review</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">5.4.8. Team Collaboration Insights during Sprint</p>
+                <strong>Actualización de secciones:</strong><br>
+               <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">4.6. Domain-Driven Software Architecture</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">4.6.1. Software Architecture Context Diagram</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">4.6.2. Software Architecture Container Diagrams</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">4.6.3. Software Architecture Components Diagrams</p>
+                <p style="display: block; margin: 2px 0; text-indent: 0px; font-weight: bold;">4.7. Software Object-Oriented Design</p>
+                <p style="display: block; margin: 2px 0; text-indent: 10px;">4.7.1. Class Diagrams</p>
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -256,6 +287,12 @@ Para este entregable que ha elaborado la documentación del sprint 2 del informe
 Para este entregable que ha elaborado la documentación del sprint 3 del informe en base al proceso de desarrollo del equipo.
 
 <img src="./img/insight_tb2.png">
+
+**TF**
+
+Para este entregable que ha elaborado la documentación del sprint 4 del informe en base al proceso de desarrollo del equipo.
+
+<img src="./img/insight_tf.png">
 
 <div style="page-break-before: always;"></div>
 
@@ -327,17 +364,12 @@ Para este entregable que ha elaborado la documentación del sprint 3 del informe
       - [4.8.1.1. Project Management Database Diagram](#4811-project-management-database-diagram)
       - [4.8.1.2. Change Management Database Diagram](#4812-change-management-database-diagram)
       - [4.8.1.3. Organization Database Diagram](#4813-organization-database-diagram)
-      - [4.8.1.4. Notification Database Diagram](#4814-notification-database-diagram)
-      - [4.8.1.5. File Database Diagram](#4815-file-database-diagram)
-      - [4.8.1.6. IAM Database Diagram](#4816-iam-database-diagram)
-      - [4.8.1.7. Subscription Database Diagram](#4817-subscription-database-diagram)
-      - [4.8.1.8. Billing Database Diagram](#4818-billing-database-diagram)
-      - [4.8.1.9. Payment Database Diagram](#4819-payment-database-diagram)
+      - [4.8.1.4. IAM Database Diagram](#4814-iam-database-diagram)
 - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Coding Conventions](#513-source-code-style-guide--coding-conventions)
+    - [5.1.3. Source Code Style Guide and Coding Conventions](#513-source-code-style-guide-&-coding-conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
@@ -358,7 +390,33 @@ Para este entregable que ha elaborado la documentación del sprint 3 del informe
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+     - [5.2.3. Sprint 3](#523-sprint-3)
+       - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+       - [5.2.3.2. Aspect Leaders & Collaborators](#5232-aspect-leaders--collaborators)
+       - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+       - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+       - [5.2.4.2. Aspect Leaders & Collaborators](#5242-aspect-leaders--collaborators)
+       - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+       - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+       - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+       - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+       - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+       - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+      - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+      - [5.3.3. UX Heuristics & Principles Evaluation](##533-ux-heuristics--principles-evaluation)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+
 
 
 <div style="page-break-before: always;"></div>
@@ -397,22 +455,31 @@ Para este entregable que ha elaborado la documentación del sprint 3 del informe
                 </ul>
                 <strong>TB2:</strong><br>
                 <ul>
-                <li><strong>Andrea:</strong> Participé activamente en la exposición final del entregable, comunicando con claridad el aporte del equipo en el módulo de gestión de miembros. También intervine en reuniones técnicas para clarificar decisiones de diseño ante el equipo completo.</li>
-                <li><strong>Fabrizio:</strong> Expliqué con soltura y claridad el funcionamiento del módulo de autenticación durante la revisión grupal. Fui un puente efectivo entre los compañeros más técnicos y los que necesitaban apoyo adicional.</li>
-                <li><strong>Mario:</strong> Contribuí a la presentación oral del entregable, resumiendo de forma precisa las decisiones funcionales y la evolución del trabajo. Mi comunicación fue clave para alinear ideas en las sesiones de equipo.</li>
-                <li><strong>Álvaro:</strong> Dirigí reuniones clave para validar la arquitectura del sistema y expuse decisiones estratégicas durante la demo final del equipo. Siempre busqué adaptar mi comunicación al nivel de conocimiento de cada interlocutor.</li>
-                <li><strong>Henry:</strong> Tomé la iniciativa para presentar los avances técnicos más complejos ante el equipo docente y los compañeros, facilitando la comprensión de aspectos como la arquitectura, la integración y el despliegue del sistema.</li>
+                    <li><strong>Andrea:</strong> Participé activamente en la exposición final del entregable, comunicando con claridad el aporte del equipo en el módulo de gestión de miembros. También intervine en reuniones técnicas para clarificar decisiones de diseño ante el equipo completo.</li>
+                    <li><strong>Fabrizio:</strong> Expliqué con soltura y claridad el funcionamiento del módulo de autenticación durante la revisión grupal. Fui un puente efectivo entre los compañeros más técnicos y los que necesitaban apoyo adicional.</li>
+                    <li><strong>Mario:</strong> Contribuí a la presentación oral del entregable, resumiendo de forma precisa las decisiones funcionales y la evolución del trabajo. Mi comunicación fue clave para alinear ideas en las sesiones de equipo.</li>
+                    <li><strong>Álvaro:</strong> Dirigí reuniones clave para validar la arquitectura del sistema y expuse decisiones estratégicas durante la demo final del equipo. Siempre busqué adaptar mi comunicación al nivel de conocimiento de cada interlocutor.</li>
+                    <li><strong>Henry:</strong> Tomé la iniciativa para presentar los avances técnicos más complejos ante el equipo docente y los compañeros, facilitando la comprensión de aspectos como la arquitectura, la integración y el despliegue del sistema.</li>
+                </ul>
+                <strong>TF:</strong><br>
+                <ul>
+                    <li><strong>Andrea:</strong> Junto a Mario, participé activamente en la elaboración de la documentación de los endpoints, la creación de diagramas y la redacción del informe final. Coordiné con Álvaro y Henry el desarrollo del backend, asegurando el cumplimiento de las reglas de negocio definidas para el proyecto. completo.</li>
+                    <li><strong>Fabrizio:</strong>Colaboré con Henry en la implementación tanto del frontend como del backend del sistema. Fui responsable del despliegue del frontend en Azure y coordiné aspectos relacionados con la documentación de los diagramas junto a Mario y Andrea.</li>
+                    <li><strong>Mario:</strong>Contribuí en la elaboración de diagramas para el backend y frontend, así como en la redacción de la documentación, trabajando de manera conjunta con Andrea. Mantuve un enfoque ágil y organizado, fomentando la mejora continua dentro del equipo.</li>
+                    <li><strong>Álvaro:</strong>Asumí un rol de liderazgo en el equipo, coordinando los plazos de entrega de cada tarea junto a mis compañeros y asegurando la creación de un ambiente de diálogo y participación activa.</li>
+                    <li><strong>Henry:</strong>Lideré el desarrollo del backend, delegando tareas para cumplir con los plazos establecidos y resolviendo dudas técnicas durante las sesiones del grupo, promoviendo siempre un ambiente cordial y colaborativo.</li>
                 </ul>
             </td>
             <td>
                 <strong>TB1:</strong> Durante el primer entregable el equipo mantuvo una buena comunicación mediante constantes reuniones para delegar trabajos, coordinar el diseño la Landing Page, Web Application y diseño basado en el dominio. La toma de requisitos mediante entrevistas fue un punto vital para el exito de este entregable. Si bien el equipo trabaja bien y organizado, aún hay margen de mejora con respecto a los siguientes entregables.<br>
                 <strong>TP:</strong> Durante el segundo entregable, el equipo mantuvo una comunicación constante a través de reuniones, lo que permitió delegar tareas y coordinar tanto la implementación de la Web Application como su diseño basado en el dominio. Si bien se logró una distribución lógica del trabajo, aún existe margen de mejora en la organización y asignación de responsabilidades para los siguientes entregables.<br>
-                <strong>TB2:</strong> En este entregable, la comunicación oral del equipo se fortaleció notablemente, destacando la participación activa en presentaciones, reuniones técnicas y sesiones de coordinación. Los miembros del equipo lograron expresar con claridad sus ideas, decisiones y avances ante diferentes audiencias, tanto internas como externas. A medida que se avanza, será importante seguir perfeccionando la capacidad de adaptar el discurso según el contexto, promoviendo siempre una comunicación efectiva, empática y orientada a objetivos comunes.
+                <strong>TB2:</strong> En este entregable, la comunicación oral del equipo se fortaleció notablemente, destacando la participación activa en presentaciones, reuniones técnicas y sesiones de coordinación. Los miembros del equipo lograron expresar con claridad sus ideas, decisiones y avances ante diferentes audiencias, tanto internas como externas. A medida que se avanza, será importante seguir perfeccionando la capacidad de adaptar el discurso según el contexto, promoviendo siempre una comunicación efectiva, empática y orientada a objetivos comunes.<br>
+                <strong>TF:</strong> Al principio, teníamos muchas tareas por hacer, objetivos que cumplir y plazos que parecían ajustados, pero poco a poco nos fuimos organizando y, sobre todo, aprendiendo a trabajar juntos de manera efectiva. Cada uno aportó lo mejor de sí, y eso nos permitió resolver problemas complejos. No solo tuvimos que aplicar los conocimientos técnicos que ya habíamos adquirido, sino que también tuvimos que aprender a adaptarnos y apoyar a los demás cuando las cosas se complicaban. Hubo momentos de dudas y dificultades, pero el compromiso de cada uno de nosotros hizo que el equipo avanzara, siempre con la mentalidad de que, juntos, podríamos lograr cualquier cosa. A lo largo de este proceso, no solo mejoramos nuestras habilidades técnicas, sino que también nos dimos cuenta de la importancia de la comunicación, la organización y el respeto por las ideas de los demás. Aunque cada uno tenía tareas diferentes, supimos cómo colaborar de manera fluida, aprovechando las fortalezas de cada miembro para superar los obstáculos que surgían.
             </td>
         </tr>
         <tr>
             <td>
-                Comunica por escrito con efectividad a diferentes rangos de audiencia
+                Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
             </td>
             <td>
                 <strong>TB1:</strong><br>
@@ -432,18 +499,28 @@ Para este entregable que ha elaborado la documentación del sprint 3 del informe
                     <li><strong>Henry:</strong> Coordiné con el equipo por medios escritos para aclarar dudas y compartir avances. Realicé implementación de secciones en el Web Application y me encargué de enrutar el proyecto.</li>
                 </ul>
                 <strong>TB2:</strong><br>
+                 <ul>
+                    <li><strong>Andrea:</strong> Coordiné tareas y entregas a través de canales escritos como Discord, fomentando la claridad en el diseño colaborativo. También participé en la redacción de instrucciones funcionales en el README del entregable.</li>
+                    <li><strong>Fabrizio:</strong> Documenté decisiones técnicas en canales escritos y colaboré en la elaboración del capítulo relacionado con la interfaz del sistema. Aseguré que los comentarios en el código fueran comprensibles para todo el equipo.</li>
+                    <li><strong>Mario:</strong> Registré y comuniqué avances del equipo por medios escritos como GitHub y WhatsApp. También propuse mejoras estructurales en los documentos del proyecto de forma clara y asertiva.</li>
+                    <li><strong>Álvaro:</strong> Fui responsable de consolidar la documentación técnica del entregable, dejando evidencia clara de las decisiones tomadas. Utilicé medios escritos para organizar tareas, coordinar módulos y generar acuerdos efectivos.</li>
+                    <li><strong>Henry:</strong> Redacté documentación clave sobre los componentes de la Web Application e integré reportes escritos que respaldaban las decisiones arquitectónicas del equipo. Coordiné la integración final del sistema usando mensajes escritos en canales técnicos.</li>
+                </ul>
+                <strong>TF:</strong><br>
                 <ul>
-                <li><strong>Andrea:</strong> Coordiné tareas y entregas a través de canales escritos como Discord, fomentando la claridad en el diseño colaborativo. También participé en la redacción de instrucciones funcionales en el README del entregable.</li>
-                <li><strong>Fabrizio:</strong> Documenté decisiones técnicas en canales escritos y colaboré en la elaboración del capítulo relacionado con la interfaz del sistema. Aseguré que los comentarios en el código fueran comprensibles para todo el equipo.</li>
-                <li><strong>Mario:</strong> Registré y comuniqué avances del equipo por medios escritos como GitHub y WhatsApp. También propuse mejoras estructurales en los documentos del proyecto de forma clara y asertiva.</li>
-                <li><strong>Álvaro:</strong> Fui responsable de consolidar la documentación técnica del entregable, dejando evidencia clara de las decisiones tomadas. Utilicé medios escritos para organizar tareas, coordinar módulos y generar acuerdos efectivos.</li>
-                <li><strong>Henry:</strong> Redacté documentación clave sobre los componentes de la Web Application e integré reportes escritos que respaldaban las decisiones arquitectónicas del equipo. Coordiné la integración final del sistema usando mensajes escritos en canales técnicos.</li>
+                    <li><strong>Andrea:</strong> Me aseguré de que todos los miembros del equipo pudieran expresar sus ideas durante las sesiones de documentación, promoviendo un ambiente participativo e inclusivo. Además, facilité la comunicación entre las áreas de frontend y backend para alcanzar los objetivos establecidos. Participé activamente en tareas desafiantes, aportando soluciones y nuevas perspectivas al equipo.</li>
+                    <li><strong>Fabrizio:</strong> Organicé reuniones semanales donde propuse metas claras y revisamos en conjunto el avance del proyecto. Promoví el uso de herramientas colaborativas, permitiendo que todos los integrantes participaran activamente en la planificación y seguimiento de las tareas. Mejoré el frontend siguiendo los consejos y sugerencias de mis compañeros, enriqueciendo así la calidad del producto final.</li>
+                    <li><strong>Mario:</strong>Impulsé sesiones de brainstorming para definir los entregables del proyecto, asegurando que todas las opiniones fueran escuchadas. Coordiné la planificación detallada de tareas y asigné responsabilidades de manera equitativa, fomentando la colaboración del equipo. Investigué de manera proactiva sobre la estructura y los diagramas del frontend y backend para fortalecer la documentación técnica.</li>
+                    <li><strong>Álvaro:</strong> Motivé a mis compañeros a expresar sus ideas y preocupaciones, creando un ambiente de respeto y confianza. Lideré la definición de los objetivos semanales y supervisé el cumplimiento de los plazos, adaptando la planificación según las necesidades del equipo. Asigné responsabilidades en función de las aptitudes de cada integrante, asegurando un desarrollo eficiente y equitativo.</li>
+                    <li><strong>Henry:</strong> Promoví la colaboración técnica utilizando herramientas de control de versiones y organizando sesiones de revisión de código. Me aseguré de que todos los miembros comprendieran el uso de las herramientas necesarias, facilitando así el cumplimiento de las metas del proyecto. Participé activamente en todos los campos del proyecto, resolviendo dudas y completando objetivos dentro de los plazos establecidos.</li>
                 </ul>
             </td>
             <td>
                 <strong>TB1:</strong> Durante el primer entregable hubo altibajos en la elaboración del reporte, sobretodo en la última semana. A pesar de ello, el equipo trabajo de manera constante durante todo el proyecto. Todos los capítulos del reporte tienen detrás horas de investigación con la misión de que sea entendible para cualquier persona que lo lea.<br>
                 <strong>TP:</strong> En el segundo entregable, surgieron problemas durante la implementación de la Web Application. A pesar de ello, el equipo se esforzó por mantener un trabajo constante a lo largo del proceso, procurando seguir las convenciones establecidas y aplicar buenas prácticas de desarrollo.<br>
                 <strong>TB2:</strong> En este entregable, el equipo demostró una mejora continua en su capacidad de comunicación escrita, empleando distintos canales para coordinar avances, resolver dudas y dejar constancia de decisiones técnicas. La documentación se volvió más estructurada y el uso de medios escritos fue clave para mantener la trazabilidad del proyecto. Aunque aún hay oportunidades para estandarizar ciertos formatos y optimizar la claridad de algunos mensajes, se evidenció un compromiso colectivo con la comunicación efectiva y la colaboración remota.
+                <br>
+                <strong>TF:</strong> Lo que realmente hizo que el proyecto fuera exitoso fue el hecho de que, a pesar de los retos, nunca perdimos de vista el objetivo común. Enfrentar los plazos y las expectativas nos enseñó mucho sobre la importancia de la planificación y cómo, cuando un equipo trabaja unido, puede superar cualquier desafío. Este proyecto no solo fue una lección sobre cómo llevar a cabo un trabajo técnico, sino también sobre cómo un equipo puede crecer, aprender y fortalecer sus lazos mientras cumple con objetivos complicados. La satisfacción de haber llegado hasta aquí, con todo lo que hemos aprendido, nos deja claro que el esfuerzo colectivo es la clave para el éxito.
             </td>
         </tr>
     </tobdy>
@@ -723,10 +800,6 @@ Esta información es complementada por estudios del INEI y por reportes del Mini
 - Género: Masculino
 - Edad promedio: 35 años
 - Formación: Nivel tecnico y universitario
-
-<div style="page-break-before: always;"></div>
-
-
 
 <div style="page-break-before: always;"></div>
 
@@ -2436,10 +2509,6 @@ Bounded context encargado de gestionar el procesamiento de pagos dentro del sist
 
 <div style="page-break-before: always;"></div>
 
-
-
-<div style="page-break-before: always;"></div>
-
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
@@ -2857,111 +2926,6 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
         <td>EP04</td>
     </tr>
     <tr>
-        <td>US054</td>
-        <td>Visualizar lista de reuniones del cronograma por hito</td>
-        <td>Como miembro del proyecto quiero consultar las reuniones planificadas dentro de los hitos del cronograma del proyecto para entender la agenda de coordinación del equipo según el avance por etapas del proyecto</td>
-        <td><strong>Scenario: Visualizar reuniones si es contratista o coordinador</strong><br>Given el usuario es el contratista o un coordinador del proyecto<br>When expande un hito del cronograma<br>Then el sistema debe mostrar todas las reuniones asociadas a ese hito con detalles como tema, fecha, hora y convocante<br><br><strong>Scenario: Visualizar solo reuniones en las que participa si es especialista</strong><br>Given el usuario es un especialista<br>When expande un hito del cronograma<br>Then el sistema debe mostrar solo las reuniones en las que el especialista está incluido como participante<br>Then cada reunión debe mostrar tema, fecha y hora<br><br><strong>Scenario: Mostrar opción de añadir reunión solo si es contratista o coordinador</strong><br>Given el usuario es el contratista o un coordinador<br>When expande un hito del cronograma<br>Then el sistema debe mostrar una opción para añadir una nueva reunión<br><br><strong>Scenario: Visualizar opción para editar reunión solo si es contratista o convocante</strong><br>Given el usuario es el contratista o es quien convocó la reunión<br>When visualiza la lista de reuniones<br>Then el sistema debe mostrar una opción para editar junto a cada reunión editable por el usuario<br><br><strong>Scenario: Visualizar opción de eliminar reunión solo si es contratista</strong><br>Given el usuario es el contratista del proyecto<br>When visualiza la lista de reuniones<br>Then el sistema debe mostrar una opción para eliminar junto a cada reunión<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US055</td>
-        <td>Visualizar detalles de una reunión</td>
-        <td>Como miembro del proyecto quiero consultar toda la información relevante de una reunión agendada para conocer con claridad los objetivos, participantes y horarios de cada reunión</td>
-        <td><strong>Scenario: Visualizar todos los campos de la reunión</strong><br>Given el usuario accede a los detalles de una reunión a la que tiene acceso<br>When se abre la vista de detalles<br>Then el sistema debe mostrar el tema, descripción, fecha de inicio, fecha de fin, convocante y lista de participantes<br><br><strong>Scenario: Mostrar solo si el usuario pertenece al proyecto</strong><br>Given el usuario no pertenece al equipo del proyecto<br>When intenta acceder a los detalles de una reunión<br>Then el sistema debe impedir el acceso<br>Then mostrar un mensaje indicando que no tiene permisos para visualizar esta información<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US056</td>
-        <td>Ingresar tema de la reunión</td>
-        <td>Como contratista o coordinador quiero definir el tema principal que será tratado durante la reunión para comunicar claramente el propósito del encuentro al equipo participante</td>
-        <td><strong>Scenario: Visualizar campo de tema de reunión</strong><br>Given el usuario accede al formulario de creación de una reunión<br>When se carga la interfaz<br>Then el sistema debe mostrar un campo obligatorio para ingresar el tema de la reunión<br><br><strong>Scenario: Validar que el campo de tema no esté vacío</strong><br>Given el usuario está completando el formulario de creación<br>When intenta continuar sin ingresar un tema<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando que el tema es obligatorio<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US057</td>
-        <td>Ingresar descripción de la reunión</td>
-        <td>Como contratista o coordinador quiero agregar una descripción con detalles complementarios sobre el propósito o los temas a tratar para proporcionar contexto adicional a los participantes antes de asistir a la reunión</td>
-        <td><strong>Scenario: Visualizar campo de descripción en el formulario</strong><br>Given el usuario accede al formulario de creación de una reunión<br>When se carga la interfaz<br>Then el sistema debe mostrar un campo de texto para ingresar una descripción<br><br><strong>Scenario: Permitir continuar sin ingresar una descripción</strong><br>Given el campo de descripción está vacío<br>When el usuario confirma la creación de la reunión<br>Then el sistema debe permitir completar la acción sin mostrar advertencias<br><br><strong>Scenario: Guardar la descripción si fue ingresada</strong><br>Given el usuario ha ingresado una descripción<br>When confirma la creación de la reunión<br>Then el sistema debe guardar el texto como parte de los detalles de la reunión<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US058</td>
-        <td>Ingresar fechas y horarios de la reunión</td>
-        <td>Como contratista o coordinador quiero definir la fecha y hora de inicio y fin de una reunión planificada para asegurar una correcta organización del cronograma y permitir que los participantes se preparen con anticipación</td>
-        <td><strong>Scenario: Visualizar campos de fecha y hora de inicio y fin</strong><br>Given el usuario accede al formulario de creación de una reunión<br>When se carga la interfaz<br>Then el sistema debe mostrar campos para seleccionar la fecha y hora de inicio y fin de la reunión<br><br><strong>Scenario: Validar campos obligatorios de fechas</strong><br>Given el usuario ha dejado uno o ambos campos vacíos<br>When intenta confirmar la creación<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando que ambos campos son obligatorios<br><br><strong>Scenario: Ajustar fechas si son inconsistentes</strong><br>Given el usuario ha ingresado una fecha de inicio posterior a la de fin, o viceversa<br>When confirma alguno de los campos<br>Then el sistema debe ajustar automáticamente la otra fecha para igualarla<br><br><strong>Scenario: Validar que las fechas estén dentro del rango del hito</strong><br>Given el usuario ha ingresado fechas válidas<br>When estas fechas están fuera del rango del hito al que se asociará la reunión<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando que las fechas deben estar dentro del rango del hito<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US059</td>
-        <td>Ingresar fechas y horarios de la reunión</td>
-        <td>Como contratista o coordinador quiero definir la fecha y hora de inicio y fin de una reunión planificada para asegurar una correcta organización del cronograma y permitir que los participantes se preparen con anticipación</td>
-        <td><strong>Scenario: Visualizar campos de fecha y hora de inicio y fin</strong><br>Given el usuario accede al formulario de creación de una reunión<br>When se carga la interfaz<br>Then el sistema debe mostrar campos para seleccionar la fecha y hora de inicio y fin de la reunión<br><br><strong>Scenario: Validar campos obligatorios de fechas</strong><br>Given el usuario ha dejado uno o ambos campos vacíos<br>When intenta confirmar la creación<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando que ambos campos son obligatorios<br><br><strong>Scenario: Ajustar fechas si son inconsistentes</strong><br>Given el usuario ha ingresado una fecha de inicio posterior a la de fin, o viceversa<br>When confirma alguno de los campos<br>Then el sistema debe ajustar automáticamente la otra fecha para igualarla<br><br><strong>Scenario: Impedir selección de fechas fuera del hito</strong><br>Given el usuario ha ingresado fechas válidas<br>When confirma la creación de la reunión<br>Then el sistema debe validar que las fechas estén dentro del rango del hito<br>Then si no lo están, debe impedir la acción y mostrar un mensaje indicando el error<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US060</td>
-        <td>Añadir participantes a una reunión</td>
-        <td>Como contratista o coordinador quiero incluir a los miembros del equipo que deben asistir a la reunión para asegurar que los participantes pertinentes estén convocados desde el momento de su creación</td>
-        <td><strong>Scenario: Visualizar lista de miembros del proyecto</strong><br>Given el usuario accede al formulario de creación de una reunión<br>When se carga la interfaz<br>Then el sistema debe mostrar una lista de todos los miembros del equipo del proyecto para su selección<br><br><strong>Scenario: Seleccionar participantes para convocar</strong><br>Given el usuario visualiza la lista de miembros<br>When selecciona uno o más miembros del equipo<br>Then el sistema debe añadirlos a la lista de participantes convocados<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US061</td>
-        <td>Buscar participantes por nombre o correo en reuniones</td>
-        <td>Como contratista o coordinador quiero filtrar rápidamente la lista de miembros del proyecto al convocar una reunión para ahorrar tiempo al seleccionar participantes, especialmente en equipos grandes</td>
-        <td><strong>Scenario: La lista de participantes permite escribir texto</strong><br>Given el usuario accede al formulario de creación de una reunión<br>When abre la lista de miembros del equipo para añadir participantes<br>Then el sistema debe permitir escribir texto directamente sobre la lista para activar el filtrado<br><br><strong>Scenario: Filtrado automático por nombre o correo</strong><br>Given el usuario ha empezado a escribir texto en la lista<br>When el texto ingresado coincide parcial o totalmente con un nombre o correo<br>Then el sistema debe mostrar solo los miembros cuyos nombres o correos coincidan con el texto ingresado<br><br><strong>Scenario: Sin coincidencias en la búsqueda</strong><br>Given el usuario ha ingresado texto que no coincide con ningún nombre o correo<br>When escribe en la lista<br>Then el sistema debe mostrar un mensaje indicando que no se encontraron coincidencias<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US062</td>
-        <td>Eliminar participantes de una reunión</td>
-        <td>Como contratista o coordinador quiero ajustar la lista de personas convocadas a una reunión antes de confirmarla para asegurar que solo participen quienes realmente deben estar presentes, evitando errores o confusiones</td>
-        <td><strong>Scenario: Visualizar lista editable de participantes seleccionados</strong><br>Given el usuario ha añadido al menos un participante a la reunión<br>When se carga el resumen de los participantes seleccionados<br>Then el sistema debe mostrar los nombres de los miembros añadidos junto con una opción para eliminarlos<br><br><strong>Scenario: Eliminar un participante de la reunión</strong><br>Given el usuario visualiza la lista de participantes seleccionados<br>When hace clic en la opción de eliminar junto a un nombre<br>Then el sistema debe quitar a ese miembro de la lista<br>Then actualizar la visualización de participantes en tiempo real<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US063</td>
-        <td>Confirmar creación de la reunión</td>
-        <td>Como contratista o coordinador quiero finalizar el registro de una reunión con todos sus datos completados para añadir formalmente la reunión al cronograma y notificar a los participantes correspondientes</td>
-        <td><strong>Scenario: Confirmar con todos los campos obligatorios completos</strong><br>Given el usuario ha ingresado un tema, fechas válidas y seleccionado al menos un participante<br>When confirma la creación<br>Then el sistema debe registrar la nueva reunión en el cronograma<br>Then asignar al usuario como convocante<br>Then mostrar un mensaje de confirmación<br><br><strong>Scenario: Impedir creación si faltan campos obligatorios</strong><br>Given el usuario no ha completado alguno de los campos obligatorios<br>When intenta confirmar la reunión<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando qué campos faltan<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US064</td>
-        <td>Editar tema de una reunión</td>
-        <td>Como contratista o convocante quiero actualizar el título o motivo principal de la reunión si cambia el enfoque para reflejar claramente el propósito actualizado del encuentro para todos los participantes</td>
-        <td><strong>Scenario: Visualizar campo de tema con valor actual</strong><br>Given el usuario accede a la edición de una reunión<br>When abre el formulario de edición<br>Then el sistema debe mostrar el campo de tema con su valor actual prellenado<br><br><strong>Scenario: Actualizar tema y confirmar</strong><br>Given el usuario ha modificado el campo de tema<br>When confirma los cambios<br>Then el sistema debe guardar el nuevo tema de la reunión<br>Then mostrar un mensaje de confirmación<br><br><strong>Scenario: Validar tema como campo obligatorio</strong><br>Given el campo de tema está vacío<br>When el usuario intenta guardar los cambios<br>Then el sistema debe impedir la acción y mostrar un mensaje indicando que el campo es obligatorio<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US065</td>
-        <td>Editar descripción de una reunión</td>
-        <td>Como contratista o convocante quiero actualizar la información complementaria o aclaratoria de una reunión ya agendada para brindar mayor claridad a los participantes sobre los temas a tratar o los objetivos del encuentro</td>
-        <td><strong>Scenario: Visualizar campo de descripción con valor actual</strong><br>Given el usuario accede al formulario de edición de una reunión<br>When se carga la interfaz<br>Then el sistema debe mostrar el campo de descripción con el contenido actual prellenado<br><br><strong>Scenario: Actualizar descripción y guardar cambios</strong><br>Given el usuario ha modificado el texto en el campo de descripción<br>When confirma los cambios<br>Then el sistema debe guardar la nueva descripción de la reunión<br>Then mostrar un mensaje de confirmación<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US066</td>
-        <td>Editar fechas y horarios de una reunión</td>
-        <td>Como contratista o convocante quiero modificar la fecha y hora de una reunión ya agendada si hay cambios en la planificación para mantener el cronograma actualizado y notificar correctamente a los participantes</td>
-        <td><strong>Scenario: Visualizar fechas actuales para editar</strong><br>Given el usuario accede a la edición de una reunión<br>When se carga el formulario de edición<br>Then el sistema debe mostrar los campos de fecha de inicio y fin con sus valores actuales prellenados<br><br><strong>Scenario: Ajustar automáticamente fechas inconsistentes</strong><br>Given el usuario ingresa fechas que no siguen el orden lógico (inicio > fin o viceversa)<br>When confirma alguno de los campos<br>Then el sistema debe ajustar automáticamente la otra fecha para igualarla<br><br><strong>Scenario: Guardar cambios si las fechas son válidas y están dentro del hito</strong><br>Given el usuario ha ingresado fechas válidas dentro del rango permitido<br>When confirma los cambios<br>Then el sistema debe actualizar la reunión y mostrar un mensaje de confirmación<br><br><strong>Scenario: Impedir cambios si las fechas están fuera del rango del hito</strong><br>Given el usuario ha ingresado fechas válidas pero fuera del rango del hito<br>When intenta confirmar la edición<br>Then el sistema debe impedir la acción y mostrar un mensaje indicando el error<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US067</td>
-        <td>Editar participantes de una reunión</td>
-        <td>Como contratista o convocante quiero ajustar la lista de personas convocadas tras cambios en la disponibilidad o roles para garantizar que solo los miembros pertinentes estén informados y participen activamente</td>
-        <td><strong>Scenario: Visualizar participantes actuales para edición</strong><br>Given el usuario accede a la edición de una reunión<br>When se carga el formulario de edición<br>Then el sistema debe mostrar la lista actual de participantes seleccionados con opción para añadir o eliminar<br><br><strong>Scenario: Actualizar la lista de participantes</strong><br>Given el usuario ha añadido o eliminado participantes<br>When confirma los cambios<br>Then el sistema debe guardar la nueva lista de participantes<br>Then mostrar un mensaje de confirmación<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
-        <td>US068</td>
-        <td>Cancelar una reunión del cronograma</td>
-        <td>Como contratista quiero eliminar reuniones que ya no son necesarias o que fueron agendadas por error para mantener el cronograma limpio y reflejar únicamente reuniones vigentes y relevantes</td>
-        <td><strong>Scenario: Solicitar confirmación manual antes de cancelar</strong><br>Given el contratista ha seleccionado la opción para cancelar una reunión<br>When se despliega el cuadro de confirmación<br>Then el sistema debe solicitar que escriba el texto 'cancelar + nombre del tema de la reunión'<br><br><strong>Scenario: Cancelar la reunión si la confirmación es correcta</strong><br>Given el contratista ha ingresado correctamente el texto de confirmación<br>When confirma la acción<br>Then el sistema debe eliminar la reunión del cronograma<br>Then mostrar un mensaje de confirmación<br><br><strong>Scenario: Cancelar operación si la confirmación es incorrecta</strong><br>Given el contratista ha ingresado incorrectamente la confirmación<br>When intenta confirmar la cancelación<br>Then el sistema debe impedir la acción<br>Then mostrar un mensaje indicando que la confirmación no es válida<br><br></td>
-        <td>EP05</td>
-    </tr>
-    <tr>
         <td>US076</td>
         <td>Iniciar solicitud de cambio desde una solicitud de cambio</td>
         <td>Como entidad contratante quiero solicitar formalmente una modificación del alcance, contenido o entrega del proyecto para asegurar que el cambio sea evaluado, aprobado o rechazado bajo un proceso trazable</td>
@@ -3296,12 +3260,6 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
     <tr><td>TS18</td><td>Listar hitos del cronograma</td><td>Como Developer, quiero implementar un endpoint que permita obtener todos los hitos registrados en el cronograma de un proyecto, para que los usuarios puedan visualizar los eventos clave del mismo.</td><td><br><br><strong>Scenario: Listar hitos exitosamente</strong><br>Given un usuario autorizado realiza una solicitud GET al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones<br>And el cronograma del proyecto tiene al menos un hito registrado<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe contener una lista de hitos, donde cada uno incluye: id, nombre, fecha prevista, estado, duración (si existe), y descripción (si existe)<br><br><strong>Scenario: Cronograma sin hitos registrados</strong><br>Given el cronograma del proyecto no tiene hitos registrados<br>When se realiza la solicitud GET<br>Then debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir una lista vacía<br><br><strong>Scenario: Proyecto sin cronograma</strong><br>Given el proyecto no tiene un cronograma registrado<br>When se realiza la solicitud GET al endpoint<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Este proyecto no tiene un cronograma registrado"<br><br><strong>Scenario: Proyecto no encontrado</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto existente<br>When se realiza la solicitud<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP03</td></tr>
     <tr><td>TS19</td><td>Obtener detalles de hito</td><td>Como Developer, quiero implementar un endpoint que permita obtener la información detallada de un hito registrado en el cronograma de un proyecto, para que los usuarios puedan revisar su contenido y estado.</td><td><br><br><strong>Scenario: Obtener detalles del hito exitosamente</strong><br>Given un usuario autorizado realiza una solicitud GET al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}<br>And el hito existe dentro del cronograma del proyecto<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir: id, nombre, fecha prevista, estado, descripción (si existe), y duración (si existe)<br><br><strong>Scenario: Hito no encontrado en el proyecto</strong><br>Given el milestoneId no está registrado en el cronograma del proyecto indicado<br>When se realiza la solicitud GET<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Hito no encontrado en este proyecto"<br><br><strong>Scenario: Proyecto no encontrado</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto existente<br>When se realiza la solicitud<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP03</td></tr>
     <tr><td>TS20</td><td>Actualizar información de hito</td><td>Como Developer, quiero implementar un endpoint que permita actualizar el estado y la duración de un hito, para reflejar el avance real del cronograma y ajustar las estimaciones según la ejecución del proyecto.</td><td><br><br><strong>Scenario: Actualizar estado del hito exitosamente</strong><br>Given un contratista autorizado envía una solicitud PATCH al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}<br>And el cuerpo de la solicitud contiene un nuevo estado válido (pendiente, en curso, finalizado)<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And el estado del hito debe actualizarse correctamente en la base de datos<br>And el cuerpo de la respuesta debe reflejar el nuevo estado<br><br><strong>Scenario: Actualizar duración del hito exitosamente</strong><br>Given el cuerpo de la solicitud incluye una nueva duración válida (valor numérico positivo)<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And la duración actualizada debe reflejarse correctamente en el hito<br><br><strong>Scenario: Enviar estado o duración inválidos</strong><br>Given el contratista ha enviado un estado no reconocido o una duración negativa/no numérica<br>When se procesa la solicitud<br>Then el servidor debe responder con un código 400 Bad Request<br>And el cuerpo de la respuesta debe incluir un mensaje con los errores de validación<br><br><strong>Scenario: Hito no encontrado en el proyecto</strong><br>Given el milestoneId no corresponde a ningún hito registrado en el proyecto indicado<br>When se envía la solicitud PATCH<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Hito no encontrado en este proyecto"<br><br></td><td>EP03</td></tr>
-    <tr><td>TS21</td><td>Crear reunión</td><td>Como Developer, quiero implementar un endpoint que permita crear una reunión vinculada a un proyecto, para que los contratistas puedan organizar y coordinar las reuniones del equipo.</td><td><br><br><strong>Scenario: Crear reunión exitosamente</strong><br>Given un contratista autorizado envía una solicitud POST al endpoint /organizations/{organizationId}/projects/{project id}/schedule/milestones/{milestoneId}/meetings<br>And el cuerpo de la solicitud contiene un tipo de reunión (presencial o virtual), fecha, hora, y otros detalles necesarios<br>When el servidor procesa la solicitud<br>Then debe responder con un código 201 Created<br>And el cuerpo de la respuesta debe incluir los detalles de la reunión creada, incluyendo su id, tipo, fecha, hora, y detalles opcionales como lugar o enlace de la reunión<br><br><strong>Scenario: Datos inválidos en la reunión</strong><br>Given el contratista envía una solicitud POST con datos incompletos o inválidos (por ejemplo, una fecha en el pasado o enlace malformado)<br>When el servidor procesa la solicitud<br>Then debe responder con un código 400 Bad Request<br>And el cuerpo de la respuesta debe incluir un mensaje que detalle los errores de validación<br><br><strong>Scenario: Proyecto no encontrado</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto existente<br>When se envía la solicitud POST<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP05</td></tr>
-    <tr><td>TS22</td><td>Listar todas las reuniones de un hito</td><td>Como Developer, quiero implementar un endpoint que permita obtener todas las reuniones asociadas a un hito específico dentro del cronograma de un proyecto, para facilitar su visualización y gestión.</td><td><br><br><strong>Scenario: Listar reuniones exitosamente</strong><br>Given un usuario autorizado realiza una solicitud GET al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/meetings<br>And el hito especificado tiene reuniones asociadas<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir una lista de reuniones asociadas al hito, donde cada reunión debe incluir: id, fecha, hora, tipo (presencial o virtual), lugar o enlace (según corresponda)<br><br><strong>Scenario: Hito sin reuniones asociadas</strong><br>Given el hito especificado no tiene reuniones registradas<br>When se realiza la solicitud GET<br>Then debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir una lista vacía<br><br><strong>Scenario: Hito no encontrado</strong><br>Given el milestoneId proporcionado no corresponde a ningún hito registrado en el cronograma del proyecto<br>When se realiza la solicitud GET<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Hito no encontrado"<br><br><strong>Scenario: Proyecto no encontrado</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto existente<br>When se realiza la solicitud GET<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP05</td></tr>
-    <tr><td>TS23</td><td>Obtener detalles de reunión</td><td>Como Developer, quiero implementar un endpoint que permita obtener los detalles completos de una reunión específica registrada en un proyecto, para que los usuarios puedan acceder a la información relevante de la reunión.</td><td><br><br><strong>Scenario: Obtener detalles de reunión exitosamente</strong><br>Given un usuario autorizado realiza una solicitud GET al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/meetings/{meetingId}<br>And la reunión existe y está asociada al proyecto<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir: id, tipo (presencial o virtual), fecha, hora, lugar o enlace (según corresponda), temas y objetivos (si están registrados)<br><br><strong>Scenario: Reunión no encontrada</strong><br>Given el meetingId proporcionado no corresponde a ninguna reunión registrada en el proyecto<br>When se realiza la solicitud GET<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Reunión no encontrada"<br><br><strong>Scenario: Proyecto no encontrado</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto existente<br>When se realiza la solicitud GET<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP05</td></tr>
-    <tr><td>TS24</td><td>Actualizar información de reunión</td><td>Como Developer, quiero implementar un endpoint que permita actualizar la fecha y los detalles generales de una reunión registrada, para reflejar cambios en la planificación o ajustes de última hora.</td><td><br><br><strong>Scenario: Actualizar fecha de reunión exitosamente</strong><br>Given un contratista autorizado envía una solicitud PATCH al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/meetings/{meetingId}<br>And el cuerpo de la solicitud incluye una nueva fecha y hora válidas<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And la fecha y hora de la reunión deben actualizarse correctamente en la base de datos<br>And el cuerpo de la respuesta debe reflejar la nueva fecha y hora de la reunión<br><br><strong>Scenario: Actualizar detalles generales de reunión exitosamente</strong><br>Given un contratista autorizado envía una solicitud PATCH al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/meetings/{meetingId}<br>And el cuerpo de la solicitud incluye nuevos detalles generales (temas a tratar, objetivos, lugar o enlace, según el tipo de reunión)<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And los detalles generales deben actualizarse correctamente en la reunión<br>And el cuerpo de la respuesta debe reflejar los nuevos detalles<br><br><strong>Scenario: Enviar datos inválidos en la solicitud</strong><br>Given el contratista ha enviado una solicitud PATCH con datos inválidos (fecha mal formateada, texto vacío o lugar/enlace mal ingresado)<br>When el servidor procesa la solicitud<br>Then debe responder con un código 400 Bad Request<br>And el cuerpo de la respuesta debe incluir un mensaje que detalle los errores de validación<br><br><strong>Scenario: Reunión no encontrada</strong><br>Given el meetingId proporcionado no corresponde a ninguna reunión registrada en el proyecto<br>When se envía la solicitud PATCH<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Reunión no encontrada"<br><br></td><td>EP05</td></tr>
-    <tr><td>TS25</td><td>Añadir asistente de reunión</td><td>Como Developer, quiero implementar un endpoint que permita añadir un asistente a una reunión registrada, para que los participantes sean notificados y tengan acceso a la reunión.</td><td><br><br><strong>Scenario: Añadir asistente exitosamente</strong><br>Given un contratista autorizado envía una solicitud POST al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/meetings/{meetingId}/attendees<br>And el cuerpo de la solicitud contiene un email válido de un nuevo asistente<br>When el servidor procesa la solicitud<br>Then debe responder con un código 201 Created<br>And el cuerpo de la respuesta debe incluir los datos del asistente añadido, incluyendo su email y rol<br><br><strong>Scenario: Asistente ya registrado</strong><br>Given el asistente proporcionado ya está registrado en la lista de participantes de la reunión<br>When el servidor procesa la solicitud<br>Then debe responder con un código 409 Conflict<br>And el cuerpo de la respuesta debe incluir un mensaje "Este asistente ya forma parte de la reunión"<br><br><strong>Scenario: Enviar email inválido</strong><br>Given el contratista envía una solicitud POST con un email mal formateado o no válido<br>When el servidor procesa la solicitud<br>Then debe responder con un código 400 Bad Request<br>And el cuerpo de la respuesta debe incluir un mensaje "Debe ingresar un correo electrónico válido"<br><br><strong>Scenario: Reunión no encontrada</strong><br>Given el meetingId proporcionado no corresponde a ninguna reunión registrada en el proyecto<br>When se envía la solicitud POST<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Reunión no encontrada"<br><br></td><td>EP05</td></tr>
-    <tr><td>TS26</td><td>Editar/eliminar asistente de reunión</td><td>Como Developer, quiero implementar un endpoint que permita editar o eliminar un asistente de una reunión, para mantener actualizada la lista de participantes en caso de cambios en la asistencia.</td><td><br><br><strong>Scenario: Editar asistente exitosamente</strong><br>Given un contratista autorizado envía una solicitud PATCH al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/meetings/{meetingId}/attendees/{attendeeId}<br>And el cuerpo de la solicitud contiene un nuevo email válido o rol para el asistente<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir los datos del asistente actualizado, incluyendo su email y rol<br><br><strong>Scenario: Eliminar asistente exitosamente</strong><br>Given un contratista autorizado envía una solicitud DELETE al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/meetings/{meetingId}/attendees/{attendeeId}<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And el asistente debe ser eliminado de la lista de participantes de la reunión<br>And el cuerpo de la respuesta debe incluir un mensaje "Asistente eliminado exitosamente"<br><br><strong>Scenario: Intentar editar asistente inexistente</strong><br>Given el attendeeId proporcionado no existe en la lista de asistentes de la reunión<br>When se envía la solicitud PATCH<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Asistente no encontrado"<br><br><strong>Scenario: Intentar eliminar asistente inexistente</strong><br>Given el attendeeId proporcionado no existe en la lista de asistentes de la reunión<br>When se envía la solicitud DELETE<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Asistente no encontrado"<br><br></td><td>EP05</td></tr>
     <tr><td>TS27</td><td>Crear tarea</td><td>Como Developer, quiero implementar un endpoint que permita crear una nueva tarea en un proyecto, para que los contratistas puedan organizar y asignar actividades dentro del cronograma del proyecto.</td><td><br><br><strong>Scenario: Crear tarea exitosamente</strong><br>Given un contratista autorizado envía una solicitud POST al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/tasks<br>And el cuerpo de la solicitud contiene los datos válidos de la tarea (título, fecha de inicio, fecha de finalización, responsable asignado, etc.)<br>When el servidor procesa la solicitud<br>Then debe responder con un código 201 Created<br>And el cuerpo de la respuesta debe incluir los datos de la tarea recién creada, incluyendo su id, título, fecha de inicio, fecha de finalización y responsable asignado<br><br><strong>Scenario: Enviar datos inválidos en la solicitud</strong><br>Given el contratista envía una solicitud POST con datos incompletos o con formato inválido (por ejemplo, fecha mal formateada, campos vacíos, etc.)<br>When el servidor procesa la solicitud<br>Then debe responder con un código 400 Bad Request<br>And el cuerpo de la respuesta debe incluir un mensaje que detalle los errores de validación<br><br><strong>Scenario: Proyecto no encontrado</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto existente<br>When se envía la solicitud POST<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP04</td></tr>
     <tr><td>TS28</td><td>Listar tareas de hito</td><td>Como Developer, quiero implementar un endpoint que permita obtener todas las tareas asociadas a un hito específico dentro de un proyecto, para que los usuarios puedan visualizar todas las actividades vinculadas a ese hito en particular.</td><td><br><br><strong>Scenario: Listar tareas exitosamente</strong><br>Given un usuario autorizado realiza una solicitud GET al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/tasks<br>And el hito especificado tiene tareas asociadas<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir una lista de tareas asociadas al hito, donde cada tarea debe incluir: id, título, fecha de inicio, fecha de finalización, responsable asignado y estado de la tarea<br><br><strong>Scenario: Hito sin tareas asociadas</strong><br>Given el hito especificado no tiene tareas asociadas<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir una lista vacía<br><br><strong>Scenario: Hito no encontrado</strong><br>Given el milestoneId proporcionado no corresponde a ningún hito registrado en el proyecto<br>When se realiza la solicitud GET<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Hito no encontrado"<br><br><strong>Scenario: Proyecto no encontrado</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto existente<br>When se realiza la solicitud GET<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP04</td></tr>
     <tr><td>TS29</td><td>Obtener detalles de tarea</td><td>Como Developer, quiero implementar un endpoint que permita obtener los detalles completos de una tarea asociada a un proyecto, para que los usuarios puedan visualizar toda la información relevante de la tarea.</td><td><br><br><strong>Scenario: Obtener detalles de tarea exitosamente</strong><br>Given un usuario autorizado realiza una solicitud GET al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/tasks/{taskId}<br>And la tarea especificada existe dentro del proyecto<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir los detalles de la tarea, como: id, título, descripción, fecha de inicio, fecha de finalización, responsable asignado, estado, y cualquier otro campo adicional<br><br><strong>Scenario: Tarea no encontrada</strong><br>Given el taskId proporcionado no corresponde a ninguna tarea registrada en el proyecto<br>When se realiza la solicitud GET<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Tarea no encontrada"<br><br><strong>Scenario: Proyecto no encontrado</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto existente<br>When se realiza la solicitud GET<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP04</td></tr>
@@ -3326,12 +3284,6 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
     <tr><td>TS48</td><td>Encriptación segura de credenciales</td><td>Como Developer, quiero implementar una función de encriptación de credenciales mediante salteo y hasheo, para garantizar que las contraseñas de los usuarios no se almacenen ni se procesen nunca en texto plano.</td><td><br><br><strong>Scenario: Almacenar nueva contraseña</strong><br>Given el sistema recibe una nueva contraseña como parte del registro o actualización de cuenta<br>When la contraseña va a ser almacenada en la base de datos<br>Then se debe generar un "salt" aleatorio único<br>And la contraseña debe ser hasheada utilizando un algoritmo robusto como bcrypt con el salt generado<br>And el hash resultante junto con el salt deben almacenarse de forma segura<br>And la contraseña original nunca debe almacenarse ni registrarse en texto plano<br><br><strong>Scenario: Verificar contraseña y permitir acceso</strong><br>Given el usuario envía su contraseña al iniciar sesión<br>When el sistema aplica el algoritmo de hash con el salt correspondiente<br>Then el resultado debe coincidir con el hash almacenado<br>And se debe permitir el acceso al usuario<br><br><strong>Scenario: Verificar contraseña y rechazar acceso</strong><br>Given el usuario envía su contraseña al iniciar sesión<br>When el sistema aplica el algoritmo de hash con el salt correspondiente<br>Then el resultado no debe coincidir con el hash almacenado<br>And se debe rechazar el acceso al usuario<br><br></td><td>EP16</td></tr>
     <tr><td>TS49</td><td>Límite de intentos de login</td><td>Como Developer, quiero implementar un mecanismo que limite la cantidad de intentos fallidos de inicio de sesión, para prevenir ataques de fuerza bruta contra las credenciales de los usuarios.</td><td><br><br><strong>Scenario: Superar el número máximo de intentos fallidos</strong><br>Given un usuario ha ingresado credenciales incorrectas varias veces consecutivas<br>When el número de intentos fallidos alcanza el límite definido (por ejemplo, 5 intentos)<br>Then el sistema debe bloquear temporalmente el intento de inicio de sesión para ese usuario o dirección IP<br>And se debe registrar el intento y la duración del bloqueo<br><br><strong>Scenario: Reintentar login después del tiempo de espera</strong><br>Given un usuario ha sido bloqueado por exceder el número de intentos fallidos<br>When ha transcurrido el tiempo de espera definido (por ejemplo, 15 minutos)<br>Then el sistema debe permitir nuevamente el intento de inicio de sesión<br><br><strong>Scenario: Restablecer contador de intentos al iniciar sesión exitosamente</strong><br>Given un usuario logra autenticarse correctamente<br>When el inicio de sesión es exitoso<br>Then el sistema debe restablecer el contador de intentos fallidos a cero<br><br><strong>Scenario: Informar sobre intentos fallidos restantes</strong><br>Given el usuario ha realizado uno o más intentos fallidos de login<br>When se realiza un nuevo intento con credenciales incorrectas<br>Then el sistema debe informar cuántos intentos restantes quedan antes del bloqueo<br><br></td><td>EP17</td></tr>
     <tr><td>TS50</td><td>Corroborar nivel de acceso</td><td>Como Developer, quiero implementar una verificación de nivel de acceso en cada solicitud del usuario, para asegurar que solo puedan ejecutar acciones autorizadas según su rol.</td><td><br><br><strong>Scenario: Acceso permitido según rol</strong><br>Given un usuario autenticado realiza una solicitud a un recurso protegido<br>When el sistema verifica los permisos asociados al rol del usuario<br>Then si el rol del usuario tiene acceso al recurso solicitado<br>And se debe permitir la ejecución de la acción<br><br><strong>Scenario: Acceso denegado por rol insuficiente</strong><br>Given un usuario autenticado realiza una solicitud a un recurso restringido<br>When el sistema verifica que el rol del usuario no tiene permiso para acceder a ese recurso<br>Then se debe denegar el acceso<br>And el sistema debe devolver un error de autorización, como 403 Forbidden<br><br></td><td>EP16</td></tr>
-    <tr><td>TS51</td><td>Listar facturas de usuario</td><td>Como Developer, quiero implementar un endpoint que permita obtener el listado de facturas asociadas a un usuario, para que el usuario pueda consultar el historial de facturación relacionado con sus suscripciones.</td><td><br><br><strong>Scenario: Obtener listado de facturas exitosamente</strong><br>Given un usuario autenticado envía una solicitud GET al endpoint /users/invoices<br>When el usuario tiene facturas asociadas a sus suscripciones<br>Then el sistema debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir un arreglo de facturas con los campos invoiceId, fechaEmision, estado, montoTotal, fechaPago (si corresponde) y un enlace para ver el detalle<br><br><strong>Scenario: Usuario sin facturas registradas</strong><br>Given un usuario realiza una solicitud válida pero no tiene facturas generadas<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe contener un arreglo vacío<br><br><strong>Scenario: Usuario no encontrado</strong><br>Given el userId proporcionado no corresponde a ningún usuario registrado<br>When se realiza la solicitud GET<br>Then el sistema debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Usuario no encontrado"<br><br></td><td>EP19</td></tr>
-    <tr><td>TS52</td><td>Estado de una factura</td><td>Como Developer, quiero implementar un endpoint que permita consultar el estado de una factura asociada a un usuario, para que el usuario pueda conocer si la factura está pagada, pendiente o vencida.</td><td><br><br><strong>Scenario: Obtener estado de factura exitosamente</strong><br>Given un usuario autenticado envía una solicitud GET al endpoint /users/invoices/{invoiceId}/status<br>When la factura existe y está registrada en el sistema<br>Then el sistema debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir el estado de la factura, que puede ser uno de los siguientes: Pagada, Pendiente, o Vencida<br>And debe incluir la fecha de pago (si aplica) y la fecha límite de pago<br><br><strong>Scenario: Factura no encontrada</strong><br>Given un usuario intenta obtener el estado de una factura que no existe<br>When se realiza la solicitud GET<br>Then el sistema debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Factura no encontrada"<br><br></td><td>EP19</td></tr>
-    <tr><td>TS53</td><td>Selección del plan de suscripción</td><td>Como Developer, quiero implementar un endpoint que permita a los usuarios seleccionar un plan de suscripción, para que puedan elegir el plan que mejor se ajuste a sus necesidades y activar la suscripción.</td><td><br><br><strong>Scenario: Seleccionar un plan de suscripción correctamente</strong><br>Given un usuario autenticado envía una solicitud POST al endpoint /users/subscriptions<br>When el usuario selecciona un plan de suscripción válido con los datos correctos en el cuerpo de la solicitud<br>Then el sistema debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir los detalles del plan seleccionado, como planId, nombre, precio, cicloFacturacion, fechaActivacion, y fechaRenovacion<br><br><strong>Scenario: Selección de plan no válido</strong><br>Given el usuario envía una solicitud POST al endpoint /users/{userId}/subscriptions/select<br>When el plan seleccionado no es válido o no existe<br>Then el sistema debe responder con un código 400 Bad Request<br>And el cuerpo de la respuesta debe incluir un mensaje "El plan seleccionado no es válido"<br><br><strong>Scenario: Usuario sin suscripción activa</strong><br>Given el usuario no tiene una suscripción activa<br>When el usuario selecciona un plan de suscripción para activarlo<br>Then el sistema debe procesar la solicitud de activación del plan<br>And el sistema debe generar una factura prorrateada según el tiempo restante del ciclo de facturación actual<br><br></td><td>EP19</td></tr>
-    <tr><td>TS54</td><td>Actualizar plan de suscripción</td><td>Como Developer, quiero implementar un endpoint que permita a los usuarios actualizar su plan de suscripción, para que puedan cambiar a un plan superior o inferior según sus necesidades.</td><td><br><br><strong>Scenario: Actualizar a un plan superior</strong><br>Given un usuario autenticado envía una solicitud PUT al endpoint /users/subscriptions<br>When el usuario selecciona un plan superior válido en el cuerpo de la solicitud<br>Then el sistema debe procesar el cambio de plan<br>And debe generar una factura prorrateada en función del tiempo restante del ciclo de facturación actual<br>And debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir los detalles del nuevo plan, como planId, nombre, precio, cicloFacturacion, fechaActivacion, fechaRenovacion<br><br><strong>Scenario: Actualizar a un plan inferior</strong><br>Given un usuario autenticado envía una solicitud PUT al endpoint /users/{userId}/subscriptions/update<br>When el usuario selecciona un plan inferior válido en el cuerpo de la solicitud<br>Then el sistema debe procesar el cambio de plan<br>And debe generar una factura prorrateada en función del tiempo restante del ciclo de facturación actual<br>And debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir los detalles del nuevo plan, como planId, nombre, precio, cicloFacturacion, fechaActivacion, fechaRenovacion<br><br><strong>Scenario: Intento de actualización con plan no válido</strong><br>Given el usuario intenta actualizar a un plan no válido<br>When se realiza la solicitud de actualización<br>Then el sistema debe responder con un código 400 Bad Request<br>And el cuerpo de la respuesta debe incluir un mensaje "El plan seleccionado no es válido"<br><br><strong>Scenario: Usuario no tiene suscripción activa</strong><br>Given el usuario no tiene una suscripción activa<br>When el usuario intenta actualizar su plan de suscripción<br>Then el sistema debe responder con un código 400 Bad Request<br>And el cuerpo de la respuesta debe incluir un mensaje "Debes tener una suscripción activa para actualizar tu plan"<br><br></td><td>EP19</td></tr>
-    <tr><td>TS55</td><td>Visualizar plan de suscripción</td><td>Como Developer, quiero implementar un endpoint que permita a los usuarios visualizar el plan de suscripción actual al que están suscritos, para que puedan revisar los detalles de su suscripción activa.</td><td><br><br><strong>Scenario: Obtener detalles del plan de suscripción exitosamente</strong><br>Given un usuario autenticado envía una solicitud GET al endpoint /users/subscriptions<br>When el usuario tiene una suscripción activa<br>Then el sistema debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir los detalles del plan de suscripción actual, como planId, nombre, precio, cicloFacturacion, fechaActivacion, fechaRenovacion, y estado (Activo/Pendiente/Suspendido)<br><br><strong>Scenario: Usuario sin suscripción activa</strong><br>Given el usuario no tiene una suscripción activa<br>When el usuario realiza una solicitud GET al endpoint /users/{userId}/subscriptions/current<br>Then el sistema debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "No tienes una suscripción activa"<br><br></td><td>EP19</td></tr>
-    <tr><td>TS56</td><td>Pagar factura</td><td>Como Developer, quiero implementar un endpoint que permita a los usuarios pagar sus facturas utilizando una pasarela de pagos, como Stripe, para asegurar un proceso de pago seguro y eficiente.</td><td><br><br><strong>Scenario: Pagar factura exitosamente</strong><br>Given un usuario autenticado envía una solicitud POST al endpoint /users/invoices/{invoiceId}/pay<br>And el cuerpo de la solicitud contiene un paymentMethod válido (por ejemplo, un token de tarjeta de crédito de Stripe)<br>When el sistema procesa el pago con la pasarela de pagos integrada (Stripe)<br>Then el sistema debe responder con un código 200 OK<br>And el cuerpo de la respuesta debe incluir el estado actualizado de la factura, con estado: Pagada<br>And debe incluir un mensaje "Pago realizado con éxito"<br>And debe actualizar el estado de la suscripción si el pago activa o renueva la suscripción<br><br><strong>Scenario: Pago rechazado</strong><br>Given el usuario intenta pagar con un paymentMethod no válido o con fondos insuficientes<br>When el sistema procesa el pago a través de la pasarela de pagos (Stripe)<br>Then el sistema debe responder con un código 400 Bad Request<br>And el cuerpo de la respuesta debe incluir un mensaje "Pago rechazado"<br>And debe especificar el motivo del rechazo (por ejemplo, fondos insuficientes, tarjeta caducada, etc.)<br><br><strong>Scenario: Usuario no tiene factura pendiente</strong><br>Given el usuario no tiene una factura pendiente de pago<br>When el usuario intenta pagar una factura<br>Then el sistema debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "No tienes facturas pendientes"<br>And no debe procesarse el pago<br><br></td><td>EP19</td></tr>
     <tr><td>TS57</td><td>Eliminar proyecto (soft delete)</td><td>Como Developer, quiero implementar un endpoint que permita marcar un proyecto como eliminado (soft delete), para preservar sus datos temporalmente y permitir su recuperación antes de ser eliminado definitivamente.</td><td><br><br><strong>Scenario: Eliminar proyecto exitosamente (soft delete)</strong><br>Given un contratista autorizado envía una solicitud DELETE al endpoint /organizations/{organizationId}/projects/{project-id}<br>And el proyecto está en estado activo o gestionable<br>When el servidor procesa la solicitud<br>Then debe cambiar el estado interno del proyecto a deletion_pending<br>And debe responder con un código 202 Accepted<br>And un mensaje "El proyecto ha sido marcado para eliminación y será eliminado definitivamente en X días"<br><br><strong>Scenario: Proyecto ya marcado para eliminación</strong><br>Given el proyecto ya tiene el estado deletion_pending<br>When se recibe una nueva solicitud DELETE sobre el mismo projectId<br>Then el servidor debe responder con un código 409 Conflict<br>And el cuerpo de la respuesta debe incluir un mensaje "El proyecto ya está en proceso de eliminación"<br><br><strong>Scenario: Proyecto no encontrado</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto registrado<br>When se envía la solicitud DELETE<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP01</td></tr>
     <tr><td>TS58</td><td>Eliminar usuario de proyecto</td><td>Como Developer, quiero implementar un endpoint que permita eliminar a un usuario del equipo de un proyecto, para que ya no tenga acceso ni participación activa en dicho proyecto.</td><td><br><br><strong>Scenario: Eliminar usuario del proyecto exitosamente</strong><br>Given un contratista autorizado envía una solicitud DELETE al endpoint /organizations/{organizationId}/projects/{project-id}/members/{memberId}<br>And el usuario forma parte del equipo del proyecto<br>When el servidor procesa la solicitud<br>Then debe eliminar la relación entre el usuario y el proyecto<br>And debe responder con un código 200 OK<br>And un mensaje "Miembro eliminado del proyecto exitosamente"<br><br><strong>Scenario: Usuario no pertenece al proyecto</strong><br>Given el memberId proporcionado no está asociado al projectId indicado<br>When se envía la solicitud DELETE<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Este usuario no forma parte del proyecto"<br><br><strong>Scenario: Proyecto no encontrado</strong><br>Given el projectId proporcionado no existe<br>When el servidor procesa la solicitud<br>Then debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP02</td></tr>
     <tr><td>TS59</td><td>Eliminar reunión</td><td>Como Developer, quiero implementar un endpoint que permita eliminar una reunión registrada en un proyecto, para que los contratistas puedan gestionar las reuniones que ya no son necesarias.</td><td><br><br><strong>Scenario: Eliminar reunión exitosamente</strong><br>Given un contratista autorizado envía una solicitud DELETE al endpoint /organizations/{organizationId}/projects/{project-id}/schedule/milestones/{milestoneId}/meetings/{meetingId}<br>When el servidor procesa la solicitud<br>Then debe responder con un código 200 OK<br>And la reunión debe ser eliminada del cronograma del proyecto<br>And el cuerpo de la respuesta debe incluir un mensaje "Reunión eliminada exitosamente"<br><br><strong>Scenario: Intentar eliminar una reunión inexistente</strong><br>Given el meetingId proporcionado no corresponde a ninguna reunión registrada en el proyecto<br>When se envía la solicitud DELETE<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Reunión no encontrada"<br><br><strong>Scenario: Intentar eliminar reunión de un proyecto inexistente</strong><br>Given el projectId proporcionado no corresponde a ningún proyecto registrado<br>When se envía la solicitud DELETE<br>Then el servidor debe responder con un código 404 Not Found<br>And el cuerpo de la respuesta debe incluir un mensaje "Proyecto no encontrado"<br><br></td><td>EP05</td></tr>
@@ -3381,13 +3333,6 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
         <td>Como contratista, coordinador o especialista quiero crear, asignar, entregar y revisar tareas técnicas dentro del cronograma para garantizar el cumplimiento de los objetivos de cada hito mediante trabajo colaborativo y trazable</td>
         <td></td>
         <td>US032, US033, US034, US035, US036, US037, US038, US039, US040, US041, US042, US043, US044, US045, US046, US047, US048, US049, US050, US051, US052, US053, TS27, TS28, TS29, TS30, TS60, TS61</td>
-    </tr>
-    <tr>
-        <td>EP05</td>
-        <td>Gestión de Reuniones</td>
-        <td>Como contratista o convocante quiero coordinar encuentros formales entre miembros del equipo durante el ciclo del proyecto para mejorar la comunicación, planificación y toma de decisiones a lo largo del desarrollo</td>
-        <td></td>
-        <td>US054, US055, US056, US057, US058, US059, US060, US061, US062, US063, US064, US065, US066, US067, US068, TS21, TS22, TS23, TS24, TS25, TS26, TS59</td>
     </tr>
     <tr>
         <td>EP07</td>
@@ -3444,14 +3389,6 @@ Se elaboraron historias de usuario, historias técnicas (para el API) e historia
         <td>Como usuario registrado, quiero iniciar sesión y mantener una sesión activa, para acceder de forma segura y continua a mi entorno de trabajo.</td>
         <td></td>
         <td>US122, US123, US124, US125, TS41, TS42, TS43, TS45, TS48, TS50</td>
-    </tr>
-    </tr>
-    <tr>
-        <td>EP18</td>
-        <td>Gestión del perfil personal</td>
-        <td>Como usuario autenticado, quiero editar mi información personal como nombre, correo o idioma, para mantener mi perfil actualizado y disfrutar una experiencia adaptada a mis preferencias.</td>
-        <td></td>
-        <td>US130, US131, US132, US133, US148, TS38, TS39, TS40</td>
     </tr>
     </tbody>
 </table>
@@ -5097,10 +5034,6 @@ La priorización de las SWR, US y TS se realizó de manera grupal, basándonos e
 
 <div style="page-break-before: always;"></div>
 
-
-
-<div style="page-break-before: always;"></div>
-
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
@@ -5224,8 +5157,6 @@ Este par de botones nos brindan la pagina web en ingles y español para que le u
 Estos formularios son para que los usuarios se contacten con nosotros si necesitan  informacion 
 <br>
 <p align="center"><img src="./img/chapter4/StyleGuidelines/Formulario.png" width="30%"></p>
-
-<div style="page-break-before: always;"></div>
 
 <div style="page-break-before: always;"></div>
 
@@ -6845,7 +6776,7 @@ Además, la API integra servicios externos estratégicos: NotificationService se
 
 Esta organización en capas —controladores, servicios y repositorios— promueve un diseño altamente modular, testeable y escalable, permitiendo a PropGMS evolucionar de forma robusta ante futuras necesidades de crecimiento y adaptación tecnológica.
 
-<img src="./img/chapter4/c4/componente/api.png" alt="Diagrama de componentes de Web Application de ProP GMS">
+<img src="./img/chapter4/c4/componente/api.svg" alt="Diagrama de componentes de Web Application de ProP GMS">
 
 <div style="page-break-before: always;"></div>
 
@@ -6881,7 +6812,7 @@ La entidad raíz del agregado es ChangeProcess, que encapsula tanto el origen de
 
 El modelo contempla value objects que acotan claramente los posibles estados (PENDING, APPROVED, REJECTED) y tipos de origen (CHANGE_REQUEST). Además, se provee una fábrica (ChangeProcessFactory) que permite construir el agregado de manera controlada según el tipo de solicitud original.
 
-<img src="./img/chapter4/oop/change.png" alt="Diagrama de clases del bounded context de Changes Management de ProP GMS">
+<img src="./img/chapter4/oop/change.svg" alt="Diagrama de clases del bounded context de Changes Management de ProP GMS">
 
 #### 4.7.1.3. Organization Class Diagram
 
@@ -6889,7 +6820,7 @@ Este diagrama representa la estructura del Organization Context, donde se modela
 
 El proceso de incorporación de nuevos miembros se gestiona a través de la entidad OrganizationInvitation, que registra quién invita, a quién se invita, cuándo, y en qué estado se encuentra la invitación (PENDING, ACCEPTED, REJECTED). Este mecanismo permite un control claro y seguro del acceso organizacional.
 
-<img src="./img/chapter4/oop/organizations.png" alt="Diagrama de clases del bounded context Organization de ProP GMS">
+<img src="./img/chapter4/oop/organization.svg" alt="Diagrama de clases del bounded context Organization de ProP GMS">
 
 #### 4.7.1.4. IAM Class Diagram
 Este diagrama representa el IAM Bounded Context del sistema PropGMS, encargado de gestionar el acceso y la identidad de los usuarios. La clase principal es UserAccount, la cual actúa como Aggregate Root y almacena datos como nombre de usuario, hash de contraseña, tipo de usuario (UserType), estado de la cuenta (AccountStatus) y referencias al objeto Person.
@@ -6900,7 +6831,7 @@ Para la autenticación y manejo de sesiones, se utilizan objetos como AuthToken,
 
 Finalmente, la entidad Person representa a los individuos registrados, incluyendo datos personales como nombre, correo, teléfono, profesión y estado. Esto permite mantener separada la lógica de autenticación de la información del usuario como persona física o jurídica.
 
-<img src="./img/chapter4/oop/iam.png" alt="Diagrama de clases del bounded context IAM de ProP GMS">
+<img src="./img/chapter4/oop/iam.svg" alt="Diagrama de clases del bounded context IAM de ProP GMS">
 
 <div style="page-break-after: always;"></div>
 
@@ -7218,7 +7149,7 @@ Se identifican entidades clave como projects, tasks, invoices, payments, user_ac
 
 El diseño promueve escalabilidad, trazabilidad y una clara separación de responsabilidades, facilitando tanto el mantenimiento como la extensión futura del sistema.
 
-<img src="./img/chapter4/db/General.svg" alt="Diagrama de base de datos general de ProP GMS">
+<img src="./img/chapter4/db/general.png" alt="Diagrama de base de datos general de ProP GMS">
 
 #### 4.8.1.1. Project Management Database Diagram
 
@@ -7259,10 +7190,6 @@ Cada cuenta está categorizada según su tipo mediante la tabla user_types y su 
 Este diseño proporciona una base robusta para la autenticación, autorización y trazabilidad de los usuarios dentro de la plataforma, garantizando seguridad y control en el acceso al sistema.
 
 <img src="./img/chapter4/db/iam.png" alt="Diagrama de base de datos del bounded context IAM de ProP GMS">
-
-<div style="page-break-before: always;"></div>
-
-
 
 <div style="page-break-before: always;"></div>
 
@@ -11656,7 +11583,7 @@ En este segundo sprint se ha fallado en lograr el objetivo de implementar a tota
   </tr>
   <tr>
     <th>Sprint 3 Velocity</th>
-    <td colspan="3">XX Story Points</td>
+    <td colspan="3">45 Story Points</td>
   </tr>
   <tr>
     <th>Sum of Story Points</th>
@@ -13301,6 +13228,681 @@ Para el Sprint 3, se proyectan actividades como y la implementación del FrontEn
   <td>Orozco Torres, Álvaro Joaquín</td>
   <td>To Do</td>
 </tr>
+<tr>
+  <td>TS01</td>
+  <td>Crear organización</td>
+  <td>TS01-1</td>
+  <td>Registrar organización exitosamente</td>
+  <td>Implementar endpoint POST /organizations y devolver 201 Created con datos completos</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS01-2</td>
+  <td>Validar datos incompletos o inválidos</td>
+  <td>Responder 400 Bad Request si faltan campos obligatorios o tienen formato inválido</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS02</td>
+  <td>Listar organizaciones</td>
+  <td>TS02-1</td>
+  <td>Listar organizaciones exitosamente</td>
+  <td>Implementar GET /organizations para devolver lista de organizaciones con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS02-2</td>
+  <td>Usuario sin organizaciones</td>
+  <td>Responder 200 OK con lista vacía si usuario no tiene organizaciones</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS03</td>
+  <td>Detalles de una organización</td>
+  <td>TS03-1</td>
+  <td>Obtener detalles exitosamente</td>
+  <td>Implementar GET /organizations/{id} y devolver datos completos con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS03-2</td>
+  <td>Organización no encontrada</td>
+  <td>Responder 404 Not Found si la organización no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS04</td>
+  <td>Actualizar información de organización</td>
+  <td>TS04-1</td>
+  <td>Actualizar organización exitosamente</td>
+  <td>Implementar PATCH /organizations/{id} para actualizar datos válidos y devolver 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS04-2</td>
+  <td>Validar datos inválidos o no encontrados</td>
+  <td>Responder 400 Bad Request o 404 Not Found según errores de validación o inexistencia</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS05</td>
+  <td>Eliminar organización (soft delete)</td>
+  <td>TS05-1</td>
+  <td>Solicitud de eliminación exitosa</td>
+  <td>Implementar DELETE /organizations/{id} para marcar como deletion_pending y devolver 202 Accepted</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS05-2</td>
+  <td>Organización ya marcada o no encontrada</td>
+  <td>Responder 409 Conflict o 404 Not Found si ya está en proceso o no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS06</td>
+  <td>Añadir miembro a organización</td>
+  <td>TS06-1</td>
+  <td>Añadir miembro exitosamente</td>
+  <td>Implementar POST para agregar miembro con rol asignado y devolver 201 Created</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS06-2</td>
+  <td>Validar datos inválidos o miembro existente</td>
+  <td>Responder 400 o 409 si datos son inválidos o el miembro ya existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS07</td>
+  <td>Actualizar estado de miembro de organización</td>
+  <td>TS07-1</td>
+  <td>Cambiar estado exitosamente</td>
+  <td>Implementar PATCH para actualizar estado (activo, suspendido, removido) con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS07-2</td>
+  <td>Validar estado inválido o miembro no encontrado</td>
+  <td>Responder 400 o 404 si estado es inválido o miembro no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS08</td>
+  <td>Añadir proyecto a organización</td>
+  <td>TS08-1</td>
+  <td>Crear proyecto exitosamente</td>
+  <td>Implementar POST para crear proyecto con datos válidos y devolver 201 Created</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS08-2</td>
+  <td>Validar datos inválidos u organización no encontrada</td>
+  <td>Responder 400 o 404 según error en datos o inexistencia de organización</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS09</td>
+  <td>Listar proyectos de organización</td>
+  <td>TS09-1</td>
+  <td>Listar proyectos exitosamente</td>
+  <td>Implementar GET para devolver lista de proyectos con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS09-2</td>
+  <td>Organización sin proyectos o no encontrada</td>
+  <td>Responder 200 con lista vacía o 404 si la organización no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS10</td>
+  <td>Detalles de un proyecto</td>
+  <td>TS10-1</td>
+  <td>Obtener detalles de proyecto exitosamente</td>
+  <td>Implementar GET /projects/{id} para devolver datos completos con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS10-2</td>
+  <td>Proyecto no encontrado</td>
+  <td>Responder 404 Not Found si el proyecto no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+  <tr>
+  <td>TS16</td>
+  <td>Obtener detalles de cronograma</td>
+  <td>TS16-1</td>
+  <td>Obtener cronograma exitosamente</td>
+  <td>Implementar GET para devolver cronograma con fechas e hitos con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS16-2</td>
+  <td>Proyecto sin cronograma o no encontrado</td>
+  <td>Responder 404 Not Found si el proyecto no tiene cronograma o no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS17</td>
+  <td>Añadir hito al cronograma</td>
+  <td>TS17-1</td>
+  <td>Añadir hito exitosamente</td>
+  <td>Implementar POST para crear hito con datos válidos y devolver 201 Created</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS17-2</td>
+  <td>Validar datos inválidos o conflicto</td>
+  <td>Responder 400 o 409 si datos son inválidos o proyecto no tiene cronograma</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS18</td>
+  <td>Listar hitos del cronograma</td>
+  <td>TS18-1</td>
+  <td>Listar hitos exitosamente</td>
+  <td>Implementar GET para devolver lista de hitos con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS18-2</td>
+  <td>Proyecto sin cronograma o no encontrado</td>
+  <td>Responder 404 Not Found si el proyecto no tiene cronograma o no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS19</td>
+  <td>Obtener detalles de hito</td>
+  <td>TS19-1</td>
+  <td>Obtener detalles de hito exitosamente</td>
+  <td>Implementar GET /milestones/{id} para devolver datos completos con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS19-2</td>
+  <td>Hito o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si el hito o proyecto no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS20</td>
+  <td>Actualizar información de hito</td>
+  <td>TS20-1</td>
+  <td>Actualizar estado o duración exitosamente</td>
+  <td>Implementar PATCH para modificar estado o duración del hito con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS20-2</td>
+  <td>Validar datos inválidos o hito no encontrado</td>
+  <td>Responder 400 o 404 si datos son inválidos o hito no existe en el proyecto</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS21</td>
+  <td>Crear tarea</td>
+  <td>TS21-1</td>
+  <td>Crear tarea exitosamente</td>
+  <td>Implementar POST para crear tarea con datos válidos y devolver 201 Created</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS21-2</td>
+  <td>Validar datos inválidos o proyecto no encontrado</td>
+  <td>Responder 400 o 404 si datos son inválidos o el proyecto no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS22</td>
+  <td>Listar tareas de hito</td>
+  <td>TS22-1</td>
+  <td>Listar tareas exitosamente</td>
+  <td>Implementar GET para devolver lista de tareas del hito con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS22-2</td>
+  <td>Hito o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si el hito o proyecto no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS23</td>
+  <td>Obtener detalles de tarea</td>
+  <td>TS23-1</td>
+  <td>Obtener detalles de tarea exitosamente</td>
+  <td>Implementar GET /tasks/{id} para devolver datos completos con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS23-2</td>
+  <td>Tarea o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si la tarea o proyecto no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS24</td>
+  <td>Actualizar información de tarea</td>
+  <td>TS24-1</td>
+  <td>Actualizar detalles de tarea exitosamente</td>
+  <td>Implementar PATCH para modificar datos de tarea y devolver 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS24-2</td>
+  <td>Validar datos inválidos o tarea no encontrada</td>
+  <td>Responder 400 o 404 si datos son inválidos o la tarea no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS25</td>
+  <td>Crear solicitud de cambio</td>
+  <td>TS25-1</td>
+  <td>Crear solicitud exitosamente</td>
+  <td>Implementar POST para registrar solicitud de cambio con 201 Created</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS25-2</td>
+  <td>Validar datos inválidos o proyecto no encontrado</td>
+  <td>Responder 400 o 404 si datos son inválidos o proyecto no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+ <tr>
+  <td>TS26</td>
+  <td>Listar solicitudes de cambio</td>
+  <td>TS26-1</td>
+  <td>Listar solicitudes exitosamente</td>
+  <td>Implementar GET para devolver lista de solicitudes con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS26-2</td>
+  <td>Proyecto sin solicitudes o no encontrado</td>
+  <td>Responder 200 con lista vacía o 404 si el proyecto no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS27</td>
+  <td>Obtener detalles de solicitud de cambio</td>
+  <td>TS27-1</td>
+  <td>Obtener detalles exitosamente</td>
+  <td>Implementar GET para devolver datos completos con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS27-2</td>
+  <td>Solicitud o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si la solicitud o proyecto no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS28</td>
+  <td>Aceptar / Denegar solicitud de cambio</td>
+  <td>TS28-1</td>
+  <td>Aceptar o denegar solicitud exitosamente</td>
+  <td>Implementar PATCH para actualizar estado de solicitud con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS28-2</td>
+  <td>Validar estado incorrecto o solicitud no encontrada</td>
+  <td>Responder 400 o 404 según error de validación o inexistencia</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS29</td>
+  <td>Obtener detalles de desempeño de hito</td>
+  <td>TS29-1</td>
+  <td>Obtener detalles de desempeño exitosamente</td>
+  <td>Implementar GET para devolver datos de desempeño con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS29-2</td>
+  <td>Hito sin tareas o no encontrado</td>
+  <td>Responder 200 con mensaje o 404 si el hito no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS35</td>
+  <td>Login</td>
+  <td>TS35-1</td>
+  <td>Login exitoso</td>
+  <td>Implementar POST /auth/login para devolver token y datos con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS35-2</td>
+  <td>Validar credenciales incorrectas o faltantes</td>
+  <td>Responder 401 o 400 si credenciales son incorrectas o faltan campos</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS36</td>
+  <td>Refrescar Token</td>
+  <td>TS36-1</td>
+  <td>Refrescar token exitosamente</td>
+  <td>Implementar POST para devolver nuevo accessToken y refreshToken con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS36-2</td>
+  <td>Validar token inválido o expirado</td>
+  <td>Responder 401 o 403 si el token es inválido o expirado</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS37</td>
+  <td>Cerrar sesión + invalidar token</td>
+  <td>TS37-1</td>
+  <td>Cerrar sesión exitosamente</td>
+  <td>Implementar POST para invalidar refreshToken y devolver 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS37-2</td>
+  <td>Validar token inválido o faltante</td>
+  <td>Responder 401 o 400 si el refreshToken es inválido o no se envía</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS38</td>
+  <td>Registro</td>
+  <td>TS38-1</td>
+  <td>Registro exitoso</td>
+  <td>Implementar POST para crear cuenta con 201 Created y enviar verificación</td>
+  <td>2</td>
+  <td>Aponte Cruzado, Andrea Marielena</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS38-2</td>
+  <td>Validar email ya registrado o datos inválidos</td>
+  <td>Responder 409 o 400 según el error</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS40-2</td>
+  <td>Validar email no registrado o inválido</td>
+  <td>Responder 404 o 400 si el email no está registrado o es inválido</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS41-2</td>
+  <td>Validar token inválido o campos faltantes</td>
+  <td>Responder 403 o 400 si el token es inválido o faltan campos</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+
+<tr>
+  <td>TS42</td>
+  <td>Encriptación segura de credenciales</td>
+  <td>TS42-1</td>
+  <td>Almacenar contraseña de forma segura</td>
+  <td>Generar salt y hash con bcrypt al guardar contraseña</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+<tr>
+  <td>TS48</td>
+  <td>Eliminar proyecto (soft delete)</td>
+  <td>TS48-1</td>
+  <td>Eliminar proyecto exitosamente (soft delete)</td>
+  <td>Implementar DELETE para marcar proyecto como deletion_pending con 202 Accepted</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS48-2</td>
+  <td>Validar proyecto ya marcado o inexistente</td>
+  <td>Responder 409 o 404 si ya está en proceso o no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS49</td>
+  <td>Eliminar usuario de proyecto</td>
+  <td>TS49-1</td>
+  <td>Eliminar usuario exitosamente</td>
+  <td>Implementar DELETE para quitar miembro del proyecto con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS49-2</td>
+  <td>Validar usuario no pertenece o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si no pertenece o el proyecto no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS57</td>
+  <td>Eliminar proyecto (soft delete)</td>
+  <td>TS57-1</td>
+  <td>Eliminar proyecto exitosamente</td>
+  <td>Implementar DELETE para marcar como deletion_pending con 202 Accepted</td>
+  <td>2</td>
+  <td>López Acuña, Mario Joaquín</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS57-2</td>
+  <td>Validar proyecto ya marcado o inexistente</td>
+  <td>Responder 409 o 404 si ya está en proceso o no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS58</td>
+  <td>Eliminar usuario de proyecto</td>
+  <td>TS58-1</td>
+  <td>Eliminar usuario exitosamente</td>
+  <td>Implementar DELETE para quitar miembro del proyecto con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS58-2</td>
+  <td>Validar usuario no pertenece o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si no pertenece o el proyecto no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS60</td>
+  <td>Eliminar tarea</td>
+  <td>TS60-1</td>
+  <td>Eliminar tarea exitosamente</td>
+  <td>Implementar DELETE para eliminar tarea y devolver 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS60-2</td>
+  <td>Validar tarea inexistente o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si la tarea o proyecto no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
 </table>
 
 #### 5.2.3.4. Development Evidence for Sprint Review
@@ -13450,6 +14052,63 @@ Para el sprint 3 se proyectan actividades como implementacion del FrontEnd y Bac
 | Platform | feature/ep07 | c5ff21a1e71592617884cc8c293331311f2e8036 | feat(ep07): add change process endpoint |   | 20/06/2025 |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
+probamos algun endpoint para validar el acceso a la base de datos (sign in en este caso)
+
+<img src="./img/chapter5/Sprint4/execution/evidence1.png">
+
+iniciamos sesion 
+
+<img src="./img/chapter5/Sprint4/execution/evidence8.png">
+
+probamos el endpoint de organization 
+
+<img src="./img/chapter5/Sprint4/execution/evidence2.png">
+
+verificamos mediante un endpoint get (traer todas las organizaciones)
+
+<img src="./img/chapter5/Sprint4/execution/evidence9.png">
+
+probamos el endpoint project
+
+<img src="./img/chapter5/Sprint4/execution/evidence3.png">
+
+verificamos mediante un endpoint get (traer todas los proyectos)
+
+<img src="./img/chapter5/Sprint4/execution/evidence10.png">
+
+probamos algun endpoint Project Team Members
+
+<img src="./img/chapter5/Sprint4/execution/evidence4.png">
+
+verificamos mediante un endpoint get (traer todas los tema members)
+
+<img src="./img/chapter5/Sprint4/execution/evidence14.png">
+
+probamos algun endpoint milestones
+
+<img src="./img/chapter5/Sprint4/execution/evidence5.png">
+
+verificamos mediante un endpoint get (traer todas las milestones)
+
+<img src="./img/chapter5/Sprint4/execution/evidence12.png">
+
+probamos algun endpoint tasks
+
+<img src="./img/chapter5/Sprint4/execution/evidence6.png">
+
+verificamos mediante un endpoint get (traer todas las tasks)
+
+<img src="./img/chapter5/Sprint4/execution/evidence12.png">
+
+probamos algun endpoint change process
+
+<img src="./img/chapter5/Sprint4/execution/evidence7.png">
+
+verificamos mediante un endpoint get (traer todas los change process)
+
+<img src="./img/chapter5/Sprint4/execution/evidence13.png">
+
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -13908,7 +14567,6 @@ Miembro con ID 12 eliminado exitosamente.
   <td><strong>http://localhost:8080/</strong></td>
 </tr>
 </table>
->>>>>>> Stashed changes
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -13925,11 +14583,1754 @@ Se ha logrado en mayor medida cumplir el objetivo de desarrollar las funcionalid
 
 <div style="page-break-before: always;"></div>
 
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+<table cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th colspan="2"><strong>Sprint #</strong></th>
+    <td colspan="2">Sprint 4</td>
+  </tr>
+  <tr>
+    <th colspan="4" style="background-color: #d9d9d9;"><strong>Sprint Planning Background</strong></th>
+  </tr>
+  <tr>
+    <th style="width: 20%;">Date</th>
+    <td colspan="3">2025-06-23</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td colspan="3">10:30 AM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td colspan="3">Biblioteca Monterrico - Cubículo de estudiantes</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td colspan="3">Orozco Torres, Álvaro Joaquín</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td colspan="3">Aponte Cruzado, Andrea Marielena / Orozco Torres, Álvaro Joaquín / León Vivas, Fabrizio Amir / Lopez Acuña, Mario Joaquin</td>
+  </tr>
+  <tr>
+    <th>Sprint 3 Review Summary</th>
+    <td colspan="3">El sprint anterior logró completar la implementación del backend. Se avanzó en el desarrollo de la aplicación web front-end con Angular y TypeScript; sin embargo, esta quedó inconclusa y quedaron múltiples tareas pendientes en estado "To-Do".</td>
+  </tr>
+  <tr>
+    <th>Sprint 3 Retrospective Summary</th>
+    <td colspan="3">Se identificó la necesidad de ajustar el modo de trabajo del equipo, a fin de permitir la colaboración efectiva y el desarrollo de capacidades multidisciplinarias por parte de cada miembro del equipo.</td>
+  </tr>
+  <tr>
+    <th colspan="4" style="background-color: #d9d9d9;"><strong>Sprint Goal & User Stories</strong></th>
+  </tr>
+  <tr>
+    <th>Sprint 4 Goal</th>
+    <td colspan="3">Nuestro foco es cubrir la deuda técnica acumulada del sprint 3, redefinir y desarrollar las funcionalidades esenciales del producto, con el fin de validar su aporte al caso de negocio. Por ello, buscamos entregar una versión funcional de la aplicación para obtener retroalimentación directa de usuarios reales, lo cual nos permitirá confirmar hipótesis, ajustar requisitos no correctamente elicitados y asegurar que la solución responde a necesidades reales</td>
+  </tr>
+  <tr>
+    <th>Sprint 4 Velocity</th>
+    <td colspan="3">50 Story Points</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td colspan="3">131 Story Points</td>
+  </tr>
+  
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+Para el Sprint 4, se proyectan actividades como y la implementación del FrontEnd y BackEnd de la Web Application.
+
+<table cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <th>Team Member <br>(Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Web Application Front-End<br>Leader (L) / Collaborator (C)</th>
+    <th>Web Application Back-End<br>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Aponte Cruzado, Andrea Marielena</td>
+    <td>iconicmiau</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Orozco Torres, Álvaro Joaquín</td>
+    <td>CodyLionVivo</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>López Acuña, Mario Joaquín</td>
+    <td>tertegen</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Orozco Torres, Álvaro Joaquín</td>
+    <td>L1LZ4Z</td>
+    <td>L</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Reaño Delgadillo, Henry Paolo</td>
+    <td>PaoloHRRR</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
+#### 5.2.4.3. Sprint Backlog 4
+
+<img src="./img/chapter5/Sprint1/sprintbacklog.png">
+
+<a href="https://galaxiawonder.youtrack.cloud/dashboard?id=213-2" target="_blank">Ver tablero en YouTrack</a>
+
+<b>Credenciales:</b>
+<ul>
+  <li>
+    Correo: 
+    <span style="cursor: default; color: inherit; text-decoration: none;">
+      invitadogw&#64;galaxiawonder.com
+    </span>
+  </li>
+  <li>Contraseña: GA14x4W0nd3r</li>
+</ul>
+
+<table cellpadding="6" cellspacing="0">
+  <tr>
+    <th colspan="8">Sprint 4</th>
+    <td colspan="8">Sprint n</td>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status<br>(To-do / In-Process / To-Review / Done)</th>
+<tr>
+  <td>TS01</td>
+  <td>Crear organización</td>
+  <td>TS01-1</td>
+  <td>Registrar organización exitosamente</td>
+  <td>Implementar endpoint POST /organizations y devolver 201 Created con datos completos</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS01-2</td>
+  <td>Validar datos incompletos o inválidos</td>
+  <td>Responder 400 Bad Request si faltan campos obligatorios o tienen formato inválido</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS02</td>
+  <td>Listar organizaciones</td>
+  <td>TS02-1</td>
+  <td>Listar organizaciones exitosamente</td>
+  <td>Implementar GET /organizations para devolver lista de organizaciones con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS02-2</td>
+  <td>Usuario sin organizaciones</td>
+  <td>Responder 200 OK con lista vacía si usuario no tiene organizaciones</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS03</td>
+  <td>Detalles de una organización</td>
+  <td>TS03-1</td>
+  <td>Obtener detalles exitosamente</td>
+  <td>Implementar GET /organizations/{id} y devolver datos completos con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS03-2</td>
+  <td>Organización no encontrada</td>
+  <td>Responder 404 Not Found si la organización no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS04</td>
+  <td>Actualizar información de organización</td>
+  <td>TS04-1</td>
+  <td>Actualizar organización exitosamente</td>
+  <td>Implementar PATCH /organizations/{id} para actualizar datos válidos y devolver 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS04-2</td>
+  <td>Validar datos inválidos o no encontrados</td>
+  <td>Responder 400 Bad Request o 404 Not Found según errores de validación o inexistencia</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS05</td>
+  <td>Eliminar organización (soft delete)</td>
+  <td>TS05-1</td>
+  <td>Solicitud de eliminación exitosa</td>
+  <td>Implementar DELETE /organizations/{id} para marcar como deletion_pending y devolver 202 Accepted</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS05-2</td>
+  <td>Organización ya marcada o no encontrada</td>
+  <td>Responder 409 Conflict o 404 Not Found si ya está en proceso o no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS06</td>
+  <td>Añadir miembro a organización</td>
+  <td>TS06-1</td>
+  <td>Añadir miembro exitosamente</td>
+  <td>Implementar POST para agregar miembro con rol asignado y devolver 201 Created</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS06-2</td>
+  <td>Validar datos inválidos o miembro existente</td>
+  <td>Responder 400 o 409 si datos son inválidos o el miembro ya existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS07</td>
+  <td>Actualizar estado de miembro de organización</td>
+  <td>TS07-1</td>
+  <td>Cambiar estado exitosamente</td>
+  <td>Implementar PATCH para actualizar estado (activo, suspendido, removido) con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS07-2</td>
+  <td>Validar estado inválido o miembro no encontrado</td>
+  <td>Responder 400 o 404 si estado es inválido o miembro no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS08</td>
+  <td>Añadir proyecto a organización</td>
+  <td>TS08-1</td>
+  <td>Crear proyecto exitosamente</td>
+  <td>Implementar POST para crear proyecto con datos válidos y devolver 201 Created</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS08-2</td>
+  <td>Validar datos inválidos u organización no encontrada</td>
+  <td>Responder 400 o 404 según error en datos o inexistencia de organización</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS09</td>
+  <td>Listar proyectos de organización</td>
+  <td>TS09-1</td>
+  <td>Listar proyectos exitosamente</td>
+  <td>Implementar GET para devolver lista de proyectos con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS09-2</td>
+  <td>Organización sin proyectos o no encontrada</td>
+  <td>Responder 200 con lista vacía o 404 si la organización no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS10</td>
+  <td>Detalles de un proyecto</td>
+  <td>TS10-1</td>
+  <td>Obtener detalles de proyecto exitosamente</td>
+  <td>Implementar GET /projects/{id} para devolver datos completos con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS10-2</td>
+  <td>Proyecto no encontrado</td>
+  <td>Responder 404 Not Found si el proyecto no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+  <tr>
+  <td>TS16</td>
+  <td>Obtener detalles de cronograma</td>
+  <td>TS16-1</td>
+  <td>Obtener cronograma exitosamente</td>
+  <td>Implementar GET para devolver cronograma con fechas e hitos con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS16-2</td>
+  <td>Proyecto sin cronograma o no encontrado</td>
+  <td>Responder 404 Not Found si el proyecto no tiene cronograma o no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS17</td>
+  <td>Añadir hito al cronograma</td>
+  <td>TS17-1</td>
+  <td>Añadir hito exitosamente</td>
+  <td>Implementar POST para crear hito con datos válidos y devolver 201 Created</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS17-2</td>
+  <td>Validar datos inválidos o conflicto</td>
+  <td>Responder 400 o 409 si datos son inválidos o proyecto no tiene cronograma</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS18</td>
+  <td>Listar hitos del cronograma</td>
+  <td>TS18-1</td>
+  <td>Listar hitos exitosamente</td>
+  <td>Implementar GET para devolver lista de hitos con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS18-2</td>
+  <td>Proyecto sin cronograma o no encontrado</td>
+  <td>Responder 404 Not Found si el proyecto no tiene cronograma o no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS19</td>
+  <td>Obtener detalles de hito</td>
+  <td>TS19-1</td>
+  <td>Obtener detalles de hito exitosamente</td>
+  <td>Implementar GET /milestones/{id} para devolver datos completos con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS19-2</td>
+  <td>Hito o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si el hito o proyecto no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS20</td>
+  <td>Actualizar información de hito</td>
+  <td>TS20-1</td>
+  <td>Actualizar estado o duración exitosamente</td>
+  <td>Implementar PATCH para modificar estado o duración del hito con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS20-2</td>
+  <td>Validar datos inválidos o hito no encontrado</td>
+  <td>Responder 400 o 404 si datos son inválidos o hito no existe en el proyecto</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS21</td>
+  <td>Crear tarea</td>
+  <td>TS21-1</td>
+  <td>Crear tarea exitosamente</td>
+  <td>Implementar POST para crear tarea con datos válidos y devolver 201 Created</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS21-2</td>
+  <td>Validar datos inválidos o proyecto no encontrado</td>
+  <td>Responder 400 o 404 si datos son inválidos o el proyecto no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS22</td>
+  <td>Listar tareas de hito</td>
+  <td>TS22-1</td>
+  <td>Listar tareas exitosamente</td>
+  <td>Implementar GET para devolver lista de tareas del hito con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS22-2</td>
+  <td>Hito o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si el hito o proyecto no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS23</td>
+  <td>Obtener detalles de tarea</td>
+  <td>TS23-1</td>
+  <td>Obtener detalles de tarea exitosamente</td>
+  <td>Implementar GET /tasks/{id} para devolver datos completos con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS23-2</td>
+  <td>Tarea o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si la tarea o proyecto no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS24</td>
+  <td>Actualizar información de tarea</td>
+  <td>TS24-1</td>
+  <td>Actualizar detalles de tarea exitosamente</td>
+  <td>Implementar PATCH para modificar datos de tarea y devolver 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS24-2</td>
+  <td>Validar datos inválidos o tarea no encontrada</td>
+  <td>Responder 400 o 404 si datos son inválidos o la tarea no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS25</td>
+  <td>Crear solicitud de cambio</td>
+  <td>TS25-1</td>
+  <td>Crear solicitud exitosamente</td>
+  <td>Implementar POST para registrar solicitud de cambio con 201 Created</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS25-2</td>
+  <td>Validar datos inválidos o proyecto no encontrado</td>
+  <td>Responder 400 o 404 si datos son inválidos o proyecto no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+ <tr>
+  <td>TS26</td>
+  <td>Listar solicitudes de cambio</td>
+  <td>TS26-1</td>
+  <td>Listar solicitudes exitosamente</td>
+  <td>Implementar GET para devolver lista de solicitudes con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS26-2</td>
+  <td>Proyecto sin solicitudes o no encontrado</td>
+  <td>Responder 200 con lista vacía o 404 si el proyecto no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS27</td>
+  <td>Obtener detalles de solicitud de cambio</td>
+  <td>TS27-1</td>
+  <td>Obtener detalles exitosamente</td>
+  <td>Implementar GET para devolver datos completos con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS27-2</td>
+  <td>Solicitud o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si la solicitud o proyecto no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS28</td>
+  <td>Aceptar / Denegar solicitud de cambio</td>
+  <td>TS28-1</td>
+  <td>Aceptar o denegar solicitud exitosamente</td>
+  <td>Implementar PATCH para actualizar estado de solicitud con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS28-2</td>
+  <td>Validar estado incorrecto o solicitud no encontrada</td>
+  <td>Responder 400 o 404 según error de validación o inexistencia</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS29</td>
+  <td>Obtener detalles de desempeño de hito</td>
+  <td>TS29-1</td>
+  <td>Obtener detalles de desempeño exitosamente</td>
+  <td>Implementar GET para devolver datos de desempeño con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS29-2</td>
+  <td>Hito sin tareas o no encontrado</td>
+  <td>Responder 200 con mensaje o 404 si el hito no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS35</td>
+  <td>Login</td>
+  <td>TS35-1</td>
+  <td>Login exitoso</td>
+  <td>Implementar POST /auth/login para devolver token y datos con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS35-2</td>
+  <td>Validar credenciales incorrectas o faltantes</td>
+  <td>Responder 401 o 400 si credenciales son incorrectas o faltan campos</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS36</td>
+  <td>Refrescar Token</td>
+  <td>TS36-1</td>
+  <td>Refrescar token exitosamente</td>
+  <td>Implementar POST para devolver nuevo accessToken y refreshToken con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS36-2</td>
+  <td>Validar token inválido o expirado</td>
+  <td>Responder 401 o 403 si el token es inválido o expirado</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS37</td>
+  <td>Cerrar sesión + invalidar token</td>
+  <td>TS37-1</td>
+  <td>Cerrar sesión exitosamente</td>
+  <td>Implementar POST para invalidar refreshToken y devolver 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS37-2</td>
+  <td>Validar token inválido o faltante</td>
+  <td>Responder 401 o 400 si el refreshToken es inválido o no se envía</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS38</td>
+  <td>Registro</td>
+  <td>TS38-1</td>
+  <td>Registro exitoso</td>
+  <td>Implementar POST para crear cuenta con 201 Created y enviar verificación</td>
+  <td>2</td>
+  <td>Aponte Cruzado, Andrea Marielena</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS38-2</td>
+  <td>Validar email ya registrado o datos inválidos</td>
+  <td>Responder 409 o 400 según el error</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS40-2</td>
+  <td>Validar email no registrado o inválido</td>
+  <td>Responder 404 o 400 si el email no está registrado o es inválido</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS41-2</td>
+  <td>Validar token inválido o campos faltantes</td>
+  <td>Responder 403 o 400 si el token es inválido o faltan campos</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+
+<tr>
+  <td>TS42</td>
+  <td>Encriptación segura de credenciales</td>
+  <td>TS42-1</td>
+  <td>Almacenar contraseña de forma segura</td>
+  <td>Generar salt y hash con bcrypt al guardar contraseña</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+<tr>
+  <td>TS48</td>
+  <td>Eliminar proyecto (soft delete)</td>
+  <td>TS48-1</td>
+  <td>Eliminar proyecto exitosamente (soft delete)</td>
+  <td>Implementar DELETE para marcar proyecto como deletion_pending con 202 Accepted</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS48-2</td>
+  <td>Validar proyecto ya marcado o inexistente</td>
+  <td>Responder 409 o 404 si ya está en proceso o no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS49</td>
+  <td>Eliminar usuario de proyecto</td>
+  <td>TS49-1</td>
+  <td>Eliminar usuario exitosamente</td>
+  <td>Implementar DELETE para quitar miembro del proyecto con 200 OK</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS49-2</td>
+  <td>Validar usuario no pertenece o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si no pertenece o el proyecto no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS57</td>
+  <td>Eliminar proyecto (soft delete)</td>
+  <td>TS57-1</td>
+  <td>Eliminar proyecto exitosamente</td>
+  <td>Implementar DELETE para marcar como deletion_pending con 202 Accepted</td>
+  <td>2</td>
+  <td>López Acuña, Mario Joaquín</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS57-2</td>
+  <td>Validar proyecto ya marcado o inexistente</td>
+  <td>Responder 409 o 404 si ya está en proceso o no existe</td>
+  <td>2</td>
+  <td>Reaño Delgadillo, Henry Paolo</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>TS58</td>
+  <td>Eliminar usuario de proyecto</td>
+  <td>TS58-1</td>
+  <td>Eliminar usuario exitosamente</td>
+  <td>Implementar DELETE para quitar miembro del proyecto con 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS58-2</td>
+  <td>Validar usuario no pertenece o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si no pertenece o el proyecto no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>TS60</td>
+  <td>Eliminar tarea</td>
+  <td>TS60-1</td>
+  <td>Eliminar tarea exitosamente</td>
+  <td>Implementar DELETE para eliminar tarea y devolver 200 OK</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td></td><td></td>
+  <td>TS60-2</td>
+  <td>Validar tarea inexistente o proyecto no encontrado</td>
+  <td>Responder 404 Not Found si la tarea o proyecto no existe</td>
+  <td>2</td>
+  <td>León Vivas, Fabrizio Amir</td>
+  <td>Done</td>
+</tr>
+</table>
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+Para el sprint 4 se proyectan actividades como implementacion de los endpoints en el BackEnd de la Web Application.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commit on |
+| - | - | - | - | - | - |
+| Platform | feature/ep07 | 2a6b7fab6b541827519bdca3f8826d02531f647a | feat(ep07): add aggregates and entities in domain model change context |   | 20/06/2025 |
+| Platform | feature/ep07 | 4408f804fec8148f1633b0b908e5f6e4494ae487 | refactor(ep07): refactor change order to aggregate |   | 20/06/2025 |
+| Platform | feature/ep07 | c49139f3784f00abbd499858322c740dbe2c9379 | refactor(ep07): refactor change response to value object |   | 20/06/2025 |
+| Platform | feature/ep07 | 380d51620ef4b9c40232fd11b9cd0f5d3548d366 | bugfix(ep07): fix change process is not using correct response format |   | 20/06/2025 |
+| Platform | feature/ep07 | 2148ba25c4245a00ee3cfb29e076011fc64d6850 | feat(ep07): add change origin, change process, change process statuses repositories in change context |   | 20/06/2025 |
+| Platform | feature/ep07 | 1c5bc9e328db41c08636816ad115bff4531c326a | feat(ep07): add change process command service in change context |   | 20/06/2025 |
+| Platform | feature/ep07 | 9da90fc22cf41f5e705d838dbadbc53306e74dfb | feat(persistency): add configuration to persist change process statuses and change origins |   | 20/06/2025 |
+| Platform | feature/ep07 | c5ff21a1e71592617884cc8c293331311f2e8036 | feat(ep07): add change process endpoint |   | 20/06/2025 |
+| Platform | feature/ep07 | 06e0e3bf2f10be37468890468d6e1066d3a5d812 | refactor(ep07): refactor change process aggregate and his commands and queries linked |   | 3/07/2025 |
+| Platform | feature/ep07 | 8c06273b30dc83da60b5f42c1257cef523066fc4 | refactor(ep07): change all the domain model and implementation of create change process to use only justification and project id |   | 4/07/2025 |
+| Platform | feature/ep07 | 2c184d4b71f96d3f618b05690c887329c0f42e80 | feat(ep07): add respond to change process endpoint |   | 4/07/2025 |
+| Platform | feature/ep07 | f4c02d0f39bc5fe91f71b04e5da259459fa8c51a | feature(ep07): add get change process by project id endpoint  |   | 4/07/2025 |
+| Platform | feature/ep01 | e376e25231c4af6122fc375d6fe31db15cb583a2 | feat(ep01): add get project by id endpoint |   | 4/07/2025 |
+| Platform | feature/ep01 | 358e65d380fda4d42b8d18e3e4cc3279fda6867a | feat(ep01): add get projects by contracting entity id endpoint |   | 4/07/2025 |
+| propgms | feature/config | cf48001772ad103e8d83e99d7c6755764137106e | chore: add angular material dependency |  | 21/06/2025 |
+| propgms | feature/config | 577339cc47cb3302de6fcc3c1d2091606f14bcb0 | chore: add initial config for environment variables |  | 21/06/2025 |
+| propgms | feature/config | 7db3113758c0a773c2c0da9936943a9093a8a174 | chore: add ngx translate depency to support i18n |  | 21/06/2025 |
+| propgms | feature/config | 8aecf9fa16aaf20acbca3551318a936312a1c73a | chore: add routes behaviour |  | 21/06/2025 |
+| propgms | feature/httpconfig | 2cd5b8d20107969cac270b00575d08d35281b0a6 | feat(httpconfig): add dynamic service factory method |  | 21/06/2025 |
+| propgms | feature/ep15 | c8f6fab389e2abeeb703239c222ac697a70c9d26 | chore: add footer component |  | 22/06/2025 |
+| propgms | feature/ep15 | f0b84c5e01d126f7cc89819ae6845df414601c35 | feat: add better responsiveness for footer component |  | 22/06/2025 |
+| Platform | feature/ep15 | 64016c29b17a06b7a3ee7a2cd978b336a3a51fd1 | feat(ep15): allow signup endpoint to receive professionalId field |  | 22/06/2025 |
+| propgms | feature/ep15 | c6d2f43df1b101fef9291bc806bf959e42f688b1 | feat: add register feature |  | 1/07/2025 |
+| propgms | feature/ep15 | 651b57e2a31fab5213a47f2f5bbccc1b02493ca7 | feat: add login feature |  | 1/07/2025 |
+| propgms | feature/ep09 | 8bb62c4918d4f08fe1431cac03e70f5f9d4dfb55 | chore: add autoredirect after login for TYPE_WORKER users |  | 1/07/2025 |
+| propgms | feature/ep09 | 10a64606a41424b9d2f56bb092b67047e19b68b7 | chore(ep09): add dynamic navigation |  | 1/07/2025 |
+| propgms | feature/ep09 | f1db99c9fba4eedc6f13f6a098824462ee402773 | bugfix: fix some display bugs based on screen resolution |  | 1/07/2025 |
+| propgms | feature/ep09 | db3226d5f3be81156c355c5e22f2305aa6f941d1 | chore(ep09): define naming convention for dashboard layout components |  | 1/07/2025 |
+| propgms | feature/ep09 | d45a6bfd9856f5114afc9d8e4124c3d5db1e3546 | refactor: change name signature for resources and assemblers |  | 1/07/2025 |
+| propgms | feature/ep09 | e4bf7c93dbbe90e30351bf3d560eb191bce13647 | chore: add app context service dependency injection into base tab component |  | 2/07/2025 |
+| propgms | feature/ep09 | 9902a162607e6842d70fbbe1dfac8294d25cce3f | refactor: add app context service dependency injection into base tab component |  | 2/07/2025 |
+| propgms | feature/ep09 | 5e07b953b244ef5e2a5944f280a05ff022d13586 | feat(ep09): add view user's organizations feature |  | 2/07/2025 |
+| propgms | feature/ep09 | 6c5a9c101b4edea16d947fa997b0a638a364829d | feat(ep09): add invitation fetch and invitation management feature |  | 2/07/2025 |
+| propgms | feature/ep09 | 6c5a9c101b4edea16d947fa997b0a638a364829d | feat: add logout function |  | 2/07/2025 |
+| propgms | feature/ep09 | 4776800170a3ee4ed8e177cb2fc02eccda858b3a | bugfix: fix some visual bugs on mobile display |  | 2/07/2025 |
+| propgms | feature/ep09 | 40d8852ed8caa002893583de24a50b9523791bcf | feat: add create organization feature |  | 2/07/2025 |
+| propgms | feature/ep09 | c181594a0edd489a190e3d00a9eacd3c9c6643dd | chore(ep09): add organization context service and inject it into app context service |  | 2/07/2025 |
+| propgms | feature/ep09 | b1bf92b5b6635377e9baab1cc80c7c6e68888899 | feat(ep09): add access organization details feature |  | 2/07/2025 |
+| propgms | feature/ep09 | 53c3203da63ae6d353bc91147973f7f68b91b004 | feat(ep09): add access organization details feature |  | 2/07/2025 |
+| propgms | feature/ep11 | 5c30e9d0e23f9ba2806fe5c8b37a1b33c5fb7301 | feat(ep11): add visualize organization members list and delete from organization features |  | 2/07/2025 |
+| propgms | feature/ep11 | 1aad67dd6be5c9d81dd5f4431aeb7857e1f8d011 | refactor: change main tag behavior to display block by default |  | 3/07/2025 |
+| propgms | feature/ep11 | a4c7181330905671fdd52d48e9cd0ee9066416f1 | feat(ep11): add visualize pending invitations feature |  | 3/07/2025 |
+| Platform | feature/ep11 | 88c962c979dab8a88342f4bf3d7b260fc46471ba | bugfix(ep11): add auto delete registered invitations upon expelling an organization member from organization to prevent frontend bugs |  | 3/07/2025 |
+| propgms | feature/ep11 | 489bebf09d6fc1d2a1c632461bda1567f48ed541 | feat(ep11): add sending organization invitations and their corresponding validation rules |  | 3/07/2025 |
+| propgms | feature/ep10 | 313004d1ff53c333d93d59708ab6b4440044ca1e | chore: change base tab switch tab behaviour to support relative routes more easily when using url params |  | 3/07/2025 |
+| propgms | feature/ep10 | 9b48411305d828ece1bbc7de3423e34260ed95ce | feat(ep10): add delete organization feature |  | 3/07/2025 |
+| propgms | feature/ep10 | c5130047f2415b3c085529464040ac3abbd133ed | bugfix: fix i18n errors |  | 3/07/2025 |
+| propgms | feature/ep10 | 5ee83b0faf04726adb8f3dc18437d27c3630d9ce | bugfix: unify styling for worker layout |  | 3/07/2025 |
+| propgms | feature/ep10 | e53e71d497bffebdb160286576710ad7ab6dc07a | bugfix: fix organization layout mobile view |  | 3/07/2025 |
+| Platform | feature/ep10 | 3b9e452c68415a07d9eeace4897da8e69634f546 | bugfix: change delete organization respÃonse so that frontend properly can manage requests |  | 3/07/2025 |
+| Platform | feature/ep02 | af5517ddbb4ae37600599ecf5808fd1de5a8ed34 | bugfix(ep02): fix update and delete endpoints |  | 3/07/2025 |
+| propgms | feature/ep15 | 1638a70124136613a2d8af92d868b66a5cf28b30 | feat(ep15): add specialty field support on register |  | 4/07/2025 |
+| Platform | feature/ep02 | eb050e835a9680903c4d410f935ea61cca8c9d20 | feat(ep02): add specialty field support on register and project creation |  | 4/07/2025 |
+| propgms | feature/ep10 | bae844ee062edf53f9aa22a1207a9c02b91fa621 | bugfix(ep10): add valition case for organization id non existing to prevent access to organization layout without a valid organization |  | 4/07/2025 |
+| propgms | feature/ep10 | 27aadb9baaad389b4492e5326911cb6e43ade894 | feat(ep10): add update organization feature |  | 4/07/2025 |
+| propgms | feature/ep10 | 887aff3acfe8c2a996cb1321bc2c931b5b54dff3 | feat: add auto redirection from login to default view when valid user data is present on local storage |  | 4/07/2025 |
+| propgms | feature/ep10 | fa8035fa55bd718ccdd4c5fd5e227fc00756c356 | feat: add navigation go back arrow button |  | 4/07/2025 |
+| propgms | develop | 865673565919337fdaae0481c5a910f4d6d36e51 | Merge 'feature/ep10' into develop branch |  | 4/07/2025 |
+| Platform | feature/ep02 | b1eb39b244fb649aa9240224fc59f605d42544af | bugfix(ep02): fix project creation failling to add contractor as the first project team member |  | 4/07/2025 |
+| Platform | feature/ep02 | 36f9aa134f16a3ef07238474396d63634c9457e3 | bugfix(ep02): fix project team member creation not adding details like personid, name and email |  | 4/07/2025 |
+| propgms | feature/ep01 | 637ed92ba71110734e015a7b91556e8ada13dd46 | feat(ep01): add project list visualization and creation |  | 4/07/2025 |
+| propgms | feature/ep01 | 5d187d7eb7366676f0fcb64826f74b7ecb67a87f | feat(ep01): add update and delete project feature |  | 4/07/2025 |
+| Platform | feature/ep02 | 7a5d357515a1a36000190df7e27a09e84de673bd | Merge 'develop' branch into 'feature/ep02' |  | 4/07/2025 |
+| propgms | feature/ep07 | 9cbfede0316d5a9c76f16e2a90f580fb10f16213 | feat(ep07): add visualization of projects for client type users |  | 5/07/2025 |
+| Platform | feature/ep01 | 97a06ad6becbb203aba6b4a7175532e53d72e196 | refactor(ep01): change change process endpoints structure |  | 5/07/2025 |
+| Platform | feature/ep04 | b04cf1ea8c4358a7589ec3ee5f64901f480b5d90 | fix(ep04): fix endpoint path for change process controller again |  | 5/07/2025 |
+| propgms | feature/ep07 | 880b1e43193939143433a51a2f691ad3ad4031b2 | feat(ep07): add visualize change requests |  | 5/07/2025 |
+| propgms | feature/ep07 | a222bea2c33d964ac1201da8db436624cdfb0c6d | bugfix: fix summary tab component being inside a wrongfully named folder |  | 5/07/2025 |
+| propgms | feature/ep07 | 96cb30c4413ffa25fc64fb44e39920ca657f82c6 | feat(ep07): add create change process |  | 5/07/2025 |
+| propgms | feature/ep07 | e398a96b637876def53ea1c5ef7b26c86d82a6db | bugfix(ep07): fixed change process card not having on hover behaviour |  | 5/07/2025 |
+| propgms | feature/ep07 | dfbac5fd9396e691f4404db698b62c9e98db6341 | feat: add place holder component for non implemented features |  | 5/07/2025 |
+| propgms | feature/ep07 | 4fdca7ee28274d0aca4e49bcb1670cdf884cca7d | feat(ep07): add place holder for search organizations |  | 5/07/2025 |
+| propgms | feature/ep07 | d0d7405064b7900d36b7a6ea925f8adbaa6030b1 | bugfix(ep07): add missing translation to spanish |  | 5/07/2025 |
+| propgms | bugfix/navigation | 2a9131bef90c4345a8c79858d5b0cda325a5be3a | bugfix: fix navigation items not having support for i18n |  | 5/07/2025 |
+| Platform | develop | 6d15d0a0bede63053308dae09a19d39d2dbb3bb5 | bugfix: add missing function to develop branch |  | 5/07/2025 |
+| propgms | feature/ep01 | 65be224113d26d9e7e18235911d5c6f5239c343c | feat(ep01): add visualization of projects milestones |  | 5/07/2025 |
+| propgms | feature/ep01 | 56995f597418cc8a6f6a5314568e2ae033228e2a | bugfix: fix wrongful labels on html components for model labels |  | 5/07/2025 |
+| propgms | feature/ep01 | d526c40174afd81a5cfbc398df1fb68d77341dad | chore: clean the schedule tab disposition |  | 5/07/2025 |
+| propgms | feature/ep01 | d576afc8f56a700aa116ef32429f306f01942ca7 | feat(ep01): add create new milestone feature |  | 5/07/2025 |
+| propgms | develop | 9ca44f89fdad8161fbb11c9c747a0d260b565906 | chore: removed unnecesary console.logs |  | 5/07/2025 |
+| propgms | feature/ep04 | d67193fb687eda58d3873672bd19929a9434404e | feat(ep04): add listing milestone tasks feature |  | 5/07/2025 |
+| propgms | feature/ep04 | 7a2a70e084774c1cb9ceb461f2d6f264d1bc9116 | feat(ep04): add create task for milestone feature |  | 5/07/2025 |
+| Platform | develop | eccc68be24590bc7e7a871a9e8de32f8066d9f50 | finally |  | 5/07/2025 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+probamos algun endpoint para validar el acceso a la base de datos (sign in en este caso)
+
+<img src="./img/chapter5/Sprint4/execution/evidence1.png">
+
+iniciamos sesion 
+
+<img src="./img/chapter5/Sprint4/execution/evidence8.png">
+
+probamos el endpoint de organization 
+
+<img src="./img/chapter5/Sprint4/execution/evidence2.png">
+
+verificamos mediante un endpoint get (traer todas las organizaciones)
+
+<img src="./img/chapter5/Sprint4/execution/evidence9.png">
+
+probamos el endpoint project
+
+<img src="./img/chapter5/Sprint4/execution/evidence3.png">
+
+verificamos mediante un endpoint get (traer todas los proyectos)
+
+<img src="./img/chapter5/Sprint4/execution/evidence10.png">
+
+probamos algun endpoint Project Team Members
+
+<img src="./img/chapter5/Sprint4/execution/evidence4.png">
+
+verificamos mediante un endpoint get (traer todas los tema members)
+
+<img src="./img/chapter5/Sprint4/execution/evidence14.png">
+
+probamos algun endpoint milestones
+
+<img src="./img/chapter5/Sprint4/execution/evidence5.png">
+
+verificamos mediante un endpoint get (traer todas las milestones)
+
+<img src="./img/chapter5/Sprint4/execution/evidence12.png">
+
+probamos algun endpoint tasks
+
+<img src="./img/chapter5/Sprint4/execution/evidence6.png">
+
+verificamos mediante un endpoint get (traer todas las tasks)
+
+<img src="./img/chapter5/Sprint4/execution/evidence12.png">
+
+probamos algun endpoint change process
+
+<img src="./img/chapter5/Sprint4/execution/evidence7.png">
+
+verificamos mediante un endpoint get (traer todas los change process)
+
+<img src="./img/chapter5/Sprint4/execution/evidence13.png">
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+A lo largo del sprint, se ha logrado cubrir gran parte de los servicios web que pertenecían a lo proyectado a desarrollar en este sprint. Se presenta a continuación una tabla informativa:
+
+<table style="font-size: 90%; width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th>🧭 Endpoint</th>
+      <th>⚙️ Acción</th>
+      <th>🔁 HTTP</th>
+      <th>📥 Ejemplo de solicitud</th>
+      <th>📤 Ejemplo de respuesta</th>
+      <th>🌐 URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>/api/v1/organizations</code></td>
+      <td>Crear una organización</td>
+      <td><code>POST</code></td>
+      <td>
+        <pre>{
+  "legalName": "Constructora Soluciones Integrales S.A.C.",
+  "commercialName": "Solintec",
+  "ruc": "20547896541",
+  "createdBy": 12
+}</pre>
+      </td>
+      <td>
+        <strong>201 Created</strong>
+        <pre>{
+  "id": 7,
+  "legalName": "Constructora Soluciones Integrales S.A.C.",
+  "commercialName": "Solintec",
+  "ruc": "20547896541",
+  "createdBy": 12,
+  "status": "ACTIVE",
+  "createdAt": "2025-06-21T07:31:49.826Z"
+}</pre>
+        <strong>400 Bad Request</strong>
+        <pre>{
+  "message": "Missing required fields or invalid RUC format"
+}</pre>
+      </td>
+      <td><strong>http://localhost:8080/</strong></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/organizations/invitations</code></td>
+      <td>Invitar a una persona a una organización por correo</td>
+      <td><code>POST</code></td>
+      <td>
+        <pre>{
+  "organizationId": 7,
+  "email": "sofia.ramirez@solintec.com"
+}</pre>
+      </td>
+      <td>
+        <strong>201 Created</strong>
+        <pre>{
+  "id": 15,
+  "organizationName": "Solintec",
+  "invitedBy": "Luis Torres",
+  "status": "PENDING",
+  "invitedAt": "2025-06-21T08:04:38.498Z",
+  "invitedPerson": null
+}</pre>
+        <strong>400 Bad Request</strong>
+        <pre>{
+  "message": "Email already invited or user is already a member"
+}</pre>
+        <strong>404 Not Found</strong>
+        <pre>{
+  "message": "Organization not found or user profile unavailable"
+}</pre>
+      </td>
+      <td><strong>http://localhost:8080/</strong></td>
+    </tr>
+    <tr>
+      <td><code>/api/v1/organizations/{id}</code></td>
+      <td>Obtener organización por ID</td>
+      <td><code>GET</code></td>
+      <td>
+        <code>/api/v1/organizations/7</code><br>
+        <em>Path Param:</em> <code>id: number</code>
+      </td>
+      <td>
+        <strong>200 OK</strong>
+        <pre>{
+  "id": 7,
+  "legalName": "Constructora Soluciones Integrales S.A.C.",
+  "commercialName": "Solintec",
+  "ruc": "20547896541",
+  "createdBy": 12,
+  "status": "ACTIVE",
+  "createdAt": "2025-06-21T08:27:56.218Z"
+}</pre>
+        <strong>404 Not Found</strong>
+        <pre>{
+  "message": "Organization with ID 7 not found"
+}</pre>
+      </td>
+      <td><strong>http://localhost:8080/</strong></td>
+    </tr>
+    <tr>
+  <td><code>/api/v1/organizations/{id}</code></td>
+  <td>Actualizar información de una organización</td>
+  <td><code>PATCH</code></td>
+  <td>
+    <code>/api/v1/organizations/2</code><br>
+    <em>Path Param:</em> <code>id: number</code>
+    <br>
+    <br>
+    <strong>Body:</strong>
+    <pre>{
+  "commercialName": "Realio Consultores S.A.C.",
+  "legalName": "Realio Consultores"
+}</pre>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "message": "Organization with ID 2 successfully updated"
+}</pre>
+    <strong>400 Bad Request</strong>
+    <pre>{
+  "message": "Invalid JSON format or missing fields"
+}</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Organization with ID 2 not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/invitations/{id}/reject</code></td>
+  <td>Rechazar una invitación pendiente</td>
+  <td><code>PATCH</code></td>
+  <td>
+    <code>/api/v1/organizations/invitations/5/reject</code><br>
+    <em>Path Param:</em> <code>id: number</code>
+  </td>
+  <td>
+    <strong>201 Created</strong>
+    <pre>{
+  "id": 5,
+  "organizationName": "Realio Consultores S.A.C.",
+  "invitedBy": "Henry Reaño",
+  "status": "REJECTED",
+  "invitedAt": "2025-06-21T07:43:19.464+00:00",
+  "invitedPerson": null
+}</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Invitation with ID 5 not found"
+}</pre>
+    <strong>409 Conflict</strong>
+    <pre>{
+  "message": "Invitation is no longer pending and cannot be rejected"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/invitations/{id}/accept</code></td>
+  <td>Aceptar una invitación pendiente</td>
+  <td><code>PATCH</code></td>
+  <td>
+    <code>/api/v1/organizations/invitations/6/accept</code><br>
+    <em>Path Param:</em> <code>id: number</code>
+  </td>
+  <td>
+    <strong>201 Created</strong>
+    <pre>{
+  "id": 6,
+  "organizationName": "Realio Consultores S.A.C.",
+  "invitedBy": "Henry Reaño",
+  "status": "ACCEPTED",
+  "invitedAt": "2025-06-21T07:45:54.066+00:00",
+  "invitedPerson": null
+}</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Invitation with ID 6 not found"
+}</pre>
+    <strong>409 Conflict</strong>
+    <pre>{
+  "message": "Invitation is no longer pending and cannot be accepted"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/{organizationId}/members</code></td>
+  <td>Listar miembros activos de una organización</td>
+  <td><code>GET</code></td>
+  <td>
+    <code>/api/v1/organizations/2/members</code><br>
+    <em>Path Param:</em> <code>organizationId: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>[
+  {
+    "id": 2,
+    "fullName": "Henry Reaño",
+    "memberType": "CONTRACTOR",
+    "joinedAt": "2025-06-21T04:40:53.914+00:00"
+  },
+  {
+    "id": 3,
+    "fullName": "Carlos Ochoa",
+    "memberType": "WORKER",
+    "joinedAt": "2025-06-21T04:42:02.115+00:00"
+  }
+]</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Organization with ID 2 not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/{organizationId}/invitations</code></td>
+  <td>Listar invitaciones asociadas a una organización</td>
+  <td><code>GET</code></td>
+  <td>
+    <code>/api/v1/organizations/2/invitations</code><br>
+    <em>Path Param:</em> <code>organizationId: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>[
+  {
+    "id": 10,
+    "organizationName": "Realio Consultores S.A.C.",
+    "invitedBy": "Henry Reaño",
+    "status": "PENDING",
+    "invitedAt": "2025-06-21T07:50:50.941Z",
+    "invitedPerson": null
+  }
+]</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Organization with ID 2 not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/invitations/by-person-id/{personId}</code></td>
+  <td>Listar invitaciones pendientes por persona</td>
+  <td><code>GET</code></td>
+  <td>
+    <code>/api/v1/organizations/invitations/by-person-id/8</code><br>
+    <em>Path Param:</em> <code>personId: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>[
+  {
+    "id": 14,
+    "organizationName": "Realio Consultores S.A.C.",
+    "invitedBy": "Henry Reaño",
+    "status": "PENDING",
+    "invitedAt": "2025-06-21T07:51:45.018Z",
+    "invitedPerson": null
+  }
+]</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "No invitations found for person ID 8"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/by-person-id/{id}</code></td>
+  <td>Listar organizaciones donde una persona es miembro</td>
+  <td><code>GET</code></td>
+  <td>
+    <code>/api/v1/organizations/by-person-id/8</code><br>
+    <em>Path Param:</em> <code>id: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>[
+  {
+    "id": 2,
+    "legalName": "Realio Consultores S.A.C.",
+    "commercialName": "Realio",
+    "ruc": "20103254678",
+    "createdBy": 12,
+    "status": "ACTIVE",
+    "createdAt": "2025-06-21T07:53:16.111Z"
+  }
+]</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "No organizations found for person ID 8"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/{ruc}</code></td>
+  <td>Eliminar una organización por RUC</td>
+  <td><code>DELETE</code></td>
+  <td>
+    <code>/api/v1/organizations/20101720201</code><br>
+    <em>Path Param:</em> <code>ruc: string</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "message": "Organization with RUC 20101720201 was successfully deleted"
+}</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Organization with RUC 20101720201 not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/organizations/members/{memberId}</code></td>
+  <td>Eliminar un miembro de la organización</td>
+  <td><code>DELETE</code></td>
+  <td>
+    <code>/api/v1/organizations/members/12</code><br>
+    <em>Path Param:</em> <code>memberId: number</code>
+  </td>
+  <td>
+    <strong>204 No Content</strong>
+    <pre>
+Miembro con ID 12 eliminado exitosamente.
+    </pre>
+    <strong>400 Bad Request</strong>
+    <pre>{
+  "message": "Cannot delete a CONTRACTOR member"
+}</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "Member with ID 12 not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+  </tbody>
+  <tr>
+  <td><code>/api/v1/projects</code></td>
+  <td>Crear un nuevo proyecto</td>
+  <td><code>POST</code></td>
+  <td>
+    <pre>{
+  "projectName": "Ampliación Planta San Juan",
+  "description": "Proyecto de ampliación de infraestructura industrial en Cajamarca.",
+  "startDate": "2025-06-21T08:02:10.727Z",
+  "endDate": "2025-12-15T08:02:10.727Z",
+  "organizationId": 2,
+  "contractingEntityEmail": "luis.mendez@realio.com"
+}</pre>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "id": 17,
+  "projectName": "Ampliación Planta San Juan",
+  "description": "Proyecto de ampliación de infraestructura industrial en Cajamarca.",
+  "status": "PLANNED",
+  "startDate": "2025-06-21T08:02:10.727Z",
+  "endDate": "2025-12-15T08:02:10.727Z",
+  "organizationId": 2,
+  "contractingEntityId": 9
+}</pre>
+   <strong>400 	Invalid request</strong>
+    <pre>{
+  "message": "No projects found for person ID 8"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/project/{Id}</code></td>
+  <td>Eliminar proyecto</td>
+  <td><code>DELETE</code></td>
+  <td>
+ <code>/api/v1/project/1</code><br>
+    <em>Path Param:</em> <code>projectId: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "message": 	Project deleted successfully
+}</pre>
+<strong>400 Bad request</strong>
+    <pre>{
+  "message": "Invalid request"
+}</pre>
+<strong>404 Project not foundt</strong>
+    <pre>{
+  "message": "Project not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080 /</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/projects/by-person-id/{id}</code></td>
+  <td>Listar proyectos donde participa una persona</td>
+  <td><code>GET</code></td>
+  <td>
+    <code>/api/v1/projects/by-person-id/8</code><br>
+    <em>Path Param:</em> <code>id: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>[
+  {
+    "id": 21,
+    "projectName": "Instalación de planta solar",
+    "description": "Proyecto de instalación fotovoltaica en Arequipa.",
+    "status": "IN_PROGRESS",
+    "startDate": "2025-06-21T08:02:24.232Z",
+    "endDate": "2025-12-01T08:02:24.232Z",
+    "organizationId": 6,
+    "contractingEntityId": 9
+  }
+]</pre>
+    <strong>404 Not Found</strong>
+    <pre>{
+  "message": "No projects found for person ID 8"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/auth/signup</code></td>
+  <td>Registro de un nuevo usuario</td>
+  <td><code>POST</code></td>
+  <td>
+    <pre>{
+  "userName": "chkioson",
+  "password": "C$D#Gf01",
+  "userType": "TYPE_WORKER",
+  "firstName": "Jesús",
+  "lastName": "Uribe",
+  "email": "jesus@example.com",
+  "phone": "+51321987789"
+}</pre>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "userName": "chkioson",
+  "userType": "TYPE_WORKER",
+  "personId": 14
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/auth/signin</code></td>
+  <td>Inicio de sesión</td>
+  <td><code>POST</code></td>
+  <td>
+    <pre>{
+  "userName": "chkiosor",
+  "password": "ASDFGH!#"
+}</pre>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "user": {
+    "userName": "chkiosor",
+    "userType": "TYPE_WORKER",
+    "personId": 14
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6..."
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/milestone</code></td>
+  <td>Crear una milestone</td>
+  <td><code>POST</code></td>
+  <td>
+    <pre>{
+  "name": "Construccion de pista",
+  "description": "construccion",
+  "projectId": 2,
+  "startDate": "2025-07-10T05:04:54.535Z",
+  "endDate": "2026-07-02T05:04:54.535Z"
+}</pre>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "id": 3,
+  "name": "Construccion de pista",
+  "description": "construccion",
+  "projectId": 2,
+  "startDate": "2025-07-10T05:04:54.535+00:00",
+  "endDate": "2026-07-02T05:04:54.535+00:00"
+}</pre>
+    <strong>400 Invalid request</strong>
+    <pre>{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "projectId": 0,
+  "startDate": "2025-07-06T05:07:10.448Z",
+  "endDate": "2025-07-06T05:07:10.448Z"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/milestone/{milestoneId}</code></td>
+  <td>Actualizar una milestone</td>
+  <td><code>PATCH</code></td>
+  <td>
+    <pre>{
+  "name": "Supervision",
+  "description": "Supervision de pista",
+  "startDate": "2025-07-07T05:07:00.336Z",
+  "endDate": "2027-07-06T05:07:00.336Z"
+}</pre>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "id": 3,
+  "name": "Supervision",
+  "description": "Supervision de pista",
+  "projectId": 2,
+  "startDate": "2025-07-07T05:07:00.336Z",
+  "endDate": "2027-07-06T05:07:00.336Z"
+}</pre>
+    <strong>400 Invalid request</strong>
+    <pre>{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "projectId": 0,
+  "startDate": "2025-07-06T05:07:10.448Z",
+  "endDate": "2025-07-06T05:07:10.448Z"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/milestone/by-project-id/{projectId}</code></td>
+  <td>Obtener las milestones</td>
+  <td><code>GET</code></td>
+  <td>
+ <code>/api/v1/milestone/by-project-id/1</code><br>
+    <em>Path Param:</em> <code>projectId: number</code>
+  </td>
+  <td>
+    <strong>200 OK</strong>
+    <pre>{
+  "id": 3,
+  "name": "Supervision",
+  "description": "Supervision de pista",
+  "projectId": 2,
+  "startDate": "2025-07-07T05:07:00.336Z",
+  "endDate": "2027-07-06T05:07:00.336Z"
+}</pre>
+    <strong>400 Invalid request</strong>
+    <pre>{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "projectId": 0,
+  "startDate": "2025-07-06T05:07:10.448Z",
+  "endDate": "2025-07-06T05:07:10.448Z"
+}</pre>
+    <strong>404 No milestones found for the project</strong>
+    <pre>{
+    "id": 0,
+    "name": "string",
+    "description": "string",
+    "projectId": 0,
+    "startDate": "2025-07-06T05:18:10.446Z",
+    "endDate": "2025-07-06T05:18:10.446Z"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/milestone/{Id}</code></td>
+  <td>Eliminar las milestones</td>
+  <td><code>DELETE</code></td>
+  <td>
+ <code>/api/v1/milestone/3</code><br>
+    <em>Path Param:</em> <code>milestoneId: number</code>
+  </td>
+  <td>
+    <strong>204 Milestone deleted successfully</strong>
+    <pre>{
+  "id": 3,
+  "name": "Supervision",
+  "description": "Supervision de pista",
+  "projectId": 2,
+  "startDate": "2025-07-07T05:07:00.336Z",
+  "endDate": "2027-07-06T05:07:00.336Z"
+}</pre>
+    <strong>404 Milestone not found</strong>
+    <pre>{
+    "id": 0,
+    "name": "string",
+    "description": "string",
+    "projectId": 0,
+    "startDate": "2025-07-06T05:18:10.446Z",
+    "endDate": "2025-07-06T05:18:10.446Z"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/tasks</code></td>
+  <td>Crear una tarea</td>
+  <td><code>POST</code></td>
+  <td>
+ <pre>{
+  "name": "Rellenar baches",
+  "description": "Rellenar",
+  "startDate": "2025-07-20T05:25:06.968Z",
+  "endDate": "2025-10-06T05:25:06.968Z",
+  "milestoneId": 1,
+  "specialty": "ARQUITECTURE",
+  "status": "DRAFT",
+  "personId": 1
+}</pre>
+  </td>
+  <td>
+    <strong>201 Task created successfully</strong>
+    <pre>{
+  "id": 3,
+  "name": "Rellenar baches",
+  "description": "Rellenar",
+  "startDate": "2025-07-20T05:25:06.968Z",
+  "endDate": "2025-10-06T05:25:06.968Z",
+  "milestoneId": 1,
+  "specialty": "ARQUITECTURE",
+  "status": "DRAFT",
+  "personId": 1
+}</pre>
+    <strong>400 Invalid request</strong>
+    <pre>{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "startDate": "2025-07-06T05:30:01.992Z",
+  "endDate": "2025-07-06T05:30:01.992Z",
+  "milestoneId": 0,
+  "specialty": "string",
+  "status": "string",
+  "personId": 0
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/tasks/{Id}</code></td>
+  <td>Eliminar las tasks</td>
+  <td><code>DELETE</code></td>
+  <td>
+ <code>/api/v1/tasks/3</code><br>
+    <em>Path Param:</em> <code>taskId: number</code>
+  </td>
+  <td>
+    <strong>204 Task deleted successfully</strong>
+    <pre>{
+ "message": "Task deleted successfully"
+}</pre>
+    <strong>404 Task not found</strong>
+    <pre>{
+ "message": "Task not found"
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/tasks{taskId}</code></td>
+  <td>Actualizar una tarea</td>
+  <td><code>PATCH</code></td>
+  <td>
+ <pre>{
+  "name": "Arreglar baches",
+  "description": "Rellenar",
+  "startDate": "2025-07-20T05:25:06.968Z",
+  "endDate": "2025-10-06T05:25:06.968Z",
+  "milestoneId": 1,
+  "specialty": "ARQUITECTURE",
+  "status": "DRAFT",
+  "personId": 1
+}</pre>
+  </td>
+  <td>
+    <strong>200 Task updated successfully</strong>
+    <pre>{
+  "id": 3,
+  "name": "Arreglar baches",
+  "description": "Rellenar",
+  "startDate": "2025-07-20T05:25:06.968Z",
+  "endDate": "2025-10-06T05:25:06.968Z",
+  "milestoneId": 1,
+  "specialty": "ARQUITECTURE",
+  "status": "DRAFT",
+  "personId": 1
+}</pre>
+    <strong>400 Invalid request</strong>
+    <pre>{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "startDate": "2025-07-06T05:45:06.519Z",
+  "endDate": "2025-07-06T05:45:06.519Z",
+  "milestoneId": 0,
+  "specialty": "string",
+  "status": "string",
+  "personId": 0
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+<tr>
+  <td><code>/api/v1/tasks/by-milestone-id{milestoneId}</code></td>
+  <td>Obtener una task por milestone</td>
+  <td><code>GET</code></td>
+  <td>
+<code>/api/v1/tasks/by-milestone-id/1</code><br>
+    <em>Path Param:</em> <code>taskId: number</code>
+  </td>
+  <td>
+    <strong>200 Tasks retrieved successfully</strong>
+    <pre>{
+  "id": 3,
+  "name": "Arreglar baches",
+  "description": "Rellenar",
+  "startDate": "2025-07-20T05:25:06.968Z",
+  "endDate": "2025-10-06T05:25:06.968Z",
+  "milestoneId": 1,
+  "specialty": "ARQUITECTURE",
+  "status": "DRAFT",
+  "personId": 1
+}</pre>
+    <strong>404 No tasks found for the milestone</strong>
+    <pre>{
+  "id": 0,
+  "name": "string",
+  "description": "string",
+  "startDate": "2025-07-06T05:45:06.519Z",
+  "endDate": "2025-07-06T05:45:06.519Z",
+  "milestoneId": 0,
+  "specialty": "string",
+  "status": "string",
+  "personId": 0
+}</pre>
+  </td>
+  <td><strong>http://localhost:8080/</strong></td>
+</tr>
+</table>
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Para este cuarto sprint, se llevó a cabo el desarrollo de la aplicación web, cuyo despliegue incluyó:
+
+Creación del tercer release a partir de lo avanzado en develop.
+
+Integración del código en la branch de producción (main).
+
+Configuración en Azure para el despliegue.
+
+Un hotfix debido a un error de producción con las variables de entorno.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+En este cuarto sprint se ha logrado en mayor medida cumplir el objetivo de desarrollar las funcionalidades core del producto con fin de obtener feedback por parte de los usuarios.
+
 
 
 <div style="page-break-before: always;"></div>
-
-## 5.3. Validation Interviews
 
 ## 5.3. Validation Interviews
 
@@ -14634,23 +17035,19 @@ Definir una guía de estilos unificada que incluya paleta de colores, tipografí
 
 Enlace para visualizar el video:
 
-Enlace del video subido a YouTube: <a href="https://youtu.be/f5uTd_Pkm54">About the Product</a>
+Enlace del video subido a YouTube: <a href="https://youtu.be/A0TU4xBPwRY">About the Product</a>
 
-Enlace del video subido a Stream: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116250_upc_edu_pe/EWgGpLYRIXhEsXuHk-JNmjMB1ZVB9kF2D78DR2FLj_S9yA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1PVXoL">About the Product</a>
-
-<div style="page-break-before: always;"></div>
-
-
+Enlace del video subido a Stream: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116250_upc_edu_pe/EZ4hYG6Ze8VImqHRxqi9ALgBgPvJsl-hZr71wUYpAFVgzw?e=0fJImJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">About the Product</a>
 
 <div style="page-break-before: always;"></div>
 
 # Conclusiones
 
-- En el ámbito de desarrollo, se ha completado exitosamente con la mayoría de la implementación de features Core tanto a nivel de front-end y back-end, permitiendo realizar test real del producto.
+- En el ámbito de desarrollo, se logró en gran medida completar la implementación de las funcionalidades core tanto en el front-end como en el back-end, lo que permitió realizar pruebas reales del producto.
 
-- En el ámbito financiero, se ha conseguido validar el interés de los usuarios por la solución mediante las entrevistas de validación, obteniendo feedback positivo tanto como críticas que serán oportunidades de mejora para el próximo sprint.
+- En el ámbito financiero, se lograron implementar algunas de las funcionalidades planificadas atendiendo a los intereses de los usuarios, validados a través de entrevistas que brindaron tanto comentarios positivos como críticas constructivas.
 
-- En el ámbito de trabajo en equipo, se ha identificado como principal falencia la acumulación de deuda técnica, que deberá solventarse para el próximo sprint.
+- En el ámbito de trabajo en equipo, aunque se identificó como principal desafío la acumulación de deuda técnica que deberá resolverse, se logró en gran medida cumplir con los objetivos establecidos y mantener un avance sostenido en el proyecto.
 
 <div style="page-break-before: always;"></div>
 
@@ -14690,12 +17087,12 @@ Enlace del video subido a Stream: <a href="https://upcedupe-my.sharepoint.com/:v
 - Organización de GitHub: [Enlace](https://github.com/GalaxiaWonder-OpenSource)
 - Organización YouTrack: [Enlace](https://galaxiawonder.youtrack.cloud/projects/0-6)
 - Despliegue Landing Page: [Enlace](https://propgms.netlify.app/)
+- Despliegue del Front-End: [Enlace](http://20.84.51.92:4200/login)
+- Despliegue del Back-End: [Enlace](http://172.179.245.34:8080/swagger-ui/index.html#/)
 - Video exposición TB1: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ERtHWpdBfrdHrm7U2tOCxzwBDHdOpDxJ_wwfz-ZTDKtxcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=9LvT0v)
 - Video de exposición TP: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EQVmmaojg6dKm5NqQ59nOQoBSQPLUyVj9itURqJ8ROLoPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZCY5eY)
 - Video de exposición TB2: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/ERVDsnGawk9Pkr6LR0UJgzIBARgp859S96HzfuIqwuke4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xOOVKQ)
+- Video de exposición TF: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/EaHMIHFC2RhLiD61hyxcLAEB7JrV8Eq9CCvGlmOAqD-CjQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JRAQq7)
 - Video de About the Team: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EeXxWfvqGOdNqjMod71ZRcABIOunTrwBwpFxHYwDNZHbzQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=i549SF)
-- Video de About the Product: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116250_upc_edu_pe/EfILUBsHAdNMtYc_hrVJseUBelcaZWcOEo0QSgxADO-dBg?e=L5rC8o&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-- Navegación del despliegue: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e247_upc_edu_pe/EX7fF-Wkp89OoButtBvvKNoB0B0tAjsM246o8QZFovK-ow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bzvehs)
-
-<div style="page-break-before: always;"></div>
-
+- Video de About the Product: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116250_upc_edu_pe/EZ4hYG6Ze8VImqHRxqi9ALgBgPvJsl-hZr71wUYpAFVgzw?e=0fJImJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Navegación del despliegue: [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220783_upc_edu_pe/EeY1wtiJLCtDviXf3d0MNRQBZKIZwXhAIFuuIY1T6D6UTQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6zHahU)

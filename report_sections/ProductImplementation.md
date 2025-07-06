@@ -9716,7 +9716,7 @@ En este apartado se exponen las metas de usuarios en concordancia con nuestras e
 | **Edad** | 28 | 27 | 27 | 27 |
 
 
-## 5.3.3 UX Heuristics and Principles Evaluation  
+## 5.3.3 UX Heuristics & Principles Evaluation  
 **Usability – Inclusive Design – Information Architecture**
 
 **CARRERA**  : Ingeniería de Software  
