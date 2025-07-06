@@ -113,7 +113,7 @@
     - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-      - [5.3.3. UX Heuristics and Principles Evaluation](##533-ux-heuristics-and-principles-evaluation)
+      - [5.3.3. UX Heuristics & Principles Evaluation](##533-ux-heuristics--principles-evaluation)
     - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)

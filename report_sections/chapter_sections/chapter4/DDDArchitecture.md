@@ -47,4 +47,4 @@ Además, la API integra servicios externos estratégicos: NotificationService se
 
 Esta organización en capas —controladores, servicios y repositorios— promueve un diseño altamente modular, testeable y escalable, permitiendo a PropGMS evolucionar de forma robusta ante futuras necesidades de crecimiento y adaptación tecnológica.
 
-<img src="../../../img/chapter4/c4/componente/api.png" alt="Diagrama de componentes de Web Application de ProP GMS">
+<img src="../../../img/chapter4/c4/componente/api.svg" alt="Diagrama de componentes de Web Application de ProP GMS">

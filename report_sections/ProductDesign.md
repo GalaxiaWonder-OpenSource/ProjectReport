@@ -1786,7 +1786,7 @@ Este diagrama representa la estructura del Organization Context, donde se modela
 
 El proceso de incorporación de nuevos miembros se gestiona a través de la entidad OrganizationInvitation, que registra quién invita, a quién se invita, cuándo, y en qué estado se encuentra la invitación (PENDING, ACCEPTED, REJECTED). Este mecanismo permite un control claro y seguro del acceso organizacional.
 
-<img src="../img/chapter4/oop/organizations.png" alt="Diagrama de clases del bounded context Organization de ProP GMS">
+<img src="../img/chapter4/oop/organization.svg" alt="Diagrama de clases del bounded context Organization de ProP GMS">
 
 #### 4.7.1.4. IAM Class Diagram
 Este diagrama representa el IAM Bounded Context del sistema PropGMS, encargado de gestionar el acceso y la identidad de los usuarios. La clase principal es UserAccount, la cual actúa como Aggregate Root y almacena datos como nombre de usuario, hash de contraseña, tipo de usuario (UserType), estado de la cuenta (AccountStatus) y referencias al objeto Person.
@@ -2115,7 +2115,7 @@ Se identifican entidades clave como projects, tasks, invoices, payments, user_ac
 
 El diseño promueve escalabilidad, trazabilidad y una clara separación de responsabilidades, facilitando tanto el mantenimiento como la extensión futura del sistema.
 
-<img src="../img/chapter4/db/General.svg" alt="Diagrama de base de datos general de ProP GMS">
+<img src="../img/chapter4/db/general.png" alt="Diagrama de base de datos general de ProP GMS">
 
 #### 4.8.1.1. Project Management Database Diagram
 
